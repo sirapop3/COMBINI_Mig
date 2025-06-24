@@ -1,0 +1,6 @@
+torch
+tqdm
+tensorboardX
+seqeval==1.2.2
+transformers
+tokenizers==0.13.3
