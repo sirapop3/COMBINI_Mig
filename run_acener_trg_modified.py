@@ -158,8 +158,43 @@ class ACEDatasetNER(Dataset):
                 'ASSOCIATED_WITH', 'PREDISPOSES', 'ADMINISTERED_TO'
             ]
             self.ner_label_list += self.trg_label_list
+        # else:
+        #     self.ner_label_list = ['NIL', 'CARDINAL', 'DATE', 'EVENT', 'FAC', 'GPE', 'LANGUAGE', 'LAW', 'LOC', 'MONEY', 'NORP', 'ORDINAL', 'ORG', 'PERCENT', 'PERSON', 'PRODUCT', 'QUANTITY', 'TIME', 'WORK_OF_ART']
         else:
-            self.ner_label_list = ['NIL', 'CARDINAL', 'DATE', 'EVENT', 'FAC', 'GPE', 'LANGUAGE', 'LAW', 'LOC', 'MONEY', 'NORP', 'ORDINAL', 'ORG', 'PERCENT', 'PERSON', 'PRODUCT', 'QUANTITY', 'TIME', 'WORK_OF_ART']
+        # new fix start: add labels to align with combini
+            self.ner_label_list = [
+                'NIL', 'Amphibian', 'Animal', 'Diagnostic Procedure', 'Cell Function', 'Vitamin', 'Invertebrate',
+                'Organism Function', 'Chemical Viewed Structurally', 'Immunologic Factor', 'Age Group',
+                'Body Substance', 'Mammal', 'Nucleotide Sequence', 'Laboratory Procedure', 'Alga', 'Cell',
+                'Individual Behavior', 'Body Location or Region', 'Hazardous or Poisonous Substance', 'Plant',
+                'Hormone', 'Health Care Related Organization', 'Body System', 'Human', 'Laboratory or Test Result',
+                'Experimental Model of Disease', 'Family Group', 'Organization', 'Molecular Biology Research Technique',
+                'Research Activity', 'Body Space or Junction', 'Pathologic Function', 'Spatial Concept', 'Finding',
+                'Inorganic Chemical', 'Nucleic Acid, Nucleoside, or Nucleotide', 'Organophosphorus Compound', 'Steroid',
+                'Sign or Symptom', 'Fungus', 'Genetic Function', 'Organism', 'Clinical Drug', 'Enzyme', 'Eicosanoid',
+                'Group', 'Disease or Syndrome', 'Cell or Molecular Dysfunction', 'Food', 'Carbohydrate', 'Lipid',
+                'Cell Component', 'Biologic Function', 'Gene or Genome', 'Tissue',
+                'Body Part, Organ, or Organ Component', 'Natural Phenomenon or Process', 'Bacterium',
+                'Embryonic Structure', 'Social Behavior', 'Acquired Abnormality', 'Chemical Viewed Functionally',
+                'Chemical', 'Substance', 'Amino Acid, Peptide, or Protein', 'Patient or Disabled Group',
+                'Biologically Active Substance', 'Organ or Tissue Function', 'Health Care Activity',
+                'Congenital Abnormality', 'Medical Device', 'Molecular Function', 'Pharmacologic Substance', 'Fish',
+                'Physiologic Function', 'Element, Ion, or Isotope', 'Receptor', 'Indicator, Reagent, or Diagnostic Aid',
+                'Geographic Area', 'Mental or Behavioral Dysfunction', 'Organic Chemical', 'Clinical Attribute',
+                'Professional or Occupational Group', 'Functional Concept', 'Mental Process', 'Intellectual Product',
+                'Population Group', 'Daily or Recreational Activity', 'Therapeutic or Preventive Procedure',
+                'Antibiotic', 'Neuroreactive Substance or Biogenic Amine', 'Manufactured Object',
+                'Anatomical Abnormality', 'Injury or Poisoning', 'Virus', 'Neoplastic Process'
+            ]
+            self.trg_label_list = [
+                'PREVENTS', 'STIMULATES', 'METHOD_OF', 'CONVERTS_TO', 'AFFECTS', 'TREATS', 'LOCATION_OF', 'DIAGNOSES',
+                'CAUSES', 'OCCURS_IN', 'PRODUCES', 'PROCESS_OF', 'MANIFESTATION_OF', 'USES', 'DISRUPTS', 'PART_OF',
+                'INTERACTS_WITH', 'AUGMENTS', 'PRECEDES', 'COMPARED_WITH', 'INHIBITS', 'COEXISTS_WITH', 'ISA',
+                'ASSOCIATED_WITH', 'PREDISPOSES', 'ADMINISTERED_TO'
+            ]
+            self.ner_label_list += self.trg_label_list
+
+        # new fix end
 
         self.max_pair_length = args.max_pair_length
         self.max_entity_length = args.max_pair_length * 2
@@ -217,8 +252,9 @@ class ACEDatasetNER(Dataset):
 
         for l_idx, line in enumerate(f):
             data = json.loads(line) # doc-level
-
-            pmid = data['doc_id']
+            # new fix start: change to doc_key according to Shufan's notes
+            pmid = data['doc_key']
+            # new fix end
             sentences = data['sentences']
             
             for i in range(len(sentences)):
@@ -261,6 +297,11 @@ class ACEDatasetNER(Dataset):
                 entity_labels = {}
                 for start, end, label in sentence_ners:
                     if start is not None and end is not None:
+                        # new fix start: add to fit to new data
+                        # if label not in ner_label_map:
+                        #     ner_label_map[label] = len(ner_label_map)
+                        #     self.ner_label_list.append(label)
+                            # new fix end: add labels in instead of raising errors
                         entity_labels[
                             (token2subword[start], token2subword[end + 1])
                         ] = ner_label_map[label]
@@ -1155,8 +1196,8 @@ def main():
         # num_labels = 13  # Only Entities
         num_labels = 26  # With trigger mentions
     else:
-        assert False
-        # num_labels = 26
+        # assert False
+        num_labels = 127
 
     # Load pretrained model and tokenizer
     if args.local_rank not in [-1, 0]:
