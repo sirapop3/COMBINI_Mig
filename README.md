@@ -60,6 +60,13 @@ And for evaluation, we recommend you test your prediction file with `run_eval.py
 What I have changed (Mig):
 My main changes are in run_train_ner_PLMarker.sh and run_acener_trg_modified.py. I mainly changed the old paths to use a new one according to the folder name. Additionally, somehow, loading the fulltext model directly doesn't work. Thus, I downloaded the model from huggingface and load it locally instead. It is in another folder on my local computer, but it is too big to upload to Github. I also modify the json files according to your notes. I am also working on the verification file mentioned in your note too.
 
+note: after setting up the conda environment from yml file also run:
+1. pip install transformers==4.10.0 # install transformers
+2. export PYTHONPATH="$(pwd)/transformers/src:$PYTHONPATH" # tell the script to use the model from path
+
+
+
+
 The codes in here use conda environment in the yml file and is for linux.
 
 Last time that I was able to run the model, I replaced "assert False" at line 1158 with "num_labels = 26" because from what I saw both COMBINI and DiMB-RE use the same 26 labels, however, I am unsure if this is the correct approach.
