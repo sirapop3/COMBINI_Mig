@@ -56,7 +56,7 @@ logger = logging.getLogger(__name__)
 
 
 ALL_MODELS = sum(
-    (tuple(conf.pretrained_config_archive_map.keys()) for conf in BertConfig), 
+    (tuple(conf.pretrained_config_archive_map.keys()) for conf in (BertConfig,)), 
     ()
 )
 
@@ -177,19 +177,30 @@ class ACEDataset(Dataset):
                 label_list = ['OTHER-AFF', 'ART', 'GPE-AFF', 'EMP-ORG', 'PHYS']
                 self.sym_labels = ['NIL', 'PER-SOC']
                 self.label_list = self.sym_labels + label_list
+        
+        #new fix in elif args.data_dir.find('scierc')!=-1: and add elif args.data_dir.find('DiMB-RE')!=-1 or args.data_dir.find('data')!=-1:
+        
+        # elif args.data_dir.find('scierc')!=-1:      
+        #     self.ner_label_list = ['NIL', 'Method', 'OtherScientificTerm', 'Task', 'Generic', 'Material', 'Metric']
 
-        elif args.data_dir.find('scierc')!=-1:      
-            self.ner_label_list = ['NIL', 'Method', 'OtherScientificTerm', 'Task', 'Generic', 'Material', 'Metric']
+        #     if args.no_sym:
+        #         label_list = ['CONJUNCTION', 'COMPARE', 'PART-OF', 'USED-FOR', 'FEATURE-OF',  'EVALUATE-FOR', 'HYPONYM-OF']
+        #         self.sym_labels = ['NIL']
+        #         self.label_list = self.sym_labels + label_list
+        #     else:
+        #         label_list = ['PART-OF', 'USED-FOR', 'FEATURE-OF',  'EVALUATE-FOR', 'HYPONYM-OF']
+        #         self.sym_labels = ['NIL', 'CONJUNCTION', 'COMPARE']
+        #         self.label_list = self.sym_labels + label_list
 
+        elif args.data_dir.find('scierc')!=-1:
+            self.ner_label_list = ['NIL', 'Task', 'Method', 'Metric', 'Material', 'OtherScientificTerm', 'Generic']
             if args.no_sym:
-                label_list = ['CONJUNCTION', 'COMPARE', 'PART-OF', 'USED-FOR', 'FEATURE-OF',  'EVALUATE-FOR', 'HYPONYM-OF']
+                self.label_list = ['NIL', 'CONJUNCTION', 'COMPARE', 'PART-OF', 'USED-FOR', 'FEATURE-OF', 'EVALUATE-FOR', 'HYPONYM-OF']
                 self.sym_labels = ['NIL']
-                self.label_list = self.sym_labels + label_list
             else:
-                label_list = ['PART-OF', 'USED-FOR', 'FEATURE-OF',  'EVALUATE-FOR', 'HYPONYM-OF']
+                self.label_list = ['NIL', 'PART-OF', 'USED-FOR', 'FEATURE-OF', 'EVALUATE-FOR', 'HYPONYM-OF']
                 self.sym_labels = ['NIL', 'CONJUNCTION', 'COMPARE']
-                self.label_list = self.sym_labels + label_list
-                
+
         elif args.data_dir.find('DiMB-RE')!=-1:
             self.ner_label_list = [
                 'NIL', 'Food', 'Nutrient', 'DietPattern', 'Microorganism', \
@@ -229,6 +240,46 @@ class ACEDataset(Dataset):
                     'NEG_ASSOCIATED_WITH', 'CAUSES', 'WORSENS', 'INTERACTS_WITH',
                     'PREDISPOSES'
                 ]
+
+        # elif args.data_dir.find('DiMB-RE')!=-1:
+        #     self.ner_label_list = [
+        #         'NIL', 'Food', 'Nutrient', 'DietPattern', 'Microorganism', \
+        #         'DiversityMetric', 'Metabolite', 'Physiology', 'Disease', \
+        #         'Enzyme', 'Gene', 'Measurement', 'Chemical'
+        #     ]
+
+        #     if not args.binary_cls:
+        #         if args.no_sym:
+        #             label_list = [
+        #                 'INCREASES', 'DECREASES', 'HAS_COMPONENT', 'POS_ASSOCIATED_WITH',
+        #                 'AFFECTS', 'PREVENTS', 'IMPROVES', 'ASSOCIATED_WITH',
+        #                 'NEG_ASSOCIATED_WITH', 'CAUSES', 'WORSENS', 'INTERACTS_WITH',
+        #                 'PREDISPOSES'
+        #             ]
+        #             self.sym_labels = ['NIL']
+        #             self.label_list = self.sym_labels + label_list
+        #         else:
+        #             label_list = [
+        #                 'INCREASES', 'DECREASES', 'HAS_COMPONENT',
+        #                 'AFFECTS', 'PREVENTS', 'IMPROVES',
+        #                 'CAUSES', 'WORSENS', 'PREDISPOSES'
+        #             ]
+        #             self.sym_labels = [
+        #                 'NIL', 'ASSOCIATED_WITH', 'POS_ASSOCIATED_WITH',
+        #                 'NEG_ASSOCIATED_WITH', 'INTERACTS_WITH'
+        #             ]
+        #             self.label_list = self.sym_labels + label_list
+
+        #     else:
+        #         label_list = ['VALID']
+        #         self.sym_labels = ['NIL']
+        #         self.label_list = self.sym_labels + label_list
+        #         self.rel_label_list = [
+        #             'INCREASES', 'DECREASES', 'HAS_COMPONENT', 'POS_ASSOCIATED_WITH',
+        #             'AFFECTS', 'PREVENTS', 'IMPROVES', 'ASSOCIATED_WITH',
+        #             'NEG_ASSOCIATED_WITH', 'CAUSES', 'WORSENS', 'INTERACTS_WITH',
+        #             'PREDISPOSES'
+        #         ]
 
         elif args.data_dir.find('COMBINI')!=-1:
             self.ner_label_list = [
@@ -294,8 +345,72 @@ class ACEDataset(Dataset):
                     'INTERACTS_WITH', 'AUGMENTS', 'PRECEDES', 'COMPARED_WITH', 'INHIBITS', 'COEXISTS_WITH', 'ISA',
                     'ASSOCIATED_WITH', 'PREDISPOSES', 'ADMINISTERED_TO'
                 ]      
+
+        # new fix: else
         else:
-            assert False  
+           #assert False  
+            self.ner_label_list = [
+                'NIL','Amphibian', 'Animal', 'Diagnostic Procedure', 'Cell Function',
+                'Vitamin', 'Invertebrate', 'Organism Function', 'Chemical Viewed Structurally',
+                'Immunologic Factor', 'Age Group', 'Body Substance', 'Mammal', 'Nucleotide Sequence',
+                'Laboratory Procedure', 'Alga', 'Cell', 'Individual Behavior', 'Body Location or Region',
+                'Hazardous or Poisonous Substance', 'Plant', 'Hormone', 'Health Care Related Organization',
+                'Body System', 'Human', 'Laboratory or Test Result', 'Experimental Model of Disease',
+                'Family Group', 'Organization', 'Molecular Biology Research Technique', 'Research Activity',
+                'Body Space or Junction', 'Pathologic Function', 'Spatial Concept', 'Finding',
+                'Inorganic Chemical', 'Nucleic Acid, Nucleoside, or Nucleotide',
+                'Organophosphorus Compound', 'Steroid', 'Sign or Symptom', 'Fungus',
+                'Genetic Function', 'Organism', 'Clinical Drug', 'Enzyme', 'Eicosanoid', 'Group',
+                'Disease or Syndrome', 'Cell or Molecular Dysfunction', 'Food', 'Carbohydrate', 'Lipid',
+                'Cell Component', 'Biologic Function', 'Gene or Genome', 'Tissue',
+                'Body Part, Organ, or Organ Component', 'Natural Phenomenon or Process', 'Bacterium',
+                'Embryonic Structure', 'Social Behavior', 'Acquired Abnormality',
+                'Chemical Viewed Functionally', 'Chemical', 'Substance', 'Amino Acid, Peptide, or Protein',
+                'Patient or Disabled Group', 'Biologically Active Substance', 'Organ or Tissue Function',
+                'Health Care Activity', 'Congenital Abnormality', 'Medical Device', 'Molecular Function',
+                'Pharmacologic Substance', 'Fish', 'Physiologic Function', 'Element, Ion, or Isotope',
+                'Receptor', 'Indicator, Reagent, or Diagnostic Aid', 'Geographic Area',
+                'Mental or Behavioral Dysfunction', 'Organic Chemical', 'Clinical Attribute',
+                'Professional or Occupational Group', 'Functional Concept', 'Mental Process',
+                'Intellectual Product', 'Population Group', 'Daily or Recreational Activity',
+                'Therapeutic or Preventive Procedure', 'Antibiotic',
+                'Neuroreactive Substance or Biogenic Amine', 'Manufactured Object',
+                'Anatomical Abnormality', 'Injury or Poisoning', 'Virus', 'Neoplastic Process'
+            ]
+            if not args.binary_cls:
+                if args.no_sym:
+                    label_list = [
+                        'PREVENTS', 'STIMULATES', 'METHOD_OF', 'CONVERTS_TO', 'AFFECTS', 'TREATS', 'LOCATION_OF', 'DIAGNOSES',
+                        'CAUSES', 'OCCURS_IN', 'PRODUCES', 'PROCESS_OF', 'MANIFESTATION_OF', 'USES', 'DISRUPTS', 'PART_OF',
+                        'INTERACTS_WITH', 'AUGMENTS', 'PRECEDES', 'COMPARED_WITH', 'INHIBITS', 'COEXISTS_WITH', 'ISA',
+                        'ASSOCIATED_WITH', 'PREDISPOSES', 'ADMINISTERED_TO'
+                    ]
+                    self.sym_labels = ['NIL']
+                    self.label_list = self.sym_labels + label_list
+                else:
+                    label_list = [
+                        'AFFECTS', 'CAUSES', 'PREDISPOSES', 'PREVENTS', 'STIMULATES',
+                        'METHOD_OF', 'CONVERTS_TO', 'TREATS', 'LOCATION_OF',
+                        'DIAGNOSES', 'OCCURS_IN', 'PRODUCES', 'PROCESS_OF',
+                        'MANIFESTATION_OF', 'USES', 'DISRUPTS', 'PART_OF', 'AUGMENTS',
+                        'PRECEDES', 'COMPARED_WITH', 'INHIBITS', 'COEXISTS_WITH',
+                        'ISA', 'ADMINISTERED_TO'
+                    ]
+                    self.sym_labels = [
+                        'NIL', 'ASSOCIATED_WITH', 'INTERACTS_WITH'
+                    ]
+                    self.label_list = self.sym_labels + label_list
+                    
+            else:
+                label_list = ['VALID']
+                self.sym_labels = ['NIL']
+                self.label_list = self.sym_labels + label_list
+                self.rel_label_list = [
+                    'PREVENTS', 'STIMULATES', 'METHOD_OF', 'CONVERTS_TO', 'AFFECTS', 'TREATS', 'LOCATION_OF', 'DIAGNOSES',
+                    'CAUSES', 'OCCURS_IN', 'PRODUCES', 'PROCESS_OF', 'MANIFESTATION_OF', 'USES', 'DISRUPTS', 'PART_OF',
+                    'INTERACTS_WITH', 'AUGMENTS', 'PRECEDES', 'COMPARED_WITH', 'INHIBITS', 'COEXISTS_WITH', 'ISA',
+                    'ASSOCIATED_WITH', 'PREDISPOSES', 'ADMINISTERED_TO'
+                ]
 
         self.global_predicted_ners = {}
         self.global_predicted_triggers = {}
@@ -599,6 +714,12 @@ class ACEDataset(Dataset):
                 # 1. Add Solid markers for Subject entities
                 # for sub in entities:
                 for sub in sentence_ners:
+                    # start new fix:
+                    if not sub or not isinstance(sub, (list, tuple)) or len(sub) < 3:
+                        continue
+                    if sub[0] is None or sub[1] is None or sub[2] is None:
+                        continue
+                    # end new fix
                     cur_ins = []
 
                     if sub[0] < 10000:
@@ -1911,7 +2032,8 @@ def main():
         if args.no_sym:
             num_labels = 8 + 8 - 1
         else:
-            num_labels = 8 + 8 - 3            
+            num_labels = 8 + 8 - 3        
+    # new fix: add finding data folder    
     elif args.data_dir.find('DiMB-RE')!=-1:
         num_ner_labels = 13 # (12 + NIL)
         num_rel_labels = 13
@@ -1922,8 +2044,28 @@ def main():
         if args.binary_cls:
             # for binary cls, no inverse rel, no sym
             num_labels = 2
+    # new fix: add this elif and else
+    elif args.data_dir.find('COMBINI')!=-1:
+        # COMBINI has 96 entity types + NIL = 97
+        num_ner_labels = 97
+        num_rel_labels = 26
+        if args.no_sym:
+            num_labels = 27 + 27 - 1  # 26 relations + NIL
+        else:
+            num_labels = 27 + 27 - 3  # accounting for symmetric relations
+        if args.binary_cls:
+            num_labels = 2
+    
     else:
-        assert False
+       #assert False
+        print(f"Warning: Could not detect dataset type from path: {args.data_dir}")
+        print("Defaulting to COMBINI settings")
+        num_ner_labels = 97
+        num_rel_labels = 26
+        if args.binary_cls:
+            num_labels = 2
+        else:
+            num_labels = 27 + 27 - 1 if args.no_sym else 27 + 27 - 3
 
     # Load pretrained model and tokenizer
     if args.local_rank not in [-1, 0]:
@@ -2029,6 +2171,10 @@ def main():
     model.to(args.device)
 
     logger.info("Training/evaluation parameters %s", args)
+    # new fix: path doesnt exist, so create one
+    if not os.path.exists(args.output_dir) and args.local_rank in [-1, 0]:
+        os.makedirs(args.output_dir)
+
     best_f1 = 0
     # Training
     if args.do_train:
