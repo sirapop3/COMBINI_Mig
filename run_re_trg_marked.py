@@ -225,74 +225,20 @@ class ACEDataset(Dataset):
                 ]
                 self.label_list = self.sym_labels + label_list
         # new code block for new data
-        elif args.data_dir.find('data') != -1:
-            # --- NER labels --------------------------------------------------
-            self.ner_label_list = [
-                'NIL',
-                'Amphibian', 'Animal', 'Diagnostic Procedure', 'Cell Function', 'Vitamin',
-                'Invertebrate', 'Organism Function', 'Chemical Viewed Structurally',
-                'Immunologic Factor', 'Age Group', 'Body Substance', 'Mammal',
-                'Nucleotide Sequence', 'Laboratory Procedure', 'Alga', 'Cell',
-                'Individual Behavior', 'Body Location or Region',
-                'Hazardous or Poisonous Substance', 'Plant', 'Hormone',
-                'Health Care Related Organization', 'Body System', 'Human',
-                'Laboratory or Test Result', 'Experimental Model of Disease',
-                'Family Group', 'Organization', 'Molecular Biology Research Technique',
-                'Research Activity', 'Body Space or Junction', 'Pathologic Function',
-                'Spatial Concept', 'Finding', 'Inorganic Chemical',
-                'Nucleic Acid, Nucleoside, or Nucleotide', 'Organophosphorus Compound',
-                'Steroid', 'Sign or Symptom', 'Fungus', 'Genetic Function', 'Organism',
-                'Clinical Drug', 'Enzyme', 'Eicosanoid', 'Group', 'Disease or Syndrome',
-                'Cell or Molecular Dysfunction', 'Food', 'Carbohydrate', 'Lipid',
-                'Cell Component', 'Biologic Function', 'Gene or Genome', 'Tissue',
-                'Body Part, Organ, or Organ Component', 'Natural Phenomenon or Process',
-                'Bacterium', 'Embryonic Structure', 'Social Behavior',
-                'Acquired Abnormality', 'Chemical Viewed Functionally', 'Chemical',
-                'Substance', 'Amino Acid, Peptide, or Protein',
-                'Patient or Disabled Group', 'Biologically Active Substance',
-                'Organ or Tissue Function', 'Health Care Activity',
-                'Congenital Abnormality', 'Medical Device', 'Molecular Function',
-                'Pharmacologic Substance', 'Fish', 'Physiologic Function',
-                'Element, Ion, or Isotope', 'Receptor',
-                'Indicator, Reagent, or Diagnostic Aid', 'Geographic Area',
-                'Mental or Behavioral Dysfunction', 'Organic Chemical',
-                'Clinical Attribute', 'Professional or Occupational Group',
-                'Functional Concept', 'Mental Process', 'Intellectual Product',
-                'Population Group', 'Daily or Recreational Activity',
-                'Therapeutic or Preventive Procedure', 'Antibiotic',
-                'Neuroreactive Substance or Biogenic Amine', 'Manufactured Object',
-                'Anatomical Abnormality', 'Injury or Poisoning', 'Virus',
-                'Neoplastic Process'
-            ]
-
-            # --- RE labels ---------------------------------------------------
+        else:  # Default to COMBINI
+            self.ner_label_list = ['NIL'] + task_ner_labels['data']
             if args.no_sym:
-                # All 25 relation types are treated as single-direction classes.
-                label_list = [
-                    'PREVENTS', 'STIMULATES', 'METHOD_OF', 'CONVERTS_TO', 'AFFECTS',
-                    'TREATS', 'LOCATION_OF', 'DIAGNOSES', 'CAUSES', 'OCCURS_IN',
-                    'PRODUCES', 'PROCESS_OF', 'MANIFESTATION_OF', 'USES', 'DISRUPTS',
-                    'PART_OF', 'INTERACTS_WITH', 'AUGMENTS', 'PRECEDES', 'COMPARED_WITH',
-                    'INHIBITS', 'COEXISTS_WITH', 'ISA', 'ASSOCIATED_WITH',
-                    'PREDISPOSES', 'ADMINISTERED_TO'
-                ]
-                self.sym_labels = ['']
+                label_list = task_rel_labels['data']
+                self.sym_labels = ['NIL']
                 self.label_list = self.sym_labels + label_list
             else:
-                # Symmetric relations kept separate so the opposite direction
-                # isn’t doubled during reverse-edge creation.
-                self.sym_labels = [
-                    'NIL', 'INTERACTS_WITH', 'COEXISTS_WITH',
-                    'ASSOCIATED_WITH', 'COMPARED_WITH'
+                non_sym_label_list = [
+                    'PREVENTS', 'STIMULATES', 'METHOD_OF', 'CONVERTS_TO', 'AFFECTS', 'TREATS', 'LOCATION_OF', 'DIAGNOSES',
+                    'CAUSES', 'OCCURS_IN', 'PRODUCES', 'PROCESS_OF', 'MANIFESTATION_OF', 'USES', 'DISRUPTS', 'PART_OF',
+                    'AUGMENTS', 'PRECEDES', 'INHIBITS', 'ADMINISTERED_TO'
                 ]
-                label_list = [
-                    'PREVENTS', 'STIMULATES', 'METHOD_OF', 'CONVERTS_TO', 'AFFECTS',
-                    'TREATS', 'LOCATION_OF', 'DIAGNOSES', 'CAUSES', 'OCCURS_IN',
-                    'PRODUCES', 'PROCESS_OF', 'MANIFESTATION_OF', 'USES', 'DISRUPTS',
-                    'PART_OF', 'AUGMENTS', 'PRECEDES', 'INHIBITS', 'ISA',
-                    'PREDISPOSES', 'ADMINISTERED_TO'
-                ]
-                self.label_list = self.sym_labels + label_list
+                self.sym_labels = ['NIL', 'INTERACTS_WITH', 'COMPARED_WITH', 'COEXISTS_WITH', 'ISA', 'ASSOCIATED_WITH', 'PREDISPOSES']
+                self.label_list = self.sym_labels + non_sym_label_list
 
         
         else:
@@ -475,9 +421,9 @@ class ACEDataset(Dataset):
                 pos2label = {}
                 for x in sentence_relations:
                     # mig change: add this to handle "relations" that start with null
-                    # if x is None or len(x) < 5 or x[0] is None or x[2] is None:
-                    #     logger.warning(f"Skipping malformed relation entry in doc {l_idx}, sent {n}: {x}")
-                    #     continue
+                    if x is None or len(x) < 5 or x[0] is None or x[2] is None: # skip if none or doesnt have complete 5 elements
+                        logger.warning(f"Skipping malformed relation entry in doc {l_idx}, sent {n}: {x}")
+                        continue
                     # Convert entity indices to subword indices
                     print(x)
                     #{"doc_key": "16100526", "sentences": [["The", "regulation", "of", "veratridine-stimulated", "electrogenic", "ion", "transport", "in", "mouse", "colon", "by", "neuropeptide", "Y", "(NPY),", "Y1", "and", "Y2", "receptors."], ["1", "Neuropeptide", "Y", "(NPY)", "is", "a", "prominent", "enteric", "neuropeptide", "with", "prolonged", "antisecretory", "effects", "in", "mammalian", "intestine"], ["Veratridine", "depolarises", "neurons", "consequently", "causing", "epithelial", "anion", "secretion", "across", "mouse", "colon", "mucosa"], ["Our", "aim", "was", "to", "characterise", "functionally,", "veratridine-stimulated", "mucosal", "responses", "and", "to", "determine", "the", "roles", "for", "NPY,", "Y(1),", "and", "Y(2)", "receptors", "in", "modulating", "these", "neurogenic", "effects"], ["2", "Colon", "mucosae", "(with", "intact", "submucous", "innervation)", "from", "wild-type", "mice", "(+/+)", "and", "knockouts", "lacking", "either", "NPY", "(NPY-/-),", "Y(1)-/-", "or", "Y(2)-/-", "were", "placed", "in", "Ussing", "chambers", "and", "voltage", "clamped", "at", "0", "mV"], ["Veratridine-stimulated", "short-circuit", "current", "(I(sc))", "responses", "in", "+/+,", "Y(1)", "or", "Y(2)", "antagonist", "pretreated", "+/+", "colon,", "Y(1)-/-", "and", "NPY-/-", "colon", "were", "insensitive", "to", "cholinergic", "blockade", "by", "atropine", "(At;", "1", "microM)", "and", "hexamethonium", "(Hex;", "10", "microM)"], ["Tetrodotoxin", "(TTX,", "100", "nM)", "abolished", "veratridine", "responses,", "but", "had", "no", "effect", "upon", "carbachol", "(CCh)", "or", "vasoactive", "intestinal", "polypeptide", "(VIP)-induced", "secretory", "responses"], ["3", "To", "establish", "the", "functional", "roles", "for", "Y(1)", "and", "Y(2)", "receptors,", "+/+", "tissues", "were", "pretreated", "with", "either", "the", "Y(1)", "or", "Y(2)", "receptor", "antagonist", "(BIBO3304", "(300", "nM)", "or", "BIIE0246", "(1", "microM),", "respectively)", "and", "veratridine", "responses", "were", "compared", "with", "those", "from", "Y(1)-/-", "or", "Y(2)-/-", "colon"], ["Neither", "BIBO3304", "nor", "Y(1)-/-", "altered", "veratridine-induced", "secretion,", "but", "Y(1)", "agonist", "responses", "were", "abolished", "in", "both", "preparations"], ["In", "contrast,", "the", "Y(2)", "antagonist", "BIIE0246", "significantly", "amplified", "veratridine", "responses", "in", "+/+", "mucosa"], ["Unexpectedly,", "NPY-/-", "colon", "exhibited", "significantly", "attenuated", "veratridine", "responses", "(between", "1", "and", "5", "min)"], ["4", "We", "demonstrate", "that", "electrogenic", "veratridine", "responses", "in", "mouse", "colon", "are", "noncholinergic", "and", "that", "NPY", "can", "act", "directly", "upon", "epithelia,", "a", "Y(1)", "receptor", "effect"], ["The", "enhanced", "veratridine", "response", "observed", "in", "+/+", "tissue", "following", "BIIE0246,", "indicates", "that", "Y(2)", "receptors", "are", "located", "on", "submucosal", "neurons", "and", "that", "their", "activation", "by", "NPY", "will", "inhibit", "enteric", "noncholinergic", "secretory", "neurotransmission"], ["5", "We", "also", "demonstrate", "Y(1)", "and", "Y(2)", "receptor-mediated", "antisecretory", "tone", "in", "+/+", "colon", "and", "show", "selective", "loss", "of", "each", "in", "Y(1)", "and", "Y(2)", "null", "colon", "respectively"], ["In", "NPY-/-", "tissue,", "only", "Y(1)-mediated", "tone", "was", "present,", "this", "presumably", "being", "mediated", "by", "endogenous", "endocrine", "peptide", "YY"], ["Y(2)", "tone", "was", "absent", "from", "NPY-/-", "(and", "Y(2)-/-)", "colon", "and", "we", "conclude", "that", "NPY", "activation", "of", "neuronal", "Y(2)", "receptors", "attenuates", "secretory", "neurotransmission", "thereby", "providing", "an", "absorptive", "electrolyte", "tone", "in", "isolated", "colon."]], "ner": [[[34, 34, "Biologically Active Substance"], [41, 41, "Biologic Function"], [34, 34, "Biologically Active Substance"], [36, 36, "Cell"], [44, 45, "Body Part, Organ, or Organ Component"], [41, 41, "Biologic Function"], [44, 45, "Body Part, Organ, or Organ Component"], [8, 8, "Mammal"]], [[13, 13, "Amino Acid, Peptide, or Protein"], [295, 295, "Cell Function"], [13, 13, "Amino Acid, Peptide, or Protein"], [64, 65, "Amino Acid, Peptide, or Protein"], [36, 36, "Cell"], [64, 65, "Amino Acid, Peptide, or Protein"], [36, 36, "Cell"], [282, 282, "Tissue"], [34, 34, "Pharmacologic Substance"], [272, 272, "Tissue"]], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []], "triggers": [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []], "relations": [[[34, 34, 41, 41, "CAUSES", ""], [34, 34, 36, 36, "AFFECTS", ""], [44, 45, 41, 41, "LOCATION_OF", ""], [44, 45, 8, 8, "PART_OF", ""]], [[13, 13, 295, 295, "DISRUPTS", ""], [13, 13, 64, 65, "STIMULATES", ""], [36, 36, 64, 65, "LOCATION_OF", ""], [36, 36, 282, 282, "PART_OF", ""], [34, 34, 272, 272, "AFFECTS", ""]], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []], "triplets": [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]}
@@ -576,11 +522,11 @@ class ACEDataset(Dataset):
                     
                 for sub in entities:    
                     cur_ins = []
-                    # mig change: add a check
+                    # mig change: add a check if none
                     if sub is None or sub[0] is None or sub[1] is None:
                         logger.warning(f"Skipping malformed subject NER entry in doc {l_idx}, sent {n}: {sub}")
                         continue
-
+                    print(sub)
                     if sub[0] < 10000:
                         sub_s = token2subword[sub[0]] - doc_offset + 1
                         sub_e = token2subword[sub[1] + 1] - doc_offset
@@ -625,13 +571,15 @@ class ACEDataset(Dataset):
                     
                     for start, end, obj_label in sentence_ners:
                         # if self.model_type.endswith('nersub'):
+                        
                         if start == sub[0] and end == sub[1]:
                             continue
-                        # mig change: also add this for "ner" that start with null
+                        # mig change: also add this to skip None
                         if start is None or end is None:
                             logger.warning(f"Skipping malformed NER entry in doc {l_idx}, sent {n}: {(start, end, obj_label)}")
                             continue
-
+                        print(start)
+                        print(end)
                         doc_entity_start = token2subword[start]
                         doc_entity_end = token2subword[end + 1]
                         left = doc_entity_start - doc_offset + 1
