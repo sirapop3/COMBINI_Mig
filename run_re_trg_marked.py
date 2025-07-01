@@ -77,14 +77,39 @@ task_ner_labels = {
     'ace04': ['FAC', 'WEA', 'LOC', 'VEH', 'GPE', 'ORG', 'PER'],
     'ace05': ['FAC', 'WEA', 'LOC', 'VEH', 'GPE', 'ORG', 'PER'],
     'scierc': ['Method', 'OtherScientificTerm', 'Task', 'Generic', 'Material', 'Metric'],
-    'DiMB-RE': ['Food', 'Nutrient', 'DietPattern', 'Microorganism', 'DiversityMetric', 'Metabolite', 'Physiology', 'Disease', 'Enzyme', 'Gene', 'Measurement', 'Chemical']
+    'DiMB-RE': ['Food', 'Nutrient', 'DietPattern', 'Microorganism', 'DiversityMetric', 'Metabolite', 'Physiology', 'Disease', 'Enzyme', 'Gene', 'Measurement', 'Chemical'],
+    'data': ['Amphibian', 'Animal', 'Diagnostic Procedure', 'Cell Function', 'Vitamin', 'Invertebrate',
+                'Organism Function', 'Chemical Viewed Structurally', 'Immunologic Factor', 'Age Group',
+                'Body Substance', 'Mammal', 'Nucleotide Sequence', 'Laboratory Procedure', 'Alga', 'Cell',
+                'Individual Behavior', 'Body Location or Region', 'Hazardous or Poisonous Substance', 'Plant',
+                'Hormone', 'Health Care Related Organization', 'Body System', 'Human', 'Laboratory or Test Result',
+                'Experimental Model of Disease', 'Family Group', 'Organization', 'Molecular Biology Research Technique',
+                'Research Activity', 'Body Space or Junction', 'Pathologic Function', 'Spatial Concept', 'Finding',
+                'Inorganic Chemical', 'Nucleic Acid, Nucleoside, or Nucleotide', 'Organophosphorus Compound', 'Steroid',
+                'Sign or Symptom', 'Fungus', 'Genetic Function', 'Organism', 'Clinical Drug', 'Enzyme', 'Eicosanoid',
+                'Group', 'Disease or Syndrome', 'Cell or Molecular Dysfunction', 'Food', 'Carbohydrate', 'Lipid',
+                'Cell Component', 'Biologic Function', 'Gene or Genome', 'Tissue', 'Body Part, Organ, or Organ Component',
+                'Natural Phenomenon or Process', 'Bacterium', 'Embryonic Structure', 'Social Behavior',
+                'Acquired Abnormality', 'Chemical Viewed Functionally', 'Chemical', 'Substance',
+                'Amino Acid, Peptide, or Protein', 'Patient or Disabled Group', 'Biologically Active Substance',
+                'Organ or Tissue Function', 'Health Care Activity', 'Congenital Abnormality', 'Medical Device',
+                'Molecular Function', 'Pharmacologic Substance', 'Fish', 'Physiologic Function', 'Element, Ion, or Isotope',
+                'Receptor', 'Indicator, Reagent, or Diagnostic Aid', 'Geographic Area', 'Mental or Behavioral Dysfunction',
+                'Organic Chemical', 'Clinical Attribute', 'Professional or Occupational Group', 'Functional Concept',
+                'Mental Process', 'Intellectual Product', 'Population Group', 'Daily or Recreational Activity',
+                'Therapeutic or Preventive Procedure', 'Antibiotic', 'Neuroreactive Substance or Biogenic Amine',
+                'Manufactured Object', 'Anatomical Abnormality', 'Injury or Poisoning', 'Virus', 'Neoplastic Process']
 }
 
 task_rel_labels = {
     'ace04': ['PER-SOC', 'OTHER-AFF', 'ART', 'GPE-AFF', 'EMP-ORG', 'PHYS'],
     'ace05': ['PER-SOC', 'ART', 'ORG-AFF', 'GEN-AFF', 'PHYS', 'PART-WHOLE'],
     'scierc': ['PART-OF', 'USED-FOR', 'FEATURE-OF', 'CONJUNCTION', 'EVALUATE-FOR', 'HYPONYM-OF', 'COMPARE'],
-    'DiMB-RE': ['INCREASES', 'DECREASES', 'HAS_COMPONENT', 'POS_ASSOCIATED_WITH', 'AFFECTS', 'PREVENTS', 'IMPROVES', 'ASSOCIATED_WITH', 'NEG_ASSOCIATED_WITH', 'CAUSES', 'WORSENS', 'INTERACTS_WITH', 'PREDISPOSES']
+    'DiMB-RE': ['INCREASES', 'DECREASES', 'HAS_COMPONENT', 'POS_ASSOCIATED_WITH', 'AFFECTS', 'PREVENTS', 'IMPROVES', 'ASSOCIATED_WITH', 'NEG_ASSOCIATED_WITH', 'CAUSES', 'WORSENS', 'INTERACTS_WITH', 'PREDISPOSES'],
+    'data': ['PREVENTS', 'STIMULATES', 'METHOD_OF', 'CONVERTS_TO', 'AFFECTS', 'TREATS', 'LOCATION_OF', 'DIAGNOSES',
+                'CAUSES', 'OCCURS_IN', 'PRODUCES', 'PROCESS_OF', 'MANIFESTATION_OF', 'USES', 'DISRUPTS', 'PART_OF',
+                'INTERACTS_WITH', 'AUGMENTS', 'PRECEDES', 'COMPARED_WITH', 'INHIBITS', 'COEXISTS_WITH', 'ISA',
+                'ASSOCIATED_WITH', 'PREDISPOSES', 'ADMINISTERED_TO']
 }
 
 
@@ -199,7 +224,77 @@ class ACEDataset(Dataset):
                     'NEG_ASSOCIATED_WITH', 'INTERACTS_WITH'
                 ]
                 self.label_list = self.sym_labels + label_list
+        # new code block for new data
+        elif args.data_dir.find('data') != -1:
+            # --- NER labels --------------------------------------------------
+            self.ner_label_list = [
+                'NIL',
+                'Amphibian', 'Animal', 'Diagnostic Procedure', 'Cell Function', 'Vitamin',
+                'Invertebrate', 'Organism Function', 'Chemical Viewed Structurally',
+                'Immunologic Factor', 'Age Group', 'Body Substance', 'Mammal',
+                'Nucleotide Sequence', 'Laboratory Procedure', 'Alga', 'Cell',
+                'Individual Behavior', 'Body Location or Region',
+                'Hazardous or Poisonous Substance', 'Plant', 'Hormone',
+                'Health Care Related Organization', 'Body System', 'Human',
+                'Laboratory or Test Result', 'Experimental Model of Disease',
+                'Family Group', 'Organization', 'Molecular Biology Research Technique',
+                'Research Activity', 'Body Space or Junction', 'Pathologic Function',
+                'Spatial Concept', 'Finding', 'Inorganic Chemical',
+                'Nucleic Acid, Nucleoside, or Nucleotide', 'Organophosphorus Compound',
+                'Steroid', 'Sign or Symptom', 'Fungus', 'Genetic Function', 'Organism',
+                'Clinical Drug', 'Enzyme', 'Eicosanoid', 'Group', 'Disease or Syndrome',
+                'Cell or Molecular Dysfunction', 'Food', 'Carbohydrate', 'Lipid',
+                'Cell Component', 'Biologic Function', 'Gene or Genome', 'Tissue',
+                'Body Part, Organ, or Organ Component', 'Natural Phenomenon or Process',
+                'Bacterium', 'Embryonic Structure', 'Social Behavior',
+                'Acquired Abnormality', 'Chemical Viewed Functionally', 'Chemical',
+                'Substance', 'Amino Acid, Peptide, or Protein',
+                'Patient or Disabled Group', 'Biologically Active Substance',
+                'Organ or Tissue Function', 'Health Care Activity',
+                'Congenital Abnormality', 'Medical Device', 'Molecular Function',
+                'Pharmacologic Substance', 'Fish', 'Physiologic Function',
+                'Element, Ion, or Isotope', 'Receptor',
+                'Indicator, Reagent, or Diagnostic Aid', 'Geographic Area',
+                'Mental or Behavioral Dysfunction', 'Organic Chemical',
+                'Clinical Attribute', 'Professional or Occupational Group',
+                'Functional Concept', 'Mental Process', 'Intellectual Product',
+                'Population Group', 'Daily or Recreational Activity',
+                'Therapeutic or Preventive Procedure', 'Antibiotic',
+                'Neuroreactive Substance or Biogenic Amine', 'Manufactured Object',
+                'Anatomical Abnormality', 'Injury or Poisoning', 'Virus',
+                'Neoplastic Process'
+            ]
 
+            # --- RE labels ---------------------------------------------------
+            if args.no_sym:
+                # All 25 relation types are treated as single-direction classes.
+                label_list = [
+                    'PREVENTS', 'STIMULATES', 'METHOD_OF', 'CONVERTS_TO', 'AFFECTS',
+                    'TREATS', 'LOCATION_OF', 'DIAGNOSES', 'CAUSES', 'OCCURS_IN',
+                    'PRODUCES', 'PROCESS_OF', 'MANIFESTATION_OF', 'USES', 'DISRUPTS',
+                    'PART_OF', 'INTERACTS_WITH', 'AUGMENTS', 'PRECEDES', 'COMPARED_WITH',
+                    'INHIBITS', 'COEXISTS_WITH', 'ISA', 'ASSOCIATED_WITH',
+                    'PREDISPOSES', 'ADMINISTERED_TO'
+                ]
+                self.sym_labels = ['NIL']
+                self.label_list = self.sym_labels + label_list
+            else:
+                # Symmetric relations kept separate so the opposite direction
+                # isn’t doubled during reverse-edge creation.
+                self.sym_labels = [
+                    'NIL', 'INTERACTS_WITH', 'COEXISTS_WITH',
+                    'ASSOCIATED_WITH', 'COMPARED_WITH'
+                ]
+                label_list = [
+                    'PREVENTS', 'STIMULATES', 'METHOD_OF', 'CONVERTS_TO', 'AFFECTS',
+                    'TREATS', 'LOCATION_OF', 'DIAGNOSES', 'CAUSES', 'OCCURS_IN',
+                    'PRODUCES', 'PROCESS_OF', 'MANIFESTATION_OF', 'USES', 'DISRUPTS',
+                    'PART_OF', 'AUGMENTS', 'PRECEDES', 'INHIBITS', 'ISA',
+                    'PREDISPOSES', 'ADMINISTERED_TO'
+                ]
+                self.label_list = self.sym_labels + label_list
+
+        
         else:
             assert False  
 
@@ -208,6 +303,10 @@ class ACEDataset(Dataset):
         self.use_trigger = args.use_trigger
         self.initialize()
         
+    def is_punctuation(self, char):
+        # A simple check for punctuation
+        return char in ",.?!:;-_'\"()[]{}<>"
+    
     def get_sentence_index(self, entity_index, sentence_boundaries):
         """ Helper function to determine the sentence index for a given entity index. """
         for i in range(len(sentence_boundaries) - 1):
@@ -375,6 +474,10 @@ class ACEDataset(Dataset):
                     
                 pos2label = {}
                 for x in sentence_relations:
+                    # mig change: add this to handle "relations" that start with null
+                    if x is None or len(x) < 5 or x[0] is None or x[2] is None:
+                        logger.warning(f"Skipping malformed relation entry in doc {l_idx}, sent {n}: {x}")
+                        continue
                     # Convert entity indices to subword indices
                     entity1_start_subword = token2subword[x[0]]
                     entity2_start_subword = token2subword[x[2]]
@@ -471,6 +574,10 @@ class ACEDataset(Dataset):
                     
                 for sub in entities:    
                     cur_ins = []
+                    # mig change: add a check
+                    if sub is None or sub[0] is None or sub[1] is None:
+                        logger.warning(f"Skipping malformed subject NER entry in doc {l_idx}, sent {n}: {sub}")
+                        continue
 
                     if sub[0] < 10000:
                         sub_s = token2subword[sub[0]] - doc_offset + 1
@@ -517,6 +624,10 @@ class ACEDataset(Dataset):
                     for start, end, obj_label in sentence_ners:
                         # if self.model_type.endswith('nersub'):
                         if start == sub[0] and end == sub[1]:
+                            continue
+                        # mig change: also add this for "ner" that start with null
+                        if start is None or end is None:
+                            logger.warning(f"Skipping malformed NER entry in doc {l_idx}, sent {n}: {(start, end, obj_label)}")
                             continue
 
                         doc_entity_start = token2subword[start]
@@ -1549,6 +1660,17 @@ def main():
         else:
             num_labels = 14 + 14 - 5  
                    
+    elif args.data_dir.find('data') != -1:
+        # 17 entity types + 1 NIL
+        num_ner_labels = 83
+        # 9 relation types + 1 NIL
+        num_rel_labels = 27
+        if args.no_sym:
+            num_labels = num_rel_labels + num_rel_labels - 1
+        else:
+            num_asym_labels = 23
+            num_labels = num_rel_labels + num_asym_labels
+    
     else:
         assert False
 
@@ -1807,5 +1929,4 @@ def main():
 
 if __name__ == "__main__":
     main()
-
 
