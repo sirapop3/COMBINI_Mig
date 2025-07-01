@@ -225,7 +225,7 @@ class ACEDataset(Dataset):
                 ]
                 self.label_list = self.sym_labels + label_list
         # new code block for new data
-        else:  # Default to COMBINI
+        elif args.data_dir.find('data')!=-1:   # new data
             self.ner_label_list = ['NIL'] + task_ner_labels['data']
             if args.no_sym:
                 label_list = task_rel_labels['data']
