@@ -1610,16 +1610,13 @@ def main():
         else:
             num_labels = 14 + 14 - 5  
                    
-    elif args.data_dir.find('data') != -1:
-        # 17 entity types + 1 NIL
-        num_ner_labels = 83
-        # 9 relation types + 1 NIL
-        num_rel_labels = 27
+    elif args.data_dir.find('data')!=-1:
+        num_ner_labels = len(task_ner_labels['data']) + 1 # relation + NIL
+        num_rel_labels = len(task_rel_labels['data'])
         if args.no_sym:
-            num_labels = num_rel_labels + num_rel_labels - 1
+            num_labels = num_rel_labels + 1
         else:
-            num_asym_labels = 23
-            num_labels = num_rel_labels + num_asym_labels
+            num_labels = 47 # (26 rel relations + 1 NIL) + (27-7 inverse) = 47
     
     else:
         assert False
