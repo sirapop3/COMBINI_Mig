@@ -78,27 +78,14 @@ task_ner_labels = {
     'ace05': ['FAC', 'WEA', 'LOC', 'VEH', 'GPE', 'ORG', 'PER'],
     'scierc': ['Method', 'OtherScientificTerm', 'Task', 'Generic', 'Material', 'Metric'],
     'DiMB-RE': ['Food', 'Nutrient', 'DietPattern', 'Microorganism', 'DiversityMetric', 'Metabolite', 'Physiology', 'Disease', 'Enzyme', 'Gene', 'Measurement', 'Chemical'],
-    'data': ['Amphibian', 'Animal', 'Diagnostic Procedure', 'Cell Function', 'Vitamin', 'Invertebrate',
-                'Organism Function', 'Chemical Viewed Structurally', 'Immunologic Factor', 'Age Group',
-                'Body Substance', 'Mammal', 'Nucleotide Sequence', 'Laboratory Procedure', 'Alga', 'Cell',
-                'Individual Behavior', 'Body Location or Region', 'Hazardous or Poisonous Substance', 'Plant',
-                'Hormone', 'Health Care Related Organization', 'Body System', 'Human', 'Laboratory or Test Result',
-                'Experimental Model of Disease', 'Family Group', 'Organization', 'Molecular Biology Research Technique',
-                'Research Activity', 'Body Space or Junction', 'Pathologic Function', 'Spatial Concept', 'Finding',
-                'Inorganic Chemical', 'Nucleic Acid, Nucleoside, or Nucleotide', 'Organophosphorus Compound', 'Steroid',
-                'Sign or Symptom', 'Fungus', 'Genetic Function', 'Organism', 'Clinical Drug', 'Enzyme', 'Eicosanoid',
-                'Group', 'Disease or Syndrome', 'Cell or Molecular Dysfunction', 'Food', 'Carbohydrate', 'Lipid',
-                'Cell Component', 'Biologic Function', 'Gene or Genome', 'Tissue', 'Body Part, Organ, or Organ Component',
-                'Natural Phenomenon or Process', 'Bacterium', 'Embryonic Structure', 'Social Behavior',
-                'Acquired Abnormality', 'Chemical Viewed Functionally', 'Chemical', 'Substance',
-                'Amino Acid, Peptide, or Protein', 'Patient or Disabled Group', 'Biologically Active Substance',
-                'Organ or Tissue Function', 'Health Care Activity', 'Congenital Abnormality', 'Medical Device',
-                'Molecular Function', 'Pharmacologic Substance', 'Fish', 'Physiologic Function', 'Element, Ion, or Isotope',
-                'Receptor', 'Indicator, Reagent, or Diagnostic Aid', 'Geographic Area', 'Mental or Behavioral Dysfunction',
-                'Organic Chemical', 'Clinical Attribute', 'Professional or Occupational Group', 'Functional Concept',
-                'Mental Process', 'Intellectual Product', 'Population Group', 'Daily or Recreational Activity',
-                'Therapeutic or Preventive Procedure', 'Antibiotic', 'Neuroreactive Substance or Biogenic Amine',
-                'Manufactured Object', 'Anatomical Abnormality', 'Injury or Poisoning', 'Virus', 'Neoplastic Process']
+    'data': [
+        'Organism Function', 'Mammal', 'Pharmacologic Substance', 
+        'Therapeutic or Preventive Procedure', 'Organic Chemical', 'Gene or Genome', 
+        'Amino Acid, Peptide, or Protein', 'Disease or Syndrome', 
+        'Body Part, Organ, or Organ Component', 'Finding', 'Sign or Symptom', 
+        'Neoplastic Process', 'Antibiotic', 'Pathologic Function', 'Human', 
+        'Invertebrate', 'Cell'
+    ]
 }
 
 task_rel_labels = {
@@ -106,10 +93,11 @@ task_rel_labels = {
     'ace05': ['PER-SOC', 'ART', 'ORG-AFF', 'GEN-AFF', 'PHYS', 'PART-WHOLE'],
     'scierc': ['PART-OF', 'USED-FOR', 'FEATURE-OF', 'CONJUNCTION', 'EVALUATE-FOR', 'HYPONYM-OF', 'COMPARE'],
     'DiMB-RE': ['INCREASES', 'DECREASES', 'HAS_COMPONENT', 'POS_ASSOCIATED_WITH', 'AFFECTS', 'PREVENTS', 'IMPROVES', 'ASSOCIATED_WITH', 'NEG_ASSOCIATED_WITH', 'CAUSES', 'WORSENS', 'INTERACTS_WITH', 'PREDISPOSES'],
-    'data': ['PREVENTS', 'STIMULATES', 'METHOD_OF', 'CONVERTS_TO', 'AFFECTS', 'TREATS', 'LOCATION_OF', 'DIAGNOSES',
-                'CAUSES', 'OCCURS_IN', 'PRODUCES', 'PROCESS_OF', 'MANIFESTATION_OF', 'USES', 'DISRUPTS', 'PART_OF',
-                'INTERACTS_WITH', 'AUGMENTS', 'PRECEDES', 'COMPARED_WITH', 'INHIBITS', 'COEXISTS_WITH', 'ISA',
-                'ASSOCIATED_WITH', 'PREDISPOSES', 'ADMINISTERED_TO']
+    'data': [
+        'PROCESS_OF', 'COMPARED_WITH', 'USES', 'ISA', 'COEXISTS_WITH', 
+        'PART_OF', 'AFFECTS', 'LOCATION_OF', 'INHIBITS', 'INTERACTS_WITH', 
+        'PREVENTS', 'ADMINISTERED_TO', 'TREATS', 'PRECEDES', 'CAUSES', 'PRODUCES'
+    ]
 }
 
 
@@ -132,14 +120,14 @@ class ACEDataset(Dataset):
         else:
             if do_test:
                 if use_gold:
-                    file_path = os.path.join(args.data_dir, "test.json")
+                    file_path = os.path.join(args.data_dir, "train.json")
                 elif args.test_file.find('models') == -1:
                     file_path = os.path.join(args.data_dir, args.test_file)
                 else:
                     file_path = args.test_file
             else:
                 if use_gold:
-                    file_path = os.path.join(args.data_dir, "dev.json")
+                    file_path = os.path.join(args.data_dir, "train.json")
                 elif args.dev_file.find('models') == -1 and not use_gold:
                     file_path = os.path.join(args.data_dir, args.dev_file)
                 else:
@@ -161,9 +149,116 @@ class ACEDataset(Dataset):
         self.model_type = args.model_type
         self.no_sym = args.no_sym
 
-        if args.data_dir.find('ace05')!=-1:
-            self.ner_label_list = ['NIL', 'FAC', 'WEA', 'LOC', 'VEH', 'GPE', 'ORG', 'PER']
+        # if args.data_dir.find('ace05')!=-1:
+        #     self.ner_label_list = ['NIL', 'FAC', 'WEA', 'LOC', 'VEH', 'GPE', 'ORG', 'PER']
 
+        #     if args.no_sym:
+        #         label_list = ['PER-SOC', 'ART', 'ORG-AFF', 'GEN-AFF', 'PHYS', 'PART-WHOLE']
+        #         self.sym_labels = ['NIL']
+        #         self.label_list = self.sym_labels + label_list
+        #     else:
+        #         label_list = ['ART', 'ORG-AFF', 'GEN-AFF', 'PHYS',  'PART-WHOLE']
+        #         self.sym_labels = ['NIL', 'PER-SOC']
+        #         self.label_list = self.sym_labels + label_list
+
+        # elif args.data_dir.find('ace04')!=-1:
+        #     self.ner_label_list = ['NIL', 'FAC', 'WEA', 'LOC', 'VEH', 'GPE', 'ORG', 'PER']
+
+        #     if args.no_sym:
+        #         label_list = ['PER-SOC', 'OTHER-AFF', 'ART', 'GPE-AFF', 'EMP-ORG', 'PHYS']
+        #         self.sym_labels = ['NIL']
+        #         self.label_list = self.sym_labels + label_list
+        #     else:
+        #         label_list = ['OTHER-AFF', 'ART', 'GPE-AFF', 'EMP-ORG', 'PHYS']
+        #         self.sym_labels = ['NIL', 'PER-SOC']
+        #         self.label_list = self.sym_labels + label_list
+
+        # elif args.data_dir.find('scierc')!=-1:      
+        #     self.ner_label_list = ['NIL', 'Method', 'OtherScientificTerm', 'Task', 'Generic', 'Material', 'Metric']
+
+        #     if args.no_sym:
+        #         label_list = ['CONJUNCTION', 'COMPARE', 'PART-OF', 'USED-FOR', 'FEATURE-OF',  'EVALUATE-FOR', 'HYPONYM-OF']
+        #         self.sym_labels = ['NIL']
+        #         self.label_list = self.sym_labels + label_list
+        #     else:
+        #         label_list = ['PART-OF', 'USED-FOR', 'FEATURE-OF',  'EVALUATE-FOR', 'HYPONYM-OF']
+        #         self.sym_labels = ['NIL', 'CONJUNCTION', 'COMPARE']
+        #         self.label_list = self.sym_labels + label_list
+                
+        # elif args.data_dir.find('DiMB-RE')!=-1:      
+        #     self.ner_label_list = [
+        #         'NIL', 'Food', 'Nutrient', 'DietPattern', 'Microorganism', \
+        #         'DiversityMetric', 'Metabolite', 'Physiology', 'Disease', \
+        #         'Enzyme', 'Gene', 'Measurement', 'Chemical'
+        #     ]    
+
+        #     if args.no_sym:
+        #         label_list = [
+        #             'INCREASES', 'DECREASES', 'HAS_COMPONENT', 'POS_ASSOCIATED_WITH', 
+        #             'AFFECTS', 'PREVENTS', 'IMPROVES', 'ASSOCIATED_WITH', 
+        #             'NEG_ASSOCIATED_WITH', 'CAUSES', 'WORSENS', 'INTERACTS_WITH', 
+        #             'PREDISPOSES'
+        #         ]
+        #         self.sym_labels = ['NIL']
+        #         self.label_list = self.sym_labels + label_list
+        #     else:
+        #         label_list = [
+        #             'INCREASES', 'DECREASES', 'HAS_COMPONENT',  
+        #             'AFFECTS', 'PREVENTS', 'IMPROVES',  
+        #             'CAUSES', 'WORSENS', 'PREDISPOSES'
+        #         ]
+        #         self.sym_labels = [
+        #             'NIL', 'ASSOCIATED_WITH', 'POS_ASSOCIATED_WITH',
+        #             'NEG_ASSOCIATED_WITH', 'INTERACTS_WITH'
+        #         ]
+        #         self.label_list = self.sym_labels + label_list
+
+        # else:
+        #     assert False  
+
+        if 'data' in args.data_dir: # Check for your new data first
+            task = 'data'
+            self.ner_label_list = ['NIL'] + [
+                'Amphibian', 'Animal', 'Diagnostic Procedure', 'Cell Function', 'Vitamin', 'Invertebrate',
+                'Organism Function', 'Chemical Viewed Structurally', 'Immunologic Factor', 'Age Group',
+                'Body Substance', 'Mammal', 'Nucleotide Sequence', 'Laboratory Procedure', 'Alga', 'Cell',
+                'Individual Behavior', 'Body Location or Region', 'Hazardous or Poisonous Substance', 'Plant',
+                'Hormone', 'Health Care Related Organization', 'Body System', 'Human', 'Laboratory or Test Result',
+                'Experimental Model of Disease', 'Family Group', 'Organization', 'Molecular Biology Research Technique',
+                'Research Activity', 'Body Space or Junction', 'Pathologic Function', 'Spatial Concept', 'Finding',
+                'Inorganic Chemical', 'Nucleic Acid, Nucleoside, or Nucleotide', 'Organophosphorus Compound', 'Steroid',
+                'Sign or Symptom', 'Fungus', 'Genetic Function', 'Organism', 'Clinical Drug', 'Enzyme', 'Eicosanoid',
+                'Group', 'Disease or Syndrome', 'Cell or Molecular Dysfunction', 'Food', 'Carbohydrate', 'Lipid',
+                'Cell Component', 'Biologic Function', 'Gene or Genome', 'Tissue', 'Body Part, Organ, or Organ Component',
+                'Natural Phenomenon or Process', 'Bacterium', 'Embryonic Structure', 'Social Behavior',
+                'Acquired Abnormality', 'Chemical Viewed Functionally', 'Chemical', 'Substance',
+                'Amino Acid, Peptide, or Protein', 'Patient or Disabled Group', 'Biologically Active Substance',
+                'Organ or Tissue Function', 'Health Care Activity', 'Congenital Abnormality', 'Medical Device',
+                'Molecular Function', 'Pharmacologic Substance', 'Fish', 'Physiologic Function', 'Element, Ion, or Isotope',
+                'Receptor', 'Indicator, Reagent, or Diagnostic Aid', 'Geographic Area', 'Mental or Behavioral Dysfunction',
+                'Organic Chemical', 'Clinical Attribute', 'Professional or Occupational Group', 'Functional Concept',
+                'Mental Process', 'Intellectual Product', 'Population Group', 'Daily or Recreational Activity',
+                'Therapeutic or Preventive Procedure', 'Antibiotic', 'Neuroreactive Substance or Biogenic Amine',
+                'Manufactured Object', 'Anatomical Abnormality', 'Injury or Poisoning', 'Virus', 'Neoplastic Process'
+            ]
+            all_rel_labels = [
+                'PREVENTS', 'STIMULATES', 'METHOD_OF', 'CONVERTS_TO', 'AFFECTS', 'TREATS', 'LOCATION_OF', 'DIAGNOSES',
+                'CAUSES', 'OCCURS_IN', 'PRODUCES', 'PROCESS_OF', 'MANIFESTATION_OF', 'USES', 'DISRUPTS', 'PART_OF',
+                'INTERACTS_WITH', 'AUGMENTS', 'PRECEDES', 'COMPARED_WITH', 'INHIBITS', 'COEXISTS_WITH', 'ISA',
+                'ASSOCIATED_WITH', 'PREDISPOSES', 'ADMINISTERED_TO'
+            ]
+            symmetric_relations = {'INTERACTS_WITH', 'COMPARED_WITH', 'COEXISTS_WITH', 'ASSOCIATED_WITH'}
+
+            if args.no_sym:
+                self.sym_labels = ['NIL']
+                self.label_list = self.sym_labels + all_rel_labels
+            else:
+                self.sym_labels = ['NIL'] + [r for r in all_rel_labels if r in symmetric_relations]
+                asym_labels = [r for r in all_rel_labels if r not in symmetric_relations]
+                self.label_list = self.sym_labels + asym_labels
+
+        elif args.data_dir.find('ace05')!=-1:
+            self.ner_label_list = ['NIL', 'FAC', 'WEA', 'LOC', 'VEH', 'GPE', 'ORG', 'PER']
             if args.no_sym:
                 label_list = ['PER-SOC', 'ART', 'ORG-AFF', 'GEN-AFF', 'PHYS', 'PART-WHOLE']
                 self.sym_labels = ['NIL']
@@ -175,7 +270,6 @@ class ACEDataset(Dataset):
 
         elif args.data_dir.find('ace04')!=-1:
             self.ner_label_list = ['NIL', 'FAC', 'WEA', 'LOC', 'VEH', 'GPE', 'ORG', 'PER']
-
             if args.no_sym:
                 label_list = ['PER-SOC', 'OTHER-AFF', 'ART', 'GPE-AFF', 'EMP-ORG', 'PHYS']
                 self.sym_labels = ['NIL']
@@ -187,7 +281,6 @@ class ACEDataset(Dataset):
 
         elif args.data_dir.find('scierc')!=-1:      
             self.ner_label_list = ['NIL', 'Method', 'OtherScientificTerm', 'Task', 'Generic', 'Material', 'Metric']
-
             if args.no_sym:
                 label_list = ['CONJUNCTION', 'COMPARE', 'PART-OF', 'USED-FOR', 'FEATURE-OF',  'EVALUATE-FOR', 'HYPONYM-OF']
                 self.sym_labels = ['NIL']
@@ -199,11 +292,10 @@ class ACEDataset(Dataset):
                 
         elif args.data_dir.find('DiMB-RE')!=-1:      
             self.ner_label_list = [
-                'NIL', 'Food', 'Nutrient', 'DietPattern', 'Microorganism', \
-                'DiversityMetric', 'Metabolite', 'Physiology', 'Disease', \
+                'NIL', 'Food', 'Nutrient', 'DietPattern', 'Microorganism',
+                'DiversityMetric', 'Metabolite', 'Physiology', 'Disease',
                 'Enzyme', 'Gene', 'Measurement', 'Chemical'
             ]    
-
             if args.no_sym:
                 label_list = [
                     'INCREASES', 'DECREASES', 'HAS_COMPONENT', 'POS_ASSOCIATED_WITH', 
@@ -224,35 +316,14 @@ class ACEDataset(Dataset):
                     'NEG_ASSOCIATED_WITH', 'INTERACTS_WITH'
                 ]
                 self.label_list = self.sym_labels + label_list
-        # new code block for new data
-        elif args.data_dir.find('data')!=-1:   # new data
-            self.ner_label_list = ['NIL'] + task_ner_labels['data']
-            if args.no_sym:
-                label_list = task_rel_labels['data']
-                self.sym_labels = ['NIL']
-                self.label_list = self.sym_labels + label_list
-            else:
-                non_sym_label_list = [
-                    'PREVENTS', 'STIMULATES', 'METHOD_OF', 'CONVERTS_TO', 'AFFECTS', 'TREATS', 'LOCATION_OF', 'DIAGNOSES',
-                    'CAUSES', 'OCCURS_IN', 'PRODUCES', 'PROCESS_OF', 'MANIFESTATION_OF', 'USES', 'DISRUPTS', 'PART_OF',
-                    'AUGMENTS', 'PRECEDES', 'INHIBITS', 'ADMINISTERED_TO'
-                ]
-                self.sym_labels = ['NIL', 'INTERACTS_WITH', 'COMPARED_WITH', 'COEXISTS_WITH', 'ISA', 'ASSOCIATED_WITH', 'PREDISPOSES']
-                self.label_list = self.sym_labels + non_sym_label_list
-
-        
         else:
-            assert False  
+            raise False
 
         self.global_predicted_ners = {}
         self.global_predicted_triggers = {}
         self.use_trigger = args.use_trigger
         self.initialize()
         
-    def is_punctuation(self, char):
-        # A simple check for punctuation
-        return char in ",.?!:;-_'\"()[]{}<>"
-    
     def get_sentence_index(self, entity_index, sentence_boundaries):
         """ Helper function to determine the sentence index for a given entity index. """
         for i in range(len(sentence_boundaries) - 1):
@@ -420,13 +491,8 @@ class ACEDataset(Dataset):
                     
                 pos2label = {}
                 for x in sentence_relations:
-                    # mig change: add this to handle "relations" that start with null
-                    if x is None or len(x) < 5 or x[0] is None or x[2] is None: # skip if none or doesnt have complete 5 elements
-                        logger.warning(f"Skipping malformed relation entry in doc {l_idx}, sent {n}: {x}")
-                        continue
                     # Convert entity indices to subword indices
                     print(x)
-                    #{"doc_key": "16100526", "sentences": [["The", "regulation", "of", "veratridine-stimulated", "electrogenic", "ion", "transport", "in", "mouse", "colon", "by", "neuropeptide", "Y", "(NPY),", "Y1", "and", "Y2", "receptors."], ["1", "Neuropeptide", "Y", "(NPY)", "is", "a", "prominent", "enteric", "neuropeptide", "with", "prolonged", "antisecretory", "effects", "in", "mammalian", "intestine"], ["Veratridine", "depolarises", "neurons", "consequently", "causing", "epithelial", "anion", "secretion", "across", "mouse", "colon", "mucosa"], ["Our", "aim", "was", "to", "characterise", "functionally,", "veratridine-stimulated", "mucosal", "responses", "and", "to", "determine", "the", "roles", "for", "NPY,", "Y(1),", "and", "Y(2)", "receptors", "in", "modulating", "these", "neurogenic", "effects"], ["2", "Colon", "mucosae", "(with", "intact", "submucous", "innervation)", "from", "wild-type", "mice", "(+/+)", "and", "knockouts", "lacking", "either", "NPY", "(NPY-/-),", "Y(1)-/-", "or", "Y(2)-/-", "were", "placed", "in", "Ussing", "chambers", "and", "voltage", "clamped", "at", "0", "mV"], ["Veratridine-stimulated", "short-circuit", "current", "(I(sc))", "responses", "in", "+/+,", "Y(1)", "or", "Y(2)", "antagonist", "pretreated", "+/+", "colon,", "Y(1)-/-", "and", "NPY-/-", "colon", "were", "insensitive", "to", "cholinergic", "blockade", "by", "atropine", "(At;", "1", "microM)", "and", "hexamethonium", "(Hex;", "10", "microM)"], ["Tetrodotoxin", "(TTX,", "100", "nM)", "abolished", "veratridine", "responses,", "but", "had", "no", "effect", "upon", "carbachol", "(CCh)", "or", "vasoactive", "intestinal", "polypeptide", "(VIP)-induced", "secretory", "responses"], ["3", "To", "establish", "the", "functional", "roles", "for", "Y(1)", "and", "Y(2)", "receptors,", "+/+", "tissues", "were", "pretreated", "with", "either", "the", "Y(1)", "or", "Y(2)", "receptor", "antagonist", "(BIBO3304", "(300", "nM)", "or", "BIIE0246", "(1", "microM),", "respectively)", "and", "veratridine", "responses", "were", "compared", "with", "those", "from", "Y(1)-/-", "or", "Y(2)-/-", "colon"], ["Neither", "BIBO3304", "nor", "Y(1)-/-", "altered", "veratridine-induced", "secretion,", "but", "Y(1)", "agonist", "responses", "were", "abolished", "in", "both", "preparations"], ["In", "contrast,", "the", "Y(2)", "antagonist", "BIIE0246", "significantly", "amplified", "veratridine", "responses", "in", "+/+", "mucosa"], ["Unexpectedly,", "NPY-/-", "colon", "exhibited", "significantly", "attenuated", "veratridine", "responses", "(between", "1", "and", "5", "min)"], ["4", "We", "demonstrate", "that", "electrogenic", "veratridine", "responses", "in", "mouse", "colon", "are", "noncholinergic", "and", "that", "NPY", "can", "act", "directly", "upon", "epithelia,", "a", "Y(1)", "receptor", "effect"], ["The", "enhanced", "veratridine", "response", "observed", "in", "+/+", "tissue", "following", "BIIE0246,", "indicates", "that", "Y(2)", "receptors", "are", "located", "on", "submucosal", "neurons", "and", "that", "their", "activation", "by", "NPY", "will", "inhibit", "enteric", "noncholinergic", "secretory", "neurotransmission"], ["5", "We", "also", "demonstrate", "Y(1)", "and", "Y(2)", "receptor-mediated", "antisecretory", "tone", "in", "+/+", "colon", "and", "show", "selective", "loss", "of", "each", "in", "Y(1)", "and", "Y(2)", "null", "colon", "respectively"], ["In", "NPY-/-", "tissue,", "only", "Y(1)-mediated", "tone", "was", "present,", "this", "presumably", "being", "mediated", "by", "endogenous", "endocrine", "peptide", "YY"], ["Y(2)", "tone", "was", "absent", "from", "NPY-/-", "(and", "Y(2)-/-)", "colon", "and", "we", "conclude", "that", "NPY", "activation", "of", "neuronal", "Y(2)", "receptors", "attenuates", "secretory", "neurotransmission", "thereby", "providing", "an", "absorptive", "electrolyte", "tone", "in", "isolated", "colon."]], "ner": [[[34, 34, "Biologically Active Substance"], [41, 41, "Biologic Function"], [34, 34, "Biologically Active Substance"], [36, 36, "Cell"], [44, 45, "Body Part, Organ, or Organ Component"], [41, 41, "Biologic Function"], [44, 45, "Body Part, Organ, or Organ Component"], [8, 8, "Mammal"]], [[13, 13, "Amino Acid, Peptide, or Protein"], [295, 295, "Cell Function"], [13, 13, "Amino Acid, Peptide, or Protein"], [64, 65, "Amino Acid, Peptide, or Protein"], [36, 36, "Cell"], [64, 65, "Amino Acid, Peptide, or Protein"], [36, 36, "Cell"], [282, 282, "Tissue"], [34, 34, "Pharmacologic Substance"], [272, 272, "Tissue"]], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []], "triggers": [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []], "relations": [[[34, 34, 41, 41, "CAUSES", ""], [34, 34, 36, 36, "AFFECTS", ""], [44, 45, 41, 41, "LOCATION_OF", ""], [44, 45, 8, 8, "PART_OF", ""]], [[13, 13, 295, 295, "DISRUPTS", ""], [13, 13, 64, 65, "STIMULATES", ""], [36, 36, 64, 65, "LOCATION_OF", ""], [36, 36, 282, 282, "PART_OF", ""], [34, 34, 272, 272, "AFFECTS", ""]], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []], "triplets": [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]}
                     entity1_start_subword = token2subword[x[0]]
                     entity2_start_subword = token2subword[x[2]]
                     # Check if both entities are in the same sentence
@@ -522,11 +588,7 @@ class ACEDataset(Dataset):
                     
                 for sub in entities:    
                     cur_ins = []
-                    # mig change: add a check if none
-                    if sub is None or sub[0] is None or sub[1] is None:
-                        logger.warning(f"Skipping malformed subject NER entry in doc {l_idx}, sent {n}: {sub}")
-                        continue
-                    print(sub)
+
                     if sub[0] < 10000:
                         sub_s = token2subword[sub[0]] - doc_offset + 1
                         sub_e = token2subword[sub[1] + 1] - doc_offset
@@ -571,15 +633,9 @@ class ACEDataset(Dataset):
                     
                     for start, end, obj_label in sentence_ners:
                         # if self.model_type.endswith('nersub'):
-                        
                         if start == sub[0] and end == sub[1]:
                             continue
-                        # mig change: also add this to skip None
-                        if start is None or end is None:
-                            logger.warning(f"Skipping malformed NER entry in doc {l_idx}, sent {n}: {(start, end, obj_label)}")
-                            continue
-                        print(start)
-                        print(end)
+
                         doc_entity_start = token2subword[start]
                         doc_entity_end = token2subword[end + 1]
                         left = doc_entity_start - doc_offset + 1
@@ -1512,8 +1568,8 @@ def main():
                         help='Limit the total amount of checkpoints, delete the older checkpoints in the output_dir, does not delete by default')
 
     parser.add_argument("--train_file",  default="train.json", type=str)
-    parser.add_argument("--dev_file",  default="dev.json", type=str)
-    parser.add_argument("--test_file",  default="test.json", type=str)
+    parser.add_argument("--dev_file",  default="train.json", type=str)
+    parser.add_argument("--test_file",  default="train.json", type=str)
     parser.add_argument('--max_pair_length', type=int, default=64,  help="")
     parser.add_argument("--alpha", default=1.0, type=float)
     parser.add_argument('--save_results', action='store_true')
@@ -1588,12 +1644,52 @@ def main():
     # Set seed
     set_seed(args)
 
-    if args.data_dir.find('ace')!=-1:
+    # if args.data_dir.find('ace')!=-1:
+    #     num_ner_labels = 8
+    #     if args.no_sym:
+    #         num_labels = 7 + 7 - 1
+    #     else:
+    #         num_labels = 7 + 7 - 2
+            
+    # elif args.data_dir.find('scierc')!=-1:
+    #     num_ner_labels = 7
+    #     if args.no_sym:
+    #         num_labels = 8 + 8 - 1
+    #     else:
+    #         num_labels = 8 + 8 - 3
+            
+    # elif args.data_dir.find('DiMB-RE')!=-1:
+    #     num_ner_labels = 13
+    #     num_rel_labels = 13
+    #     if args.no_sym:
+    #         num_labels = 14 + 14 - 1
+    #     else:
+    #         num_labels = 14 + 14 - 5  
+                   
+    # else:
+        # assert False
+    
+    if 'data' in args.data_dir: # Check for your new data first
+        num_ner_labels = 101 + 1  # 17 NER types + NIL
+        num_forward_rels = 26 + 1 # 16 relation types + NIL
+        num_sym_rels = 4 + 1 # 4 symmetric types + NIL
+        
+        if args.no_sym:
+            num_sym_rels = 1 # Only NIL is symmetric
+        
+        num_asym_rels = num_forward_rels - num_sym_rels
+        num_labels = num_forward_rels + num_asym_rels
+        
+        logger.info(f"Configuring for task: data, Total relation classes: {num_labels}")
+        num_rel_labels = num_forward_rels # Keep this for other parts of the code
+
+    elif args.data_dir.find('ace')!=-1:
         num_ner_labels = 8
         if args.no_sym:
             num_labels = 7 + 7 - 1
         else:
             num_labels = 7 + 7 - 2
+        num_rel_labels = 7
             
     elif args.data_dir.find('scierc')!=-1:
         num_ner_labels = 7
@@ -1601,6 +1697,7 @@ def main():
             num_labels = 8 + 8 - 1
         else:
             num_labels = 8 + 8 - 3
+        num_rel_labels = 8
             
     elif args.data_dir.find('DiMB-RE')!=-1:
         num_ner_labels = 13
@@ -1610,14 +1707,6 @@ def main():
         else:
             num_labels = 14 + 14 - 5  
                    
-    elif args.data_dir.find('data')!=-1:
-        num_ner_labels = len(task_ner_labels['data']) + 1 # relation + NIL
-        num_rel_labels = len(task_rel_labels['data'])
-        if args.no_sym:
-            num_labels = num_rel_labels + 1
-        else:
-            num_labels = 47 # (26 rel relations + 1 NIL) + (27-7 inverse) = 47
-    
     else:
         assert False
 
@@ -1632,8 +1721,8 @@ def main():
 
     config = config_class.from_pretrained(
         args.config_name if args.config_name else args.model_name_or_path, 
-        num_labels=num_rel_labels,
-        # num_labels=num_labels
+        #num_labels=num_rel_labels,
+        num_labels=num_labels
     )
     tokenizer = tokenizer_class.from_pretrained(
         args.model_name_or_path, do_lower_case=args.do_lower_case
