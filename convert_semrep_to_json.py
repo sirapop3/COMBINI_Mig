@@ -64,13 +64,13 @@ def convert_semrep_to_json(xml_path, json_path, semtype_map):
             utterances = []
             for utt in doc.findall('.//Utterance'):
                 text = utt.get('text', '')
-                uid = utt.get('id', '')
+                uid  = utt.get('id', '')
                 for ent in utt.findall('.//Entity'):
-                    eid = ent.get('id')
-                    txt = ent.get('text', '')
+                    eid   = ent.get('id')
+                    txt   = ent.get('text', '')
                     raw_types = ent.get('semtypes', '')
                     first_code = raw_types.split(',')[0] if raw_types else None
-                    full_type = semtype_map.get(first_code, first_code)
+                    full_type  = semtype_map.get(first_code, first_code)
                     entity_map[eid] = {'text': txt, 'semtype': full_type}
                 rels = []
                 for pred in utt.findall('.//Predication'):
@@ -82,15 +82,15 @@ def convert_semrep_to_json(xml_path, json_path, semtype_map):
                     if p is None or s is None or o is None:
                         continue
                     rels.append({
-                        'type': p.get('type'),
-                        'subj': s.get('entityID'),
-                        'obj': o.get('entityID')
+                        'type':    p.get('type'),
+                        'subj':    s.get('entityID'),
+                        'obj':     o.get('entityID')
                     })
                 utterances.append({'id': uid, 'text': text, 'relations': rels})
 
             sentences = []
-            all_ners = []
-            all_rels = []
+            all_ners   = []
+            all_rels   = []
             global_offset = 0
 
             for utt in utterances:
@@ -98,10 +98,10 @@ def convert_semrep_to_json(xml_path, json_path, semtype_map):
                 doc_spacy = nlp(sent_text)
                 toks = [t.text for t in doc_spacy if t.text.strip()]
                 sentences.append(toks)
-                ners = []
-                rels = []
+                ners  = []
+                rels  = []
                 cache = {}
-                base = global_offset
+                base  = global_offset
                 for rel in utt['relations']:
                     sid, oid = rel['subj'], rel['obj']
                     if sid not in entity_map or oid not in entity_map:
@@ -132,20 +132,20 @@ def convert_semrep_to_json(xml_path, json_path, semtype_map):
                 global_offset += len(toks)
 
             out = {
-                "doc_key": doc_key,
+                "doc_key":   doc_key,
                 "sentences": sentences,
-                "ner": all_ners,
+                "ner":       all_ners,
+                "triggers":  [[] for _ in sentences],
                 "relations": all_rels,
-                "triggers": [[] for _ in sentences],
-                "triplets": [[] for _ in sentences]
+                "triplets":  [[] for _ in sentences]
             }
             fout.write(json.dumps(out) + "\n")
 
     logging.info("Conversion complete.")
 
 if __name__ == "__main__":
-    XML_IN = "/projects/bdxz/sumnakkittikul/data/gs_308.semrep.out.xml"
-    MAPPING = "/projects/bdxz/sumnakkittikul/umls_semtypes.txt"
+    XML_IN   = "/projects/bdxz/sumnakkittikul/data/gs_308.semrep.out.xml"
+    MAPPING  = "/projects/bdxz/sumnakkittikul/umls_semtypes.txt"
     JSON_OUT = "/projects/bdxz/sumnakkittikul/data/converted_data.json"
     if not os.path.exists(MAPPING):
         logging.error(f"Semtype mapping file not found: {MAPPING}")
