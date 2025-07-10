@@ -1,0 +1,2684 @@
+docid,section,sentenceid,subject_text,subject_type,object_text,object_type,relation
+16733164,ab,2,glycoprotein IIb/IIIa,aapp,platelet function,celf,DISRUPTS
+16733164,ab,4,analysis,resa,Coagulation,topp,USES
+16733164,ab,4,analysis,resa,analyzer,medd,USES
+16733164,ab,6,diphosphate,inch,platelet,cell,AUGMENTS
+16733164,ab,7,tirofiban,orch,platelet,cell,DISRUPTS
+16733164,ab,9,heparin,bacs,platelet,cell,DISRUPTS
+16733164,ab,12,whole blood,bdsu,tirofiban,orch,LOCATION_OF
+16733164,ab,12,tirofiban,orch,glycoprotein IIb/IIIa receptor,gngm,INHIBITS
+15982867,ti,1,hepatoblastoma,neop,tumours,neop,ISA
+15982867,ab,2,liver,bpoc,paediatric       epithelial liver tumours,neop,LOCATION_OF
+15982867,ab,4,growth,orgf,hepatic tumours,neop,AFFECTS
+16288225,ab,7,genes,gngm,apoptosis,celf,AFFECTS
+16288225,ab,7,genes,gngm,T-cell activation,celf,AFFECTS
+16709260,ab,5,individual,humn,seminal fluid,bdsu,LOCATION_OF
+16709260,ab,5,seminal fluid,bdsu,proteins,aapp,LOCATION_OF
+16709260,ab,7,seminal fluid,bdsu,proteome,aapp,LOCATION_OF
+16709260,ab,8,glands,bpoc,proteins,aapp,LOCATION_OF
+16709260,ab,9,proteins,aapp,fertilization,orgf,AFFECTS
+16479855,ab,2,salivary gland disease,dsyn,patients,humn,PROCESS_OF
+16479855,ab,3,general anaesthesia,topp,salivary calculi,patf,TREATS
+16479855,ab,4,balloon dilatation,topp,guided,medd,USES
+16479855,ab,4,balloon dilatation,topp,Strictures,anab,TREATS
+16479855,ab,9,Balloon dilatation,topp,stricture,anab,TREATS
+16097204,ti,1,Drug interactions,moft,patients,humn,PROCESS_OF
+16097204,ab,1,general       surgery department,hcro,analysis,resa,LOCATION_OF
+16097204,ab,12,beta-blockers,phsu,drugs,phsu,ISA
+16097204,ab,12,benzodiazepines,orch,drugs,phsu,ISA
+16097204,ab,12,diuretics,phsu,drugs,phsu,ISA
+16097204,ab,12,enzyme       inhibitors,phsu,drugs,phsu,ISA
+16097204,ab,12,inhibitors,chvf,drugs,phsu,ISA
+16097204,ab,12,beta-blockers,phsu,angiotensin II,gngm,INHIBITS
+16097204,ab,12,benzodiazepines,phsu,angiotensin II,gngm,INHIBITS
+16097204,ab,12,diuretics,phsu,angiotensin II,gngm,INHIBITS
+16097204,ab,12,enzyme       inhibitors,phsu,angiotensin II,gngm,INHIBITS
+16097204,ab,19,drugs,phsu,patients,podg,TREATS
+16531862,ti,1,spine,bpoc,fractures,inpo,LOCATION_OF
+16531862,ti,1,acetabulum,bpoc,fractures,inpo,LOCATION_OF
+16531862,ab,1,spine,bpoc,trauma,inpo,LOCATION_OF
+16531862,ab,4,fractures,inpo,patients,humn,PROCESS_OF
+16531862,ab,4,herniation,dsyn,patients,humn,PROCESS_OF
+16531862,ab,4,spine injuries,inpo,patients,humn,PROCESS_OF
+16531862,ab,6,fractures,inpo,patients,humn,PROCESS_OF
+16531862,ab,7,spine fracture,inpo,patients,humn,PROCESS_OF
+16531862,ab,7,diagnosis,hlca,patients,humn,TREATS
+16531862,ab,9,spine injury,inpo,injury,inpo,ISA
+16531862,ab,9,acetabulum,bpoc,fractures,inpo,LOCATION_OF
+16531862,ab,9,fractures,inpo,patients,humn,PROCESS_OF
+16531862,ab,9,injury,inpo,patients,humn,PROCESS_OF
+16531862,ab,10,tomography,diap,computed,lbpr,USES
+16531862,ab,10,acetabulum,bpoc,fractures,inpo,LOCATION_OF
+16531862,ab,10,fractures,inpo,patients,humn,PROCESS_OF
+16510729,ti,1,Dopamine D3 receptors,aapp,receptor function,moft,AFFECTS
+16510729,ab,1,dopamine D3 receptor,aapp,nucleus accumbens,bpoc,AUGMENTS
+16510729,ab,2,receptor activation,celf,neurons,cell,AFFECTS
+16510729,ab,8,treatment,topp,cAMP,aapp,USES
+16260962,ab,2,CFS,dsyn,patients,humn,PROCESS_OF
+16260962,ab,2,performance,inbe,patients,humn,PROCESS_OF
+16260962,ab,3,CFS,dsyn,patients,humn,PROCESS_OF
+16260962,ab,5,RER,celc,protein kinase R,aapp,LOCATION_OF
+16260962,ab,6,CFS,dsyn,patients,humn,PROCESS_OF
+16260962,ab,6,performance,inbe,patients,humn,PROCESS_OF
+17056862,ti,1,head injury,inpo,children,humn,PROCESS_OF
+17056862,ab,2,head injury,inpo,patients,humn,PROCESS_OF
+17056862,ab,7,head injury,inpo,children,humn,PROCESS_OF
+17056862,ab,13,scanning,diap,children,humn,ADMINISTERED_TO
+17056862,ab,14,head injuries,inpo,children,humn,PROCESS_OF
+16296031,ti,1,tissues,tisu,bovine,mamm,PART_OF
+16296031,ti,1,subcellular       fractions,celc,chalone,aapp,LOCATION_OF
+16296031,ab,1,liver,bpoc,chalones,aapp,LOCATION_OF
+16296031,ab,1,lymph       nodes,bpoc,chalones,aapp,LOCATION_OF
+16296031,ab,1,spleen,bpoc,chalones,aapp,LOCATION_OF
+16296031,ab,1,liver,bpoc,cattle,mamm,PART_OF
+16296031,ab,1,lymph       nodes,bpoc,cattle,mamm,PART_OF
+16296031,ab,1,spleen,bpoc,cattle,mamm,PART_OF
+16296031,ab,2,cells,cell,organs,bpoc,PART_OF
+16296031,ab,4,supernatants,bdsu,chalones,aapp,LOCATION_OF
+16296031,ab,6,disc electrophoresis,lbpr,immunoelectrophoresis,lbpr,USES
+16296031,ab,9,colcemide,phsu,control groups,humn,TREATS
+16296031,ab,11,rough microsomes,celc,spleen,bpoc,PART_OF
+16296031,ab,11,rough microsomes,celc,smooth microsomes,celc,PART_OF
+16296031,ab,11,spleen,bpoc,lymph nodes,bpoc,PART_OF
+16296031,ab,11,smooth microsomes,celc,lymph nodes,bpoc,PART_OF
+16296031,ab,14,tissues,tisu,animals,anim,PART_OF
+16296031,ab,15,supernatants,bdsu,proteins,aapp,LOCATION_OF
+16296031,ab,16,blood serum,bdsu,proteins,aapp,LOCATION_OF
+16296031,ab,17,serum proteins,aapp,bovine,mamm,PART_OF
+16296031,ab,18,chalone,aapp,spleen,bpoc,PART_OF
+16296031,ab,19,liver,bpoc,chalone,aapp,LOCATION_OF
+16296031,ab,19,homologous proteins,aapp,cells,cell,PART_OF
+16296031,ab,19,cells,cell,spleen,bpoc,PART_OF
+16040903,ti,1,breast,bpoc,MR imaging,diap,LOCATION_OF
+16040903,ab,4,lesion,fndg,patients,humn,PROCESS_OF
+16040903,ab,7,radiologists,prog,patient,podg,TREATS
+16040903,ab,10,invasive carcinomas,neop,lesions,fndg,ISA
+16040903,ab,13,breast,bpoc,lesions,fndg,LOCATION_OF
+16436670,ab,1,B-cell,cell,lymphoproliferative disease,neop,LOCATION_OF
+16436670,ab,1,Hairy cell leukemia,neop,lymphoproliferative disease,neop,ISA
+16436670,ab,1,tumor cells,cell,lymphoproliferative disease,neop,LOCATION_OF
+16436670,ab,2,IFN)-alpha,aapp,interferon,aapp,ISA
+16436670,ab,2,interferon,aapp,disease,dsyn,AFFECTS
+16436670,ab,4,IFN-alpha,aapp,cytoskeletal       organization,celf,AFFECTS
+16436670,ab,4,hairy cells,cell,cytoskeletal       organization,celf,LOCATION_OF
+16436670,ab,5,IFN-alpha,aapp,GTPase,gngm,STIMULATES
+16436670,ab,7,treatment,topp,IFN-alpha,aapp,USES
+16436670,ab,7,IFN-alpha,aapp,treatment,topp,ISA
+16436670,ab,7,hairy cells,cell,RhoA,aapp,LOCATION_OF
+16436670,ab,9,IFN-alpha,aapp,hairy cell leukemia,neop,AFFECTS
+16643848,ab,1,U-87MG cells,cell,phosphoinositide 3 kinase,aapp,LOCATION_OF
+16643848,ab,2,induction,topp,transcriptional,genf,AFFECTS
+16823322,ti,1,choroid plexus,bpoc,vascular       malformation,cgab,LOCATION_OF
+16823322,ti,1,cerebral aqueduct,bsoj,vascular       malformation,cgab,LOCATION_OF
+16823322,ab,1,choroid plexus,bpoc,vascular malformation,cgab,LOCATION_OF
+16823322,ab,1,cerebral aqueduct,bsoj,vascular malformation,cgab,LOCATION_OF
+16823322,ab,3,head,blor,scan,diap,LOCATION_OF
+16823322,ab,4,cerebral       aqueduct,bsoj,third ventricle,bsoj,LOCATION_OF
+16823322,ab,4,third ventricle,bsoj,magnetic resonance imaging scans,diap,LOCATION_OF
+16823322,ab,5,third ventricle,bsoj,vascular malformation,cgab,LOCATION_OF
+16823322,ab,8,Choroid plexus,bpoc,vascular       malformations,cgab,LOCATION_OF
+16823322,ab,9,intraventricular,blor,lesions,fndg,LOCATION_OF
+16284524,ab,4,nucleotide sequence,nusq,individual's,humn,PART_OF
+16284524,ab,9,TDR,biof,individuals,humn,PROCESS_OF
+16284524,ab,11,TDR,biof,individuals,humn,PROCESS_OF
+16877310,ti,1,cells,cell,diminazene,orch,LOCATION_OF
+16877310,ti,1,organs,bpoc,diminazene,orch,LOCATION_OF
+16877310,ab,1,cells,cell,diminazene,orch,LOCATION_OF
+16877310,ab,4,organs,bpoc,murine,mamm,PART_OF
+16877310,ab,4,white blood cells,cell,diminazene,orch,LOCATION_OF
+16877310,ab,4,organs,bpoc,diminazene,orch,LOCATION_OF
+16230392,ti,1,prostaglandin E2,eico,skin tumor,neop,DISRUPTS
+16230392,ab,1,membrane receptor,rcpt,PGE2,eico,INTERACTS_WITH
+16230392,ab,2,mammary gland,bpoc,mouse,mamm,PART_OF
+16230392,ab,2,EP2,gngm,tumorigenesis,neop,AFFECTS
+16230392,ab,2,colon,bpoc,tumorigenesis,neop,LOCATION_OF
+16230392,ab,2,mammary gland,bpoc,tumorigenesis,neop,LOCATION_OF
+16230392,ab,3,EP2,gngm,skin tumors,neop,ASSOCIATED_WITH
+16230392,ab,4,skin carcinogenesis,neop,mouse,mamm,PROCESS_OF
+16230392,ab,4,EP2,gngm,skin carcinogenesis,neop,ASSOCIATED_WITH
+16230392,ab,6,keratinocytes,cell,cellular       proliferation,celf,LOCATION_OF
+16230392,ab,6,cellular       proliferation,celf,mice,mamm,PROCESS_OF
+16230392,ab,7,TPA,hops,treatment,topp,ISA
+16230392,ab,7,treatment,topp,TPA,phsu,USES
+16230392,ab,8,inflammatory response,patf,knockout mice,mamm,PROCESS_OF
+16230392,ab,9,PGE2,eico,treatment,topp,ISA
+16230392,ab,9,treatment,topp,PGE2,phsu,USES
+16230392,ab,9,PGE2,horm,knockout mice,mamm,TREATS
+16230392,ab,11,PGE2,eico,skin tumor,neop,AFFECTS
+16272824,ab,2,atopic dermatitis,dsyn,diseases,dsyn,ISA
+16272824,ab,5,Compound 48/80,orch,histamine,nsba,STIMULATES
+16272824,ab,7,enzyme-linked       immunosorbent assay,lbpr,supernatants,bdsu,MEASURES
+16272824,ab,7,supernatants,bdsu,IL-6,aapp,LOCATION_OF
+16272824,ab,7,supernatants,bdsu,interleukin-8,aapp,LOCATION_OF
+16272824,ab,7,supernatants,bdsu,tumor necrosis factor-alpha,aapp,LOCATION_OF
+16272824,ab,9,mast cells,cell,histamine release,celf,LOCATION_OF
+16272824,ab,10,Compound 48/80,orch,ear swelling,sosy,CAUSES
+16272824,ab,12,human       mast cell line,cell,IL-6,aapp,LOCATION_OF
+16272824,ab,12,human       mast cell line,cell,IL-8,aapp,LOCATION_OF
+16272824,ab,12,human       mast cell line,cell,TNF-alpha,aapp,LOCATION_OF
+16272824,ab,14,AD,dsyn,diseases,dsyn,ISA
+16272824,ab,14,diseases,dsyn,atopic allergic reaction,patf,AFFECTS
+15561572,ab,2,familial hypercholesterolemia,dsyn,patients,humn,PROCESS_OF
+15561572,ab,2,hepatocytes,cell,patients,humn,PART_OF
+15561572,ab,2,genetic disease,dsyn,atherosclerosis,dsyn,CAUSES
+15561572,ab,3,LDLR,aapp,targeted cells,cell,ADMINISTERED_TO
+15561572,ab,4,fluorescence       microscopy,lbpr,magnetic resonance imaging,diap,METHOD_OF
+15561572,ab,9,B16 melanoma,neop,mice,mamm,PROCESS_OF
+15561572,ab,9,B16 melanoma,emod,tumor,neop,COEXISTS_WITH
+15561572,ab,10,liver,bpoc,C57BL/6 mouse,mamm,PART_OF
+15561572,ab,10,uptake,phsf,liver,bpoc,PROCESS_OF
+15561572,ab,10,uptake,phsf,liver,bpoc,PROCESS_OF
+16332961,ti,1,aging,orgf,reactive       oxygen species,bacs,PRODUCES
+16332961,ab,1,cell,cell,reactive oxygen species,elii,LOCATION_OF
+16332961,ab,2,mitochondria,celc,respiratory chain,moft,LOCATION_OF
+16332961,ab,2,mtDNA,bacs,degenerative diseases,dsyn,ASSOCIATED_WITH
+16332961,ab,2,aging,orgf,ROS,bacs,PRODUCES
+16332961,ab,3,respiratory chain function,phsf,ROS,bacs,PRODUCES
+16332961,ab,4,polymerase,aapp,premature aging,dsyn,ASSOCIATED_WITH
+16332961,ab,6,cell death,celf,ROS,bacs,AFFECTS
+16332961,ab,7,protein       carbonylation,moft,tissues,tisu,PROCESS_OF
+16332961,ab,8,premature aging,dsyn,mice,mamm,PROCESS_OF
+16332961,ab,9,premature       aging,dsyn,mice,mamm,PROCESS_OF
+16625528,ti,1,Replacement arthroplasty,topp,internal fixation,topp,compared_with
+16625528,ti,1,internal fixation,topp,adults,aggp,TREATS
+16625528,ti,1,Replacement arthroplasty,topp,adults,aggp,TREATS
+16625528,ab,1,Internal fixation,topp,hip       fractures,inpo,TREATS
+16625528,ab,2,arthroplasty,topp,fractures,inpo,TREATS
+16625528,ab,3,internal fixation,topp,treatment,topp,METHOD_OF
+16625528,ab,3,replacement arthroplasty,topp,treatment,topp,METHOD_OF
+16625528,ab,3,replacement arthroplasty,topp,internal fixation,topp,compared_with
+16625528,ab,3,treatment,topp,adults,aggp,TREATS
+16625528,ab,5,hip fracture,inpo,adults,humn,PROCESS_OF
+16625528,ab,5,replacement arthroplasty,topp,implant,medd,compared_with
+16625528,ab,5,implant,medd,adults,humn,TREATS
+16625528,ab,5,replacement arthroplasty,topp,adults,humn,TREATS
+16625528,ab,11,hip,bpoc,screw,medd,LOCATION_OF
+16625528,ab,11,arthroplasty,topp,screw,medd,compared_with
+16625528,ab,16,interventions,hlca,complications,patf,TREATS
+16625528,ab,18,internal fixation,topp,hip fractures,inpo,TREATS
+16625528,ab,19,arthroplasty,topp,unstable fractures,inpo,TREATS
+16625528,ab,19,internal fixation,topp,unstable fractures,inpo,TREATS
+16625528,ab,19,arthroplasty,topp,internal fixation,topp,compared_with
+16338777,ti,1,pelvic inflammatory disease,dsyn,women,humn,PROCESS_OF
+16338777,ab,1,pelvic       inflammatory disease,dsyn,women,humn,PROCESS_OF
+16338777,ab,2,acute PID,dsyn,women,humn,PROCESS_OF
+16338777,ab,5,PID,dsyn,microbes,orgm,ASSOCIATED_WITH
+16338777,ab,5,PID,dsyn,microbes,orgm,ASSOCIATED_WITH
+16338777,ab,6,PID,dsyn,microbes,orgm,ASSOCIATED_WITH
+16338777,ab,8,PID,dsyn,microbes,orgm,ASSOCIATED_WITH
+16498946,ab,1,glucuronyltransferase,gngm,2q37,nusq,PART_OF
+16498946,ab,5,Gilbert's syndrome,dsyn,Asian,humn,PROCESS_OF
+16498946,ab,6,high       performance liquid chromatography,lbpr,Gilbert's syndrome,dsyn,DIAGNOSES
+16440178,ab,1,epithelium,tisu,uterine,bpoc,PART_OF
+16440178,ab,1,secretion,celf,pregnancy,orgf,COEXISTS_WITH
+16440178,ab,4,oestradiol,phsu,fluid secretion,phsf,CAUSES
+16440178,ab,6,RU486,phsu,anti-progestin,phsu,ISA
+16311763,ti,1,coronary artery disease,dsyn,patients,humn,PROCESS_OF
+16311763,ti,1,skeletal muscle,tisu,patients,humn,PART_OF
+16311763,ab,2,transcript,nnon,muscle mitochondria,celc,AFFECTS
+16311763,ab,2,transcript,nnon,myofibrils,celc,AFFECTS
+16311763,ab,4,Transcript,nnon,biogenesis,npop,AFFECTS
+16311763,ab,11,transcript,nnon,medication,phsu,INTERACTS_WITH
+16311763,ab,12,training,edac,muscle hypertrophy,fndg,AFFECTS
+16311763,ab,12,muscle hypertrophy,fndg,patients,humn,PROCESS_OF
+15948171,ab,2,colorectal carcinoma,neop,cohort,humn,PROCESS_OF
+15948171,ab,4,colectomy,topp,women,popg,TREATS
+15948171,ab,4,hysterectomy,topp,women,popg,TREATS
+15948171,ab,4,bilateral oophorectomy,topp,women,popg,TREATS
+15948171,ab,5,screening,hlca,colonoscopic,diap,USES
+16372122,ab,1,diabetes mellitus,dsyn,patients,humn,PROCESS_OF
+16372122,ab,1,Peyronie's disease,dsyn,patients,humn,PROCESS_OF
+16372122,ab,2,PD,dsyn,men,humn,PROCESS_OF
+16372122,ab,3,penile,bpoc,deformities,cgab,LOCATION_OF
+16372122,ab,3,PD,dsyn,patients,humn,PROCESS_OF
+16372122,ab,3,DM,dsyn,patients,humn,PROCESS_OF
+16372122,ab,3,PD,dsyn,patients,humn,PROCESS_OF
+16372122,ab,3,Clinical characteristics,clna,vascular diseases,dsyn,PREDISPOSES
+16372122,ab,4,DM,dsyn,men,humn,PROCESS_OF
+16372122,ab,4,sexual dysfunction,dsyn,men,humn,PROCESS_OF
+16372122,ab,4,PD,dsyn,men,popg,OCCURS_IN
+16372122,ab,5,diabetic,fndg,patients,humn,PROCESS_OF
+16372122,ab,5,PD,dsyn,patients,humn,PROCESS_OF
+16372122,ab,7,penile,bpoc,deformity,anab,LOCATION_OF
+16372122,ab,7,diabetic,fndg,patients,humn,PROCESS_OF
+16372122,ab,7,PD,dsyn,patients,humn,PROCESS_OF
+16372122,ab,9,penile,bpoc,deformities,cgab,LOCATION_OF
+16372122,ab,10,DM,dsyn,patients,humn,PROCESS_OF
+16372122,ab,10,PD,dsyn,patients,humn,PROCESS_OF
+16372122,ab,10,injection,topp,patients,podg,TREATS
+16372122,ab,11,DM,dsyn,PD,dsyn,COEXISTS_WITH
+16372122,ab,12,Diabetic,fndg,patients,humn,PROCESS_OF
+16372122,ab,12,PD,dsyn,patients,humn,PROCESS_OF
+16372122,ab,13,diabetic,fndg,men,humn,PROCESS_OF
+16372122,ab,13,DM,dsyn,PD,dsyn,CAUSES
+16338878,ti,1,hydrometrocolpos,dsyn,peritonitis,dsyn,COEXISTS_WITH
+16338878,ab,1,reflux,patf,peritonitis,dsyn,CAUSES
+16338878,ab,1,hydrometrocolpos,dsyn,peritonitis,dsyn,CAUSES
+16338878,ab,1,vaginal atresia,cgab,peritonitis,dsyn,CAUSES
+16338878,ab,3,corpus callosum,bpoc,hypoplasia,patf,LOCATION_OF
+16899102,ti,1,treatment,topp,dogs,mamm,TREATS
+16899102,ab,2,beagle,mamm,dogs,mamm,ISA
+16597919,ti,1,interleukin-1beta,aapp,monocyte chemoattractant protein-1,gngm,STIMULATES
+16597919,ti,1,Calcitonin gene-related peptide,aapp,monocyte chemoattractant protein-1,aapp,INHIBITS
+16597919,ab,1,alveolar epithelial type       II (AEII) cells,cell,chemokines,aapp,PRODUCES
+16597919,ab,2,calcitonin gene-related peptide,aapp,neuropeptide,aapp,ISA
+16597919,ab,2,AEII cells,cell,calcitonin gene-related peptide,aapp,PRODUCES
+16597919,ab,3,IL-1beta,aapp,monocyte chemoattractant protein (MCP)-1,gngm,STIMULATES
+16597919,ab,4,MCP-1,aapp,CGRP,aapp,INHIBITS
+16597919,ab,5,IL-1beta,aapp,MCP-1,gngm,STIMULATES
+16597919,ab,5,hCGRP,aapp,mRNA,bacs,INHIBITS
+16597919,ab,5,CGRP,aapp,mRNA,bacs,INHIBITS
+16597919,ab,5,MCP-1,aapp,mRNA,bacs,INHIBITS
+16597919,ab,5,MCP-1,aapp,mRNA,bacs,INHIBITS
+16597919,ab,6,IL-1beta,aapp,MCP-1,gngm,STIMULATES
+16597919,ab,6,CGRP,aapp,MCP-1,aapp,INHIBITS
+16597919,ab,7,CGRP,aapp,NF-kappaB,aapp,INHIBITS
+16597919,ab,8,IL-1beta,aapp,reactive oxygen species,bacs,STIMULATES
+16597919,ab,8,CGRP,aapp,reactive oxygen species,bacs,INHIBITS
+16597919,ab,9,cAMP,gngm,intracellular,celc,PART_OF
+16597919,ab,9,IL-1beta,aapp,ROS,bacs,STIMULATES
+16597919,ab,9,analogs,chvs,cAMP,aapp,INTERACTS_WITH
+16531984,ti,1,ESRD,dsyn,patients,humn,PROCESS_OF
+16531984,ti,1,N-3 PUFAs,phsu,oxidative stress,comd,PREVENTS
+16531984,ti,1,oxidative stress,comd,patients,humn,PROCESS_OF
+16531984,ab,2,end-stage renal disease,dsyn,patients,humn,PROCESS_OF
+16531984,ab,2,Lox,aapp,peripheral blood mononuclear       cells,cell,STIMULATES
+16531984,ab,2,peripheral blood mononuclear       cells,cell,patients,humn,PART_OF
+16531984,ab,3,n-3 polyunsaturated fatty acids,bacs,coronary       heart disease,dsyn,ASSOCIATED_WITH
+16531984,ab,5,ESRD,dsyn,patients,humn,PROCESS_OF
+16531984,ab,7,LTB,aapp,Lox,aapp,INTERACTS_WITH
+16531984,ab,9,vitamin E,lipd,Lox,gngm,INHIBITS
+16531984,ab,10,ESRD,dsyn,patients,humn,PROCESS_OF
+16531984,ab,10,PBMCs,cell,apoptosis,celf,LOCATION_OF
+16531984,ab,10,apoptosis,celf,patients,humn,PROCESS_OF
+16531984,ab,11,ESRD,dsyn,patients,humn,PROCESS_OF
+16531984,ab,11,PBMCs,cell,patients,humn,PART_OF
+17182661,ab,1,Lobular neoplasia,neop,lesion,fndg,ISA
+17182661,ab,1,biopsy specimens,tisu,Lobular neoplasia,neop,LOCATION_OF
+16328359,ab,1,teeth,bpoc,teleost fish,fish,PART_OF
+16328359,ab,1,study,resa,light microscope,medd,USES
+16328359,ab,2,anti-actin polyclonal antibody,aapp,anti-rabbit IgG,aapp,INTERACTS_WITH
+16328359,ab,4,direction,spco,odontoclasts,cell,LOCATION_OF
+16328359,ab,6,actin,gngm,Chinook salmon,fish,PART_OF
+16606611,ab,1,locus control       region,bacs,globin,aapp,INTERACTS_WITH
+16606611,ab,1,transcription factors,aapp,globin,aapp,INTERACTS_WITH
+16606611,ab,2,LCR,bacs,individual,humn,PART_OF
+16606611,ab,4,globin,aapp,adult,humn,PART_OF
+16606611,ab,5,globin,aapp,adult,humn,PART_OF
+16606611,ab,5,cells,cell,globin,aapp,LOCATION_OF
+16606611,ab,7,LCR,bacs,globin,aapp,INTERACTS_WITH
+16606611,ab,7,erythroid transcription       factor,aapp,globin,aapp,INTERACTS_WITH
+16020163,ti,1,suicidality,fndg,persons,humn,PROCESS_OF
+16020163,ab,1,suicidality,fndg,individuals,humn,PROCESS_OF
+16020163,ab,1,psychiatric problems,mobd,individuals,humn,PROCESS_OF
+16020163,ab,2,men,popg,adult,aggp,ISA
+16020163,ab,2,suicide,inpo,Black,humn,PROCESS_OF
+16020163,ab,5,well-being,fndg,suicidal ideation,fndg,PREDISPOSES
+16160855,ab,1,muscle,tisu,reinnervation,ortf,LOCATION_OF
+16160855,ab,2,cutting,topp,Denervation,topp,METHOD_OF
+16160855,ab,4,muscle,tisu,SOL,bpoc,PART_OF
+16160855,ab,4,muscle,tisu,nerve crush,topp,LOCATION_OF
+16160855,ab,6,fibre,tisu,individual,humn,PART_OF
+16160855,ab,11,muscle,tisu,soleus,bpoc,PART_OF
+15818416,ti,1,cardiolipin,lipd,tBid,gngm,INTERACTS_WITH
+15818416,ab,1,Bid,gngm,cytosolic,celc,PART_OF
+15818416,ab,1,mitochondria,celc,Bid,aapp,LOCATION_OF
+15818416,ab,2,homeostasis,orgf,bioenergetic,orgf,ISA
+15818416,ab,3,adenosine diphosphate,nnon,phosphorylation,moft,AUGMENTS
+15818416,ab,3,adenosine diphosphate,nnon,respiration,phsf,AUGMENTS
+15818416,ab,5,mitochondrial membranes,celc,cardiolipin,lipd,LOCATION_OF
+15818416,ab,6,cardiolipin,lipd,tBid,gngm,INTERACTS_WITH
+15818416,ab,7,mitochondria,celc,yeast,fngs,PART_OF
+15818416,ab,7,ATP,aapp,respiration,phsf,AFFECTS
+15818416,ab,7,ADP,nnon,respiration,phsf,AUGMENTS
+15872117,ti,1,DNA-binding,genf,nuclear factor-kappa B,gngm,PROCESS_OF
+15872117,ti,1,diterpenoids,orch,DNA-binding,genf,DISRUPTS
+15872117,ab,1,inhibitors,chvf,cancer,neop,TREATS
+15872117,ab,1,inhibitors,chvf,autoimmune,patf,TREATS
+15872117,ab,1,inhibitors,chvf,inflammatory diseases,dsyn,TREATS
+15872117,ab,2,oridonin,bacs,diterpenoids,orch,ISA
+15872117,ab,5,diterpenoids,orch,DNA-binding,genf,DISRUPTS
+15872117,ab,6,Oridonin,orch,IkappaB-alpha,aapp,INTERACTS_WITH
+15872117,ab,6,ponicidin,orch,IkappaB-alpha,aapp,INTERACTS_WITH
+15872117,ab,10,diterpenoids,orch,app,gngm,INHIBITS
+15872117,ab,11,sequences,nnon,transcription factor,aapp,INTERACTS_WITH
+15872117,ab,11,p65,gngm,DNA       binding,genf,LOCATION_OF
+15872117,ab,11,p50,aapp,DNA       binding,genf,LOCATION_OF
+16126188,ab,4,plasma,bdsu,maternal,humn,PART_OF
+16126188,ab,4,plasma,bdsu,DNA,bacs,LOCATION_OF
+16126188,ab,7,plasma,bdsu,RNA,bacs,LOCATION_OF
+16126188,ab,7,plasma,bdsu,cancer       patients,humn,PART_OF
+16126188,ab,8,plasma,bdsu,maternal,humn,PART_OF
+16126188,ab,8,plasma,bdsu,RNA,bacs,LOCATION_OF
+16126188,ab,11,patients,humn,urine,bdsu,LOCATION_OF
+16126188,ab,11,body fluids,bdsu,DNA,bacs,LOCATION_OF
+16126188,ab,11,plasma,bdsu,DNA,bacs,LOCATION_OF
+16126188,ab,11,plasma,bdsu,RNA,bacs,LOCATION_OF
+16126188,ab,11,serum,bdsu,RNA,bacs,LOCATION_OF
+16126188,ab,11,serum,bdsu,DNA,bacs,LOCATION_OF
+16172797,ti,1,breast,bpoc,High grade primary breast lymphoma,neop,LOCATION_OF
+16172797,ab,1,lymphomas,neop,neoplasm,neop,ISA
+16172797,ab,4,treatment,topp,patients,podg,TREATS
+16172797,ab,4,chemotherapy,topp,radiotherapy,topp,PRECEDES
+16172797,ab,4,chemotherapy,topp,regimens,topp,PRECEDES
+16172797,ab,6,treatment,topp,patients,podg,TREATS
+16172797,ab,8,chemotherapy,topp,patients,podg,TREATS
+16266740,ti,1,grains,plnt,Cadmium,elii,LOCATION_OF
+16266740,ab,1,grains,plnt,Cadmium,elii,LOCATION_OF
+16266740,ab,2,grains,plnt,Cd,elii,LOCATION_OF
+16266740,ab,2,grains,plnt,Cd,elii,LOCATION_OF
+16266740,ab,3,rice,food,grains,food,ISA
+16266740,ab,6,grains,plnt,Cd,elii,LOCATION_OF
+16266740,ab,7,grains,plnt,Cd,elii,LOCATION_OF
+16216070,ab,4,cb5r,aapp,rat,mamm,PART_OF
+16216070,ab,4,cb5r,aapp,Escherichia coli,bact,INTERACTS_WITH
+16216070,ab,10,cysteine,aapp,NADH,bacs,INTERACTS_WITH
+16181881,ti,1,surgery,topp,atrial fibrillation,patf,TREATS
+16181881,ab,1,lone atrial fibrillation,dsyn,patients,humn,PROCESS_OF
+16181881,ab,1,surgery,topp,patients,podg,TREATS
+16181881,ab,7,block,patf,pigs,mamm,PROCESS_OF
+16181881,ab,9,AF,patf,pigs,mamm,PROCESS_OF
+16877721,ti,1,endostatin,aapp,human,humn,PART_OF
+16877721,ti,1,neuroendocrine tumors,neop,patients,humn,PROCESS_OF
+16877721,ti,1,endostatin,phsu,patients,podg,TREATS
+16877721,ab,1,Endostatin,aapp,collagen XVIII,aapp,ISA
+16877721,ab,2,endostatin,aapp,human,humn,PART_OF
+16877721,ab,2,endostatin,aapp,neuroendocrine tumors,neop,ASSOCIATED_WITH
+16877721,ab,3,pancreatic,bpoc,neuroendocrine tumors,neop,LOCATION_OF
+16877721,ab,4,carcinoid       tumors,neop,patients,humn,PROCESS_OF
+16877721,ab,4,pancreatic endocrine tumors,neop,patients,humn,PROCESS_OF
+16877721,ab,8,partial response,fndg,patients,humn,PROCESS_OF
+16877721,ab,10,neuroendocrine tumors,neop,patients,humn,PROCESS_OF
+16877721,ab,10,Treatment,topp,patients,podg,TREATS
+16776793,ti,1,group,hcro,academic detailing,edac,LOCATION_OF
+16776793,ti,1,medications,phsu,people,popg,TREATS
+16776793,ab,1,group,hcro,academic detailing,edac,LOCATION_OF
+16776793,ab,1,dispensing       potentially inappropriate medications,topp,people,popg,TREATS
+16776793,ab,2,group,hcro,academic detailing,edac,LOCATION_OF
+16776793,ab,7,group,hcro,academic detailing,edac,LOCATION_OF
+16776793,ab,10,Group,hcro,academic detailing,edac,LOCATION_OF
+16483645,ti,1,vaginal,bpoc,estrogen receptor-alpha,aapp,LOCATION_OF
+16483645,ti,1,tumor tissues,bpoc,estrogen receptor-alpha,aapp,LOCATION_OF
+16483645,ab,2,tissues,tisu,neoplastic,neop,PART_OF
+16483645,ab,2,ER-alpha,aapp,estrogen       receptor,aapp,ISA
+16483645,ab,2,study,resa,estrogen       receptor,aapp,MEASURES
+16483645,ab,2,tissues,tisu,bitches,mamm,PART_OF
+16483645,ab,2,vaginal,bpoc,bitches,mamm,PART_OF
+16483645,ab,4,vaginal,bpoc,exfoliative vaginal cytology,diap,LOCATION_OF
+16483645,ab,5,tissues,tisu,neoplastic,neop,PART_OF
+16483645,ab,5,formaldehyde,hops,paraffin,lipd,COEXISTS_WITH
+16483645,ab,8,tissues,tisu,neoplastic,neop,PART_OF
+16483645,ab,8,tissues,tisu,ER-alpha,aapp,LOCATION_OF
+16483645,ab,8,endothelium,tisu,blood vessels,bpoc,PART_OF
+16483645,ab,9,tissues,tisu,neoplastic,neop,PART_OF
+16483645,ab,9,tissues,tisu,tumor,neop,LOCATION_OF
+16483645,ab,9,ER-alpha,aapp,steroid,strd,INTERACTS_WITH
+16024249,ti,1,Fasciolosis,dsyn,patient,humn,PROCESS_OF
+16024249,ab,1,Fasciolosis,dsyn,disease,dsyn,ISA
+16024249,ab,1,parasitic       infections,dsyn,disease,dsyn,ISA
+16024249,ab,1,breast,bpoc,parasitic       infections,dsyn,LOCATION_OF
+16030174,ti,1,inhibin,aapp,polycystic ovary syndrome,dsyn,ASSOCIATED_WITH
+16030174,ab,1,polycystic ovary syndrome,dsyn,women,humn,PROCESS_OF
+16030174,ab,1,granulosa cells,cell,women,humn,PART_OF
+16030174,ab,2,protein concentrations,lbpr,inhibin B,aapp,USES
+16030174,ab,2,inhibin,aapp,follicles,bpoc,AFFECTS
+16030174,ab,5,PCOS,dsyn,women,humn,PROCESS_OF
+16030174,ab,6,follicles,bpoc,women,humn,PART_OF
+16030174,ab,6,PCOS,dsyn,women,humn,PROCESS_OF
+16030174,ab,8,follicular fluid,bdsu,follicles,bpoc,PART_OF
+16030174,ab,9,follicular fluid,bdsu,Inhibin,aapp,LOCATION_OF
+16030174,ab,10,Inhibin,aapp,follicle,bpoc,AUGMENTS
+16030174,ab,10,follicles,bpoc,follicular fluid,bdsu,LOCATION_OF
+16030174,ab,11,follicular fluid,bdsu,women,humn,PART_OF
+16030174,ab,11,PCOS,dsyn,women,humn,PROCESS_OF
+16030174,ab,11,inhibin B,aapp,inhibin,aapp,compared_with
+16030174,ab,11,follicular fluid,bdsu,follicles,bpoc,PART_OF
+16030174,ab,11,follicular fluid,bdsu,inhibin,aapp,LOCATION_OF
+16030174,ab,11,follicular fluid,bdsu,inhibin B,aapp,LOCATION_OF
+16030174,ab,12,follicle,bpoc,inhibins,aapp,LOCATION_OF
+16030174,ab,12,inhibin,aapp,PCOS,dsyn,ASSOCIATED_WITH
+16332537,ab,2,neurons,cell,visual cortical,bpoc,PART_OF
+16332537,ab,5,retina,bpoc,brain-derived neurotrophic factor,aapp,LOCATION_OF
+16332537,ab,6,retina,bpoc,rats,mamm,PART_OF
+16332537,ab,6,BDNF,aapp,retina,bpoc,DISRUPTS
+16332537,ab,7,eye,bpoc,BDNF,aapp,LOCATION_OF
+16332537,ab,7,eye,bpoc,BDNF,aapp,LOCATION_OF
+16332537,ab,9,animals,anim,BDNF,aapp,LOCATION_OF
+16332537,ab,10,retina,bpoc,BDNF,aapp,LOCATION_OF
+16608828,ab,1,radon,elii,lung cancer,neop,PREDISPOSES
+16608828,ab,4,lung,bpoc,carcinogen,hops,LOCATION_OF
+16608828,ab,8,detectors,medd,track,mnob,USES
+16608828,ab,21,radon,elii,lung       cancer,neop,ASSOCIATED_WITH
+15927218,ti,1,cysticercosis,dsyn,patients,humn,PROCESS_OF
+15927218,ab,1,Neurocysticercosis,dsyn,neurological       disease,dsyn,ISA
+15927218,ab,1,Neurocysticercosis,dsyn,neurological       disease,dsyn,CAUSES
+15927218,ab,2,cysticercosis,dsyn,human,humn,PROCESS_OF
+15927218,ab,2,ELISA,lbpr,glycoproteins,aapp,USES
+15927218,ab,2,immunoblotting,lbpr,glycoproteins,aapp,USES
+15927218,ab,2,isoelectric focusing,lbpr,cysticercosis,dsyn,DIAGNOSES
+15927218,ab,3,NCC,dsyn,inpatients,podg,PROCESS_OF
+15927218,ab,3,NCC,dsyn,outpatients,humn,PROCESS_OF
+15927218,ab,6,cysticercosis,dsyn,patients,humn,PROCESS_OF
+15927218,ab,7,lesions,fndg,patients,humn,PROCESS_OF
+15927218,ab,8,cysticercosis,dsyn,patients,humn,PROCESS_OF
+15927218,ab,8,ELISA,lbpr,asymptomatic,fndg,DIAGNOSES
+15927218,ab,8,immunoblotting assays,lbpr,asymptomatic,fndg,DIAGNOSES
+16121636,ab,1,bone marrow trephine,diap,biopsies,diap,ISA
+16121636,ab,2,trephine       biopsies,diap,stained,irda,USES
+16121636,ab,2,morphometry,lbpr,image,diap,ISA
+16121636,ab,2,morphometry,lbpr,hematoxylin-eosin-stained,irda,USES
+16025281,ti,1,lymphoid tissues,tisu,neoplastic,neop,PART_OF
+16025281,ab,2,BAFF-R,gngm,human,humn,PART_OF
+16025281,ab,4,area,spco,lymphocytes,cell,LOCATION_OF
+16025281,ab,6,B-cell lymphoma,neop,T/NK cell lymphomas,neop,COEXISTS_WITH
+16025281,ab,7,B-cell,cell,neoplasms,neop,LOCATION_OF
+16025281,ab,7,BAFF-R,gngm,neoplasms,neop,ASSOCIATED_WITH
+16641628,ti,1,Treacher       Collins syndrome,cgab,hypoplasia,patf,COEXISTS_WITH
+16641628,ab,2,ocular,bpoc,malformations,cgab,LOCATION_OF
+16641628,ab,4,reconstructive surgeries,topp,patients,podg,TREATS
+16641628,ab,6,Treacher Collins syndrome,cgab,patients,humn,PART_OF
+16641628,ab,7,reconstruction,topp,patients,humn,ADMINISTERED_TO
+16641628,ab,10,grafts,tisu,vein,bpoc,PART_OF
+16641628,ab,11,medical photography,diap,assessment,hlca,ISA
+16641628,ab,20,free flaps,tisu,soft-tissue,tisu,PART_OF
+16100526,ti,1,colon,bpoc,mouse,mamm,PART_OF
+16100526,ti,1,neuropeptide Y,aapp,ion transport,celf,AFFECTS
+16100526,ab,1,Neuropeptide Y,aapp,neuropeptide,aapp,ISA
+16100526,ab,1,neuropeptide,aapp,intestine,bpoc,AFFECTS
+16100526,ab,2,colon       mucosa,bpoc,mouse,mamm,PART_OF
+16100526,ab,2,Veratridine,bacs,neurons,cell,AFFECTS
+16100526,ab,2,colon       mucosa,bpoc,anion,elii,LOCATION_OF
+16100526,ab,3,veratridine,orch,mucosal,tisu,AUGMENTS
+16100526,ab,4,NPY,aapp,mice,mamm,PART_OF
+16100526,ab,6,carbachol,orch,secretory,celf,CAUSES
+16100526,ab,6,vasoactive intestinal polypeptide,gngm,secretory,celf,CAUSES
+16100526,ab,11,colon,bpoc,mouse,mamm,PART_OF
+16100526,ab,12,receptors,aapp,neurons,cell,PART_OF
+16100526,ab,12,NPY,aapp,neurotransmission,celf,DISRUPTS
+16100526,ab,15,colon,bpoc,NPY,aapp,LOCATION_OF
+16100526,ab,15,receptors,aapp,neurotransmission,celf,AFFECTS
+16480563,ab,1,Down's syndrome,dsyn,adults,humn,PROCESS_OF
+16480563,ab,1,executive function,menp,adults,humn,PROCESS_OF
+16480563,ab,2,Down's syndrome,dsyn,Participants,humn,PROCESS_OF
+16480563,ab,5,Down's syndrome,dsyn,group,humn,PROCESS_OF
+16480563,ab,6,Down's       syndrome,cgab,abnormal development,cgab,ISA
+16480563,ab,6,prefrontal cortex,bpoc,abnormal development,cgab,LOCATION_OF
+16480563,ab,6,abnormal development,cgab,Down's       syndrome,dsyn,CAUSES
+16480563,ab,7,Down's syndrome,dsyn,people,humn,PROCESS_OF
+16480563,ab,7,dementia,mobd,people,humn,PROCESS_OF
+16480563,ab,8,Down's syndrome,dsyn,people,humn,PROCESS_OF
+16480563,ab,8,executive function,menp,people,humn,PROCESS_OF
+17131231,ti,1,Dystonia,sosy,Parkinson's disease,dsyn,ASSOCIATED_WITH
+17131231,ab,1,Dystonia,sosy,idiopathic Parkinson's disease,dsyn,ASSOCIATED_WITH
+17131231,ab,3,dystonia,sosy,parkinsonian syndromes,dsyn,ASSOCIATED_WITH
+17131231,ab,4,foot,bpoc,dystonia,sosy,LOCATION_OF
+17131231,ab,4,Dystonia,sosy,Parkinson disease,dsyn,COEXISTS_WITH
+17131231,ab,5,progressive supranuclear palsy,dsyn,Parkinson's disease,dsyn,ISA
+17131231,ab,5,corticobasal degeneration,dsyn,Parkinson's disease,dsyn,ISA
+17131231,ab,5,multiple       system atrophy,dsyn,Parkinson's disease,dsyn,ISA
+17131231,ab,5,dystonia,sosy,patients,humn,PROCESS_OF
+17131231,ab,5,parkinsonism,dsyn,patients,humn,PROCESS_OF
+17131231,ab,7,levodopa,aapp,therapy,topp,ISA
+17131231,ab,7,therapy,topp,levodopa,aapp,USES
+17131231,ab,7,therapy,topp,complication,patf,TREATS
+17131231,ab,9,oculomotor cranial nerves,bpoc,cranial,bpoc,PART_OF
+17131231,ab,9,Parkinson's disease,dsyn,patients,humn,PROCESS_OF
+17131231,ab,9,Dystonic reactions,fndg,patients,humn,PROCESS_OF
+17131231,ab,9,dystonia,sosy,patients,humn,PROCESS_OF
+16929605,ti,1,laparotomic,topp,incision,topp,ISA
+16929605,ab,1,laparotomic,topp,incision,topp,ISA
+16929605,ab,1,incision,topp,radical retropubic prostatectomy,topp,METHOD_OF
+16929605,ab,5,laparotomic,topp,incision,topp,ISA
+16929605,ab,7,blood       loss,fndg,patients,humn,PROCESS_OF
+16929605,ab,8,laparotomic,topp,incision,topp,ISA
+16787352,ti,1,OCA-983,plnt,carbamates,orch,LOCATION_OF
+16787352,ti,1,OCA-983,plnt,esters,orch,LOCATION_OF
+16787352,ab,2,1-hexanol,orch,water,inch,COEXISTS_WITH
+16787352,ab,2,1-pentanol,orch,water,inch,COEXISTS_WITH
+16787352,ab,2,1-butanol,lipd,water,inch,COEXISTS_WITH
+16787352,ab,3,acetates,orch,water,inch,COEXISTS_WITH
+16167756,ab,1,SS,dsyn,disease,dsyn,ISA
+16167756,ab,1,disease,dsyn,babies,humn,PROCESS_OF
+15853477,ti,1,dysfunction,patf,major depressive disorder,mobd,COEXISTS_WITH
+15853477,ab,1,dysfunction,patf,major depression,mobd,COEXISTS_WITH
+15853477,ab,4,depression,mobd,geriatric,humn,PROCESS_OF
+15853477,ab,5,disability,patf,dysfunction,patf,COEXISTS_WITH
+15853477,ab,5,dysfunction,patf,depression,mobd,COEXISTS_WITH
+15853477,ab,6,dysfunction,patf,depression,mobd,COEXISTS_WITH
+15853477,ab,6,interventions,hlca,dysfunction,patf,TREATS
+15853477,ab,6,interventions,hlca,dysfunction,patf,TREATS
+16232237,ti,1,colorectal cancer,neop,patients,humn,PROCESS_OF
+16232237,ab,1,analysis,resa,differences,qnco,MEASURES
+16232237,ab,1,Hospital,hcro,analysis,resa,LOCATION_OF
+16232237,ab,7,Bangladeshi,popg,population,popg,ISA
+16232237,ab,9,advanced disease,fndg,patients,humn,PROCESS_OF
+16232237,ab,12,Bangladeshi,popg,population,popg,ISA
+16232237,ab,12,Colorectal cancer,neop,patients,humn,PROCESS_OF
+16232237,ab,13,cancer,neop,patients,humn,PROCESS_OF
+16232237,ab,16,symptoms,sosy,patients,humn,PROCESS_OF
+16411522,ti,1,reinsertion,topp,pseudomonas aeruginosa exit-site infection,dsyn,TREATS
+16411522,ti,1,removal,topp,pseudomonas aeruginosa exit-site infection,dsyn,TREATS
+16411522,ab,1,treatment,topp,antibiotic,antb,USES
+16411522,ab,1,treatment,topp,Pseudomonas aeruginosa exit-site infection,dsyn,AFFECTS
+16411522,ab,3,treatment,topp,dialysis catheters,medd,USES
+16411522,ab,4,treatment,topp,PDC,medd,USES
+16411522,ab,8,operation,topp,patients,podg,TREATS
+16411522,ab,11,treatment,topp,antibiotic,antb,USES
+16411522,ab,11,antibiotic,antb,patients,podg,TREATS
+16411522,ab,15,P. aeruginosa,bact,Peritonitis,dsyn,CAUSES
+16304222,ti,1,anticoagulation,topp,patients,podg,TREATS
+16304222,ti,1,patients,podg,mechanical heart valves,medd,USES
+16304222,ab,1,heart valve       replacement,topp,anticoagulation,topp,PRECEDES
+16304222,ab,1,anticoagulation,topp,patients,podg,TREATS
+16304222,ab,7,patients,podg,mechanical heart valves,medd,USES
+16304222,ab,8,anticoagulation,topp,thromboembolism,patf,PREVENTS
+16376670,ti,1,Langerhans cell       histiocytosis,dsyn,Anterior uveitis,dsyn,COEXISTS_WITH
+16376670,ti,1,Langerhans cell       histiocytosis,dsyn,iris nodules,fndg,COEXISTS_WITH
+16376670,ab,3,anterior uveitis,dsyn,patient,humn,PROCESS_OF
+16376670,ab,3,iris       nodules,fndg,patient,humn,PROCESS_OF
+16376670,ab,5,inflammation,patf,patient,humn,PROCESS_OF
+16376670,ab,5,iris nodules,fndg,patient,humn,PROCESS_OF
+16376670,ab,9,corticosteroid therapy,topp,LCH,dsyn,TREATS
+16879324,ti,1,Melatonin,horm,permeability,npop,AUGMENTS
+16879324,ti,1,transient focal cerebral ischemia,dsyn,mice,mamm,PROCESS_OF
+16879324,ab,1,melatonin,horm,blood-brain barrier,ortf,AUGMENTS
+16879324,ab,1,ischemic stroke,dsyn,mice,mamm,PROCESS_OF
+16879324,ab,2,melatonin,horm,permeability,npop,AUGMENTS
+16879324,ab,2,transient focal cerebral ischemia,dsyn,mice,mamm,PROCESS_OF
+16879324,ab,4,nitrotyrosine,aapp,nitrogen,elii,COEXISTS_WITH
+16879324,ab,4,nitrotyrosine,aapp,oxygen,elii,COEXISTS_WITH
+16879324,ab,6,HEt,orch,nitrotyrosine,gngm,INHIBITS
+16879324,ab,8,transient focal cerebral ischemia,dsyn,mice,mamm,PROCESS_OF
+16879324,ab,9,melatonin,horm,ischemic stroke,dsyn,TREATS
+16751040,ab,1,ophthalmic findings,sosy,patients,humn,PROCESS_OF
+16751040,ab,1,cardiomyopathy,dsyn,ophthalmic findings,sosy,CAUSES
+16751040,ab,1,Danon       disease,dsyn,patients,humn,PROCESS_OF
+16751040,ab,1,cardiomyopathy,dsyn,females,popg,PROCESS_OF
+16751040,ab,1,cardiomyopathy,dsyn,males,humn,PROCESS_OF
+16751040,ab,3,Danon disease,dsyn,Patients,humn,PROCESS_OF
+16751040,ab,9,retinopathy,dsyn,patients,humn,PROCESS_OF
+16751040,ab,9,Danon disease,dsyn,patients,humn,PROCESS_OF
+16207633,ab,1,micronuclei,celc,mouse,mamm,PART_OF
+16207633,ab,3,CHO cells,cell,BaP,aapp,LOCATION_OF
+16207633,ab,4,treatment,topp,BaP,aapp,USES
+16207633,ab,5,CHO,bpoc,CHO,mamm,PART_OF
+16207633,ab,5,cells,cell,bone       marrow,bpoc,PART_OF
+16207633,ab,5,cells,cell,CHO,bpoc,PART_OF
+16207633,ab,6,MRP2,gngm,cells,cell,INTERACTS_WITH
+16207633,ab,6,MDR1,gngm,cells,cell,INTERACTS_WITH
+16207633,ab,8,BaP,gngm,mutagenicity,hops,STIMULATES
+16584203,ti,1,Hansenula polymorpha,fngs,copper amine oxidase,aapp,LOCATION_OF
+16584203,ab,1,Saccharomyces cerevisiae,fngs,copper amine oxidase,aapp,LOCATION_OF
+16584203,ab,1,Hansenula polymorpha,fngs,copper amine oxidase,aapp,LOCATION_OF
+16902165,ti,1,chronic ischemic heart       disease,dsyn,patients,humn,PROCESS_OF
+16902165,ab,3,chronic ischemic heart disease,dsyn,patients,humn,PROCESS_OF
+16902165,ab,3,EPC,phsu,patients,podg,TREATS
+16902165,ab,4,CIHD,dsyn,patients,humn,PROCESS_OF
+16902165,ab,6,G-CSF,aapp,treatment,topp,ISA
+16902165,ab,6,treatment,topp,G-CSF,aapp,USES
+16902165,ab,7,G-CSF,aapp,treatment,topp,ISA
+16902165,ab,7,treatment,topp,G-CSF,aapp,USES
+16902165,ab,8,G-CSF,aapp,treatment,topp,ISA
+16902165,ab,8,treatment,topp,G-CSF,aapp,USES
+16902165,ab,9,analysis,resa,cell sorter,medd,USES
+16902165,ab,11,hind limb,blor,ischemia,dsyn,LOCATION_OF
+16902165,ab,12,limb,bpoc,necrosis,patf,LOCATION_OF
+16902165,ab,13,G-CSF,aapp,treatment,topp,ISA
+16902165,ab,13,treatment,topp,G-CSF,aapp,USES
+16902165,ab,13,treatment,topp,infusion,topp,PRECEDES
+16902165,ab,13,treatment,topp,blood flow,orgf,STIMULATES
+16902165,ab,13,infusion,topp,necrosis,patf,PREVENTS
+16902165,ab,14,G-CSF,aapp,treatment,topp,ISA
+16902165,ab,14,treatment,topp,G-CSF,aapp,USES
+16038840,ti,1,colon,bpoc,Toxic effects,inpo,LOCATION_OF
+16038840,ti,1,small bowel,bpoc,Toxic effects,inpo,LOCATION_OF
+16038840,ti,1,rectum,bpoc,Toxic effects,inpo,LOCATION_OF
+16038840,ab,2,therapy,topp,NSAID,phsu,USES
+16038840,ab,2,therapy,topp,enteropathy,dsyn,CAUSES
+16038840,ab,3,Chronic occult bleeding,patf,iron-deficiency anemia,dsyn,CAUSES
+16038840,ab,4,NSAIDs,phsu,small       bowel ulcers,anab,CAUSES
+16038840,ab,4,small       bowel ulcers,dsyn,acute bleeding,patf,CAUSES
+16038840,ab,7,diverticular disease,dsyn,patients,humn,PROCESS_OF
+16038840,ab,9,COX-2 inhibitors,orch,NSAIDs,phsu,compared_with
+16038840,ab,10,therapy,topp,COX-2 inhibitor,phsu,USES
+16038840,ab,10,COX-2 inhibitor,orch,therapy,topp,ISA
+16038840,ab,11,COX-2       inhibitors,orch,inflammatory       bowel disease,dsyn,AFFECTS
+16551631,ti,1,breast cancer cells,cell,Parathyroid hormone-related protein,aapp,LOCATION_OF
+16551631,ab,1,breast cancer cells,cell,gene expression,genf,LOCATION_OF
+16551631,ab,2,RNA interference,genf,gene expression,genf,ASSOCIATED_WITH
+16551631,ab,2,cells,cell,PTHrP,aapp,LOCATION_OF
+16551631,ab,5,cells,cell,CDC2,aapp,LOCATION_OF
+16551631,ab,6,PTHrP,aapp,CDC25B,gngm,INTERACTS_WITH
+16551631,ab,6,PTHrP,aapp,CDC2,gngm,INTERACTS_WITH
+16551631,ab,8,PAI-1,gngm,cells,cell,DISRUPTS
+16551631,ab,8,ITGA6,gngm,cells,cell,DISRUPTS
+16551631,ab,8,KISS-1,gngm,cells,cell,DISRUPTS
+16551631,ab,9,breast,bpoc,primary breast carcinomas,neop,LOCATION_OF
+16551631,ab,9,RNA,bacs,ITGA6,aapp,PART_OF
+16551631,ab,10,PTHrP,gngm,gene expression,genf,AFFECTS
+16551631,ab,10,breast cancer cells,cell,gene expression,genf,LOCATION_OF
+17663001,ti,1,invasive breast carcinoma,neop,patients,humn,PROCESS_OF
+17663001,ti,1,patients,humn,MMP-1,aapp,LOCATION_OF
+17663001,ab,1,Matrix metalloproteinase 1,aapp,extracellular       matrix,tisu,DISRUPTS
+17663001,ab,2,invasive breast carcinoma,neop,patients,humn,PROCESS_OF
+17663001,ab,3,breast carcinoma,neop,patients,humn,PROCESS_OF
+17663001,ab,4,reverse transcriptase polymerase chain       reaction,mbrt,MMP-1,aapp,MEASURES
+17663001,ab,7,MMP-1,aapp,estrogen       receptor,gngm,COEXISTS_WITH
+17663001,ab,8,RT-PCR,mbrt,MMP-1,aapp,MEASURES
+17663001,ab,10,estrogen       receptor,gngm,carcinomas,neop,PART_OF
+17663001,ab,10,patients,humn,MMP-1,aapp,LOCATION_OF
+17663001,ab,11,breast cancer,neop,human,humn,PROCESS_OF
+16185321,ti,1,cell markers,lbpr,killer,aapp,USES
+15927258,ab,4,titrations,lbpr,EPR,lbpr,USES
+16412044,ti,1,beta-adrenergic receptor,aapp,human,humn,PART_OF
+16412044,ti,1,synthetic peptide,aapp,rats,mamm,PART_OF
+16412044,ti,1,active immunization,topp,cardiomyopathic,dsyn,CAUSES
+16412044,ab,1,heart,bpoc,human,humn,PART_OF
+16412044,ab,2,synthetic peptide,aapp,rats,mamm,PART_OF
+16412044,ab,2,cardiomyopathy,dsyn,autoimmune,patf,MANIFESTATION_OF
+16412044,ab,2,beta1AR,aapp,cardiomyopathy,dsyn,ASSOCIATED_WITH
+16412044,ab,4,cardiomyocytes,cell,autoantibodies,aapp,LOCATION_OF
+16412044,ab,6,GRK2,aapp,kinase,aapp,ISA
+16412044,ab,7,immunization,topp,cardiomyopathy,dsyn,CAUSES
+16412044,ab,7,GRK2,gngm,up-regulation,genf,LOCATION_OF
+16412044,ab,7,GRK2,aapp,beta1AR,aapp,INTERACTS_WITH
+16412044,ab,7,antigenic,bacs,rats,mamm,ADMINISTERED_TO
+16225901,ab,2,oxygen,elii,iron,bacs,INTERACTS_WITH
+16519885,ab,3,Rho,gngm,vinculin,gngm,STIMULATES
+16519885,ab,4,Inhibitors,chvf,myosin II ATPase,aapp,INTERACTS_WITH
+16519885,ab,4,Inhibitors,chvf,myosin II,enzy,INTERACTS_WITH
+16519885,ab,4,myosin II,aapp,Rho,gngm,INTERACTS_WITH
+16519885,ab,6,epithelial       MTD-1A cells,cell,myosin II,aapp,LOCATION_OF
+16519885,ab,9,actomyosin,aapp,tension,mobd,CAUSES
+15953529,ti,1,treatment,topp,aminoglycoside,carb,USES
+15953529,ti,1,mouse vestibular       epithelia,bdsu,vestibular,bpoc,PART_OF
+15953529,ab,1,epithelial cells,cell,cell-cell adhesion,celf,LOCATION_OF
+15953529,ab,1,desmosomes,celc,cell-cell adhesion,celf,AFFECTS
+15953529,ab,1,adherens junctions,celc,cell-cell adhesion,celf,AFFECTS
+15953529,ab,2,E-cadherin,aapp,AJ,celc,PART_OF
+15953529,ab,3,mouse vestibular epithelia,bdsu,vestibular,bpoc,PART_OF
+15953529,ab,3,transmission electron microscopy,lbpr,western blotting,lbpr,METHOD_OF
+15953529,ab,3,transmission electron microscopy,lbpr,immunohistochemistry,lbpr,METHOD_OF
+15953529,ab,3,mouse vestibular epithelia,bdsu,E-cadherin,aapp,LOCATION_OF
+15953529,ab,7,epithelia,tisu,vestibular,bpoc,PART_OF
+15953529,ab,7,epithelia,tisu,E-cadherin,aapp,LOCATION_OF
+15943571,ti,1,regimens,topp,fowlpox virus boost HIV type 1 vaccine,phsu,USES
+15943571,ti,1,DNA,bacs,regimens,resa,compared_with
+15943571,ti,1,virus,virs,macaques,mamm,PROCESS_OF
+15943571,ab,1,immunity,phsf,viremia,dsyn,AFFECTS
+15943571,ab,1,genes,gngm,immunity,phsf,CAUSES
+15943571,ab,1,immunity,phsf,primates,mamm,PROCESS_OF
+15943571,ab,3,consensus sequence,nusq,genes,gngm,CONVERTS_TO
+15943571,ab,4,Gag/Pol       antigens,bacs,Pol,aapp,PART_OF
+15943571,ab,4,DNA,bacs,Pol,gngm,INTERACTS_WITH
+15943571,ab,4,Gag/Pol       antigens,bacs,Pol,gngm,INTERACTS_WITH
+15943571,ab,5,specific T cell immunity,ortf,macaques,mamm,PROCESS_OF
+15943571,ab,5,DNA,bacs,Pol,gngm,INTERACTS_WITH
+15943571,ab,5,rFPV       vaccines,imft,Pol,gngm,INTERACTS_WITH
+16015001,ti,1,intact parathyroid hormone,horm,patients,podg,TREATS
+16015001,ab,2,intact parathyroid       hormone,horm,patients,podg,TREATS
+16015001,ab,5,serum,bdsu,phosphorus,inch,LOCATION_OF
+16015001,ab,14,bAP,aapp,iPTH,gngm,COEXISTS_WITH
+16102747,ti,1,relaxations,topp,dogs,mamm,TREATS
+16102747,ab,2,conscious,menp,dog,mamm,PROCESS_OF
+16102747,ab,2,relaxations,topp,dog,mamm,TREATS
+16102747,ab,6,relaxations,dora,gastroesophageal reflux disease,dsyn,TREATS
+16856002,ti,1,contraception,topp,oral contraceptives,phsu,USES
+16856002,ab,1,oral contraceptives,phsu,Side effects,patf,CAUSES
+16856002,ab,2,oral contraceptive pills,phsu,breakthrough bleeding,fndg,AUGMENTS
+16856002,ab,16,norethindrone,horm,levonorgestrel,phsu,compared_with
+16856002,ab,20,norethindrone,horm,progestin,horm,ISA
+16856002,ab,23,norethindrone,horm,levonorgestrel,phsu,compared_with
+16856002,ab,24,progestin,horm,regimen,resa,compared_with
+16856002,ab,24,progestin,horm,regimen,resa,higher_than
+16387100,ab,1,allograft kidneys,bpoc,glomerular diseases,dsyn,LOCATION_OF
+16387100,ab,2,graft,tisu,nephrectomies,topp,LOCATION_OF
+16387100,ab,4,biopsies,diap,assessment,hlca,ISA
+16387100,ab,4,biopsy,diap,assessment,hlca,ISA
+16387100,ab,6,biopsy,diap,diagnosis,hlca,ISA
+16387100,ab,6,diagnosis,hlca,biopsy,diap,USES
+16387100,ab,8,biopsies,diap,glomerular       diseases,dsyn,DIAGNOSES
+16387100,ab,9,allografted kidneys,bpoc,Glomerulopathy,dsyn,LOCATION_OF
+16387100,ab,11,IgAN,dsyn,pathogenesis,patf,AFFECTS
+16387100,ab,12,IgAN,dsyn,membranous GN,dsyn,COEXISTS_WITH
+16387100,ab,12,MCGN,dsyn,membranous GN,dsyn,COEXISTS_WITH
+16387100,ab,12,FSG,dsyn,membranous GN,dsyn,COEXISTS_WITH
+16604563,ti,1,Assessment,hlca,children,humn,TREATS
+16604563,ti,1,cancer,neop,children,humn,PROCESS_OF
+16604563,ab,2,cancer,neop,children,humn,PROCESS_OF
+16604563,ab,3,cancer,neop,children,humn,PROCESS_OF
+16604563,ab,6,treatment,topp,children,humn,ADMINISTERED_TO
+16604563,ab,6,treatment,topp,group,popg,TREATS
+16503761,ti,1,thiazolidinediones,phsu,diabetes,dsyn,TREATS
+16503761,ab,1,Thiazolidinediones,orch,peroxisomal proliferator-activated receptor       (PPAR)-gamma,gngm,STIMULATES
+16503761,ab,3,TZDs,orch,blood sugar,carb,INHIBITS
+16503761,ab,3,TZDs,orch,metformin,orch,INHIBITS
+16503761,ab,3,TZDs,orch,sulfonylureas,orch,INHIBITS
+16503761,ab,4,TZDs,orch,excessive weight gain,fndg,CAUSES
+16503761,ab,6,Type 2 diabetes mellitus,dsyn,patients,humn,PROCESS_OF
+16503761,ab,6,Pioglitazone,orch,complications,patf,PREVENTS
+16503761,ab,6,complications,patf,patients,humn,PROCESS_OF
+16503761,ab,7,non-alcoholic fatty liver,dsyn,disease,dsyn,ISA
+16503761,ab,7,TZDs,orch,ovulation,ortf,AFFECTS
+16503761,ab,8,metabolic syndrome,dsyn,patients,humn,PROCESS_OF
+16503761,ab,8,agonists,phsu,atherosclerotic vascular disease,dsyn,TREATS
+16503761,ab,8,agonists,phsu,insulin sensitivity,patf,TREATS
+16503761,ab,8,PPAR-alpha,aapp,PPAR-alpha/gamma,gngm,STIMULATES
+16540643,ab,12,cancerous,neop,disease progression,patf,COEXISTS_WITH
+16003269,ab,6,atrial,bpoc,contraction,patf,LOCATION_OF
+16003269,ab,8,pulmonary capillary wedge,bpoc,capillary,bpoc,PART_OF
+16003269,ab,8,pressures,phpr,congestive       heart failure,dsyn,CAUSES
+16003269,ab,9,atrial,bpoc,contraction,patf,LOCATION_OF
+16003269,ab,9,LA pressure,lbtr,congestive heart failure,dsyn,PREDISPOSES
+16003269,ab,10,LV ejection fraction,lbtr,LV       end-diastolic pressure,lbtr,COEXISTS_WITH
+15676161,ti,1,pericardium,bpoc,Congenital absence,cgab,LOCATION_OF
+15676161,ab,1,pericardium,bpoc,Congenital absence,cgab,LOCATION_OF
+15676161,ab,2,Asymptomatic,fndg,patients,humn,PROCESS_OF
+15676161,ab,3,exertional paroxysmal stabbing       chest pain,sosy,patients,humn,PROCESS_OF
+16310382,ti,1,urinary tract infection,dsyn,dairy cattle,mamm,PROCESS_OF
+16310382,ab,1,Cystitis,dsyn,cattle,mamm,PROCESS_OF
+16310382,ab,1,pyelonephritis,dsyn,cattle,mamm,PROCESS_OF
+16310382,ab,1,urethritis,dsyn,cattle,mamm,PROCESS_OF
+16310382,ab,1,urinary tract infection,dsyn,Cystitis,dsyn,CAUSES
+16310382,ab,1,urinary tract infection,dsyn,pyelonephritis,dsyn,CAUSES
+16310382,ab,1,urinary tract infection,dsyn,urethritis,dsyn,CAUSES
+16310382,ab,6,left kidney,bpoc,Enlargement,patf,LOCATION_OF
+16310382,ab,7,E. coli,bact,UTI,dsyn,CAUSES
+15958124,ab,1,CIDP,dsyn,neuropathy,dsyn,ISA
+15958124,ab,1,CIDP,dsyn,immune-mediated disorders,dsyn,ISA
+15958124,ab,2,Infections,dsyn,GBS,dsyn,CAUSES
+15958124,ab,3,Anti-ganglioside       antibodies,aapp,pathogenesis,patf,ASSOCIATED_WITH
+15958124,ab,4,intravenous immunoglobulin,aapp,GBS,dsyn,ASSOCIATED_WITH
+15958124,ab,4,intravenous immunoglobulin,aapp,CIDP,dsyn,ASSOCIATED_WITH
+15958124,ab,5,CIDP,dsyn,patients,humn,PROCESS_OF
+15958124,ab,7,trials,resa,treatment,topp,USES
+15958124,ab,8,laboratory,orgt,experiments,resa,LOCATION_OF
+15998787,ti,1,asthma,dsyn,mice,mamm,PROCESS_OF
+15998787,ab,1,Oxidative stress,comd,pathogenesis,patf,AFFECTS
+15998787,ab,2,basic leucine zipper transcription factor,aapp,transcriptional regulation,celf,AFFECTS
+15998787,ab,3,inflammation,patf,mice,mamm,PROCESS_OF
+15998787,ab,4,sensitization,menp,mice,mamm,PROCESS_OF
+15998787,ab,4,response,clna,mucus cell       hyperplasia,sosy,ASSOCIATED_WITH
+15998787,ab,5,bronchoalveolar lavage fluid,bdsu,IL-13,aapp,LOCATION_OF
+15998787,ab,5,splenocytes,cell,IL-13,aapp,LOCATION_OF
+15998787,ab,6,Nrf2,gngm,antioxidant,phsu,STIMULATES
+15998787,ab,7,allergen,imft,asthma,dsyn,AFFECTS
+16513142,ab,2,disorders,dsyn,human,humn,PROCESS_OF
+16513142,ab,2,sequences,nusq,disorders,dsyn,ASSOCIATED_WITH
+16513142,ab,3,repetitive sequences,nusq,minisatellites,bacs,COEXISTS_WITH
+16513142,ab,3,triplet repeats,bacs,DNA synthesis,genf,AFFECTS
+16513142,ab,9,triplet repeats,bacs,hnRNP A1,gngm,INHIBITS
+16513142,ab,10,cells,cell,genome,aapp,LOCATION_OF
+16513142,ab,11,diseases,dsyn,human,humn,PROCESS_OF
+16513142,ab,11,c-myc,gngm,genes,gngm,ISA
+16513142,ab,11,hnRNP,bacs,proteins,aapp,PART_OF
+16513142,ab,11,proteins,aapp,diseases,dsyn,ASSOCIATED_WITH
+16418362,ti,1,subthalamic nucleus,bpoc,human,humn,PART_OF
+16418362,ab,1,treatment,topp,Parkinson disease,dsyn,TREATS
+16418362,ab,6,deep-brain stimulation,topp,patients,podg,TREATS
+16418362,ab,6,deep-brain stimulation,topp,PD,dsyn,TREATS
+16418362,ab,12,STN,bpoc,human,humn,PART_OF
+16887433,ti,1,Prader-Willi syndrome,cgab,children,humn,PART_OF
+16887433,ti,1,children,humn,Ghrelin,aapp,LOCATION_OF
+16887433,ab,1,ghrelin,aapp,obesity,dsyn,PREDISPOSES
+16887433,ab,1,obesity,dsyn,Prader-Willi syndrome,cgab,COEXISTS_WITH
+16887433,ab,1,PWS,cgab,persons,humn,PART_OF
+16887433,ab,2,PWS,cgab,children,humn,PART_OF
+16887433,ab,2,children,humn,ghrelin,aapp,LOCATION_OF
+16887433,ab,4,fasting,fndg,control groups,humn,PROCESS_OF
+16887433,ab,6,hyperphagic,mobd,people,humn,PROCESS_OF
+16887433,ab,6,PWS,cgab,people,humn,PART_OF
+16887433,ab,6,hyperphagia,mobd,Children,humn,PROCESS_OF
+16887433,ab,6,obesity,dsyn,Children,humn,PROCESS_OF
+15499973,ab,1,Meniere's disease,dsyn,patients,humn,PROCESS_OF
+15499973,ab,6,vertigo,sosy,patients,humn,PROCESS_OF
+15499973,ab,11,surgical treatment,topp,vertigo,sosy,TREATS
+15499973,ab,11,vertigo,sosy,MD,dsyn,ASSOCIATED_WITH
+15499973,ab,11,surgical treatment,topp,bilateral MD,fndg,TREATS
+16402182,ti,1,lymphocytes,cell,splenic,bpoc,PART_OF
+16402182,ti,1,lymphocytes,cell,IgE,aapp,LOCATION_OF
+16402182,ab,1,serum,bdsu,IgE,aapp,LOCATION_OF
+16402182,ab,1,IgE,gngm,atopic       dermatitis,dsyn,ASSOCIATED_WITH
+16402182,ab,2,serum,bdsu,IgE,aapp,LOCATION_OF
+16402182,ab,4,lymphocytes,cell,splenic,bpoc,PART_OF
+16402182,ab,5,lymphocytes,cell,Splenic,bpoc,PART_OF
+16402182,ab,5,anti-CD40 antibody,aapp,IL-4,gngm,COEXISTS_WITH
+16402182,ab,6,ELISA,lbpr,supernatants,bdsu,MEASURES
+16402182,ab,8,lymphocytes,cell,splenic,bpoc,PART_OF
+16402182,ab,8,supernatant,bdsu,lymphocytes,cell,PART_OF
+16402182,ab,8,supernatant,bdsu,IgE,aapp,LOCATION_OF
+16402182,ab,10,lymphocytes,cell,splenic,bpoc,PART_OF
+16402182,ab,11,lymphocytes,cell,splenic,bpoc,PART_OF
+16402182,ab,11,lymphocytes,cell,mouse,mamm,PART_OF
+16402182,ab,11,lymphocytes,cell,IgE,aapp,PRODUCES
+16402182,ab,12,B-cells,cell,splenic,bpoc,PART_OF
+16402182,ab,12,B-cells,cell,IgE,aapp,LOCATION_OF
+16402182,ab,12,B-cells,cell,IgE,gngm,LOCATION_OF
+16402182,ab,12,IgE,gngm,IL-4,aapp,COEXISTS_WITH
+16402182,ab,12,IgE,gngm,CD40,aapp,COEXISTS_WITH
+16402182,ab,12,IgE,gngm,IL-4,aapp,COEXISTS_WITH
+16402182,ab,12,IgE,gngm,CD40,aapp,COEXISTS_WITH
+16402182,ab,13,serum,bdsu,IgE,aapp,LOCATION_OF
+16402182,ab,13,dermatitis,dsyn,patients,humn,PROCESS_OF
+16402182,ab,13,patients,humn,IgE,aapp,LOCATION_OF
+15935823,ab,1,smoking,inbe,habit,inbe,ISA
+15935823,ab,1,urine,bdsu,benzene,orch,LOCATION_OF
+15935823,ab,1,urine,bdsu,S-phenylmercapturic acid,orch,LOCATION_OF
+15935823,ab,1,S-phenylmercapturic acid,orch,benzene,hops,compared_with
+15935823,ab,3,benzene exposure,fndg,workers,humn,PROCESS_OF
+15935823,ab,5,cigarette smoking,dora,smokers,fndg,TREATS
+15935823,ab,6,smoking,inbe,habit,inbe,ISA
+16673312,ab,1,bowel,bpoc,chronic inflammatory bowel disorders,dsyn,LOCATION_OF
+16673312,ab,3,work-up,diap,Crohn's disease,dsyn,DIAGNOSES
+16673312,ab,3,work-up,diap,intestinal tuberculosis,dsyn,DIAGNOSES
+16673312,ab,5,aphthous ulcers,dsyn,ulcers,patf,ISA
+16673312,ab,5,ulcers,patf,lesions,fndg,ISA
+16673312,ab,5,intestinal tuberculosis,dsyn,patients,humn,PROCESS_OF
+16673312,ab,5,Crohn's disease,dsyn,patients,humn,PROCESS_OF
+16673312,ab,6,Crohn's disease,dsyn,patients,humn,PROCESS_OF
+16673312,ab,6,intestinal       tuberculosis,dsyn,patients,humn,PROCESS_OF
+16673312,ab,8,Crohn's disease,dsyn,patients,humn,PROCESS_OF
+16673312,ab,8,intestinal       tuberculosis,dsyn,patients,humn,PROCESS_OF
+16673312,ab,8,diagnosis,hlca,patients,humn,TREATS
+16503396,ti,1,tongue,bpoc,oral tongue cancer,neop,LOCATION_OF
+16503396,ab,1,tongue,bpoc,oral tongue       cancer,neop,LOCATION_OF
+16503396,ab,1,oral tongue       cancer,neop,patients,humn,PROCESS_OF
+16503396,ab,2,surgery,topp,patients,podg,TREATS
+16503396,ab,5,radiotherapy,topp,patients,podg,TREATS
+16503396,ab,6,external beam radiotherapy,topp,patients,podg,TREATS
+16503396,ab,6,surgery,topp,patients,podg,TREATS
+16503396,ab,11,tongue,bpoc,oral tongue cancer,neop,LOCATION_OF
+16503396,ab,11,Combined treatment,topp,patients,podg,TREATS
+15776283,ti,1,interferon-gamma,aapp,tumor,neop,PREDISPOSES
+15776283,ab,1,interferon-gamma,aapp,cytokine,aapp,ISA
+15776283,ab,1,interferon-gamma,aapp,antitumor immune responses,ortf,AUGMENTS
+15776283,ab,2,muscle,tisu,IFN-gamma,aapp,LOCATION_OF
+15776283,ab,5,IFN-gamma,aapp,Foxp3,gngm,STIMULATES
+15776283,ab,5,IFN-gamma,aapp,CTLA-4,gngm,STIMULATES
+15776283,ab,7,immunotherapy,topp,cytokine,aapp,USES
+16228202,ti,1,yeast,fngs,glucosylceramide,bacs,LOCATION_OF
+16228202,ab,1,eukaryotic,orgm,organisms,orgm,ISA
+16228202,ab,1,organisms,orgm,membrane lipid,lipd,LOCATION_OF
+16228202,ab,2,glucosylceramide,bacs,yeast,fngs,AFFECTS
+16228202,ab,2,yeast,fngs,glucosylceramide,bacs,LOCATION_OF
+16228202,ab,3,yeast,fngs,glucosylceramide,bacs,LOCATION_OF
+16228202,ab,5,lipid,lipd,glucosylceramide,bacs,INTERACTS_WITH
+16228202,ab,6,glucosylceramide,bacs,gene,gngm,COEXISTS_WITH
+16228202,ab,6,gene,gngm,glucosylceramide,bacs,INTERACTS_WITH
+16228202,ab,6,yeast,fngs,glucosylceramide,bacs,LOCATION_OF
+16228202,ab,8,glucosylceramide,bacs,yeast,fngs,PART_OF
+16228202,ab,9,yeast,fngs,glucosylceramide,bacs,LOCATION_OF
+15919385,ab,5,TU,orch,treatments,topp,ISA
+15919385,ab,6,swimming,dora,behavior,inbe,ISA
+15919385,ab,7,locomotor activity,dora,hypothyroid,dsyn,PREVENTS
+15919385,ab,10,Thyroid hormones,horm,mammals,mamm,TREATS
+16194666,ti,1,arsenic,elii,water,inch,COEXISTS_WITH
+16012316,ab,2,UIP,dsyn,patients,humn,PROCESS_OF
+16012316,ab,8,UIP,dsyn,patients,humn,PROCESS_OF
+16012316,ab,8,NSIP,dsyn,patients,humn,PROCESS_OF
+16012316,ab,8,opacity,patf,patients,humn,PROCESS_OF
+16012316,ab,8,opacity,patf,patients,humn,PROCESS_OF
+16012316,ab,10,NSIP,dsyn,UIP,dsyn,COEXISTS_WITH
+16815628,ti,1,Prostate cancer,neop,polymorphisms,genf,AFFECTS
+16815628,ab,1,Vitamin D receptor,aapp,prostate cancer,neop,PREDISPOSES
+16815628,ab,5,SNPs,nusq,prostate cancer,neop,ASSOCIATED_WITH
+16260902,ti,1,interleukin-2,aapp,treatment,topp,ISA
+16260902,ti,1,treatment,topp,interleukin-2,aapp,USES
+16260902,ti,1,secondary       immunizations,topp,individuals,humn,TREATS
+16260902,ab,1,CD4 cell counts,lbpr,disease,dsyn,DIAGNOSES
+16260902,ab,4,T       cells,cell,IL-2,aapp,PRODUCES
+16260902,ab,4,T       cells,cell,IL-4,aapp,PRODUCES
+16260902,ab,5,IL-2,aapp,treatment,topp,ISA
+16260902,ab,5,treatment,topp,IL-2,aapp,USES
+16260902,ab,5,gp120,gngm,Remune,imft,INHIBITS
+16260902,ab,5,tetanus toxoid,imft,Remune,imft,INHIBITS
+16260902,ab,5,T cells,cell,interferon,aapp,PRODUCES
+16260902,ab,5,tetanus toxoid,orch,response,clna,AFFECTS
+16260902,ab,6,IL-2,aapp,treatment,topp,ISA
+16260902,ab,6,treatment,topp,IL-2,aapp,USES
+16260902,ab,7,booster immunization,topp,induction,topp,PRECEDES
+16594738,ab,6,HSIL,neop,LSIL,fndg,ISA
+16594738,ab,8,performance,inbe,participant,humn,PROCESS_OF
+16594738,ab,9,performance,inbe,participant,humn,PROCESS_OF
+16594738,ab,13,performance,inbe,Participant,humn,PROCESS_OF
+15877828,ti,1,obese,dsyn,patients,humn,PROCESS_OF
+15877828,ti,1,Extracorporeal shock wave lithotripsy,topp,renal       pelvicalyceal stones,patf,TREATS
+15877828,ti,1,renal       pelvicalyceal stones,patf,patients,humn,PROCESS_OF
+15877828,ab,1,obese,dsyn,patients,humn,PROCESS_OF
+15877828,ab,1,obese,dsyn,patients,humn,PROCESS_OF
+15877828,ab,1,urolithiasis,dsyn,patients,humn,PROCESS_OF
+15877828,ab,2,obese,dsyn,patients,humn,PROCESS_OF
+15877828,ab,2,obese,dsyn,patients,humn,PROCESS_OF
+15877828,ab,3,obese,dsyn,patients,humn,PROCESS_OF
+15877828,ab,3,extracorporeal shock wave       lithotripsy,topp,renal pelvicalyceal stones,patf,TREATS
+15877828,ab,3,extracorporeal shock wave       lithotripsy,topp,patients,podg,TREATS
+15877828,ab,4,patients,podg,lithotripter,medd,USES
+15877828,ab,11,treatment,topp,patients,podg,TREATS
+15877828,ab,12,caliceal stones,dsyn,patients,humn,PROCESS_OF
+15877828,ab,13,calyceal stones,dsyn,patients,humn,PROCESS_OF
+15877828,ab,13,treatment,topp,patients,podg,TREATS
+15877828,ab,14,obese,dsyn,patients,humn,PROCESS_OF
+15877828,ab,14,ESWL,topp,patients,podg,TREATS
+15877828,ab,16,patients,humn,stone,bdsu,LOCATION_OF
+15877828,ab,17,obese,dsyn,patients,humn,PROCESS_OF
+15877828,ab,17,ESWL,topp,patients,podg,TREATS
+15877828,ab,17,caliceal stones,dsyn,patients,humn,PROCESS_OF
+12868543,ti,1,menstrual cycle,orgf,volunteers,humn,PROCESS_OF
+12868543,ab,4,high performance liquid       chromatography,lbpr,ranitidine,orch,MEASURES
+12868543,ab,10,ranitidine,orch,drugs,phsu,ISA
+16182253,ti,1,Ataxin-10,gngm,OGT,gngm,INTERACTS_WITH
+16182253,ti,1,pancreatic beta       cells,cell,OGT,aapp,LOCATION_OF
+16182253,ab,1,acetylglucosamine,bacs,cytoplasmic proteins,aapp,INTERACTS_WITH
+16182253,ab,2,O-linked       GlcNAc transferase,aapp,phosphorylation,moft,AFFECTS
+16182253,ab,3,Hyperglycemia,dsyn,cell function,celf,DISRUPTS
+16182253,ab,6,Mutations,genf,SCA10 gene,gngm,PROCESS_OF
+16182253,ab,6,Mutations,genf,seizures,sosy,CAUSES
+16182253,ab,6,Mutations,genf,progressive cerebellar ataxias,dsyn,CAUSES
+16182253,ab,7,SCA10,gngm,OGT,gngm,INTERACTS_WITH
+16182253,ab,7,pancreatic beta cells,cell,protein,aapp,LOCATION_OF
+16765853,ti,1,Autogenic training,topp,tension type headaches,dsyn,TREATS
+16765853,ab,1,autogenic       training,topp,prevention,topp,ISA
+16765853,ab,1,autogenic       training,topp,tension-type       headaches,dsyn,PREVENTS
+16765853,ab,1,tension-type       headaches,dsyn,adults,humn,PROCESS_OF
+16765853,ab,8,autogenic       training,topp,hypnosis,topp,compared_with
+16765853,ab,8,autogenic       training,topp,hypnosis,topp,same_as
+16765853,ab,9,autogenic       training,topp,prevention,topp,ISA
+16765853,ab,9,interventions,hlca,tension       headaches,dsyn,PREVENTS
+16765853,ab,10,headache,sosy,patients,humn,PROCESS_OF
+16765853,ab,10,autogenic training,topp,patients,podg,TREATS
+14627806,ab,5,myotonic dystrophy,dsyn,patients,humn,PROCESS_OF
+14627806,ab,9,alleles,gngm,cell lines,cell,PART_OF
+14627806,ab,9,cell lines,cell,mitomycin C,orch,LOCATION_OF
+16986607,ti,1,infertile,dsyn,mares,mamm,PROCESS_OF
+16986607,ti,1,fertility,orgf,mares,mamm,PROCESS_OF
+16986607,ab,5,oviducal,bpoc,obstruction,patf,LOCATION_OF
+16986607,ab,5,oviducts,bpoc,mare's,mamm,PART_OF
+16986607,ab,5,salpingitis,dsyn,fibrous adhesions,acab,CAUSES
+16986607,ab,5,obstruction,patf,mares,mamm,PROCESS_OF
+16986607,ab,6,oviducal,bpoc,obstruction,patf,LOCATION_OF
+16986607,ab,6,obstruction,patf,mares,mamm,PROCESS_OF
+16986607,ab,6,fertility,orgf,mares,mamm,PROCESS_OF
+15844163,ti,1,cartilage,tisu,patellar,bpoc,PART_OF
+15844163,ab,2,cartilage,tisu,patellar,bpoc,PART_OF
+16044089,ti,1,intestinal,bpoc,injury,inpo,LOCATION_OF
+16044089,ti,1,Peritoneal lavage,diap,perfluorochemical,phsu,USES
+16044089,ti,1,Peritoneal lavage,diap,hemodynamics,ortf,AFFECTS
+16044089,ab,2,peritoneal       lavage,diap,PFC,phsu,USES
+16044089,ab,4,blood,tisu,infusion,topp,LOCATION_OF
+16044089,ab,10,plasma,bdsu,TNF-alpha,aapp,LOCATION_OF
+16044089,ab,12,HS/R,topp,metabolic acidosis,patf,CAUSES
+16044089,ab,12,lavage,topp,metabolic acidosis,patf,TREATS
+16119618,ti,1,Down syndrome,dsyn,children,humn,PROCESS_OF
+16119618,ti,1,REM sleep,menp,children,humn,PROCESS_OF
+16119618,ab,1,Down syndrome,dsyn,children,humn,PROCESS_OF
+16119618,ab,1,REM sleep,menp,children,humn,PROCESS_OF
+16119618,ab,2,EEG,diap,children,humn,ADMINISTERED_TO
+16119618,ab,2,Down syndrome,dsyn,patients,humn,PROCESS_OF
+16194167,ti,1,transthoracic echocardiography,diap,abdominal       aortic atherosclerosis,dsyn,DIAGNOSES
+16194167,ab,2,images,diap,abdominal (ABD) aortic (AO) ATH,dsyn,CAUSES
+16194167,ab,2,transthoracic echocardiography,diap,probes,medd,USES
+16194167,ab,3,AO,bpoc,images,diap,LOCATION_OF
+16194167,ab,3,TTE,diap,assessment,hlca,ISA
+16194167,ab,3,assessment,hlca,TTE,diap,USES
+16194167,ab,6,descending AO,bpoc,images,diap,LOCATION_OF
+16194167,ab,6,AO arch,bpoc,images,diap,LOCATION_OF
+16194167,ab,7,ABD AO ATH,dsyn,patients,humn,PROCESS_OF
+16194167,ab,10,TTE,diap,images,diap,ISA
+16194167,ab,12,ABD,blor,ATH,dsyn,LOCATION_OF
+15913690,ab,7,tattooed,dsyn,mice,mamm,PROCESS_OF
+15913690,ab,9,nuclear protein,bacs,nuclear factor-kappa B,aapp,PART_OF
+15913690,ab,11,lymph nodes,bpoc,Interleukin-1 beta,aapp,LOCATION_OF
+15913690,ab,11,lymph nodes,bpoc,interleukin-10,aapp,LOCATION_OF
+15913690,ab,13,injury,inpo,humans,humn,PROCESS_OF
+15653714,ab,2,assessment,hlca,LDF,diap,USES
+15653714,ab,4,haemorrhage,fndg,haemorrhagic shock,patf,CAUSES
+15653714,ab,8,haemorrhage,fndg,haemorrhagic shock,patf,CAUSES
+15653714,ab,10,laser       Doppler technique,topp,Haemodilution,topp,METHOD_OF
+16430036,ab,5,injection,topp,injury,inpo,DISRUPTS
+16430036,ab,8,prostate cancer,neop,patients,humn,PROCESS_OF
+16430036,ab,10,prostate,bpoc,biopsies,diap,LOCATION_OF
+16430036,ab,10,treatment,topp,biopsies,diap,PRECEDES
+16430036,ab,11,treatment,topp,patients,podg,TREATS
+16430036,ab,17,bladder catheter,medd,rectal fistula,anab,TREATS
+16430036,ab,17,mucosa,tisu,injury,inpo,LOCATION_OF
+16430036,ab,17,injury,inpo,patient,humn,PROCESS_OF
+16430036,ab,18,erectile dysfunction,dsyn,patients,humn,PROCESS_OF
+16430036,ab,20,sloughing,bdsu,urethral,bpoc,PART_OF
+16430036,ab,21,cryosurgery,topp,treatment,topp,ISA
+16430036,ab,21,surgical,topp,prostate       cancer,neop,TREATS
+15972621,ab,1,working       memory,menp,cognitive functions,menp,ISA
+15972621,ab,1,compromise,fndg,Alzheimer's disease,dsyn,COEXISTS_WITH
+15972621,ab,4,MCI,fndg,patients,humn,PROCESS_OF
+15972621,ab,7,MCI,fndg,patients,humn,PROCESS_OF
+15972621,ab,11,parietal cortex,bpoc,dysfunction,patf,LOCATION_OF
+15972621,ab,11,dysfunction,patf,MCI,fndg,COEXISTS_WITH
+16496259,ab,2,vitrectomy,topp,patients,podg,TREATS
+16496259,ab,2,eyes,bpoc,patients,humn,PART_OF
+16496259,ab,3,age-related macular degeneration,dsyn,vitreous       hemorrhage,patf,CAUSES
+16496259,ab,4,photocoagulation,topp,endolaser,medd,USES
+16496259,ab,11,eyes,bpoc,IOP,dsyn,LOCATION_OF
+16496259,ab,13,medications,phsu,IOP,dsyn,TREATS
+16496259,ab,14,TSV,topp,vitreous hemorrhage,patf,TREATS
+16496259,ab,16,comfort,menp,patient,humn,PROCESS_OF
+15958928,ab,1,chemical poisoning,inpo,headaches,sosy,CAUSES
+15958928,ab,1,chemical poisoning,inpo,nausea,sosy,CAUSES
+15958928,ab,1,chemical poisoning,inpo,vomiting,sosy,CAUSES
+15958928,ab,1,chemical poisoning,inpo,ill,sosy,CAUSES
+15958928,ab,1,headaches,sosy,employees,humn,PROCESS_OF
+15958928,ab,1,nausea,sosy,employees,humn,PROCESS_OF
+15958928,ab,1,vomiting,sosy,employees,humn,PROCESS_OF
+15958928,ab,1,ill,sosy,employees,humn,PROCESS_OF
+15969273,ti,1,disabilities,patf,children,humn,PROCESS_OF
+15969273,ab,1,disabilities,patf,children,humn,PROCESS_OF
+15969273,ab,2,disabilities,patf,children,humn,PROCESS_OF
+15969273,ab,4,disabilities,patf,children,humn,PROCESS_OF
+15969273,ab,4,performance,inbe,desire,inbe,AFFECTS
+16149149,ab,3,type II       collagen,bacs,CIA,emod,ADMINISTERED_TO
+16149149,ab,4,lamina propria,tisu,secretory IgA,gngm,LOCATION_OF
+16149149,ab,4,lamina propria,tisu,CD4,gngm,LOCATION_OF
+16149149,ab,4,lamina propria,tisu,CD8,aapp,LOCATION_OF
+16149149,ab,5,serum,bdsu,interleukin-1 (IL-1)-beta,aapp,LOCATION_OF
+16149149,ab,5,serum,bdsu,IL-6,aapp,LOCATION_OF
+16149149,ab,5,serum,bdsu,Tumor necrosis factor-alpha,aapp,LOCATION_OF
+16149149,ab,7,lamina propria,tisu,CD4,aapp,LOCATION_OF
+16149149,ab,7,lamina propria,tisu,CD8,gngm,LOCATION_OF
+16149149,ab,7,mice,mamm,sIgA,gngm,LOCATION_OF
+16149149,ab,7,mice,mamm,CD4,gngm,LOCATION_OF
+16149149,ab,7,mice,mamm,CD8,aapp,LOCATION_OF
+16149149,ab,8,periphery,spco,CD4 cells,cell,LOCATION_OF
+16149149,ab,9,serum,bdsu,IL-6,aapp,LOCATION_OF
+16149149,ab,9,serum,bdsu,TNF-alpha,aapp,LOCATION_OF
+17135279,ti,1,DYRK1A gene,gngm,tau,aapp,PRODUCES
+17135279,ti,1,DYRK1A gene,gngm,amyloid,aapp,PRODUCES
+17135279,ti,1,phosphorylation,moft,Alzheimer disease,dsyn,COEXISTS_WITH
+17135279,ab,1,brain,bpoc,amyloid,aapp,LOCATION_OF
+17135279,ab,5,AD,dsyn,patients,humn,PROCESS_OF
+17135279,ab,5,patients,humn,DYRK1A,aapp,LOCATION_OF
+17135279,ab,5,hippocampus,bpoc,DYRK1A,aapp,LOCATION_OF
+17135279,ab,6,DYRK1A,gngm,Abeta,gngm,STIMULATES
+17135279,ab,6,brain,bpoc,transgenic mice,mamm,PART_OF
+17135279,ab,6,brain,bpoc,Abeta,aapp,LOCATION_OF
+17135279,ab,7,Abeta,gngm,phosphorylation,moft,AFFECTS
+17135279,ab,8,upregulation,moft,phosphorylation,moft,CAUSES
+17135279,ab,9,DYRK1A,gngm,tau,aapp,PRODUCES
+17135279,ab,9,DYRK1A,gngm,amyloid,aapp,PRODUCES
+17135279,ab,9,phosphorylation,moft,AD,dsyn,COEXISTS_WITH
+16549534,ti,1,Dubin-Johnson syndrome,dsyn,Neonatal,humn,PROCESS_OF
+16549534,ab,1,Dubin-Johnson syndrome,dsyn,Neonatal,humn,PROCESS_OF
+16549534,ab,1,Dubin-Johnson syndrome,dsyn,patients,humn,PROCESS_OF
+16549534,ab,2,DJS,dsyn,patients,humn,PROCESS_OF
+16549534,ab,5,attack,fndg,patient,humn,PROCESS_OF
+16549534,ab,8,mutations,genf,patients,humn,PROCESS_OF
+16549534,ab,9,DJS,dsyn,neonatal,humn,PROCESS_OF
+16549534,ab,9,follow-up,hlca,DJS,dsyn,TREATS
+16549534,ab,9,recurrence,phpr,DJS,dsyn,CAUSES
+16549534,ab,9,jaundice,patf,MRP2,gngm,ASSOCIATED_WITH
+16455026,ti,1,adjuvant endocrine therapy,topp,breast       cancer,neop,TREATS
+16455026,ab,1,breast,bpoc,advanced breast cancer,neop,LOCATION_OF
+16455026,ab,2,breast cancer tissue,tisu,cancer,neop,PART_OF
+16455026,ab,2,estrogen receptor,aapp,breast cancer tissue,tisu,AFFECTS
+16455026,ab,3,breast cancer,neop,woman,humn,PROCESS_OF
+16455026,ab,3,adjuvant therapy,topp,woman,popg,TREATS
+16455026,ab,3,breast cancer cells,cell,hormonal       receptors,aapp,LOCATION_OF
+16455026,ab,7,adjuvant,imft,treatment,topp,ISA
+16455026,ab,7,treatment,topp,adjuvant,phsu,USES
+16455026,ab,7,adjuvant,phsu,cancers,neop,TREATS
+16724072,ti,1,gene       polymorphisms,genf,macrophage migration inhibitory factor,gngm,PROCESS_OF
+16724072,ti,1,systemic lupus erythematosus,dsyn,gene       polymorphisms,genf,ASSOCIATED_WITH
+16724072,ab,1,macrophage migration inhibitory factor,aapp,systemic lupus erythematosus,dsyn,ASSOCIATED_WITH
+16724072,ab,2,systemic lupus       erythematosus,dsyn,patients,humn,PROCESS_OF
+16724072,ab,4,SLE,dsyn,patients,humn,PROCESS_OF
+16724072,ab,5,SLE,dsyn,patient,humn,PROCESS_OF
+16724072,ab,9,SLE,dsyn,population,humn,PROCESS_OF
+16555656,ab,2,incisors,bpoc,bovine,mamm,PART_OF
+16391093,ab,6,treatments,topp,pack,medd,USES
+16391093,ab,6,pack,medd,treatments,topp,ISA
+16391093,ab,10,carbon,elii,CO2,bacs,CONVERTS_TO
+16391093,ab,13,treatments,topp,pack,medd,USES
+16391093,ab,13,pack,medd,treatments,topp,ISA
+16391093,ab,15,treatments,topp,pack,medd,USES
+16391093,ab,15,pack,medd,treatments,topp,ISA
+16391093,ab,15,pack,medd,paratuberculosis,dsyn,TREATS
+16391093,ab,16,DNA,bacs,treatments,topp,ISA
+16079122,ti,1,chemotherapy,topp,infections,dsyn,PREDISPOSES
+16079122,ti,1,chronic lymphocytic leukemia,neop,patients,humn,PROCESS_OF
+16079122,ti,1,infections,dsyn,patients,humn,PROCESS_OF
+16079122,ab,1,febrile,fndg,patients,humn,PROCESS_OF
+16079122,ab,1,chronic lymphocytic leukemia,neop,patients,humn,AFFECTS
+16079122,ab,2,febrile,fndg,patients,humn,PROCESS_OF
+16281706,ab,2,awareness,menp,Samoans,humn,PROCESS_OF
+16462770,ti,1,CL100,gngm,tumor growth,neop,AFFECTS
+16462770,ti,1,cisplatin,inch,non-small-cell lung cancer,neop,ASSOCIATED_WITH
+16462770,ab,2,induction,topp,NSCLC,neop,TREATS
+16462770,ab,3,Cisplatin,inch,NSCLC,neop,ASSOCIATED_WITH
+16462770,ab,3,Jun kinase,gngm,apoptosis,celf,CAUSES
+16462770,ab,4,nuclei,celc,CL100,aapp,LOCATION_OF
+16462770,ab,4,tissue samples,tisu,NSCLC,neop,PART_OF
+16462770,ab,4,cytoplasm,celc,MKP1,aapp,LOCATION_OF
+16462770,ab,4,bronchial epithelia,bpoc,JNK,aapp,LOCATION_OF
+16462770,ab,6,cells,cell,MKP1,aapp,LOCATION_OF
+16462770,ab,6,cisplatin,inch,JNK,gngm,STIMULATES
+16462770,ab,6,cisplatin,inch,p38,aapp,STIMULATES
+16462770,ab,6,cells,cell,MKP1,aapp,LOCATION_OF
+16462770,ab,6,MKP1,gngm,cisplatin,inch,INTERACTS_WITH
+16462770,ab,9,siRNA,bacs,MKP1,aapp,PART_OF
+16462770,ab,9,cells,cell,siRNA,bacs,PRODUCES
+16462770,ab,9,Tumors,neop,mice,mamm,PROCESS_OF
+16462770,ab,9,tumor,neop,mice,mamm,PROCESS_OF
+16462770,ab,11,cell growth,celf,mice,mamm,PROCESS_OF
+16462770,ab,11,cisplatin,phsu,cell death,celf,CAUSES
+16462770,ab,11,cell death,celf,NSCLC,neop,PROCESS_OF
+16462770,ab,12,sensitizing cells,cell,MKP1,aapp,LOCATION_OF
+16462770,ab,12,drug,phsu,NSCLC,neop,TREATS
+15980893,ti,1,DNA,bacs,Selenomonas ruminantium,bact,PART_OF
+15980893,ab,1,Selenomonas       ruminantium,bact,bacterium,bact,ISA
+15980893,ab,4,DNA,bacs,human adenovirus,virs,PART_OF
+16284436,ti,1,Mutations,genf,signal transduction pathway,celf,COEXISTS_WITH
+16284436,ti,1,multinodular goiters,dsyn,Turkish population,humn,PROCESS_OF
+16284436,ab,1,studies,resa,G,aapp,MEASURES
+16284436,ab,4,iodine,bacs,goiter,dsyn,CAUSES
+16284436,ab,4,goiter,dsyn,signal transduction       pathway,moft,ASSOCIATED_WITH
+16284436,ab,6,thyroidectomy,topp,multinodular goiters,dsyn,TREATS
+16284436,ab,6,thyroidectomy,topp,patients,podg,TREATS
+16284436,ab,10,mutations,genf,TSHR gene,gngm,PROCESS_OF
+16284436,ab,12,mutations,genf,signal transduction pathway,celf,COEXISTS_WITH
+16284436,ab,12,mutations,genf,Turkish population,humn,PROCESS_OF
+16256984,ti,1,cadherins,bacs,Endothelial,aapp,PART_OF
+16256984,ab,1,growth,orgf,vascular       morphogenesis,ortf,COEXISTS_WITH
+16256984,ab,3,nucleus,celc,Cadherins,aapp,LOCATION_OF
+16256984,ab,3,beta-catenin,aapp,signaling pathways,moft,STIMULATES
+16256984,ab,3,growth factor receptors,aapp,signaling pathways,moft,STIMULATES
+16256984,ab,7,endothelium,tisu,N-cadherin,aapp,LOCATION_OF
+16256984,ab,8,R-cadherin,aapp,vascular,bpoc,AFFECTS
+16460640,ti,1,HIV status,fndg,cohort,humn,PROCESS_OF
+16460640,ab,2,HIV infection,dsyn,surgical patients,podg,OCCURS_IN
+16460640,ab,4,HIV status,fndg,patients,humn,PROCESS_OF
+16460640,ab,5,HIV-positive,fndg,patients,humn,PROCESS_OF
+16460640,ab,9,trauma,inpo,patients,humn,PROCESS_OF
+16460640,ab,12,surgical intervention,fndg,patients,humn,PROCESS_OF
+16460640,ab,14,HIV-positive,fndg,patients,humn,PROCESS_OF
+16460640,ab,15,trauma,inpo,patients,humn,PROCESS_OF
+16460640,ab,16,operation,topp,drainage,topp,METHOD_OF
+16460640,ab,20,HIV-positive,fndg,surgical       patients,humn,PROCESS_OF
+16460640,ab,20,group,hcro,CD4 counts,lbpr,LOCATION_OF
+15919838,ti,1,vertical banded gastroplasty,topp,morbid obesity,dsyn,TREATS
+15919838,ab,4,plasma,bdsu,glucose,bacs,LOCATION_OF
+15919838,ab,4,VAP-1,orch,glucose,bacs,COEXISTS_WITH
+15919838,ab,5,surgery,topp,waist circumference,fndg,TREATS
+15919838,ab,7,plasma,bdsu,glucose,bacs,LOCATION_OF
+15919838,ab,8,VAP-1,orch,glucose,bacs,COEXISTS_WITH
+15919838,ab,8,insulin       levels,lbpr,obese,dsyn,DIAGNOSES
+15919838,ab,9,surgery,topp,adiposity,orga,TREATS
+15919838,ab,10,obese,dsyn,people,humn,PROCESS_OF
+15919838,ab,10,VAP-1,orch,DBP,clna,AFFECTS
+15919838,ab,10,insulin       resistance,patf,people,humn,PROCESS_OF
+16372914,ab,2,oncofetal antigen,aapp,malignancies,neop,ASSOCIATED_WITH
+16372914,ab,5,inhibitor,chvf,enzyme,enzy,INTERACTS_WITH
+16372914,ab,5,enzyme,enzy,enzyme-substrate       complex,enzy,INTERACTS_WITH
+16372914,ab,6,alkaline phosphatase,aapp,human,humn,PART_OF
+16372914,ab,6,inhibitors,chvf,alkaline phosphatase,enzy,INTERACTS_WITH
+16372914,ab,9,Phe-Gly-Gly,aapp,clones,cell,ADMINISTERED_TO
+16372914,ab,11,Phe-Gly-Gly,aapp,clones,cell,DISRUPTS
+16372914,ab,14,His6-tag,aapp,enzyme activity,moft,AFFECTS
+16372914,ab,16,cell surface,celc,PLAP,aapp,PRODUCES
+15943707,ab,2,dexamethasone,phsu,donors,humn,ADMINISTERED_TO
+15898907,ti,1,upper       gastrointestinal,bdsy,resection,topp,LOCATION_OF
+15898907,ti,1,Laparoscopic surgery,topp,obstruction,patf,TREATS
+15898907,ti,1,laparotomy,topp,Laparoscopic surgery,topp,PRECEDES
+15898907,ti,1,laparotomy,topp,resection,topp,METHOD_OF
+15898907,ab,1,Surgical,topp,gastric outlet obstruction,dsyn,TREATS
+15898907,ab,1,Surgical,topp,small       bowel obstruction,dsyn,TREATS
+15898907,ab,1,gastric outlet obstruction,dsyn,patients,humn,PROCESS_OF
+15898907,ab,1,small       bowel obstruction,dsyn,patients,humn,PROCESS_OF
+15898907,ab,1,palliative bypass surgery,topp,malignancy,neop,TREATS
+15898907,ab,1,resection,topp,malignancy,neop,TREATS
+15898907,ab,2,surgery,topp,complications,patf,TREATS
+15898907,ab,3,open surgery,topp,suspected intra-abdominal       malignancy,fndg,TREATS
+15898907,ab,4,head,blor,suspected pancreatic head cancer,fndg,LOCATION_OF
+15898907,ab,4,head,blor,metastatic pancreatic head cancer,neop,LOCATION_OF
+15898907,ab,4,resection,topp,radical gastrectomy,topp,PRECEDES
+15898907,ab,4,radical gastrectomy,topp,gastric cancer,neop,TREATS
+15898907,ab,4,resection,topp,hilar cholangiocarcinoma,neop,TREATS
+15898907,ab,4,metastatic pancreatic head cancer,neop,obstruction,patf,PRECEDES
+15898907,ab,4,metastatic pancreatic head cancer,neop,GOO,dsyn,PRECEDES
+15898907,ab,4,duodenectomy,topp,suspected pancreatic head cancer,fndg,TREATS
+15898907,ab,5,surgical management,hlca,gastric       bypass,topp,COEXISTS_WITH
+15898907,ab,5,surgical management,hlca,cholecystojejunostomy,topp,COEXISTS_WITH
+15898907,ab,10,laparotomy,topp,obstruction,patf,TREATS
+15898907,ab,10,resection,topp,obstruction,patf,TREATS
+16430741,ti,1,temporomandibular joint,bpoc,human,humn,PART_OF
+16430741,ab,4,temporomandibular joint,bpoc,human,humn,PART_OF
+16430741,ab,6,cultured synovial cells,cell,synovial,bpoc,PART_OF
+16430741,ab,7,SGA2 cells,cell,prolyl 4-hydroxylase,aapp,PRODUCES
+16430741,ab,7,SGA2 cells,cell,vimentin,aapp,PRODUCES
+16430741,ab,7,heat shock protein 27,gngm,B cells,cell,INTERACTS_WITH
+16430741,ab,7,laminin,aapp,B cells,cell,INTERACTS_WITH
+16430741,ab,8,cells,cell,CD68,aapp,PRODUCES
+16430741,ab,10,TMJ,bpoc,human,humn,PART_OF
+16461476,ti,1,sulphonic acid,chvs,colitis,dsyn,CAUSES
+16461476,ti,1,colitis,dsyn,rats,mamm,PROCESS_OF
+16461476,ab,1,enemas,topp,Butyrate,lipd,USES
+16461476,ab,1,enemas,topp,ulcerative colitis,dsyn,TREATS
+16461476,ab,2,sulphonic acid,chvs,colitis,dsyn,CAUSES
+16461476,ab,2,colitis,dsyn,rats,mamm,PROCESS_OF
+16461476,ab,3,Distal colitis,dsyn,Wistar rats,mamm,PROCESS_OF
+16461476,ab,4,serum,bdsu,IL1beta,aapp,LOCATION_OF
+16461476,ab,4,TFF3,gngm,IL1beta,aapp,PRODUCES
+16461476,ab,5,serum,bdsu,IL1beta,aapp,LOCATION_OF
+16461476,ab,5,5-ASA,phsu,diarrhoea,sosy,TREATS
+16461476,ab,7,colonic,bpoc,inflammation,patf,LOCATION_OF
+16461476,ab,7,5-ASA,aapp,TFF3,gngm,STIMULATES
+16461476,ab,7,down-regulation,celf,IL1beta,imft,PRODUCES
+16251535,ab,1,chronic lymphocytic       leukemia,neop,patients,humn,PROCESS_OF
+16251535,ab,3,immunoglobulin heavy-chain variable-region,gngm,mutational,genf,LOCATION_OF
+16251535,ab,7,microRNA,bacs,deletion,comd,ASSOCIATED_WITH
+16251535,ab,8,CLL,neop,patients,humn,PROCESS_OF
+16251535,ab,9,disease       progression,patf,CLL,neop,COEXISTS_WITH
+16504132,ab,10,cells,cell,cyanobacterial,bact,PART_OF
+15836534,ab,1,physicians,prog,patients,podg,TREATS
+15836534,ab,1,human immunodeficiency virus,virs,patients,humn,PROCESS_OF
+15836534,ab,4,experience,menp,ethnicity,humn,PROCESS_OF
+15836534,ab,8,whites,popg,racial,popg,ISA
+15722357,ti,1,intestinal fatty acid-binding       protein,aapp,drugs,phsu,INTERACTS_WITH
+15722357,ab,1,Intestinal fatty acid-binding protein,aapp,long-chain dietary fatty acids,bacs,INTERACTS_WITH
+15722357,ab,1,cytosol,celc,long-chain dietary fatty acids,lipd,LOCATION_OF
+15722357,ab,1,cytosol,celc,columnar       absorptive epithelial cells,cell,PART_OF
+15722357,ab,2,I-FABP,aapp,fatty acid,bacs,compared_with
+15722357,ab,2,I-FABP,aapp,fatty acid,bacs,higher_than
+15722357,ab,3,bezafibrate,orch,drugs,phsu,ISA
+15722357,ab,3,nitrazepam,orch,I-FABP,aapp,INTERACTS_WITH
+15722357,ab,4,bezafibrate,orch,I-FABP,aapp,INTERACTS_WITH
+15722357,ab,5,diltiazem,orch,drug,phsu,ISA
+15722357,ab,7,drug,phsu,fatty acid       binding,moft,AFFECTS
+15722357,ab,8,enterocyte,cell,intestinal lumen,bsoj,LOCATION_OF
+15722357,ab,8,drugs,phsu,I-FABP,aapp,INTERACTS_WITH
+15473914,ti,1,pramipexole,orch,Parkinson's disease,dsyn,PREVENTS
+15473914,ab,1,agonist,phsu,dopamine neuron,cell,DISRUPTS
+15473914,ab,2,treatment,topp,pramipexole,phsu,USES
+15473914,ab,2,dopamine transporter,aapp,intracellular transport,celf,DISRUPTS
+15473914,ab,5,regimen,topp,pramipexole,phsu,USES
+15473914,ab,8,quantitative       autoradiography,diap,dopamine transporter,aapp,MEASURES
+15473914,ab,9,Pramipexole,orch,treatment,topp,ISA
+15473914,ab,9,treatment,topp,Pramipexole,phsu,USES
+15473914,ab,9,treatment,topp,neurotoxic effects,inpo,DISRUPTS
+15473914,ab,11,immunoreactivity,moft,mice,mamm,PROCESS_OF
+15473914,ab,12,synaptosomes,celc,striatal,bpoc,PART_OF
+15473914,ab,12,treatment,topp,pramipexole,phsu,USES
+15473914,ab,12,synaptosomes,celc,mice,mamm,PART_OF
+15473914,ab,13,Pramipexole,orch,treatment,topp,ISA
+15473914,ab,13,treatment,topp,Pramipexole,phsu,USES
+15473914,ab,14,pramipexole,orch,treatment,topp,ISA
+15473914,ab,14,pramipexole,orch,treatment,topp,ISA
+15473914,ab,14,treatment,topp,pramipexole,phsu,USES
+15473914,ab,14,pramipexole,phsu,KO mice,mamm,TREATS
+16696376,ab,3,azoospermia,dsyn,patients,humn,PROCESS_OF
+16696376,ab,3,chromosomal alterations,comd,patients,humn,PROCESS_OF
+16696376,ab,7,testicular tissue,tisu,Cryopreservation,lbpr,LOCATION_OF
+16696376,ab,8,biopsies,diap,patients,humn,ADMINISTERED_TO
+16696376,ab,9,analyses,resa,fluorescence in situ       hybridization,mbrt,USES
+16696376,ab,12,azoospermia,dsyn,patients,humn,PROCESS_OF
+17191304,ti,1,toluene       diisocyanate,hops,asthma,dsyn,CAUSES
+17191304,ab,1,allergic asthma,dsyn,patients,humn,PROCESS_OF
+17191304,ab,1,toluene diisocyanate,hops,asthma,dsyn,CAUSES
+17191304,ab,2,inhibition tests,lbpr,ELISA,lbpr,USES
+17191304,ab,2,ELISA,lbpr,CKs,aapp,MEASURES
+17191304,ab,4,ELISA,lbpr,IgE,aapp,MEASURES
+17191304,ab,4,ELISA,lbpr,antibodies,aapp,MEASURES
+17191304,ab,5,group,hcro,CK18,lbpr,LOCATION_OF
+17191304,ab,6,inhibition test,lbpr,ELISA,lbpr,USES
+17191304,ab,8,TDI,hops,asthma,dsyn,CAUSES
+17191304,ab,8,asthma,dsyn,workers,humn,PROCESS_OF
+15802000,ab,1,glargine,aapp,long-acting insulin,aapp,ISA
+15802000,ab,13,glargine,horm,Patients,podg,TREATS
+15802000,ab,14,glargine,horm,patients,podg,TREATS
+15802000,ab,15,glargine,aapp,patients,humn,PART_OF
+15797093,ti,1,heart,bpoc,hemangioendothelioma,neop,LOCATION_OF
+15797093,ab,1,right atrium,bpoc,infant,humn,PART_OF
+15797093,ab,2,sternotomy,topp,pericardial       effusion,dsyn,TREATS
+16291815,ti,1,Leydig cells,cell,mouse,mamm,PART_OF
+16291815,ti,1,Leydig cells,cell,P2X receptors,aapp,LOCATION_OF
+16291815,ab,1,Leydig cells,cell,mice,mamm,PART_OF
+16291815,ab,3,ATP,bacs,MeS-,aapp,PART_OF
+16291815,ab,4,ATP,bacs,MeS-,aapp,PART_OF
+16291815,ab,6,pyridoxal       phosphate,orch,responses,clna,AFFECTS
+16291815,ab,6,Suramin,orch,responses,clna,AFFECTS
+16261927,ab,1,anaesthesia,topp,isoflurane,phsu,USES
+16261927,ab,2,opioid,hops,sedation,sosy,CAUSES
+16261927,ab,7,TD-fentanyl,orch,sedation,sosy,CAUSES
+16261927,ab,8,treatments,topp,activity level,fndg,TREATS
+16261927,ab,10,fentanyl,orch,inactivity,fndg,CAUSES
+16689926,ti,2,nicotinic       acetylcholine receptor,gngm,Torpedo californica,fish,PART_OF
+16689926,ab,3,nAChR,aapp,alpha-conotoxin,aapp,INTERACTS_WITH
+16689926,ab,4,nAChR,gngm,Torpedo californica,fish,PART_OF
+16689926,ab,9,nAChR,gngm,Torpedo marmorata,fish,PART_OF
+15925552,ti,1,assay,lbpr,Liquid chromatography-tandem mass spectroscopy,lbpr,USES
+15925552,ti,1,quercetin,orch,human plasma,phsu,COEXISTS_WITH
+15925552,ti,1,quercetin,orch,human plasma,phsu,COEXISTS_WITH
+15925552,ab,1,quercetin,orch,human plasma,phsu,COEXISTS_WITH
+15925552,ab,3,column,bpoc,separation,patf,LOCATION_OF
+15925552,ab,7,assay,lbpr,LC/MS/MS,lbpr,USES
+15925552,ab,7,assay,lbpr,quercetin,orch,MEASURES
+15925552,ab,7,quercetin,orch,human       plasma,phsu,COEXISTS_WITH
+15925552,ab,8,assay,lbpr,quercetin,orch,MEASURES
+15925552,ab,8,assay,lbpr,quercetin,orch,MEASURES
+15925552,ab,8,quercetin,orch,human plasma,phsu,COEXISTS_WITH
+15925552,ab,8,quercetin,orch,human plasma,phsu,COEXISTS_WITH
+16362132,ab,2,women,humn,sex hormone,horm,LOCATION_OF
+16362132,ab,7,Parous,fndg,women,humn,PROCESS_OF
+16362132,ab,7,nulliparous,fndg,women,humn,PROCESS_OF
+16362132,ab,8,natural menopause,orgf,Women,humn,PROCESS_OF
+16362132,ab,11,post-menopausal,orgf,women,humn,PROCESS_OF
+16362132,ab,11,post-menopausal,orgf,women,humn,PROCESS_OF
+16850791,ti,1,motor disorders,dsyn,patients,humn,PROCESS_OF
+16850791,ab,1,disorders,dsyn,patients,humn,PROCESS_OF
+16710995,ti,1,angiotensin II type 1 receptors,aapp,rat,mamm,PART_OF
+16710995,ti,1,cytoplasma,celc,angiotensin II type 1 receptors,aapp,LOCATION_OF
+16710995,ab,1,angiotensin II receptor,aapp,rat,mamm,PART_OF
+16710995,ab,1,expression vector,nnon,angiotensin II receptor,aapp,INTERACTS_WITH
+16710995,ab,1,mammalian cells,cell,expression vector,virs,LOCATION_OF
+16710995,ab,1,expression vector,virs,spontaneous hypertensive rat,mamm,PROCESS_OF
+16710995,ab,2,angiotensin II receptor,aapp,rat,mamm,PART_OF
+16710995,ab,2,antisense RNA oligonucleotides,bacs,angiotensin II receptor,gngm,INHIBITS
+16710995,ab,5,plasmid,bacs,cells,cell,ADMINISTERED_TO
+16710995,ab,5,plasmid,bacs,cells,cell,ADMINISTERED_TO
+16710995,ab,12,angiotensin II receptor,aapp,rat,mamm,PART_OF
+16710995,ab,14,siRNA,bacs,translation,genf,DISRUPTS
+16710995,ab,14,proteins,gngm,translation,genf,LOCATION_OF
+15989002,ab,1,antiphospholipid syndrome,dsyn,patients,humn,PROCESS_OF
+15989002,ab,2,systemic lupus erythematosus,dsyn,patients,humn,PROCESS_OF
+15989002,ab,3,vascular,bpoc,complications,patf,LOCATION_OF
+15989002,ab,3,heart,bpoc,echocardiography,diap,LOCATION_OF
+15989002,ab,4,lupus anticoagulant,aapp,APS,gngm,INTERACTS_WITH
+15989002,ab,4,Anticardiolipin antibodies,aapp,APS,gngm,INTERACTS_WITH
+15989002,ab,5,CAPS,dsyn,patients,humn,PROCESS_OF
+15989002,ab,5,APS,gngm,patients,humn,PART_OF
+15989002,ab,6,CAPS,dsyn,patients,humn,PROCESS_OF
+15989002,ab,6,CAPS,dsyn,patients,humn,PROCESS_OF
+15989002,ab,7,PAPS,gngm,patients,humn,PART_OF
+15989002,ab,8,PAPS,gngm,SLE,dsyn,ASSOCIATED_WITH
+15989002,ab,9,Cancer,neop,patient,humn,PROCESS_OF
+15989002,ab,9,trauma,inpo,patient,humn,PROCESS_OF
+15989002,ab,11,abscess,patf,patients,humn,PROCESS_OF
+15989002,ab,12,SLE,dsyn,patients,humn,PROCESS_OF
+15989002,ab,12,parenteral       anticoagulant therapy,topp,anticoagulant,phsu,USES
+15989002,ab,12,infection,dsyn,patients,humn,PROCESS_OF
+15989002,ab,12,parenteral anticoagulants,phsu,patients,humn,ADMINISTERED_TO
+15989002,ab,12,parenteral anticoagulants,phsu,patients,humn,ADMINISTERED_TO
+15989002,ab,12,antibiotics,antb,infection,dsyn,TREATS
+16172203,ti,1,chronic       schizophrenia,mobd,patients,humn,PROCESS_OF
+16172203,ti,1,antipsychotic drugs,phsu,patients,podg,TREATS
+16172203,ab,3,olanzapine,orch,patients,humn,ADMINISTERED_TO
+16172203,ab,3,schizophrenia,mobd,patients,humn,PROCESS_OF
+16172203,ab,7,treatment,topp,quetiapine,orch,compared_with
+16172203,ab,7,treatment,topp,quetiapine,orch,higher_than
+16172203,ab,7,risperidone,orch,perphenazine,orch,COEXISTS_WITH
+16172203,ab,10,perphenazine,orch,antipsychotic agent,phsu,ISA
+16424791,ti,1,atorvastatin,phsu,transgenic mice,mamm,TREATS
+16424791,ab,1,C-reactive protein,aapp,human,humn,PART_OF
+16424791,ab,1,amlodipine,orch,calcium antagonist,phsu,ISA
+16424791,ab,1,atorvastatin,orch,HMG-CoA-reductase inhibitor,orch,ISA
+16424791,ab,1,HMG-CoA-reductase inhibitor,orch,C-reactive protein,aapp,COEXISTS_WITH
+16424791,ab,3,aortic root area,bpoc,atherosclerosis,dsyn,LOCATION_OF
+16424791,ab,4,Treatment,topp,amlodipine,phsu,USES
+16424791,ab,5,Treatment,topp,atorvastatin,phsu,USES
+16424791,ab,6,atorvastatin,orch,treatment,topp,compared_with
+16424791,ab,6,atorvastatin,orch,treatment,topp,higher_than
+16424791,ab,8,atherosclerosis,dsyn,mice,mamm,PROCESS_OF
+16424791,ab,8,amlodipine,phsu,atherosclerosis,dsyn,TREATS
+16424791,ab,9,co-treatment,hlca,amlodipine,phsu,USES
+16798222,ab,2,NSCLC,neop,patients,humn,PROCESS_OF
+16798222,ab,3,surgery,topp,NSCLC,neop,TREATS
+16798222,ab,3,NSCLC,neop,patients,humn,PROCESS_OF
+16798222,ab,4,TUNEL,mbrt,different,qnco,MEASURES
+16798222,ab,4,terminal       deoxynucleotidyltransferase,aapp,biotin,orch,INTERACTS_WITH
+16798222,ab,5,NSCLC,neop,patients,humn,PROCESS_OF
+16798222,ab,8,cells,cell,p53,aapp,LOCATION_OF
+16798222,ab,8,cells,cell,caspase-3,gngm,LOCATION_OF
+16798222,ab,8,cells,cell,cyclooxygenase-2,gngm,LOCATION_OF
+16798222,ab,10,NSCLC,neop,patients,humn,PROCESS_OF
+16798222,ab,12,tumor cell,cell,apoptosis,celf,LOCATION_OF
+16798222,ab,12,NSCLC,neop,patients,humn,PROCESS_OF
+16798222,ab,12,apoptosis,celf,patients,humn,PROCESS_OF
+16540467,ab,1,tumor suppressor,gngm,acute promyelocytic       leukemia,neop,PART_OF
+16540467,ab,2,PML,gngm,chromosomal translocation,comd,ASSOCIATED_WITH
+16540467,ab,2,chromosomal translocation,comd,PML-retinoic acid receptor-alpha (RARalpha) fusion protein,bacs,PRODUCES
+16540467,ab,3,PML protein,gngm,cytoplasmic,blor,PART_OF
+16540467,ab,3,missense       mutations,genf,PML,gngm,PROCESS_OF
+16540467,ab,4,APL,neop,patients,humn,PROCESS_OF
+16540467,ab,6,PML,gngm,RARalpha-mediated       inhibition,celf,AUGMENTS
+16540467,ab,6,RA,orch,transcription,genf,AUGMENTS
+16540467,ab,7,PML,gngm,RA,orch,STIMULATES
+16540467,ab,8,RA,orch,transcription,genf,AUGMENTS
+16540467,ab,8,PML,gngm,cytoplasmic,blor,PART_OF
+16540467,ab,8,cytoplasm,celc,PML,aapp,LOCATION_OF
+16540467,ab,9,cytoplasmic,blor,CBs,neop,LOCATION_OF
+16890392,ti,1,Cerebral hydatid cysts,dsyn,children,humn,PROCESS_OF
+16890392,ab,1,hydatid disease,dsyn,children,humn,AFFECTS
+16890392,ab,2,cerebral hydatid cyst,dsyn,children,humn,PROCESS_OF
+16890392,ab,9,surgical,topp,treatment,topp,ISA
+16890392,ab,10,signs,sosy,child,humn,PROCESS_OF
+16890392,ab,10,meningitis,dsyn,child,humn,PROCESS_OF
+15946936,ti,1,caspase,gngm,integrin,aapp,INTERACTS_WITH
+15946936,ti,1,BAP31,gngm,integrin,aapp,INTERACTS_WITH
+15946936,ti,1,BAP31,gngm,tetraspanins,aapp,INTERACTS_WITH
+15946936,ti,1,caspase,gngm,tetraspanins,aapp,INTERACTS_WITH
+15946936,ab,2,cells,cell,mouse,mamm,PART_OF
+15946936,ab,2,cells,cell,CD81,aapp,LOCATION_OF
+15946936,ab,2,cells,cell,CD9,gngm,LOCATION_OF
+15946936,ab,3,CD9,gngm,multiprotein complexes,gngm,STIMULATES
+15946936,ab,3,CD81,gngm,multiprotein complexes,gngm,STIMULATES
+15946936,ab,3,plasma membrane,celc,multiprotein complexes,aapp,LOCATION_OF
+15946936,ab,4,null mouse       cells,cell,beta3 integrins,aapp,LOCATION_OF
+15946936,ab,6,BAP31,aapp,null cells,cell,ADMINISTERED_TO
+15946936,ab,6,integrin,aapp,cell attachment,celc,AFFECTS
+15946936,ab,7,integrin,aapp,cell       attachment,celc,AFFECTS
+15946936,ab,7,tetraspanin,aapp,cell       attachment,celc,AFFECTS
+15946936,ab,8,BAP31,aapp,surface properties,npop,AFFECTS
+15885340,ti,1,fibromatosis,neop,girl,humn,PROCESS_OF
+15885340,ti,1,neck,blor,fibromatosis,neop,LOCATION_OF
+15885340,ab,1,Fibromatosis,neop,soft tissue disease,dsyn,ISA
+15885340,ab,1,fibroblastic proliferation,celf,Fibromatosis,neop,COEXISTS_WITH
+15885340,ab,5,mediastinum,blor,neck tumor,neop,LOCATION_OF
+15885340,ab,5,neck,blor,neck tumor,neop,LOCATION_OF
+16470169,ab,1,cancers,neop,human,humn,PROCESS_OF
+16470169,ab,1,RhoC,gngm,cancers,neop,ASSOCIATED_WITH
+16470169,ab,3,Akt,aapp,serine/threonine kinase,aapp,ISA
+16470169,ab,6,human radial growth phase melanoma cell line,cell,RhoC,aapp,PRODUCES
+16470169,ab,7,RhoC,gngm,Akt,gngm,STIMULATES
+16470169,ab,8,cells,cell,cell invasion,celf,LOCATION_OF
+16470169,ab,8,pAkt,gngm,RhoC,gngm,INHIBITS
+16470169,ab,10,PI3K,aapp,pAkt,gngm,INHIBITS
+16470169,ab,10,ROCK,aapp,pAkt,gngm,INHIBITS
+16470169,ab,11,RhoC,gngm,Akt,gngm,STIMULATES
+16470169,ab,12,RhoC,gngm,Akt,aapp,INTERACTS_WITH
+16470169,ab,12,RhoC,gngm,ROCK,aapp,INTERACTS_WITH
+16176149,ti,1,bone mass,dsyn,rats,mamm,PROCESS_OF
+16176149,ab,1,alternative medicines,phsu,diseases,dsyn,TREATS
+16176149,ab,6,treatment,topp,alendronate,phsu,USES
+16176149,ab,6,serum,bdsu,tartrate-resistant acid phosphatase,aapp,LOCATION_OF
+16176149,ab,8,alendronate,phsu,rats,mamm,TREATS
+16176149,ab,8,treatments,topp,rats,mamm,TREATS
+16176149,ab,9,Ca deficiency,dsyn,rats,mamm,PROCESS_OF
+16176149,ab,10,treatment,topp,osteoporosis,dsyn,TREATS
+16303761,ti,1,peptidases,aapp,neutrophil,cell,PART_OF
+16303761,ti,1,peptidases,aapp,hepatocyte growth factor,gngm,COEXISTS_WITH
+16303761,ti,1,Mast cell,cell,NK4,aapp,PRODUCES
+16303761,ti,1,neutrophil,cell,NK4,aapp,PRODUCES
+16303761,ab,1,Hepatocyte growth factor,aapp,protein,aapp,ISA
+16303761,ab,2,cells,cell,receptor tyrosine kinase,aapp,PRODUCES
+16303761,ab,6,chymases,aapp,peptidases,aapp,ISA
+16303761,ab,6,chymases,aapp,HGF,aapp,INTERACTS_WITH
+16303761,ab,6,scatter factor,gngm,NK4,aapp,PRODUCES
+16303761,ab,6,mast cells,cell,peptidases,aapp,PRODUCES
+16303761,ab,7,chymase,aapp,HGF,aapp,INHIBITS
+16303761,ab,9,plasminogen,aapp,proteins,aapp,ISA
+16303761,ab,9,macrophage-stimulating protein,aapp,proteins,aapp,ISA
+16303761,ab,9,chymase,aapp,plasminogen,aapp,INTERACTS_WITH
+16303761,ab,10,cathepsin G,aapp,neutrophil,cell,PART_OF
+16303761,ab,10,cathepsin G,aapp,fragments,bdsu,PRODUCES
+16303761,ab,10,neutrophil elastase,gngm,fragments,bdsu,PRODUCES
+16303761,ab,10,fragments,bdsu,chymase,aapp,LOCATION_OF
+16303761,ab,11,peptidases,aapp,neutrophil,cell,PART_OF
+16303761,ab,11,peptidases,aapp,HGF,aapp,INTERACTS_WITH
+16303761,ab,12,proteases,aapp,HGF,aapp,INTERACTS_WITH
+15499431,ti,1,temephos,hops,insecticide,hops,ISA
+12368048,ab,3,tolerogenic,phsu,nonhuman primates,mamm,TREATS
+15526143,ab,2,neuroleptics,phsu,BDNF,gngm,INHIBITS
+15526143,ab,3,schizophrenia,mobd,patients,humn,PROCESS_OF
+15526143,ab,5,polymorphisms,genf,schizophrenia,mobd,PREDISPOSES
+15526143,ab,5,BDNF,gngm,polymorphisms,genf,LOCATION_OF
+16197815,ti,1,amyotrophic lateral sclerosis,dsyn,patients,humn,AFFECTS
+16197815,ab,1,pharmacological treatment,topp,amyotrophic lateral sclerosis,dsyn,TREATS
+16197815,ab,3,ALS,dsyn,patients,humn,PROCESS_OF
+16197815,ab,3,disease       progression,patf,patients,humn,PROCESS_OF
+16197815,ab,3,IGF-1,aapp,disease       progression,patf,AFFECTS
+16197815,ab,4,ALS,dsyn,patients,humn,PROCESS_OF
+16197815,ab,6,ALS,dsyn,patients,humn,PROCESS_OF
+16197815,ab,7,ALS,dsyn,patients,humn,PROCESS_OF
+16197815,ab,7,patients,humn,IGF-1,aapp,LOCATION_OF
+16197815,ab,8,IGF-1,aapp,treatment,topp,ISA
+16197815,ab,8,treatment,topp,IGF-1,aapp,USES
+16197815,ab,8,ALS,dsyn,patients,humn,PROCESS_OF
+16395331,ab,1,Cell cycle progression,celf,Caulobacter,bact,PROCESS_OF
+16395331,ab,1,Cell cycle progression,celf,transcriptional,genf,AFFECTS
+16395331,ab,3,DNA       replication,genf,chromosome       replication,genf,ASSOCIATED_WITH
+16395331,ab,6,cell cycle,celf,Caulobacter,bact,PROCESS_OF
+15763007,ti,1,azoospermic,dsyn,patients,humn,PROCESS_OF
+15763007,ab,1,azoospermic,dsyn,patients,humn,PROCESS_OF
+15763007,ab,3,chamber,bpoc,semen,bdsu,LOCATION_OF
+16091875,ti,1,lung transplantation,topp,therapy,topp,PRECEDES
+16091875,ti,1,valganciclovir,phsu,cytomegalovirus,virs,TREATS
+16091875,ab,2,prodrug,chvf,drug,phsu,ISA
+16091875,ab,2,treatment,topp,ganciclovir,phsu,USES
+16091875,ab,2,prophylaxis,topp,ganciclovir,phsu,USES
+16091875,ab,2,prodrug,chvf,CMV infection,dsyn,TREATS
+16091875,ab,2,prodrug,chvf,disease,dsyn,TREATS
+16091875,ab,3,valganciclovir,phsu,CMV infections,dsyn,TREATS
+16091875,ab,4,therapy,topp,valganciclovir,phsu,USES
+16091875,ab,4,valganciclovir,orch,therapy,topp,ISA
+16091875,ab,4,lung transplantation,topp,patients,podg,TREATS
+16091875,ab,4,therapy,topp,patients,podg,TREATS
+16091875,ab,5,disease,dsyn,patients,humn,PROCESS_OF
+16091875,ab,6,valganciclovir,orch,renal function,ortf,AUGMENTS
+16091875,ab,12,leucopenia,dsyn,patients,humn,PROCESS_OF
+16091875,ab,13,neutropenia,dsyn,anemia,dsyn,ISA
+16091875,ab,13,new onset,fndg,patients,humn,PROCESS_OF
+16091875,ab,14,therapy,topp,valganciclovir,phsu,USES
+16091875,ab,14,lung transplantation,topp,bronchoalveolar lavage,diap,PRECEDES
+16091875,ab,14,valganciclovir,phsu,CMV       infections,dsyn,TREATS
+16091875,ab,14,PCR,lbpr,CMV       infections,dsyn,DIAGNOSES
+16091875,ab,15,blood counts,lbpr,leucopenia,dsyn,DIAGNOSES
+16371595,ab,2,calcium wave,celf,egg,cell,AFFECTS
+16371595,ab,2,phospholipase C activation,moft,mammals,mamm,PROCESS_OF
+16371595,ab,5,meiosis,celf,oocyte       maturation,celf,COEXISTS_WITH
+16371595,ab,7,fertilization,orgf,calcium wave,celf,PRECEDES
+16371595,ab,7,oocyte,cell,calcium wave,celf,LOCATION_OF
+16371595,ab,9,embryos,emst,zebrafish,fish,PART_OF
+16371595,ab,10,calcium,bacs,Intracellular,celc,PART_OF
+16371595,ab,11,calcium signaling,celf,Xenopus,amph,PROCESS_OF
+16371595,ab,12,movements,orgf,gastrulation,orgf,COEXISTS_WITH
+16371595,ab,12,movements,orgf,gastrulation,orgf,COEXISTS_WITH
+16290001,ti,1,pelvic,blor,lymph node metastasis,neop,LOCATION_OF
+16290001,ti,1,CA125,carb,adenocarcinoma,neop,ASSOCIATED_WITH
+16290001,ti,1,uterine cervix,tisu,adenocarcinoma,neop,LOCATION_OF
+16290001,ab,2,pelvic lymphadenectomy,topp,cervical adenocarcinoma,neop,TREATS
+16290001,ab,2,radical       hysterectomy,topp,cervical adenocarcinoma,neop,TREATS
+16290001,ab,3,pelvic,blor,lymph node metastasis,neop,LOCATION_OF
+16290001,ab,3,lymph node metastasis,neop,patients,humn,PROCESS_OF
+16290001,ab,4,lymph node,bpoc,patients,humn,PART_OF
+16290001,ab,7,pelvic,blor,lymph node metastasis,neop,LOCATION_OF
+16290001,ab,7,cervical adenocarcinoma,neop,lymph node metastasis,neop,AFFECTS
+15534249,ab,1,developmental stuttering,sosy,people,humn,PROCESS_OF
+15534249,ab,2,DAF,fndg,individuals,humn,PROCESS_OF
+15534249,ab,2,stutter,sosy,dysfluency,dsyn,CAUSES
+15534249,ab,2,dysfluency,dsyn,people,humn,PROCESS_OF
+15534249,ab,5,developmental stuttering,sosy,adults,humn,PROCESS_OF
+15534249,ab,9,developmental       stuttering,sosy,adults,humn,PROCESS_OF
+15534249,ab,10,developmental stuttering,sosy,adults,humn,PROCESS_OF
+15534249,ab,10,DAF,fndg,adults,humn,PROCESS_OF
+15534249,ab,11,stutter,sosy,group,humn,PROCESS_OF
+15534249,ab,12,anatomy,anst,experimental subjects,humn,PART_OF
+15534249,ab,12,stuttering,sosy,individuals,humn,PROCESS_OF
+15534249,ab,13,developmental stuttering,sosy,adults,humn,PROCESS_OF
+15534249,ab,14,stuttering,sosy,experimental subjects,humn,PROCESS_OF
+15534249,ab,15,developmental stuttering,sosy,individuals,humn,PROCESS_OF
+16177843,ab,3,birth,orgf,cohort,humn,PROCESS_OF
+16177843,ab,5,birth,orgf,cohort,humn,PROCESS_OF
+16177843,ab,6,SCID,dsyn,patients,humn,PROCESS_OF
+16177843,ab,8,diagnosis,hlca,SCID interview,diap,USES
+16177843,ab,8,SCID interview,diap,schizophrenia,mobd,DIAGNOSES
+16177843,ab,9,birth,orgf,cohort,humn,PROCESS_OF
+16177843,ab,9,psychotic disorders,mobd,cohort,popg,OCCURS_IN
+16330236,ti,1,agonist,phsu,Ovarian hyperstimulation,patf,CAUSES
+16330236,ab,1,Decapeptyl,horm,patient,podg,TREATS
+16330236,ab,1,agonist,phsu,ovarian hyperstimulation,patf,CAUSES
+16330236,ab,5,agonist,phsu,Ovarian hyperstimulation,patf,CAUSES
+16330236,ab,9,pregnancy,orgf,birth,orgf,AFFECTS
+15750284,ab,1,Growth hormone,aapp,immune responses,orgf,AUGMENTS
+15750284,ab,5,GH,aapp,bone marrow stem cells,cell,AFFECTS
+15750284,ab,6,mRNAs,bacs,GH receptor,aapp,PART_OF
+15750284,ab,6,mRNAs,bacs,GH,aapp,PART_OF
+15750284,ab,6,bone marrow,bpoc,mRNAs,bacs,LOCATION_OF
+15750284,ab,6,paracrine,phsf,bone marrows,bpoc,PROCESS_OF
+16105135,ti,1,non-alcoholic fatty liver,dsyn,disease,dsyn,ISA
+16105135,ti,1,disease,dsyn,patients,humn,PROCESS_OF
+16105135,ti,1,patients,humn,homocysteine,aapp,LOCATION_OF
+16105135,ab,1,non-alcoholic fatty liver,dsyn,disease,dsyn,ISA
+16105135,ab,1,disease,dsyn,patients,humn,PROCESS_OF
+16105135,ab,1,steatosis,patf,patients,humn,PROCESS_OF
+16105135,ab,1,hyperhomocysteinemia,dsyn,patients,humn,PROCESS_OF
+16105135,ab,1,hyperhomocysteinemia,dsyn,patients,humn,PROCESS_OF
+16105135,ab,2,non-alcoholic fatty liver,dsyn,disease,dsyn,ISA
+16105135,ab,2,disease,dsyn,patients,humn,PROCESS_OF
+16105135,ab,2,patients,humn,homocysteine,aapp,LOCATION_OF
+16105135,ab,3,chronic viral hepatitis,dsyn,patients,humn,PROCESS_OF
+16105135,ab,4,high-performance liquid       chromatography,lbpr,Homocysteine levels,lbpr,MEASURES
+16105135,ab,10,plasma,bdsu,homocysteine,aapp,LOCATION_OF
+16105135,ab,10,homocysteine,aapp,non-alcoholic steatohepatitis,dsyn,ASSOCIATED_WITH
+16105135,ab,11,non-alcoholic fatty liver,dsyn,disease,dsyn,ISA
+16105135,ab,11,disease,dsyn,patients,humn,PROCESS_OF
+16105135,ab,11,patients,humn,homocysteine,aapp,LOCATION_OF
+16105135,ab,12,Plasma,bdsu,homocysteine,aapp,LOCATION_OF
+16105135,ab,13,liver,bpoc,biopsy,diap,LOCATION_OF
+16105135,ab,13,steatosis,patf,patients,humn,PROCESS_OF
+16079931,ab,1,heart       failure,dsyn,patients,humn,PROCESS_OF
+16079931,ab,1,poor prognosis,fndg,patients,humn,PROCESS_OF
+16079931,ab,1,congestive heart       failure,dsyn,patients,humn,PROCESS_OF
+16079931,ab,1,poor prognosis,fndg,patients,humn,PROCESS_OF
+16079931,ab,2,heart failure symptoms,sosy,woman,humn,PROCESS_OF
+16079931,ab,3,chest,blor,radiography,diap,LOCATION_OF
+16079931,ab,3,Doppler       echocardiography,diap,left ventricular diastolic dysfunction,dsyn,DIAGNOSES
+16079931,ab,4,Valsartan,phsu,left ventricular diastolic dysfunction,dsyn,TREATS
+16079931,ab,5,left ventricular diastolic dysfunction,dsyn,diastolic dysfunction,patf,COEXISTS_WITH
+16470989,ti,1,depressive symptoms,sosy,men,humn,PROCESS_OF
+16470989,ab,5,disability,patf,Men,humn,PROCESS_OF
+16470989,ab,6,disability,patf,men,humn,PROCESS_OF
+16470989,ab,7,disability,patf,depressive symptoms,sosy,PREDISPOSES
+15862965,ab,1,Vitamin D,phsu,growth,orgf,AFFECTS
+15862965,ab,2,signaling pathway,celf,prostate cancer,neop,AFFECTS
+15862965,ab,3,cell lines,cell,PDGF       receptors,aapp,LOCATION_OF
+15862965,ab,3,stromal cells,cell,PDGF       receptors,aapp,LOCATION_OF
+15862965,ab,4,cells,cell,prostate,bpoc,PART_OF
+15862965,ab,4,cells,cell,calcitriol,strd,LOCATION_OF
+15862965,ab,4,PDGF receptors,aapp,cell,cell,INTERACTS_WITH
+15862965,ab,4,PDGF-BB,gngm,cell,cell,INTERACTS_WITH
+15862965,ab,5,analysis,resa,Quantitative RT-PCR,mbrt,USES
+15862965,ab,5,stromal cells,cell,PDGF receptors,aapp,LOCATION_OF
+15862965,ab,6,stromal cells,cell,beta proteins,genf,LOCATION_OF
+15862965,ab,6,cells,cell,PDGF-BB,gngm,INTERACTS_WITH
+15862965,ab,8,PDGF,gngm,cell,cell,INTERACTS_WITH
+15862965,ab,10,cells,cell,prostate,bpoc,PART_OF
+15862965,ab,10,cells,cell,PDGF-BB,gngm,INTERACTS_WITH
+16185180,ti,1,Pseudomonas aeruginosa,bact,Nosocomial infections,dsyn,CAUSES
+16185180,ab,1,Pseudomonas aeruginosa,bact,organisms,orgm,ISA
+16185180,ab,1,organisms,orgm,nosocomial infections,dsyn,ASSOCIATED_WITH
+16185180,ab,3,critically ill,dsyn,patients,humn,PROCESS_OF
+16185180,ab,3,nosocomial infections,dsyn,MDRPA,bact,PROCESS_OF
+16185180,ab,3,nosocomial infections,dsyn,patients,humn,PROCESS_OF
+16185180,ab,6,therapy,topp,antimicrobial,phsu,USES
+16185180,ab,6,antimicrobial,phsu,MDRPA infection,dsyn,TREATS
+16185180,ab,8,fluoroquinolone,phsu,aminoglycoside,phsu,COEXISTS_WITH
+16185180,ab,8,aminoglycoside,carb,fluoroquinolone,orch,COEXISTS_WITH
+16185180,ab,8,beta-lactam,antb,aminoglycoside,phsu,COEXISTS_WITH
+16185180,ab,8,beta-lactam,antb,fluoroquinolone,orch,COEXISTS_WITH
+16185180,ab,8,combination therapy,topp,Patients,podg,TREATS
+16185180,ab,8,MDRPA infections,dsyn,Patients,humn,PROCESS_OF
+16185180,ab,10,rifampin,orch,MDRPA,bact,TREATS
+16185180,ab,10,beta-lactam,antb,MDRPA,bact,TREATS
+16185180,ab,10,toxicities,inpo,agent,chvf,ASSOCIATED_WITH
+16185180,ab,12,regimens,topp,antimicrobial,phsu,USES
+16185180,ab,12,Clinical studies,resa,economic impact,qnco,MEASURES
+16185180,ab,12,therapy,topp,MDRPA infections,dsyn,TREATS
+16950193,ti,1,calcium,bacs,mitral valve,bpoc,PART_OF
+16950193,ti,1,rheumatic mitral stenosis,dsyn,patients,humn,PROCESS_OF
+16950193,ti,1,patients,humn,osteopontin,aapp,LOCATION_OF
+16950193,ab,1,valvular,bpoc,calcification,patf,LOCATION_OF
+16950193,ab,2,Osteopontin,aapp,inflammation,patf,AFFECTS
+16950193,ab,3,plasma,bdsu,osteopontin,aapp,LOCATION_OF
+16950193,ab,3,study,resa,rheumatic mitral stenosis,dsyn,MEASURES
+16950193,ab,3,patients,humn,osteopontin,aapp,LOCATION_OF
+16950193,ab,6,Plasma,bdsu,osteopontin,aapp,LOCATION_OF
+16950193,ab,6,mitral       stenosis,dsyn,patients,humn,PROCESS_OF
+16950193,ab,6,patients,humn,osteopontin,aapp,LOCATION_OF
+16950193,ab,7,plasma,bdsu,osteopontin,aapp,LOCATION_OF
+16950193,ab,8,plasma,bdsu,osteopontin,aapp,LOCATION_OF
+16950193,ab,8,osteopontin,aapp,mitral valve calcification,dsyn,ASSOCIATED_WITH
+16950193,ab,9,valvular,bpoc,calcification,patf,LOCATION_OF
+16950193,ab,9,mitral valve       calcification,dsyn,patients,humn,PROCESS_OF
+16950193,ab,9,rheumatic mitral stenosis,dsyn,patients,humn,PROCESS_OF
+16950193,ab,9,osteopontin,aapp,calcification,patf,AFFECTS
+16950193,ab,10,inflammation,patf,patients,humn,PROCESS_OF
+16083305,ti,1,mice,mamm,CD4,aapp,LOCATION_OF
+16083305,ti,1,BAFF,aapp,Escherichia coli,bact,INTERACTS_WITH
+16083305,ab,1,TNF,gngm,B       lymphocytes,cell,INTERACTS_WITH
+16083305,ab,2,BAFF,gngm,abdominal cavity,blor,PART_OF
+16083305,ab,3,B       lymphocytes,cell,splenic,bpoc,PART_OF
+16083305,ab,3,CD4,gngm,hsBAFF,gngm,INTERACTS_WITH
+16083305,ab,3,injection,topp,mice,mamm,TREATS
+16083305,ab,6,CD8,gngm,hsBAFF,gngm,STIMULATES
+16083305,ab,8,hsBAFF,gngm,immune       responses,orgf,AUGMENTS
+16750542,ti,1,Lorenzo's oil,lipd,oxidative stress,comd,AFFECTS
+16750542,ti,1,oxidative stress,comd,X-linked       adrenoleukodystrophy,dsyn,COEXISTS_WITH
+16750542,ab,1,X-linked adrenoleukodystrophy,dsyn,peroxisomal disorder,dsyn,ISA
+16750542,ab,1,tissues,tisu,tetracosanoic       acid,lipd,LOCATION_OF
+16750542,ab,2,disorder,dsyn,patients,humn,AFFECTS
+16750542,ab,2,brain damage,inpo,X-ALD,dsyn,COEXISTS_WITH
+16750542,ab,3,Lorenzo's       oil,lipd,VLCFA,lipd,INTERACTS_WITH
+16750542,ab,3,neurological symptoms,sosy,patients,humn,PROCESS_OF
+16750542,ab,4,X-ALD,dsyn,patients,humn,PROCESS_OF
+16750542,ab,4,free radical,bacs,neurodegenerative disorders,dsyn,ASSOCIATED_WITH
+16750542,ab,4,oxidative stress,comd,patients,humn,AFFECTS
+16750542,ab,4,erythrocytes,cell,glutathione peroxidase,aapp,LOCATION_OF
+16750542,ab,4,erythrocytes,cell,superoxide dismutase,aapp,LOCATION_OF
+16750542,ab,5,X-ALD,dsyn,patients,humn,PROCESS_OF
+16750542,ab,7,X-ALD,dsyn,patients,humn,PROCESS_OF
+16750542,ab,8,X-ALD,dsyn,patients,humn,PROCESS_OF
+16750542,ab,8,GPx,gngm,erythrocyte,cell,INTERACTS_WITH
+16750542,ab,8,SOD,aapp,erythrocyte,cell,INTERACTS_WITH
+16750542,ab,9,cerebral cortex,bpoc,tetracosanoic acid,bacs,LOCATION_OF
+16750542,ab,9,cerebral cortex,bpoc,rats,mamm,PART_OF
+16750542,ab,9,fatty acids,bacs,oxidative stress,comd,CAUSES
+16750542,ab,10,cerebral cortex,bpoc,rat,mamm,PART_OF
+16750542,ab,10,cerebral cortex,bpoc,TBARS,orch,LOCATION_OF
+16750542,ab,11,cerebral cortex,bpoc,rat,mamm,PART_OF
+16750542,ab,12,lipid       peroxidation,moft,X-ALD,dsyn,COEXISTS_WITH
+16750542,ab,12,treatment,topp,patients,podg,TREATS
+16750542,ab,13,X-ALD,dsyn,patients,humn,PROCESS_OF
+16750542,ab,13,adjuvant therapy,topp,patients,podg,TREATS
+16507901,ti,1,hypermethylation,genf,colorectal cancer,neop,AFFECTS
+16507901,ab,1,Type IV collagen,aapp,basement membrane,tisu,PART_OF
+16507901,ab,3,COL4A6,gngm,gene,gngm,ISA
+16507901,ab,5,cell invasion,celf,cancer,neop,PROCESS_OF
+16507901,ab,6,tissues,tisu,colorectal tumor,neop,PART_OF
+16507901,ab,6,cell lines,cell,COL4A6,aapp,LOCATION_OF
+16507901,ab,6,tissues,tisu,COL4A6,aapp,LOCATION_OF
+16507901,ab,8,cell invasion,celf,cancer,neop,PROCESS_OF
+15808413,ab,3,nitrite,chvs,NO,bacs,INTERACTS_WITH
+15808413,ab,5,nitrite,chvs,nitrate,inch,INTERACTS_WITH
+15808413,ab,5,plasma,bdsu,nitrate,inch,LOCATION_OF
+15808413,ab,6,vasculature,bpoc,NO,bacs,PRODUCES
+16554223,ti,1,pulmonary,bpoc,CT pulmonary angiography,diap,LOCATION_OF
+16554223,ti,1,line imaging test,medd,pulmonary embolism,dsyn,TREATS
+16554223,ab,1,pulmonary embolism,dsyn,physicians,humn,PROCESS_OF
+16554223,ab,3,suspected acute PE,fndg,patients,humn,PROCESS_OF
+16554223,ab,4,pulmonary       angiography,diap,imaging procedure,diap,ISA
+16554223,ab,4,PE,dsyn,patients,humn,PROCESS_OF
+16554223,ab,8,CTPA,diap,respondents,humn,ADMINISTERED_TO
+16554223,ab,10,suspected acute PE,fndg,patients,humn,PROCESS_OF
+16554223,ab,10,clinicians,prog,patients,podg,TREATS
+16167981,ab,1,melanomas,neop,horses,mamm,PROCESS_OF
+16167981,ab,3,genes,gngm,single nucleotide       polymorphisms,nusq,COEXISTS_WITH
+16167981,ab,7,recombination,genf,human,humn,PROCESS_OF
+16167981,ab,8,genes,gngm,melanoma,neop,ASSOCIATED_WITH
+16167981,ab,8,genes,gngm,pigmentation       disorders,dsyn,ASSOCIATED_WITH
+16687138,ti,1,cecum,bpoc,porcine,mamm,PART_OF
+16687138,ab,1,cecum,bpoc,murine,mamm,PART_OF
+16687138,ab,1,norepinephrine,nsba,neurotransmitter,nsba,ISA
+16687138,ab,3,cecum,bpoc,porcine,mamm,PART_OF
+16687138,ab,6,dopamine beta-hydroxylase,aapp,reuptake,celf,DISRUPTS
+16687138,ab,7,mucosa,tisu,large bowel,bpoc,PART_OF
+16809978,ti,1,anorexia nervosa,mobd,patients,humn,PROCESS_OF
+16809978,ti,1,renal dysfunction,patf,patients,humn,PROCESS_OF
+16809978,ab,1,Anorexia nervosa,mobd,patients,humn,PROCESS_OF
+16809978,ab,1,AN,mobd,renal dysfunction,patf,AFFECTS
+16809978,ab,2,AN,mobd,patients,humn,PROCESS_OF
+16809978,ab,6,laxative       abuse,mobd,group,humn,PROCESS_OF
+16809978,ab,7,AN,mobd,patients,humn,PROCESS_OF
+16809978,ab,8,AN,mobd,patients,humn,PROCESS_OF
+15975940,ti,1,embryos,emst,Xenopus,amph,PART_OF
+15975940,ti,1,Bmp7,gngm,brain,bpoc,AUGMENTS
+15975940,ti,1,Bmp4,aapp,Bmp2,gngm,INHIBITS
+15975940,ab,1,growth       factors,bacs,Bmp7,aapp,PART_OF
+15975940,ab,1,Bmp7,aapp,growth       factors,bacs,ISA
+15975940,ab,3,Bmp4,aapp,tail,bpoc,DISRUPTS
+15975940,ab,3,Bmp7,aapp,tail,bpoc,DISRUPTS
+15975940,ab,6,embryos,emst,Noggin,aapp,LOCATION_OF
+16752564,ti,1,PET,diap,Model,resd,USES
+16752564,ab,1,tonography,diap,diagnosis,hlca,ISA
+16752564,ab,2,abdominal region,blor,cancers,neop,LOCATION_OF
+16752564,ab,2,thoracic,blor,cancers,neop,LOCATION_OF
+16752564,ab,2,cancers,neop,patients,humn,PROCESS_OF
+16752564,ab,11,Experiment,resa,phantom,medd,USES
+16339800,ti,1,Arabidopsis,plnt,protein phosphatase 2Cs,aapp,LOCATION_OF
+16339800,ti,1,protein phosphatase 2C,aapp,abscisic acid,bacs,INTERACTS_WITH
+16339800,ab,1,abscisic acid,bacs,phytohormone,horm,ISA
+16339800,ab,1,abscisic acid,bacs,stress responses,phsf,AFFECTS
+16339800,ab,1,abscisic acid,bacs,developmental processes,ortf,AFFECTS
+16339800,ab,2,Arabidopsis thaliana,plnt,Arabidopsis,plnt,ISA
+16339800,ab,7,missense mutation,genf,PP2C activity,moft,DISRUPTS
+16339800,ab,7,PP2C,aapp,ABA,bacs,COEXISTS_WITH
+16339800,ab,8,plants,plnt,ABI2,aapp,LOCATION_OF
+16339800,ab,8,Arabidopsis,plnt,PP2C,aapp,LOCATION_OF
+16339800,ab,8,ABI1,gngm,PP2C,gngm,INHIBITS
+16339800,ab,9,seeds,plnt,PP2C,aapp,LOCATION_OF
+16425104,ti,1,Lymnaea       stagnalis,invt,snail,invt,ISA
+16425104,ab,4,Lymnaea stagnalis,invt,snail,invt,ISA
+16425104,ab,7,performances,inbe,progeny,humn,PROCESS_OF
+16425104,ab,11,fitness,dora,population,humn,TREATS
+16407061,ti,1,virions,celc,three-dimensional       reconstructions,diap,LOCATION_OF
+16407061,ab,5,virion,celc,extracellular,celc,PART_OF
+16979443,ti,1,Internal Radiation,topp,Therapy,topp,ISA
+16979443,ti,1,Internal Radiation,topp,liver metastases,neop,TREATS
+16979443,ab,1,SIRT,topp,SIRT,topp,ISA
+16979443,ab,1,internal radiation,topp,therapy,topp,ISA
+16979443,ab,1,therapy,topp,hepatic lesions,fndg,TREATS
+16979443,ab,2,colorectal carcinoma,neop,malignancies,neop,ISA
+16979443,ab,2,hepatocellular carcinoma,neop,malignancies,neop,ISA
+16979443,ab,2,liver,bpoc,malignancies,neop,LOCATION_OF
+16979443,ab,2,colorectal carcinoma,neop,liver metastases,neop,CAUSES
+16979443,ab,6,nodules,acab,tumor,neop,PART_OF
+16979443,ab,8,internal       radiation,topp,therapy,topp,ISA
+16979443,ab,10,hepatic,blor,malignancies,neop,LOCATION_OF
+16979443,ab,10,SIRT,topp,SIRT,topp,ISA
+16979443,ab,10,SIRT,topp,malignancies,neop,TREATS
+16628891,ti,1,Bombus terrestris,invt,bumble bees,invt,ISA
+16628891,ti,1,tomato,plnt,plants,plnt,ISA
+16628891,ab,3,study,resa,irrigation,topp,USES
+16628891,ab,5,dead,fndg,adults,humn,PROCESS_OF
+16628891,ab,5,water       consumption,orgf,pollination,orgf,COEXISTS_WITH
+16628891,ab,8,irrigation,topp,tomatoes,food,USES
+15996060,ti,1,Sex hormone,horm,patients,podg,TREATS
+15996060,ti,1,rheumatoid arthritis,dsyn,patients,humn,PROCESS_OF
+15996060,ab,1,testosterone,horm,Androgens,horm,ISA
+15996060,ab,1,dehydroepiandrosterone sulfate,bacs,Androgens,horm,ISA
+15996060,ab,1,rheumatoid       arthritis,dsyn,women,humn,PROCESS_OF
+15996060,ab,1,testosterone,phsu,women,popg,TREATS
+15996060,ab,1,dehydroepiandrosterone sulfate,phsu,women,popg,TREATS
+15996060,ab,2,RA,dsyn,women,humn,PROCESS_OF
+15996060,ab,2,estrogens,phsu,women,popg,TREATS
+15996060,ab,3,tumor       necrosis factor,aapp,hormones,horm,INTERACTS_WITH
+15996060,ab,3,hormones,horm,anti-TNF antibody,aapp,COEXISTS_WITH
+15996060,ab,3,therapy,topp,adalimumab,aapp,USES
+15996060,ab,4,longitudinal anti-TNF       therapy study,resa,anti-TNF       therapy,topp,USES
+15996060,ab,4,longitudinal anti-TNF       therapy study,resa,serum concentrations,qnco,MEASURES
+15996060,ab,4,RA,dsyn,patients,humn,PROCESS_OF
+15996060,ab,5,hormones,horm,patients,podg,TREATS
+15996060,ab,6,treatment,topp,TNF,aapp,USES
+15996060,ab,7,DHEAS,strd,patients,podg,TREATS
+15996060,ab,7,free testosterone,horm,patients,podg,TREATS
+15996060,ab,8,DHEA,horm,patients,podg,TREATS
+15996060,ab,8,estradiol,horm,patients,podg,TREATS
+15996060,ab,10,therapy,topp,TNF,aapp,USES
+15996060,ab,10,RA,dsyn,patients,humn,PROCESS_OF
+15996060,ab,10,sex hormones,horm,patients,podg,TREATS
+15996060,ab,11,RA,dsyn,patients,humn,PROCESS_OF
+17293230,ti,1,CT,diap,CT,lbpr,USES
+17293230,ab,1,positron emission tomography,diap,glucose,phsu,USES
+17293230,ab,1,tomography,diap,computed,lbpr,USES
+17293230,ab,2,CT,diap,CT,lbpr,USES
+17293230,ab,2,non-small-cell lung       cancer,neop,patients,humn,PROCESS_OF
+17293230,ab,6,CT,diap,CT,lbpr,USES
+17293230,ab,8,CT,diap,CT,lbpr,USES
+17293230,ab,9,CT,diap,CT,lbpr,USES
+17293230,ab,9,CT,diap,CT,lbpr,USES
+17293230,ab,12,CT,diap,CT,lbpr,USES
+17293230,ab,12,CT,diap,CT,lbpr,USES
+17293230,ab,18,radiotherapy planning,topp,non-small-cell lung cancer,neop,TREATS
+15993962,ti,1,stents,medd,restenosis,acab,TREATS
+15993962,ab,1,implantation,topp,restenosis,acab,PRECEDES
+15993962,ab,2,stent,medd,restenosis,acab,TREATS
+15993962,ab,2,cardiac       events,dsyn,patients,humn,PROCESS_OF
+15993962,ab,2,cardiac       events,dsyn,restenosis,acab,COEXISTS_WITH
+15993962,ab,3,percutaneous coronary intervention,topp,restenosis,acab,TREATS
+15993962,ab,3,SES,lbpr,occlusion,patf,DIAGNOSES
+15993962,ab,4,implantation,orgf,patients,humn,PROCESS_OF
+15993962,ab,6,dialysis,topp,patients,podg,AFFECTS
+15993962,ab,7,restenosis,acab,occlusive,patf,ISA
+15993962,ab,7,unstable       angina,dsyn,restenosis,acab,COEXISTS_WITH
+15993962,ab,8,cardiac event,dsyn,patients,podg,OCCURS_IN
+15993962,ab,9,unstable angina,dsyn,occlusion,patf,COEXISTS_WITH
+15993962,ab,9,unstable angina,dsyn,restenosis,acab,COEXISTS_WITH
+15993962,ab,11,treatment,topp,restenosis,acab,TREATS
+15956296,ab,3,treatments,topp,cheese,food,USES
+15956296,ab,12,brine,inch,salt,inch,INTERACTS_WITH
+15956296,ab,13,salt,inch,brine,inch,COEXISTS_WITH
+15956296,ab,14,salt,inch,brine,inch,COEXISTS_WITH
+16445747,ti,1,Ustilago maydis,fngs,fungi,fngs,ISA
+16445747,ti,1,fungi,fngs,Promoters,bacs,LOCATION_OF
+16445747,ti,1,Ustilago maydis,fngs,Promoters,bacs,LOCATION_OF
+16445747,ab,3,Prf1,gngm,response element,bacs,INTERACTS_WITH
+16445747,ab,4,prf1,gngm,Transcription,genf,LOCATION_OF
+16445747,ab,5,transcriptional regulation,celf,growth,orgf,COEXISTS_WITH
+16445747,ab,7,transcriptional       processes,genf,fungi,fngs,PROCESS_OF
+16445747,ab,8,transcriptional,genf,networks,humn,PROCESS_OF
+16411510,ab,3,leprosy,dsyn,people,humn,AFFECTS
+16411510,ab,7,treatment,topp,individuals,humn,ADMINISTERED_TO
+16411510,ab,11,education,edac,leprosy,dsyn,AFFECTS
+16141404,ab,1,blood vessel development,ortf,knockout mice,mamm,PROCESS_OF
+16141404,ab,2,endothelial progenitor cells,cell,PAR-1,aapp,PRODUCES
+16141404,ab,3,EPC,opco,PAR-1,gngm,INTERACTS_WITH
+16141404,ab,6,SDF-1,gngm,mRNA       expression,genf,LOCATION_OF
+16141404,ab,6,CXCR-4,aapp,mRNA       expression,genf,LOCATION_OF
+16141404,ab,6,SFLLRN,aapp,EPC,opco,STIMULATES
+16141404,ab,8,EPC,opco,Matrigel,aapp,COEXISTS_WITH
+16141404,ab,8,SFLLRN,aapp,PAR-1,gngm,STIMULATES
+16141404,ab,8,EPC,opco,MEK,moft,DISRUPTS
+16141404,ab,8,EPC,opco,CXCR-4,gngm,INHIBITS
+16141404,ab,9,EPCs,cell,PAR-1,aapp,PRODUCES
+16317035,ti,1,cytochrome c6,aapp,chloroplasts,celc,PART_OF
+16317035,ab,1,algae,alga,eukaryotic,orgm,ISA
+16317035,ab,2,land plants,plnt,cytochrome c6,aapp,LOCATION_OF
+16317035,ab,3,Chlamydomonas reinhardtii,alga,green alga,alga,ISA
+16317035,ab,3,Chlamydomonas reinhardtii,alga,protein,aapp,LOCATION_OF
+16317035,ab,7,chloroplast,celc,electron transfer,moft,LOCATION_OF
+16736257,ab,1,Ginkgo biloba,plnt,seed plants,plnt,ISA
+16736257,ab,1,cycads,plnt,seed plants,plnt,ISA
+16736257,ab,4,microtubules,celc,blepharoplast,celc,PART_OF
+16736257,ab,5,blepharoplast,celc,cavities,bsoj,LOCATION_OF
+16736257,ab,5,cavities,bsoj,microtubules,celc,LOCATION_OF
+16736257,ab,6,core,celc,blepharoplast,celc,PART_OF
+15953327,ab,1,infective endocarditis,dsyn,children,humn,PROCESS_OF
+15953327,ab,10,cardiac abnormalities,cgab,children,humn,PART_OF
+15953327,ab,13,Infective endocarditis,dsyn,children,humn,PROCESS_OF
+16084063,ti,1,beta-catenin,aapp,death,orgf,DISRUPTS
+16084063,ab,2,cancers,neop,human,humn,PROCESS_OF
+16084063,ab,3,mitochondria,celc,apoptosis,celf,AFFECTS
+16084063,ab,5,anoikis,celf,apoptosis,celf,ISA
+16084063,ab,5,Myc,aapp,apoptosis,celf,AFFECTS
+16084063,ab,5,beta-catenin,aapp,apoptosis,celf,DISRUPTS
+16084063,ab,7,beta-catenin,aapp,tumor growth,neop,PREDISPOSES
+16084063,ab,7,tumor growth,neop,nude mice,mamm,PROCESS_OF
+16733895,ti,1,pulmonary hypertension,dsyn,rats,mamm,PROCESS_OF
+16733895,ab,1,pulmonary hypertension,dsyn,rats,mamm,PROCESS_OF
+16733895,ab,1,rats,mamm,hydrogen sulfide,hops,LOCATION_OF
+16733895,ab,1,pulmonary vascular structure,bpoc,sodium       hydrosulfide,inch,LOCATION_OF
+16733895,ab,9,pulmonary arteries,bpoc,rats,mamm,PART_OF
+16733895,ab,17,size,spco,smooth muscular cells,cell,LOCATION_OF
+16733895,ab,18,NaHS,inch,rats,mamm,ADMINISTERED_TO
+16733895,ab,23,blood flow,orgf,rats,mamm,PROCESS_OF
+16733895,ab,23,pulmonary hypertension,dsyn,rats,mamm,PROCESS_OF
+16757590,ti,1,DNA,bacs,human papillomavirus,virs,PART_OF
+16757590,ab,4,DNA,bacs,HPV,virs,PART_OF
+16757590,ab,7,HPV types,lbpr,detection,topp,USES
+16757590,ab,9,anal,bpoc,disease,dsyn,LOCATION_OF
+16757590,ab,9,anal,bpoc,HPV,virs,LOCATION_OF
+16316352,ti,1,coronary       artery disease,dsyn,patients,humn,PROCESS_OF
+16316352,ti,1,renal dysfunction,patf,patients,humn,PROCESS_OF
+16316352,ab,1,CAD,dsyn,patients,humn,PROCESS_OF
+16316352,ab,1,glomerular filtration rate,ortf,patients,humn,PROCESS_OF
+16316352,ab,1,coronary artery disease,dsyn,chronic renal       failure,dsyn,COEXISTS_WITH
+16316352,ab,1,renal hemodynamic dysfunction,patf,chronic renal       failure,dsyn,COEXISTS_WITH
+16316352,ab,2,CAD,dsyn,patients,humn,PROCESS_OF
+16316352,ab,2,renal function,ortf,patients,humn,PROCESS_OF
+16316352,ab,3,aminoacid,aapp,hemodynamics,ortf,AUGMENTS
+16316352,ab,3,renal arteries,bpoc,normal renal function,fndg,LOCATION_OF
+16316352,ab,3,renal arteries,bpoc,stenoses,patf,LOCATION_OF
+16316352,ab,3,normal renal function,fndg,patients,humn,PROCESS_OF
+16316352,ab,3,stenoses,patf,patients,humn,PROCESS_OF
+16316352,ab,7,GFR,diap,CAD,dsyn,DIAGNOSES
+16316352,ab,8,renin activity,moft,CAD,dsyn,COEXISTS_WITH
+16316352,ab,11,Blood pressure,orgf,CAD,dsyn,ASSOCIATED_WITH
+16316352,ab,12,GFR,diap,CAD,dsyn,DIAGNOSES
+16316352,ab,13,CAD,dsyn,patients,humn,PROCESS_OF
+16316352,ab,13,GFR,ortf,patients,humn,PROCESS_OF
+16912584,ti,1,risk assessment,hlca,coronary heart disease,dsyn,TREATS
+16912584,ab,1,coronary disease,dsyn,relatives,humn,PROCESS_OF
+16912584,ab,6,diabetes,dsyn,cardiovascular disease,dsyn,COEXISTS_WITH
+16912584,ab,6,hypercholesterolemia,dsyn,cardiovascular disease,dsyn,COEXISTS_WITH
+16912584,ab,6,hypertension,dsyn,cardiovascular disease,dsyn,COEXISTS_WITH
+16912584,ab,6,obesity,dsyn,cardiovascular disease,dsyn,COEXISTS_WITH
+16912584,ab,7,diabetes,dsyn,coronary heart disease,dsyn,PREDISPOSES
+16912584,ab,7,hypercholesterolemia,dsyn,coronary heart disease,dsyn,PREDISPOSES
+16912584,ab,7,hypertension,dsyn,coronary heart disease,dsyn,PREDISPOSES
+16912584,ab,7,obesity,dsyn,coronary heart disease,dsyn,PREDISPOSES
+16732098,ti,1,Parturition,orgf,rat,mamm,PROCESS_OF
+16732098,ab,3,gavage,topp,RU 486,phsu,USES
+16732098,ab,5,abdominal,blor,stretches,dsyn,LOCATION_OF
+16732098,ab,6,oxytocin,aapp,stretches,dsyn,AUGMENTS
+16732098,ab,7,segments,spco,neurons,cell,LOCATION_OF
+16732098,ab,7,morphine,phsu,rats,mamm,TREATS
+16732098,ab,8,parturition,orgf,stretches,dsyn,ASSOCIATED_WITH
+16732098,ab,8,labor,orgf,rat,mamm,PROCESS_OF
+16732098,ab,8,uterine contractions,ortf,nociception,orgf,COEXISTS_WITH
+16732098,ab,8,parturition,orgf,rat,mamm,PROCESS_OF
+16732098,ab,8,parturition,orgf,women,humn,PROCESS_OF
+15919667,ti,1,phospholipase C,aapp,Clostridium perfringens,bact,PART_OF
+15919667,ti,1,gangliosides,bacs,hypersensitivity,patf,CAUSES
+15919667,ab,1,phospholipase C,aapp,Clostridium perfringens,bact,PART_OF
+15919667,ab,1,virulence factor,bacs,gas gangrene,dsyn,CAUSES
+15919667,ab,3,glycoproteins,aapp,PLC,gngm,COEXISTS_WITH
+15919667,ab,3,glycosphingolipids,lipd,PLC,gngm,COEXISTS_WITH
+15919667,ab,3,proteoglycans,aapp,PLC,gngm,COEXISTS_WITH
+15919667,ab,4,glycosphingolipid,lipd,gangliosides,bacs,COEXISTS_WITH
+15919667,ab,4,PLC,aapp,hypersensitive,patf,AFFECTS
+15919667,ab,5,cells,cell,PLC,gngm,INTERACTS_WITH
+15919667,ab,6,sialidase,aapp,C. perfringens,bact,PART_OF
+15919667,ab,6,sialidase,aapp,C. perfringens,bact,PART_OF
+15919667,ab,6,cultured cells,cell,PLC,gngm,INTERACTS_WITH
+15919667,ab,6,Removal,topp,mice,mamm,TREATS
+15919667,ab,7,sialidase,aapp,C. perfringens,bact,PART_OF
+16732879,ti,1,Toxocara       canis infections,dsyn,puppies,mamm,PROCESS_OF
+16732879,ab,1,moxidectin,antb,dogs,mamm,ADMINISTERED_TO
+16732879,ab,2,moxidectin,antb,beagles,mamm,TREATS
+16732879,ab,4,infections,dsyn,puppies,mamm,PROCESS_OF
+15323262,ti,1,chronic renal disease,dsyn,patients,humn,PROCESS_OF
+15323262,ti,1,metabolism,orgf,patients,humn,PROCESS_OF
+15323262,ab,3,blood,tisu,25-hydroxyvitamin D3,strd,LOCATION_OF
+15323262,ab,3,liver,bpoc,Cholecalciferol,strd,LOCATION_OF
+15323262,ab,3,vitamin D,phsu,human body,humn,TREATS
+15323262,ab,5,chronic diseases,dsyn,people,humn,PROCESS_OF
+15323262,ab,5,chronic diseases,dsyn,older population,popg,PROCESS_OF
+15323262,ab,6,parathormone,horm,bone mineralization,ortf,DISRUPTS
+15323262,ab,8,experience,menp,Patients,humn,PROCESS_OF
+15323262,ab,9,secondary hyperparathyroidism,dsyn,disorders,dsyn,CAUSES
+15323262,ab,10,supplementation,topp,vitamin D,phsu,USES
+15323262,ab,11,secondary hyperparathyroidism,dsyn,bone metabolism,ortf,AFFECTS
+16875036,ti,1,Pregnancy,orgf,woman,humn,PROCESS_OF
+16875036,ti,1,Turner syndrome,dsyn,woman,humn,PROCESS_OF
+16875036,ab,1,Turner syndrome,dsyn,women,humn,PROCESS_OF
+16875036,ab,1,ovulation,ortf,Pregnancies,orgf,CAUSES
+16875036,ab,3,Turner syndrome,dsyn,women,humn,PROCESS_OF
+16875036,ab,9,Turner syndrome,dsyn,patient,humn,PROCESS_OF
+15592935,ti,1,nasal mucosa,tisu,human,humn,PART_OF
+15592935,ti,1,nasal mucosa,tisu,oxygenase,aapp,LOCATION_OF
+15592935,ab,1,oxygenase,aapp,Carbon monoxide,hops,PRODUCES
+15592935,ab,2,nasal       mucosa,tisu,nitric oxide,inch,LOCATION_OF
+15592935,ab,3,nasal mucosa,tisu,human,humn,PART_OF
+15592935,ab,3,iNOS,aapp,NO synthase,aapp,ISA
+15592935,ab,3,nasal mucosa,tisu,HO,aapp,LOCATION_OF
+15592935,ab,3,nasal mucosa,tisu,NO synthase,aapp,LOCATION_OF
+15592935,ab,4,nasal inferior turbinate mucosa,tisu,inferior turbinate,bpoc,PART_OF
+15592935,ab,4,allergic rhinitis,dsyn,patients,humn,PROCESS_OF
+15592935,ab,4,nasal inferior turbinate mucosa,tisu,HO,aapp,LOCATION_OF
+15592935,ab,5,glands,bpoc,HO-1,aapp,LOCATION_OF
+15592935,ab,8,mucosa,tisu,HO-1,aapp,LOCATION_OF
+15592935,ab,9,immunoreactivity,moft,vascular endothelium,tisu,PROCESS_OF
+15592935,ab,9,immunoreactivity,moft,respiratory epithelium,tisu,PROCESS_OF
+15592935,ab,10,nasal respiratory epithelium,tisu,HO-1,aapp,LOCATION_OF
+16702302,ab,5,bone loss,patf,weight loss,fndg,COEXISTS_WITH
+16702302,ab,5,estrogen,horm,cortisol,horm,STIMULATES
+16702302,ab,5,insulin-like growth factor-1,aapp,cortisol,horm,STIMULATES
+16702302,ab,5,growth hormone,aapp,cortisol,horm,STIMULATES
+16702302,ab,5,leptin,aapp,cortisol,horm,STIMULATES
+16702302,ab,5,glucagon-like peptide-2,aapp,cortisol,horm,STIMULATES
+16702302,ab,7,exercise,dora,bone loss,patf,PREVENTS
+16781345,ti,1,minor salivary glands,bpoc,adenoid cystic carcinoma,neop,LOCATION_OF
+16781345,ab,1,salivary glands,bpoc,malignant tumor,neop,LOCATION_OF
+16781345,ab,3,radiotherapy,topp,treatment,topp,METHOD_OF
+16781345,ab,4,ACC,neop,patients,humn,PROCESS_OF
+16781345,ab,5,minor salivary glands,bpoc,ACC,neop,LOCATION_OF
+16781345,ab,5,ACC,neop,patients,humn,PROCESS_OF
+16781345,ab,8,surgery,topp,patients,podg,TREATS
+16781345,ab,9,radiotherapy,topp,patients,podg,TREATS
+16781345,ab,11,assay,lbpr,Immunohistochemical,lbpr,USES
+16781345,ab,18,Lymph node metastases,neop,patients,podg,OCCURS_IN
+16781345,ab,23,resection,topp,treatment,topp,ISA
+16781345,ab,23,resection,topp,ACC,neop,TREATS
+16078061,ti,1,FDG PET,diap,diagnosis,hlca,AFFECTS
+16078061,ti,1,epilepsy,dsyn,children,humn,AFFECTS
+16078061,ab,1,epilepsy,dsyn,children,humn,AFFECTS
+16078061,ab,1,FDG PET,diap,patient,humn,ADMINISTERED_TO
+16078061,ab,2,PET scan,diap,diagnosis,hlca,AFFECTS
+16078061,ab,5,plan,menp,patients,humn,PROCESS_OF
+16078061,ab,5,medical therapy,topp,patients,podg,TREATS
+16078061,ab,6,physicians,prog,patients,podg,TREATS
+16078061,ab,7,FDG PET,diap,clinical management,hlca,AFFECTS
+16078061,ab,7,clinical management,hlca,patients,humn,TREATS
+16078061,ab,8,FDG PET,diap,assessment,hlca,AFFECTS
+16078061,ab,8,epilepsy,dsyn,patients,humn,AFFECTS
+16078061,ab,9,epilepsy,dsyn,children,humn,AFFECTS
+15993989,ti,1,Escherichia coli,bact,polypeptide,aapp,LOCATION_OF
+15993989,ab,2,Escherichia coli,bact,p.) recombinant spike polypeptide,aapp,PRODUCES
+15993989,ab,3,S-DNA,bacs,tPA,aapp,PART_OF
+15993989,ab,15,S-DNA,bacs,tPA,aapp,PART_OF
+15993989,ab,20,S-DNA,bacs,tPA,aapp,PART_OF
+15993989,ab,24,E. coli,bact,recombinant proteins,aapp,LOCATION_OF
+16496495,ab,9,rat,mamm,poison,hops,LOCATION_OF
+16496495,ab,10,RP,mamm,RP,hops,LOCATION_OF
+16496495,ab,10,rat,mamm,poison,hops,LOCATION_OF
+16291723,ab,2,cells,cell,daughter,humn,PART_OF
+16291723,ab,2,constriction,celc,actomyosin       ring,celc,PART_OF
+16291723,ab,3,cell,cell,lysis,celf,LOCATION_OF
+16291723,ab,4,cell,cell,lysis,celf,LOCATION_OF
+16291723,ab,6,GTPase-activating protein,aapp,secretion,celf,AFFECTS
+16291723,ab,9,Rho-GEF,aapp,fission yeast,fngs,PART_OF
+16362541,ti,1,spinal cord injury,inpo,individuals,humn,PROCESS_OF
+16362541,ab,1,spinal cord injury,inpo,Individuals,humn,PROCESS_OF
+16362541,ab,3,SCI,inpo,individuals,humn,PROCESS_OF
+16362541,ab,11,SCI,inpo,autonomic dysfunction,patf,COEXISTS_WITH
+16688036,ti,1,fusion,topp,Scheuermann kyphosis,dsyn,TREATS
+16688036,ab,1,Scheuermann kyphosis,dsyn,patients,humn,PROCESS_OF
+16688036,ab,1,spine,bpoc,radiographs,diap,LOCATION_OF
+16688036,ab,1,spine,bpoc,patients,humn,PART_OF
+16688036,ab,2,lordosis,anab,Scheuermann kyphosis,dsyn,COEXISTS_WITH
+16688036,ab,3,people,humn,lordosis,anab,LOCATION_OF
+16688036,ab,4,lordosis,anab,Scheuermann kyphosis,dsyn,COEXISTS_WITH
+16688036,ab,5,sacral,bpoc,slope,fndg,LOCATION_OF
+16688036,ab,5,spine,bpoc,radiographs,diap,LOCATION_OF
+16688036,ab,5,radiographs,diap,preoperative,tmco,MEASURES
+16688036,ab,6,sacral,bpoc,slope,fndg,LOCATION_OF
+15790407,ab,1,drug delivery systems,medd,cystic       fibrosis,dsyn,TREATS
+15790407,ab,1,therapies,topp,cystic       fibrosis,dsyn,TREATS
+15790407,ab,5,Web,orga,cystic fibrosis,dsyn,ASSOCIATED_WITH
+15790407,ab,9,therapies,topp,mucolytic,phsu,USES
+16340726,ab,2,SPECT,diap,patients,humn,ADMINISTERED_TO
+16340726,ab,2,emphysema,patf,patients,humn,PROCESS_OF
+16340726,ab,4,lungs,bpoc,diffusing capacity,fndg,LOCATION_OF
+16895685,ab,1,renal arteries,bpoc,plaques,acab,LOCATION_OF
+16895685,ab,7,renal,bpoc,tomography,diap,LOCATION_OF
+16895685,ab,7,tomography,diap,aortic calcifications,dsyn,DIAGNOSES
+16895685,ab,7,Ultrasonography,diap,aortic calcifications,dsyn,DIAGNOSES
+16895685,ab,8,Tomodensitometry,diap,plaques,acab,DIAGNOSES
+16895685,ab,9,renal,bpoc,cortical atrophy,dsyn,LOCATION_OF
+16895685,ab,9,tomography,diap,scanner,medd,USES
+16895685,ab,13,artery,bpoc,renal       artery thrombosis,dsyn,LOCATION_OF
+16895685,ab,19,Renal,bpoc,cholesterol crystal embolism,dsyn,LOCATION_OF
+16895685,ab,19,surgery,topp,cholesterol crystal embolism,dsyn,TREATS
+16895685,ab,20,Anticoagulants,phsu,CCE,dsyn,CAUSES
+16895685,ab,21,CCE,dsyn,renal insufficiency,dsyn,CAUSES
+16895685,ab,22,small caliber       intrarenal arteries,bpoc,crystals,bdsu,LOCATION_OF
+16895685,ab,22,crystals,bdsu,inflammatory       reaction,patf,CAUSES
+16895685,ab,22,crystals,bdsu,obstruction,patf,CAUSES
+16895685,ab,32,Treatment,topp,statins,phsu,USES
+16630952,ti,1,extrapulmonary tuberculosis,dsyn,adults,humn,PROCESS_OF
+16630952,ti,1,innate immune responses,patf,adults,humn,PROCESS_OF
+16630952,ab,2,Extrapulmonary       tuberculosis,dsyn,immunodeficiency,dsyn,PREDISPOSES
+16630952,ab,3,extrapulmonary tuberculosis,dsyn,persons,humn,PROCESS_OF
+16630952,ab,3,immune defects,patf,persons,humn,PROCESS_OF
+16630952,ab,4,latent M tuberculosis infection,dsyn,M tuberculosis,bact,PROCESS_OF
+16630952,ab,4,pulmonary tuberculosis,dsyn,persons,humn,PROCESS_OF
+16630952,ab,4,extrapulmonary tuberculosis,dsyn,adults,humn,PROCESS_OF
+16630952,ab,7,pulmonary,bpoc,patients,humn,PART_OF
+16630952,ab,8,patients,humn,cytokine,aapp,LOCATION_OF
+16630952,ab,10,extrapulmonary tuberculosis,dsyn,patients,humn,PROCESS_OF
+16630952,ab,10,pulmonary tuberculosis,dsyn,patients,humn,PROCESS_OF
+16630952,ab,12,extrapulmonary tuberculosis,dsyn,adults,humn,PROCESS_OF
+16146326,ab,2,laboratory,orgt,study,resa,LOCATION_OF
+16543714,ti,1,secondary hyperparathyroidism,dsyn,CKD,dsyn,COEXISTS_WITH
+16543714,ab,1,calcitriol,horm,secondary       hyperparathyroidism,dsyn,TREATS
+16543714,ab,1,calcitriol,horm,parathyroid       hormone,gngm,INHIBITS
+16543714,ab,2,chronic kidney disease,dsyn,patients,humn,PROCESS_OF
+16543714,ab,2,SHPT,dsyn,patients,humn,PROCESS_OF
+16543714,ab,5,CKD,dsyn,patients,humn,PROCESS_OF
+16543714,ab,7,serum,bdsu,calcium,bacs,LOCATION_OF
+16543714,ab,9,CKD,dsyn,patients,humn,PROCESS_OF
+16543714,ab,9,SHPT,dsyn,patients,humn,PROCESS_OF
+16543714,ab,10,hyperphosphatemia,dsyn,hypercalcemia,dsyn,AFFECTS
+16543714,ab,10,regimen,resa,placebo,medd,compared_with
+16441715,ti,1,atrial,bpoc,disease,dsyn,LOCATION_OF
+16441715,ti,1,disease,dsyn,patients,humn,PROCESS_OF
+16441715,ab,10,advanced atrial chronotropic disease,fndg,population,humn,PROCESS_OF
+16441715,ab,10,sensor,medd,population,popg,TREATS
+16901783,ti,1,Beta 4 integrin,gngm,ErbB2,gngm,STIMULATES
+16901783,ab,1,receptor tyrosine       kinase,aapp,breast tumors,neop,ASSOCIATED_WITH
+16901783,ab,1,ErbB2,aapp,poor       prognosis,fndg,AFFECTS
+16901783,ab,2,ErbB2,gngm,breast carcinoma,neop,AFFECTS
+16901783,ab,3,ErbB2,gngm,tumorigenesis,neop,AFFECTS
+16901783,ab,3,ErbB2,gngm,mammary carcinoma,neop,CAUSES
+16901783,ab,8,beta 4 integrin,gngm,tumor progression,neop,PREDISPOSES
+16758763,ti,1,glaucoma,dsyn,patients,humn,PROCESS_OF
+16758763,ab,3,complete ophthalmologic examination,hlca,patients,humn,TREATS
+16758763,ab,7,fiber layer,tisu,nerve,bpoc,PART_OF
+16758763,ab,14,open angle glaucoma,dsyn,patients,humn,PROCESS_OF
+16903766,ti,1,Botulinum toxin,orch,bladder dysfunction,patf,TREATS
+16903766,ab,1,detrusor,bpoc,overactivity,fndg,LOCATION_OF
+16903766,ab,2,bladder,bpoc,overactivity,fndg,LOCATION_OF
+16903766,ab,2,Anticholinergics,phsu,overactivity,fndg,TREATS
+16903766,ab,4,DO,bpoc,DO,fndg,LOCATION_OF
+16903766,ab,4,DO,fndg,patients,humn,PROCESS_OF
+16903766,ab,5,DO,bpoc,DO,fndg,LOCATION_OF
+16903766,ab,5,injection,topp,botulinum toxin type A,phsu,USES
+16903766,ab,5,DO,fndg,patients,humn,PROCESS_OF
+16903766,ab,5,surgery,topp,patients,podg,TREATS
+16903766,ab,10,muscle,tisu,detrusor,bpoc,PART_OF
+16903766,ab,10,detrusor,bpoc,overactivity,fndg,LOCATION_OF
+16903766,ab,10,injection,topp,BTX-A,phsu,USES
+16903766,ab,10,overactive bladder,dsyn,urinary incontinence,dsyn,CAUSES
+16903766,ab,10,injection,topp,urinary incontinence,dsyn,TREATS
+16903766,ab,13,NDO,bpoc,NDO,fndg,LOCATION_OF
+16903766,ab,15,catheterisation,topp,patients,humn,ADMINISTERED_TO
+16903766,ab,15,IDO,dsyn,patients,humn,PROCESS_OF
+16903766,ab,17,detrusor,bpoc,fibrosis,patf,LOCATION_OF
+16903766,ab,17,toxin,bacs,injection,topp,compared_with
+16903766,ab,17,toxin,bacs,injection,topp,same_as
+16903766,ab,17,injection,topp,fibrosis,patf,TREATS
+16903766,ab,17,injection,topp,bladder compliance,fndg,TREATS
+16644456,ab,1,patient,podg,population,popg,ISA
+16644456,ab,1,cirrhosis,patf,patients,humn,PROCESS_OF
+16644456,ab,1,portal hypertension,dsyn,patients,humn,PROCESS_OF
+16644456,ab,2,portal hypertension,dsyn,cirrhosis,patf,CAUSES
+16644456,ab,2,liver disease,dsyn,cirrhosis,patf,CAUSES
+16644456,ab,4,portal       hypertension,dsyn,patients,humn,PROCESS_OF
+16644456,ab,5,portal hypertension,dsyn,patients,humn,PROCESS_OF
+16644456,ab,6,nonsteroidal       anti-inflammatory drugs,phsu,patients,humn,ADMINISTERED_TO
+16644456,ab,6,arthritis,dsyn,patients,humn,PROCESS_OF
+16644456,ab,7,mucosal,tisu,small bowel,bpoc,PART_OF
+16644456,ab,7,cirrhosis,patf,patients,humn,PROCESS_OF
+16644456,ab,8,cirrhosis,patf,patients,humn,PROCESS_OF
+16644456,ab,9,bleeding,fndg,patients,humn,PROCESS_OF
+15634358,ab,3,tails,bpoc,males,humn,PART_OF
+15634358,ab,14,characters,menp,individual,humn,PROCESS_OF
+16914119,ti,1,endothelial cells,cell,PGE2,eico,LOCATION_OF
+16914119,ti,1,endothelial cells,cell,COX-2,aapp,LOCATION_OF
+16914119,ab,1,demyelination,patf,disease,dsyn,ISA
+16914119,ab,1,TMEV,virs,disease,dsyn,CAUSES
+16914119,ab,2,TMEV-IDD,patf,TMEV-IDD,dsyn,ISA
+16914119,ab,2,endothelium,tisu,brain,bpoc,PART_OF
+16914119,ab,2,endothelium,tisu,cyclooxygenase-2,aapp,LOCATION_OF
+16914119,ab,3,endothelial cells,cell,brain,bpoc,PART_OF
+16914119,ab,3,endothelial cells,cell,CB2,aapp,PRODUCES
+16914119,ab,3,endothelial cells,cell,cannabinoid receptors CB1,aapp,PRODUCES
+16914119,ab,4,up-regulation,genf,COX-2,gngm,PROCESS_OF
+16914119,ab,4,PGE2,eico,receptors,gngm,STIMULATES
+16914119,ab,4,COX-2,aapp,receptors,gngm,STIMULATES
+16914119,ab,5,abnormal cannabidiol,orch,COX-2,aapp,INTERACTS_WITH
+16914119,ab,7,COX-2,aapp,treatment,topp,compared_with
+16914119,ab,7,COX-2,aapp,treatment,topp,higher_than
+16914119,ab,8,Abn-CBD,orch,COX-2,aapp,INTERACTS_WITH
+16914119,ab,9,COX-2,aapp,signaling pathways,celf,AFFECTS
+16914119,ab,10,induction,topp,COX-2,aapp,USES
+16080004,ti,1,safrole,orch,cell proliferation,celf,CAUSES
+16080004,ab,1,safrole,hops,movement,orgf,AFFECTS
+16080004,ab,1,safrole,hops,cell proliferation,celf,AFFECTS
+16080004,ab,3,fura-2,orch,cells,cell,ADMINISTERED_TO
+16080004,ab,5,Ca2,gngm,extracellular,celc,PART_OF
+16080004,ab,6,thapsigargin,hops,treatment,topp,ISA
+16080004,ab,7,safrole,hops,Ca2,gngm,STIMULATES
+16080004,ab,7,U73122,orch,phospholipase C,gngm,INHIBITS
+16080004,ab,8,safrole,hops,cell       proliferation,celf,AFFECTS
+16080004,ab,8,safrole,orch,cell       proliferation,celf,AUGMENTS
+16080004,ab,9,BAPTA,orch,chelator,phsu,ISA
+16080004,ab,10,endoplasmic reticulum,celc,Ca2,aapp,LOCATION_OF
+16080004,ab,10,Ca2,gngm,phospholipase C,aapp,COEXISTS_WITH
+16080004,ab,10,Ca2,gngm,protein kinase C,aapp,COEXISTS_WITH
+16080004,ab,10,nifedipine,orch,Ca2,gngm,INTERACTS_WITH
+16080004,ab,11,safrole,orch,cell growth,celf,AUGMENTS
+16204062,ti,1,non-small cell lung       cancer,neop,human,humn,PROCESS_OF
+16204062,ti,1,oncogene,gngm,non-small cell lung       cancer,neop,ASSOCIATED_WITH
+16204062,ab,1,Protein kinase C,aapp,carcinogenesis,neop,AFFECTS
+16204062,ab,2,cancer,neop,human,humn,PROCESS_OF
+16204062,ab,2,enzymes,enzy,cancer,neop,ASSOCIATED_WITH
+16204062,ab,3,human lung adenocarcinoma A549 cell line,cell,growth,orgf,AFFECTS
+16204062,ab,4,PKCiota,gngm,tumor,neop,PART_OF
+16204062,ab,4,NSCLC,neop,tumors,neop,ISA
+16204062,ab,4,NSCLC,neop,tumors,neop,ISA
+16204062,ab,4,NSCLC,neop,tumors,neop,ISA
+16204062,ab,4,gene       amplification,genf,PKCiota,gngm,PROCESS_OF
+16204062,ab,4,oncogene,gngm,NSCLC,neop,ASSOCIATED_WITH
+16204062,ab,4,dominant negative PKCiota allele,gngm,PKCiota,gngm,INHIBITS
+16204062,ab,4,NSCLC,neop,patients,humn,PROCESS_OF
+16204062,ab,4,patients,humn,PKCiota,aapp,LOCATION_OF
+16204062,ab,6,NSCLC,neop,patients,humn,PROCESS_OF
+16204062,ab,6,patients,humn,PKCiota,aapp,LOCATION_OF
+16204062,ab,7,NSCLC,neop,patients,humn,PROCESS_OF
+16361909,ti,1,compression,topp,stabilization,topp,METHOD_OF
+16361909,ab,2,stabilization,topp,hemorrhage,fndg,TREATS
+16361909,ab,9,pelvic,blor,radiographs,diap,LOCATION_OF
+16361909,ab,9,stabilization,topp,radiographs,diap,PRECEDES
+16361909,ab,10,stabilization,topp,radiographs,diap,PRECEDES
+16154523,ti,1,chemical ionization gas chromatography-mass       spectrometry,lbpr,gas chromatography,lbpr,USES
+16154523,ti,1,hair specimens,bpoc,amphetamine,orch,LOCATION_OF
+16154523,ab,1,methamphetamine,hops,amphetamine,nsba,ISA
+16154523,ab,1,hair,bpoc,methylenedioxyethylamphetamine,orch,LOCATION_OF
+16154523,ab,7,hair,bpoc,MDA,orch,LOCATION_OF
+16154523,ab,7,hair,bpoc,AM,orch,LOCATION_OF
+16154523,ab,7,hair,bpoc,MA,orch,LOCATION_OF
+16154523,ab,7,hair,bpoc,MDMA,orch,LOCATION_OF
+16154523,ab,7,hair,bpoc,MDEA,orch,LOCATION_OF
+16280382,ti,1,kidney,bpoc,rats,mamm,PART_OF
+16280382,ti,1,liver,bpoc,rats,mamm,PART_OF
+16280382,ti,1,lung,bpoc,rats,mamm,PART_OF
+16280382,ab,1,kidney,bpoc,histopathological,patf,LOCATION_OF
+16280382,ab,1,liver,bpoc,histopathological,patf,LOCATION_OF
+16280382,ab,1,lung,bpoc,histopathological,patf,LOCATION_OF
+16280382,ab,1,kidney,bpoc,Wistar rats,mamm,PART_OF
+16280382,ab,1,liver,bpoc,Wistar rats,mamm,PART_OF
+16280382,ab,1,lung,bpoc,Wistar rats,mamm,PART_OF
+16280382,ab,3,glutathione,gngm,hepatic,blor,PART_OF
+16280382,ab,5,catalase,aapp,Lpx,moft,STIMULATES
+16280382,ab,5,GPx,aapp,Lpx,moft,STIMULATES
+16280382,ab,5,superoxide       dismutase,aapp,Lpx,moft,STIMULATES
+16280382,ab,6,CAT,aapp,Lpx,moft,STIMULATES
+16280382,ab,6,GPx,aapp,Lpx,moft,STIMULATES
+16280382,ab,6,SOD,aapp,Lpx,moft,STIMULATES
+16280382,ab,9,liver,bpoc,inflammation,patf,LOCATION_OF
+16280382,ab,9,lungs,bpoc,inflammation,patf,LOCATION_OF
+16280382,ab,9,AEST,sbst,inflammation,patf,CAUSES
+16280382,ab,10,smokeless tobacco,sbst,inflammation,patf,CAUSES
+16801230,ab,1,laboratory,orgt,experiment,resa,LOCATION_OF
+16801230,ab,2,pad,medd,placebo,medd,USES
+16801230,ab,6,pad,medd,placebo,medd,USES
+16856443,ab,3,Hospital,hcro,fetal       echocardiography,diap,LOCATION_OF
+16856443,ab,8,multiple anomalies,cgab,fetal       cardiovascular diseases,dsyn,ISA
+16394795,ab,1,Chronic constipation,sosy,children,humn,PROCESS_OF
+16394795,ab,2,constipation,sosy,patients,humn,PROCESS_OF
+16394795,ab,3,chronic constipation,sosy,children,humn,PROCESS_OF
+16394795,ab,8,food intolerance,sosy,erosions,acab,DIAGNOSES
+16394795,ab,8,food intolerance,sosy,patients,humn,PROCESS_OF
+16394795,ab,9,food-intolerant,sosy,patients,humn,PROCESS_OF
+16394795,ab,10,food       intolerance,sosy,patients,humn,PROCESS_OF
+16394795,ab,10,Manometry,lbpr,anal sphincter resting pressure,fndg,DIAGNOSES
+16394795,ab,10,constipation,sosy,patients,humn,PROCESS_OF
+16394795,ab,12,proctitis,dsyn,constipation,sosy,COEXISTS_WITH
+15765262,ti,1,conditioned place preferences,menp,rats,mamm,PROCESS_OF
+15765262,ab,6,injection,topp,Rats,mamm,ADMINISTERED_TO
+15765262,ab,7,saline,bacs,injections,topp,ISA
+15765262,ab,7,injections,topp,saline,phsu,USES
+15765262,ab,8,trial,resa,injection,topp,USES
+15781005,ab,2,BMD,gngm,hip,bpoc,PART_OF
+15781005,ab,2,hip,bpoc,BMD,aapp,LOCATION_OF
+15781005,ab,2,spine,bpoc,BMD,aapp,LOCATION_OF
+15781005,ab,2,women,humn,BMD,aapp,LOCATION_OF
+15781005,ab,7,hip,bpoc,BMD,aapp,LOCATION_OF
+15781005,ab,7,trochanter,bpoc,BMD,aapp,LOCATION_OF
+15781005,ab,7,spine,bpoc,BMD,aapp,LOCATION_OF
+15781005,ab,7,women,humn,BMD,aapp,LOCATION_OF
+15781005,ab,10,neck,blor,spine,bpoc,LOCATION_OF
+15781005,ab,11,BMD,gngm,gene-environmental interactions,genf,AFFECTS
+15601558,ti,1,small cell lung cancer,neop,patients,humn,PROCESS_OF
+15601558,ti,1,brain metastases,neop,patients,humn,PROCESS_OF
+15601558,ti,1,VmP regimen,topp,patients,podg,TREATS
+15601558,ti,1,whole brain radiotherapy,topp,patients,podg,TREATS
+15601558,ab,1,small cell lung       cancer,neop,patients,humn,PROCESS_OF
+15601558,ab,1,chemotherapy,topp,patients,podg,TREATS
+15601558,ab,1,whole brain radiotherapy,topp,patients,podg,TREATS
+15601558,ab,1,brain metastases,neop,patients,humn,PROCESS_OF
+15601558,ab,2,SCLC,neop,patients,humn,PROCESS_OF
+15601558,ab,2,brain metastases,neop,patients,humn,PROCESS_OF
+15601558,ab,2,VmP regimen,topp,patients,podg,TREATS
+15601558,ab,2,WBRT,topp,patients,podg,TREATS
+15601558,ab,2,VmP regimen,topp,WBRT,topp,compared_with
+15601558,ab,3,SCLC,neop,patients,humn,PROCESS_OF
+15601558,ab,3,brain       metastases,neop,patients,humn,PROCESS_OF
+15601558,ab,6,brain,bpoc,lesion,fndg,LOCATION_OF
+15601558,ab,6,brain,bpoc,single brain lesion,fndg,LOCATION_OF
+15601558,ab,6,WBRT,topp,radiotherapy,topp,PRECEDES
+15601558,ab,6,radiotherapy,topp,Patients,humn,ADMINISTERED_TO
+15601558,ab,6,single brain lesion,fndg,Patients,humn,PROCESS_OF
+15601558,ab,7,sequential       treatments,topp,chemotherapy,topp,PRECEDES
+15601558,ab,8,sequential treatments,topp,neurological       symptoms,sosy,TREATS
+15601558,ab,16,SCLC,neop,patients,humn,PROCESS_OF
+15601558,ab,16,brain metastases,neop,patients,humn,PROCESS_OF
+15601558,ab,16,sequential treatments,topp,neurological       symptoms,sosy,TREATS
+15601558,ab,17,SCLC,neop,patients,humn,PROCESS_OF
+16144778,ti,1,vagotomy,topp,depression,fndg,TREATS
+16144778,ab,1,breathing,phsf,rats,mamm,PROCESS_OF
+16144778,ab,1,anandamide,bacs,chloralose,carb,COEXISTS_WITH
+16144778,ab,4,vagotomy,topp,rats,mamm,TREATS
+16144778,ab,8,cardio,bpoc,respiratory depression,patf,LOCATION_OF
+16144778,ab,8,anandamide,bacs,respiratory depression,patf,CAUSES
+15972039,ti,1,surgical treatment,topp,Graves' disease,dsyn,TREATS
+15972039,ab,1,Total thyroidectomy,topp,patients,podg,TREATS
+15972039,ab,1,surgical treatment,topp,Graves' disease,dsyn,TREATS
+15972039,ab,3,Total thyroidectomy,topp,surgical treatment,topp,ISA
+15972039,ab,3,surgical treatment,topp,Graves' disease,dsyn,TREATS
+15972039,ab,4,total thyroidectomy,topp,Patients,podg,TREATS
+15972039,ab,4,subtotal       thyroidectomy,topp,Patients,podg,TREATS
+15972039,ab,8,nerve       palsy,dsyn,patients,humn,PROCESS_OF
+15972039,ab,10,replacement,topp,thyroxine,aapp,USES
+15972039,ab,11,Subtotal thyroidectomy,topp,follow up,hlca,COEXISTS_WITH
+15972039,ab,12,Total thyroidectomy,topp,STT,topp,compared_with
+15972039,ab,12,Total thyroidectomy,topp,STT,topp,same_as
+15972039,ab,12,procedure,hlca,patients,humn,TREATS
+15972039,ab,12,surgical treatment,topp,Graves' disease,dsyn,TREATS
+16272203,ab,2,left ventricular (LV) hypertrophy,patf,contraction,patf,COEXISTS_WITH
+16272203,ab,5,Blood pressure,orgf,rats,mamm,PROCESS_OF
+16272203,ab,8,contractility,patf,rats,mamm,PROCESS_OF
+15750263,ti,1,angiotensin II type 1 receptor antagonist,phsu,smooth muscle cell,cell,AFFECTS
+15750263,ab,1,enalapril,aapp,angiotensin-converting enzyme (ACE) inhibitor,phsu,ISA
+15750263,ab,1,arteries,bpoc,enalapril,aapp,LOCATION_OF
+15750263,ab,1,smooth muscle (SM) cell,cell,enalapril,aapp,LOCATION_OF
+15750263,ab,2,endothelial,aapp,fibrosis,patf,AUGMENTS
+15750263,ab,2,myosin heavy chain,aapp,fibrosis,patf,AUGMENTS
+15750263,ab,2,myosin heavy chain,aapp,left ventricular       (LV) hypertrophy,patf,AUGMENTS
+15750263,ab,2,endothelial,aapp,left ventricular       (LV) hypertrophy,patf,AUGMENTS
+15750263,ab,2,myosin heavy chain,aapp,arteries,bpoc,PART_OF
+15750263,ab,2,endothelial,aapp,arteries,bpoc,PART_OF
+15750263,ab,2,endothelial,aapp,myosin heavy chain,aapp,compared_with
+15750263,ab,3,hearts,bpoc,SHR,mamm,PART_OF
+15750263,ab,3,drugs,phsu,BP,fndg,INHIBITS
+15750263,ab,4,hearts,bpoc,SHR,mamm,PART_OF
+15750263,ab,4,hearts,bpoc,SHR,mamm,PART_OF
+15750263,ab,4,GATA-6,gngm,hearts,bpoc,AFFECTS
+15750263,ab,4,SM2,gngm,hearts,bpoc,AFFECTS
+15750263,ab,4,enalapril,gngm,hearts,bpoc,AFFECTS
+15750263,ab,5,hearts,bpoc,WKY,mamm,PART_OF
+15750263,ab,6,hearts,bpoc,SHR,mamm,PART_OF
+15750263,ab,6,ACE inhibitor,phsu,SM cell,cell,AFFECTS
+15750263,ab,6,AT1 receptor antagonist,phsu,SM cell,cell,AFFECTS
+15750263,ab,6,arteries,bpoc,morphological changes,anab,LOCATION_OF
+15750263,ab,6,AT1 receptor antagonist,phsu,ACE inhibitor,phsu,compared_with
+15750263,ab,6,AT1 receptor antagonist,phsu,ACE inhibitor,phsu,higher_than
+15750263,ab,6,arteries,bpoc,hearts,bpoc,PART_OF
+16774846,ti,1,epilepsy,dsyn,patients,humn,PROCESS_OF
+16774846,ab,1,therapy,topp,patients,podg,TREATS
+16774846,ab,1,therapy,topp,epilepsy,dsyn,TREATS
+16774846,ab,2,epilepsy,dsyn,patients,humn,PROCESS_OF
+16774846,ab,3,epilepsy,dsyn,patients,humn,PROCESS_OF
+16774846,ab,7,group,hcro,C-peptide levels,lbpr,LOCATION_OF
+16774846,ab,9,metabolic disturbances,dsyn,patients,humn,PROCESS_OF
+16774846,ab,10,calorie-restricted diets,topp,epilepsy,dsyn,TREATS
+16774846,ab,11,regimens,topp,diet,food,USES
+16774846,ab,12,seizures,sosy,persons,humn,PROCESS_OF
+16774846,ab,12,ketogenic,moft,persons,humn,PROCESS_OF
+15918623,ti,1,tertiary care hospital,hcro,study,resa,LOCATION_OF
+15918623,ti,1,soft tissue,tisu,Malignant smooth muscle tumours,neop,LOCATION_OF
+15918623,ab,14,LMS,neop,patients,humn,PROCESS_OF
+15918623,ab,15,malignancy,neop,females,humn,PROCESS_OF
+15918623,ab,18,swelling,patf,symptom,sosy,ISA
+15918623,ab,22,tumors,neop,males,humn,PROCESS_OF
+15918623,ab,22,tumors,neop,females,humn,PROCESS_OF
+15918623,ab,23,trunk,bpoc,LMS,neop,LOCATION_OF
+15918623,ab,23,extremities,bpoc,LMS,neop,LOCATION_OF
+15918623,ab,23,LMS,neop,females,humn,PROCESS_OF
+15918623,ab,25,LMS,neop,population,humn,PROCESS_OF
+16754935,ti,1,CHOP,gngm,CHOP,gngm,compared_with
+16754935,ti,1,diffuse large B-cell lymphoma,neop,patients,humn,PROCESS_OF
+16754935,ti,1,rituximab,phsu,patients,podg,TREATS
+16754935,ab,1,CHOP,gngm,rituximab,aapp,compared_with
+16754935,ab,1,diffuse large B-cell lymphoma,neop,patients,humn,PROCESS_OF
+16754935,ab,2,DLBCL,neop,patients,humn,PROCESS_OF
+16754935,ab,9,R-CHOP,aapp,CHOP,gngm,compared_with
+16373645,ab,1,Mutations,genf,CCM2,gngm,PROCESS_OF
+16373645,ab,3,brain,bpoc,mouse,mamm,PART_OF
+16373645,ab,3,brain,bpoc,Ccm2,aapp,LOCATION_OF
+16373645,ab,3,embryonic,emst,Ccm2,aapp,LOCATION_OF
+16373645,ab,3,embryonic,emst,Ccm1,gngm,LOCATION_OF
+16373645,ab,3,brain,bpoc,Ccm1,gngm,LOCATION_OF
+16373645,ab,3,Ccm2,gngm,mRNA       expression,genf,LOCATION_OF
+16373645,ab,3,Ccm1,gngm,mRNA       expression,genf,LOCATION_OF
+16373645,ab,4,experiments,resa,transfection,mbrt,USES
+16373645,ab,4,cell lines,cell,specific polyclonal       antibodies,aapp,LOCATION_OF
+16373645,ab,5,CCM2,gngm,CCM1,gngm,compared_with
+16373645,ab,5,cerebral,bpoc,CCM2,aapp,LOCATION_OF
+16373645,ab,5,cerebral,bpoc,CCM1,gngm,LOCATION_OF
+16373645,ab,5,tissues,tisu,CCM2,aapp,LOCATION_OF
+16373645,ab,5,tissues,tisu,CCM1,gngm,LOCATION_OF
+16373645,ab,7,organs,bpoc,human,humn,PART_OF
+16373645,ab,7,organs,bpoc,CCM2,aapp,LOCATION_OF
+16373645,ab,10,epithelial cells,cell,CCM2,aapp,LOCATION_OF
+16373645,ab,12,mutations,genf,gene,gngm,PROCESS_OF
+16373645,ab,12,mutations,genf,disease,dsyn,CAUSES
+16352184,ab,4,excision,topp,coagulation,topp,PRECEDES
+16352184,ab,7,tricuspid annulus,bpoc,aortic cross-clamp,medd,LOCATION_OF
+16352184,ab,9,surgery,topp,patients,podg,TREATS
+16415554,ti,1,systemic lupus erythematosus,dsyn,colonic ulcers,dsyn,COMPLICATES
+16415554,ab,1,colonic,bpoc,ulcerations,patf,LOCATION_OF
+16415554,ab,1,systemic lupus erythematosus,dsyn,ulcerations,patf,COMPLICATES
+16415554,ab,2,steroid       therapy,topp,patient,podg,TREATS
+16415554,ab,3,colonic,bpoc,lesions,fndg,LOCATION_OF
+16415554,ab,3,gastrointestinal symptoms,sosy,Systemic lupus erythematosus,dsyn,COEXISTS_WITH
+16415554,ab,4,intestinal tract,bpoc,perforated ulcer,acab,LOCATION_OF
+15840414,ab,2,prefrontal cortex,bpoc,dysfunction,patf,LOCATION_OF
+15840414,ab,3,prefrontal cortical,bpoc,dysfunction,patf,LOCATION_OF
+15840414,ab,4,paranoid schizophrenia,mobd,patients,humn,PROCESS_OF
+15840414,ab,4,catatonic schizophrenia,mobd,patients,humn,PROCESS_OF
+15840414,ab,7,Catatonic,sosy,patients,humn,PROCESS_OF
+15840414,ab,8,catatonic,sosy,patients,humn,PROCESS_OF
+16330201,ti,1,biosensor,medd,glucose,phsu,USES
+16330201,ab,1,biosensor,medd,glucose,phsu,USES
+16330201,ab,4,biosensors,medd,implantable,medd,USES
+16330201,ab,7,sensors,medd,rats,mamm,TREATS
+16330201,ab,8,sensors,medd,rats,mamm,TREATS
+16000282,ti,1,MRI,diap,oral cavity squamous cell carcinoma,neop,DIAGNOSES
+16000282,ti,1,18F-FDG PET,diap,oral cavity squamous cell carcinoma,neop,DIAGNOSES
+16000282,ab,1,oral cavity,bsoj,cervical lymph node status of       squamous cell carcinoma,neop,LOCATION_OF
+16000282,ab,1,oral cavity,bsoj,primary tumors,neop,LOCATION_OF
+16000282,ab,2,oral cavity,bsoj,SCC,neop,LOCATION_OF
+16000282,ab,2,MRI,diap,primary tumors,neop,DIAGNOSES
+16000282,ab,2,MRI,diap,cervical nodal metastases,neop,DIAGNOSES
+16000282,ab,3,MRI,diap,patients,humn,ADMINISTERED_TO
+16000282,ab,3,18F-FDG PET,diap,patients,humn,ADMINISTERED_TO
+16000282,ab,9,MRI,diap,primary tumors,neop,DIAGNOSES
+16000282,ab,10,18F-FDG PET,diap,metastases,neop,DIAGNOSES
+16000282,ab,14,18F-FDG PET,diap,cervical nodal metastasis,neop,DIAGNOSES
+16328214,ti,1,renal transplantation.       Ultrasound,diap,diagnosis,hlca,PRECEDES
+16328214,ab,1,renal       transplantation,topp,Ultrasound,diap,PRECEDES
+16328214,ab,3,transplantation,topp,US examination,diap,PRECEDES
+16328214,ab,10,vascularization,patf,patients,humn,PROCESS_OF
+16101536,ab,7,anti-cytokine biologics therapy,topp,biologics,phsu,USES
+16101536,ab,8,T cells,cell,adhesion molecules,aapp,LOCATION_OF
+16101536,ab,8,SLE,dsyn,disease,dsyn,COEXISTS_WITH
+12641497,ti,1,therapies,topp,Rabeprazole,phsu,USES
+12641497,ab,1,rabeprazole,orch,proton pump       inhibitors,phsu,ISA
+12641497,ab,1,therapies,topp,rabeprazole,phsu,USES
+12641497,ab,1,proton pump       inhibitors,phsu,antibiotics,antb,compared_with
+12641497,ab,3,rabeprazole,orch,proton pump inhibitors,phsu,ISA
+12641497,ab,3,antibiotics,antb,proton pump inhibitor,phsu,COEXISTS_WITH
+12641497,ab,3,proton pump inhibitors,phsu,antibiotics,antb,compared_with
+12641497,ab,12,antibiotics,antb,H. pylori infection,dsyn,TREATS
+15988072,ab,1,cosmetic surgical       procedure,topp,men,popg,TREATS
+15988072,ab,3,transplantation,topp,complications,patf,PREVENTS
+15988072,ab,7,infection risk assessment,hlca,hair transplant procedures,topp,COEXISTS_WITH
+15988072,ab,8,clinic,hcro,study,resa,LOCATION_OF
+15988072,ab,12,rocephin,antb,ceftriaxone,antb,ISA
+15988072,ab,16,complications,patf,necrosis,patf,MANIFESTATION_OF
+16285448,ab,3,study,resa,phantom,medd,USES
+16285448,ab,3,study,resa,stent,medd,USES
+16913431,ab,6,Tooth sensitivity,dsyn,symptom,sosy,ISA
+16913431,ab,6,face,blor,Tooth sensitivity,dsyn,LOCATION_OF
+16913431,ab,9,adult,aggp,population,popg,ISA
+16913431,ab,9,Hong Kong,geoa,countries,geoa,ISA
+16913431,ab,11,pain behaviors,inbe,ethnic group,humn,PROCESS_OF
+15990320,ab,1,Polyamines,orch,nucleotides,nnon,INTERACTS_WITH
+15990320,ab,1,toxins,bacs,nucleotides,nnon,INTERACTS_WITH
+15990320,ab,1,toxins,bacs,proteins,aapp,INTERACTS_WITH
+15990320,ab,1,Polyamines,orch,proteins,aapp,INTERACTS_WITH
+15990320,ab,2,philanthotoxin-433,bacs,ionotropic receptors,gngm,INHIBITS
+15990320,ab,4,toxin,bacs,AMPA       receptors,gngm,INHIBITS
+15990320,ab,5,ion channel,bacs,AMPA receptor,aapp,PART_OF
+16719197,ab,1,Carcinoma,neop,malignancy,neop,ISA
+16719197,ab,4,surgical removal,topp,patients,podg,TREATS
+16719197,ab,5,primary carcinoma,neop,patients,humn,PROCESS_OF
+16719197,ab,5,lesions,fndg,patients,humn,PROCESS_OF
+16719197,ab,5,adenoma,neop,patients,humn,PROCESS_OF
+16719197,ab,5,hyperplasia,patf,patients,humn,PROCESS_OF
+16719197,ab,5,excision,topp,patients,podg,TREATS
+16719197,ab,7,symptoms,sosy,patients,humn,PROCESS_OF
+16719197,ab,8,papillary carcinoma,neop,patients,humn,PROCESS_OF
+16719197,ab,8,signs,sosy,patients,humn,PROCESS_OF
+16719197,ab,9,serum,bdsu,calcium,bacs,LOCATION_OF
+16719197,ab,9,histological findings,fndg,patients,humn,PROCESS_OF
+16719197,ab,10,tumors,neop,patients,humn,PROCESS_OF
+16719197,ab,13,malignancy,neop,patients,humn,PROCESS_OF
+16842506,ti,1,interleukin-8,aapp,chronic       hyperplastic candidosis,dsyn,ASSOCIATED_WITH
+16842506,ab,4,chronic hyperplastic candidosis,dsyn,patients,humn,PROCESS_OF
+16842506,ab,5,C. albicans agar       sections,topp,agar,carb,USES
+16842506,ab,6,epithelium,tisu,mucosal,tisu,PART_OF
+16842506,ab,6,chronic hyperplastic       candidosis,dsyn,vascular       endothelium,tisu,PRODUCES
+16842506,ab,6,chronic hyperplastic       candidosis,dsyn,epithelium,tisu,PRODUCES
+16842506,ab,7,intraepithelial,spco,neutrophils,cell,LOCATION_OF
+16842506,ab,8,mother cell,cell,candidal,fngs,PART_OF
+16842506,ab,8,mother cell,cell,IL-8,aapp,LOCATION_OF
+16842506,ab,8,agar,carb,IL-8 receptor,aapp,INTERACTS_WITH
+16842506,ab,9,compartment,bsoj,vascular,bpoc,PART_OF
+16842506,ab,9,IL-8,gngm,neutrophils,cell,INTERACTS_WITH
+16842506,ab,11,cell,cell,IL-8,aapp,PRODUCES
+16160007,ti,1,ADAMTS13,gngm,amino acid,aapp,COEXISTS_WITH
+16160007,ab,1,ADAMTS13,gngm,patients,humn,PART_OF
+16160007,ab,1,thrombotic thrombocytopenic purpura,dsyn,patients,humn,PROCESS_OF
+16160007,ab,8,polymorphisms,genf,phenotypic expression,orga,AFFECTS
+16569841,ti,1,beta-lactamase,aapp,Kluyvera ascorbata,bact,PART_OF
+16569841,ab,6,transposition,topp,E. coli,bact,TREATS
+16739239,ab,1,Pseudomonas aeruginosa,bact,amidase,aapp,LOCATION_OF
+16739239,ab,2,affinity chromatography,lbpr,ion,elii,USES
+16739239,ab,5,imidazole,orch,buffer,bacs,COEXISTS_WITH
+16739239,ab,6,IMAC,lbpr,IMAC,elii,USES
+16739239,ab,8,IMAC,lbpr,IMAC,elii,USES
+16739239,ab,8,IMAC,lbpr,purification,lbpr,METHOD_OF
+16138263,ti,1,thyroxin,aapp,angiotensin II type 1 receptor,aapp,INHIBITS
+16138263,ab,2,Thyroid       hormone,aapp,cardiac hypertrophy,patf,CAUSES
+16138263,ab,4,hyperthyroidism,dsyn,cardiac hypertrophy,patf,AFFECTS
+16138263,ab,5,L-thyroxin,horm,Wistar rats,mamm,TREATS
+16138263,ab,6,irbesartan,orch,angiotensin II type 1 receptor,gngm,INHIBITS
+16138263,ab,8,Thyroxin,aapp,cardiac hypertrophy,patf,CAUSES
+16138263,ab,11,irbesartan,orch,angiotensin II type 1 receptor,gngm,INHIBITS
+15896365,ab,1,ATP-diphosphohydrolase,aapp,ion,elii,COEXISTS_WITH
+15896365,ab,4,Pimpernel,plnt,apyrase,aapp,LOCATION_OF
+15896365,ab,7,potato,plnt,apyrases,aapp,LOCATION_OF
+15896365,ab,7,animal tissues,tisu,apyrases,enzy,LOCATION_OF
+15896365,ab,7,animal tissues,tisu,enzymes,orch,LOCATION_OF
+15896365,ab,8,potato,plnt,apyrase,aapp,LOCATION_OF
+15896365,ab,8,nucleotide,nnon,inactivation,comd,CAUSES
+15896365,ab,10,apyrases,aapp,chymotrypsin,aapp,COEXISTS_WITH
+15896365,ab,10,apyrases,aapp,Glu,phsu,COEXISTS_WITH
+15896365,ab,10,apyrases,aapp,proteolytic,gngm,COEXISTS_WITH
+15896365,ab,10,apyrases,aapp,trypsin,aapp,COEXISTS_WITH
+16243512,ab,1,Catalytic antibodies,aapp,autoimmune disease,dsyn,ASSOCIATED_WITH
+16243512,ab,4,nicotine,hops,HIV infectivity,dsyn,DISRUPTS
+16243512,ab,4,amyloid,aapp,Alzheimer's       disease,dsyn,AFFECTS
+16431130,ti,1,prosimian,mamm,primates,mamm,ISA
+16431130,ab,5,prosimian,mamm,primates,mamm,ISA
+16431130,ab,5,Lemur catta,mamm,primates,mamm,ISA
+16376188,ab,2,magnetic       resonance imaging,diap,procedures,hlca,ISA
+16376188,ab,2,procedures,hlca,magnetic       resonance imaging,diap,USES
+16376188,ab,2,procedures,hlca,patients,humn,TREATS
+16376188,ab,5,MRI,diap,patient,humn,ADMINISTERED_TO
+16376188,ab,5,patient,podg,implants,medd,USES
+16046858,ti,1,brain injury,inpo,neonatal,humn,PROCESS_OF
+16046858,ab,3,brain       injury,inpo,neonatal,humn,PROCESS_OF
+16046858,ab,4,white       matter,tisu,injury,inpo,LOCATION_OF
+16046858,ab,4,glutamate,bacs,rats,mamm,ADMINISTERED_TO
+16046858,ab,8,assay,lbpr,immunohistochemical,lbpr,USES
+16046858,ab,11,immature neurons,cell,microtubular protein,aapp,PRODUCES
+16046858,ab,12,P14,aapp,cells,cell,STIMULATES
+16046858,ab,15,cells,cell,immature neurons,cell,INTERACTS_WITH
+16046858,ab,16,brain injury,inpo,neonatal,humn,PROCESS_OF
+15623373,ti,1,hepatocellular carcinoma,neop,patients,humn,PROCESS_OF
+15623373,ab,1,hepatocellular carcinoma,neop,patients,humn,PROCESS_OF
+15623373,ab,2,HCC,neop,patients,humn,PROCESS_OF
+15623373,ab,2,resection,topp,patients,podg,TREATS
+15623373,ab,7,Immunohistochemistry,lbpr,stainings,lbpr,ISA
+15623373,ab,7,stainings,lbpr,Immunohistochemistry,lbpr,USES
+15623373,ab,9,tissues,tisu,cancer,neop,PART_OF
+15623373,ab,9,tissues,tisu,VEGF,aapp,LOCATION_OF
+15623373,ab,9,tissues,tisu,MMP-2,aapp,LOCATION_OF
+15623373,ab,10,tissues,tisu,cancer,neop,PART_OF
+15623373,ab,10,tissues,tisu,VEGF,aapp,LOCATION_OF
+15623373,ab,10,tissues,tisu,MMP-2,gngm,LOCATION_OF
+15623373,ab,10,tissues,tisu,patients,humn,PART_OF
+15912426,ti,1,tumor,neop,rat,mamm,PROCESS_OF
+15912426,ab,1,tumor,neop,animal tumor models,anim,PROCESS_OF
+15912426,ab,2,tumor,neop,animal tumor models,anim,PROCESS_OF
+15912426,ab,5,tumor growth,neop,control group,humn,PROCESS_OF
+15912426,ab,6,injection,topp,Images,diap,PRECEDES
+16205318,ti,1,ketanserin,orch,circulatory shock,patf,PREVENTS
+16205318,ti,1,ketanserin,orch,intracranial       hypertension,dsyn,PREVENTS
+16205318,ti,1,ketanserin,orch,cerebral ischemia,dsyn,PREVENTS
+16205318,ti,1,Ipsapirone,orch,circulatory shock,patf,PREVENTS
+16205318,ti,1,Ipsapirone,orch,intracranial       hypertension,dsyn,PREVENTS
+16205318,ti,1,Ipsapirone,orch,cerebral ischemia,dsyn,PREVENTS
+16205318,ti,1,circulatory shock,patf,heatstroke,inpo,COEXISTS_WITH
+16205318,ti,1,intracranial       hypertension,dsyn,heatstroke,inpo,COEXISTS_WITH
+16205318,ti,1,cerebral ischemia,dsyn,heatstroke,inpo,COEXISTS_WITH
+16205318,ab,2,striatum,bpoc,mean arterial pressure,fndg,LOCATION_OF
+16205318,ab,4,normal       saline,phsu,rats,mamm,TREATS
+16205318,ab,8,striatum,bpoc,ischemia,dsyn,LOCATION_OF
+16205318,ab,10,striatum,bpoc,ischemia,dsyn,LOCATION_OF
+16205318,ab,11,5-HT2A receptors,aapp,heatstroke,inpo,PREVENTS
+16205318,ab,11,5-HT1A receptors,aapp,circulatory shock,patf,PREVENTS
+16205318,ab,11,5-HT2A receptors,aapp,heatstroke,inpo,AFFECTS
+16617173,ab,2,meditation,menp,group,humn,PROCESS_OF
+15866565,ab,5,agonist,phsu,Mice,mamm,ADMINISTERED_TO
+15866565,ab,6,cyclophosphamide,opco,chemotherapeutic agent,phsu,ISA
+15866565,ab,6,cyclophosphamide,opco,animals,anim,ADMINISTERED_TO
+15866565,ab,8,bursa,bpoc,ovary,bpoc,PART_OF
+15866565,ab,14,chemotherapeutic,topp,primordial follicles,emst,DISRUPTS
+15866565,ab,14,agonists,phsu,GnRH,gngm,INHIBITS
+16109976,ti,1,endotoxin,carb,lung,bpoc,AUGMENTS
+16109976,ab,1,respiratory distress syndrome,dsyn,preterm infants,aggp,OCCURS_IN
+16109976,ab,2,endotoxin,carb,lung       inflammation,dsyn,CAUSES
+16109976,ab,2,interleukin 1,aapp,lung       inflammation,dsyn,CAUSES
+16109976,ab,4,injection,topp,Lung inflammation,dsyn,CAUSES
+16109976,ab,5,anti-CD18 blocking antibody,aapp,lung,bpoc,DISRUPTS
+16109976,ab,7,cell count,lbpr,Lung inflammation,dsyn,MEASURES
+16109976,ab,9,IL-1,aapp,inflammatory cell,cell,STIMULATES
+16109976,ab,10,endotoxin,carb,lung,bpoc,AUGMENTS
+16109976,ab,10,IL-1,aapp,lung,bpoc,AUGMENTS
+16109976,ab,13,IL-1,aapp,inflammatory cells,cell,AUGMENTS
+16109976,ab,13,Endotoxin,carb,inflammatory cells,cell,AUGMENTS
+16109976,ab,13,CD18,gngm,inflammatory cell,cell,INTERACTS_WITH
+15993885,ab,1,obesity,dsyn,inflammation,patf,COEXISTS_WITH
+15993885,ab,3,inflammation,patf,men,humn,PROCESS_OF
+15993885,ab,3,inflammation,patf,women,popg,PROCESS_OF
+15993885,ab,7,men,humn,acute-phase proteins,aapp,LOCATION_OF
+15993885,ab,8,men,humn,IL-6,aapp,LOCATION_OF
+15993885,ab,8,WC,fndg,women,humn,PROCESS_OF
+15993885,ab,9,inflammation,patf,men,humn,PROCESS_OF
+15993885,ab,9,inflammation,patf,women,popg,PROCESS_OF
+15993885,ab,9,inflammation,patf,women,humn,PROCESS_OF
+15993885,ab,10,inflammation,patf,women,humn,PROCESS_OF
+16763070,ti,1,di-n-butyl phthalate,phsu,rats,mamm,TREATS
+16763070,ti,1,di-n-butyl phthalate,orch,fertility,orgf,DISRUPTS
+16763070,ti,1,di-n-butyl phthalate,orch,ovarian function,ortf,AFFECTS
+16763070,ti,1,ovarian function,ortf,pregnancy,orgf,COEXISTS_WITH
+16763070,ti,1,pregnancy,orgf,Long Evans hooded rats,mamm,PROCESS_OF
+16763070,ab,1,esters,orch,Testis function,ortf,INHIBITS
+16763070,ab,2,reproduction,orgf,rats,mamm,PROCESS_OF
+16763070,ab,3,dibutyl phthalate,orch,pregnancy maintenance,orgf,DISRUPTS
+16763070,ab,3,pregnancy maintenance,orgf,testis function,ortf,AFFECTS
+16763070,ab,3,testis function,ortf,rats,mamm,PROCESS_OF
+16763070,ab,6,treatment,topp,DBP,phsu,USES
+16246439,ti,1,hypertensive,fndg,patients,humn,PROCESS_OF
+16246439,ti,1,candesartan,phsu,patients,podg,TREATS
+16246439,ab,1,therapy,topp,Angiotensin II type 1 (AT1) receptor blocker,phsu,USES
+16246439,ab,2,AT1 receptor blockers,phsu,inflammation,patf,PREVENTS
+16246439,ab,2,AT1 receptor blockers,phsu,insulin resistance,patf,PREVENTS
+16246439,ab,3,hypertension,dsyn,patients,humn,PROCESS_OF
+16246439,ab,5,therapy,topp,Candesartan,phsu,USES
+16246439,ab,6,placebo,medd,CD40 ligand,aapp,compared_with
+16246439,ab,7,plasma,bdsu,adiponectin,aapp,LOCATION_OF
+16246439,ab,9,therapy,topp,candesartan,phsu,USES
+16246439,ab,10,adiponectin,aapp,insulin,gngm,COEXISTS_WITH
+16246439,ab,11,hypertensive,fndg,patients,humn,PROCESS_OF
+16246439,ab,11,insulin       sensitivity,patf,patients,humn,PROCESS_OF

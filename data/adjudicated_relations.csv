@@ -1,0 +1,1368 @@
+docid,section,sentenceid,subject_text,subject_type,object_text,object_type,relation
+12368048,title,1,transplant tolerance,Organism Function,nonhuman primate,Mammal,PROCESS_OF
+12641497,abstract,1,proton pump inhibitors,Pharmacologic Substance,rabeprazole,Pharmacologic Substance,COMPARED_WITH
+12641497,abstract,1,therapies,Therapeutic or Preventive Procedure,rabeprazole,Pharmacologic Substance,USES
+12868543,abstract,10,ranitidine,Pharmacologic Substance,drugs,Pharmacologic Substance,ISA
+14534673,title,1,AIDS,Disease or Syndrome,tuberculosis,Disease or Syndrome,COEXISTS_WITH
+14627806,abstract,9,alleles,Gene or Genome,cell lines,Cell,PART_OF
+14627806,abstract,9,alleles,Gene or Genome,cell lines,Cell,PART_OF
+14627806,abstract,9,mitomycin C,Antibiotic,alleles,Gene or Genome,AFFECTS
+15323262,title,1,chronic renal disease,Disease or Syndrome,patients,Human,PROCESS_OF
+15323262,abstract,9,secondary hyperparathyroidism,Disease or Syndrome,disorders,Disease or Syndrome,CAUSES
+15323262,abstract,9,mineral metabolism impairment,Pathologic Function,secondary hyperparathyroidism,Disease or Syndrome,CAUSES
+15323262,abstract,9,hypocalemia,Finding,mineral metabolism impairment,Pathologic Function,ISA
+15323262,abstract,9,hypocalemia,Finding,secondary hyperparathyroidism,Disease or Syndrome,CAUSES
+15473914,title,1,pramipexole,Organic Chemical,dopamine transporter,Gene or Genome,INHIBITS
+15473914,title,1,pramipexole,Organic Chemical,D3 receptor,"Amino Acid, Peptide, or Protein",INTERACTS_WITH
+15473914,title,1,Parkinson's disease,Disease or Syndrome,mouse,Mammal,PROCESS_OF
+15473914,title,1,MPTP,Organic Chemical,mouse,Mammal,ADMINISTERED_TO
+15473914,title,1,pramipexole,Organic Chemical,Parkinson's disease,Disease or Syndrome,PREVENTS
+15499973,abstract,1,Meniere's disease,Disease or Syndrome,patients,Human,PROCESS_OF
+15499973,abstract,1,dexamethasone injection,Clinical Drug,patients,Human,TREATS
+15499973,abstract,1,dexamethasone injection,Clinical Drug,Meniere's disease,Disease or Syndrome,TREATS
+15526143,abstract,2,neuroleptics,Pharmacologic Substance,BDNF,"Amino Acid, Peptide, or Protein",INHIBITS
+15592935,title,1,nasal mucosa,Tissue,human,Human,PART_OF
+15592935,title,1,allergic,Pathologic Function,human,Human,PROCESS_OF
+15592935,title,1,nasal mucosa,Tissue,heme oxygenase,"Amino Acid, Peptide, or Protein",LOCATION_OF
+15592935,abstract,10,respiratory epithelium,Tissue,HO-1,"Amino Acid, Peptide, or Protein",LOCATION_OF
+15592935,abstract,10,respiratory epithelium,Tissue,nasal,"Body Part, Organ, or Organ Component",PART_OF
+15592935,abstract,10,respiratory epithelium,Tissue,group,Human,PART_OF
+15601558,abstract,6,brain,"Body Part, Organ, or Organ Component",single brain lesion,Finding,LOCATION_OF
+15601558,abstract,6,Patients,Finding,single brain lesion,Human,PROCESS_OF
+15601558,abstract,6,radiotherapy,Therapeutic or Preventive Procedure,Patients,Human,ADMINISTERED_TO
+15601558,abstract,6,brain,"Body Part, Organ, or Organ Component",lesion,Finding,LOCATION_OF
+15601558,abstract,6,WBRT,Therapeutic or Preventive Procedure,radiotherapy,Therapeutic or Preventive Procedure,PRECEDES
+15601558,abstract,8,sequential treatments,Therapeutic or Preventive Procedure,neurological symptoms,Sign or Symptom,TREATS
+15601558,abstract,8,neurological symptoms,Sign or Symptom,patients,Human,PROCESS_OF
+15601558,abstract,13,Myelosuppression,Disease or Syndrome,toxicity,Injury or Poisoning,ISA
+15601558,abstract,16,sequential treatments,Therapeutic or Preventive Procedure,patients,Human,TREATS
+15601558,abstract,16,SCLC,Neoplastic Process,patients,Human,PROCESS_OF
+15601558,abstract,16,brain metastases,Neoplastic Process,patients,Human,PROCESS_OF
+15601558,abstract,16,brain metastases,Neoplastic Process,SCLC,Neoplastic Process,COEXISTS_WITH
+15601558,abstract,16,sequential treatment,Therapeutic or Preventive Procedure,SCLC,Neoplastic Process,TREATS
+15601558,abstract,16,sequential treatment,Therapeutic or Preventive Procedure,brain metastases,Neoplastic Process,TREATS
+15601558,abstract,16,sequential treatment,Therapeutic or Preventive Procedure,neurological symptoms,Sign or Symptom,TREATS
+15601558,abstract,16,sequential treatment,Therapeutic or Preventive Procedure,metastatic lesions,Finding,TREATS
+15623373,abstract,2,Primary HCC,Neoplastic Process,patients,Human,PROCESS_OF
+15623373,abstract,2,resection,Therapeutic or Preventive Procedure,patients,Human,TREATS
+15623373,abstract,2,resection,Therapeutic or Preventive Procedure,Primary HCC,Neoplastic Process,TREATS
+15623373,abstract,10,tissues,Tissue,cancer,Neoplastic Process,LOCATION_OF
+15623373,abstract,10,tissues,Tissue,MMP-2,"Amino Acid, Peptide, or Protein",PRODUCES
+15623373,abstract,10,tissues,Tissue,Ki-67,"Amino Acid, Peptide, or Protein",PRODUCES
+15623373,abstract,10,tissues,Tissue,VEGF,"Amino Acid, Peptide, or Protein",PRODUCES
+15623373,abstract,10,tissues,Tissue,c-Myc,"Amino Acid, Peptide, or Protein",PRODUCES
+15623373,abstract,10,VEGF,"Amino Acid, Peptide, or Protein",tissues,Tissue,PART_OF
+15623373,abstract,10,resection,Therapeutic or Preventive Procedure,tumor,Neoplastic Process,TREATS
+15623373,abstract,10,resection,Therapeutic or Preventive Procedure,HCC,Neoplastic Process,PRECEDES
+15623373,abstract,10,HCC,Neoplastic Process,their,Human,PROCESS_OF
+15634358,title,1,genetics,Biologic Function,Caenorhabditis briggsae,Invertebrate,PROCESS_OF
+15676161,abstract,2,Asymptomatic,Finding,patients,Human,PROCESS_OF
+15676161,abstract,3,chest pain,Sign or Symptom,patients,Human,PROCESS_OF
+15722357,abstract,3,bezafibrate,Pharmacologic Substance,I-FABP,"Amino Acid, Peptide, or Protein",INTERACTS_WITH
+15722357,abstract,3,ibuprofen,Pharmacologic Substance,I-FABP,"Amino Acid, Peptide, or Protein",INTERACTS_WITH
+15722357,abstract,3,nitrazepam,Pharmacologic Substance,I-FABP,"Amino Acid, Peptide, or Protein",INTERACTS_WITH
+15722357,abstract,3,bezafibrate,Pharmacologic Substance,drugs,Pharmacologic Substance,ISA
+15722357,abstract,3,ibuprofen,Pharmacologic Substance,drugs,Pharmacologic Substance,ISA
+15722357,abstract,3,nitrazepam,Pharmacologic Substance,drugs,Pharmacologic Substance,ISA
+15750263,abstract,1,FK-739,Organic Chemical,angiotensin II type 1 (AT1) receptor antagonist,Pharmacologic Substance,ISA
+15750263,abstract,1,enalapril,Pharmacologic Substance,angiotensin-converting enzyme (ACE) inhibitor,Pharmacologic Substance,ISA
+15750263,abstract,1,FK-739,Organic Chemical,enalapril,Pharmacologic Substance,COMPARED_WITH
+15750263,abstract,1,arteries,"Body Part, Organ, or Organ Component",Wistar-Kyoto rats,Mammal,PART_OF
+15750263,abstract,1,arteries,"Body Part, Organ, or Organ Component",spontaneously hypertensive rats,Mammal,PART_OF
+15750263,abstract,1,arteries,"Body Part, Organ, or Organ Component",smooth muscle (SM) cell,Cell,LOCATION_OF
+15750263,abstract,1,enalapril,Pharmacologic Substance,smooth muscle (SM) cell,Cell,AFFECTS
+15750263,abstract,1,FK-739,Organic Chemical,smooth muscle (SM) cell,Cell,AFFECTS
+15750284,abstract,5,GH,"Amino Acid, Peptide, or Protein",B-lymphoid precursors,Cell,AFFECTS
+15750284,abstract,5,bone marrow stem cells,Cell,B-lymphoid precursors,Cell,LOCATION_OF
+15750284,abstract,6,stem cells,Cell,mRNAs,Biologically Active Substance,LOCATION_OF
+15750284,abstract,6,mRNAs,Biologically Active Substance,GH,"Amino Acid, Peptide, or Protein",PART_OF
+15750284,abstract,6,mRNAs,Biologically Active Substance,GH receptor,"Amino Acid, Peptide, or Protein",PART_OF
+15750284,abstract,6,stem cells,Cell,mRNAs,Biologically Active Substance,LOCATION_OF
+15750284,abstract,6,B-cell precursors,Cell,bone marrow,"Body Part, Organ, or Organ Component",PART_OF
+15750284,abstract,6,stem cells,Cell,bone marrow,"Body Part, Organ, or Organ Component",PART_OF
+15750284,abstract,6,GH,"Amino Acid, Peptide, or Protein",B-lymphoid precursors,Cell,AFFECTS
+15750284,abstract,6,bone marrows,"Body Part, Organ, or Organ Component",B-lymphoid precursors,Cell,LOCATION_OF
+15763007,title,1,azoospermic,Disease or Syndrome,patients,Human,PROCESS_OF
+15765262,title,1,Nicotine,Organic Chemical,conditioned place preferences,Mental Process,AUGMENTS
+15765262,title,1,conditioned place preferences,Mental Process,rats,Mammal,PROCESS_OF
+15776283,abstract,2,muscle,Tissue,IFN-gamma,"Amino Acid, Peptide, or Protein",LOCATION_OF
+15776283,abstract,2,IFN-gamma,"Amino Acid, Peptide, or Protein",tumor,Neoplastic Process,PREDISPOSES
+15776283,abstract,2,hepatoma,Neoplastic Process,tumor,Neoplastic Process,ISA
+15776283,abstract,2,mammary adenocarcinoma,Neoplastic Process,tumor,Neoplastic Process,ISA
+15776283,abstract,2,B16 melanoma,Neoplastic Process,tumor,Neoplastic Process,ISA
+15776283,abstract,2,IFN-gamma,"Amino Acid, Peptide, or Protein",hepatoma,Neoplastic Process,PREDISPOSES
+15776283,abstract,2,IFN-gamma,"Amino Acid, Peptide, or Protein",mammary adenocarcinoma,Neoplastic Process,PREDISPOSES
+15776283,abstract,2,IFN-gamma,"Amino Acid, Peptide, or Protein",B16 melanoma,Neoplastic Process,PREDISPOSES
+15790407,abstract,9,antibiotics,Antibiotic,interventions,Health Care Activity,ISA
+15790407,abstract,9,steroids,Steroid,interventions,Health Care Activity,ISA
+15790407,abstract,9,administration,Therapeutic or Preventive Procedure,interventions,Health Care Activity,ISA
+15790407,abstract,9,therapies,Therapeutic or Preventive Procedure,intervention,Health Care Activity,ISA
+15790407,abstract,9,therapies,Therapeutic or Preventive Procedure,mucolytic,Pharmacologic Substance,USES
+15790407,abstract,9,exercise,Daily or Recreational Activity,interventions,Health Care Activity,ISA
+15790407,abstract,9,antibiotics,Antibiotic,interventions,Health Care Activity,ISA
+15790407,abstract,9,pancreatic enzymes,Pharmacologic Substance,interventions,Health Care Activity,ISA
+15797093,abstract,1,right atrium,"Body Part, Organ, or Organ Component",infant,Human,PART_OF
+15797093,abstract,1,right atrium,"Body Part, Organ, or Organ Component",epithelioid hemangioendothelioma,Neoplastic Process,LOCATION_OF
+15808413,abstract,5,plasma,Body Substance,nitrate,Inorganic Chemical,LOCATION_OF
+15808413,abstract,5,nitrite,Chemical Viewed Structurally,nitrate,Inorganic Chemical,CONVERTS_TO
+15808413,abstract,6,plasma,Body Substance,NOx,Biologically Active Substance,LOCATION_OF
+15818416,title,1,tBid,"Amino Acid, Peptide, or Protein",cardiolipin,Lipid,INTERACTS_WITH
+15818416,title,1,mitochondrial,Cell Component,dysfunction,Pathologic Function,LOCATION_OF
+15818416,abstract,1,mitochondria,Cell Component,tBid,"Amino Acid, Peptide, or Protein",LOCATION_OF
+15818416,abstract,1,Bid,"Amino Acid, Peptide, or Protein",cytosolic,Cell Component,PART_OF
+15818416,abstract,1,TNFR1,"Amino Acid, Peptide, or Protein",Fas,Gene or Genome,INTERACTS_WITH
+15818416,abstract,6,mitochondria,Cell Component,yeast,Fungus,PART_OF
+15818416,abstract,6,cardiolipin,Lipid,tBid,"Amino Acid, Peptide, or Protein",INTERACTS_WITH
+15818416,abstract,6,tBid,"Amino Acid, Peptide, or Protein",respiratory,Cell Function,DISRUPTS
+15818416,abstract,7,mitochondria,Cell Component,yeast,Fungus,PART_OF
+15818416,abstract,7,ADP,Biologically Active Substance,respiration,Physiologic Function,AUGMENTS
+15862965,abstract,4,calcitriol,Hormone,PDGF receptors,"Amino Acid, Peptide, or Protein",INTERACTS_WITH
+15862965,abstract,4,calcitriol,Hormone,cell growth,Cell Function,AFFECTS
+15862965,abstract,4,PDGF-BB,"Amino Acid, Peptide, or Protein",cell growth,Cell Function,AFFECTS
+15862965,abstract,4,cells,Cell,prostate,"Body Part, Organ, or Organ Component",PART_OF
+15862965,abstract,4,cells,Cell,calcitriol,Steroid,LOCATION_OF
+15866565,abstract,14,chemotherapeutic,Therapeutic or Preventive Procedure,primordial follicles,Embryonic Structure,DISRUPTS
+15866565,abstract,14,GnRH agonists,Pharmacologic Substance,primordial follicles,Embryonic Structure,AFFECTS
+15866565,abstract,14,cyclophosphamide,Pharmacologic Substance,ovary,"Body Part, Organ, or Organ Component",DISRUPTS
+15866565,abstract,14,GnRH agonists,Pharmacologic Substance,ovary,"Body Part, Organ, or Organ Component",AFFECTS
+15872117,abstract,10,NF-kappaB,"Amino Acid, Peptide, or Protein",DNA,Biologically Active Substance,INTERACTS_WITH
+15872117,abstract,11,compounds,Chemical,p50,Gene or Genome,INTERACTS_WITH
+15872117,abstract,11,compounds,Chemical,transcription factor,"Amino Acid, Peptide, or Protein",INTERACTS_WITH
+15872117,abstract,11,compounds,Chemical,p65,Biologically Active Substance,INTERACTS_WITH
+15877828,title,1,Extracorporeal shock wave lithotripsy,Therapeutic or Preventive Procedure,renal pelvicalyceal stones,Pathologic Function,TREATS
+15877828,title,1,renal pelvicalyceal stones,Pathologic Function,patients,Human,PROCESS_OF
+15877828,title,1,obese,Disease or Syndrome,patients,Human,PROCESS_OF
+15877828,title,1,renal pelvicalyceal stones,Pathologic Function,obese,Disease or Syndrome,COEXISTS_WITH
+15877828,abstract,2,obese,Disease or Syndrome,patients,Human,PROCESS_OF
+15877828,abstract,2,non-obese,Disease or Syndrome,patients,Human,PROCESS_OF
+15877828,abstract,11,pelvic stones,Disease or Syndrome,patients,Human,PROCESS_OF
+15877828,abstract,11,treatment,Therapeutic or Preventive Procedure,patients,Human,TREATS
+15877828,abstract,11,treatment,Therapeutic or Preventive Procedure,pelvic stones,Disease or Syndrome,TREATS
+15877828,abstract,14,obese,Disease or Syndrome,patients,Human,PROCESS_OF
+15877828,abstract,14,pelvic stones,Disease or Syndrome,patients,Human,PROCESS_OF
+15877828,abstract,14,ESWL,Therapeutic or Preventive Procedure,patients,Human,TREATS
+15877828,abstract,14,ESWL,Therapeutic or Preventive Procedure,pelvic stones,Disease or Syndrome,TREATS
+15877828,abstract,17,ESWL,Therapeutic or Preventive Procedure,patients,Human,TREATS
+15877828,abstract,17,obese,Disease or Syndrome,patients,Human,PROCESS_OF
+15877828,abstract,17,caliceal stones,Disease or Syndrome,patients,Human,PROCESS_OF
+15877828,abstract,17,ESWL,Therapeutic or Preventive Procedure,caliceal stones,Disease or Syndrome,TREATS
+15885340,abstract,2,neck,Body Location or Region,tumor,Neoplastic Process,LOCATION_OF
+15885340,abstract,2,tumor,Neoplastic Process,girl,Human,PROCESS_OF
+15885340,abstract,2,tumor,Neoplastic Process,calcification,Pathologic Function,COEXISTS_WITH
+15896365,abstract,1,Apyrase,"Amino Acid, Peptide, or Protein",nucleosides,"Nucleic Acid, Nucleoside, or Nucleotide",INTERACTS_WITH
+15896365,abstract,1,ATP-diphosphohydrolase,"Amino Acid, Peptide, or Protein",ion,"Element, Ion, or Isotope",COEXISTS_WITH
+15896365,abstract,8,nucleotide,"Nucleic Acid, Nucleoside, or Nucleotide",inactivation,Cell or Molecular Dysfunction,CAUSES
+15896365,abstract,8,potato,Plant,apyrase,"Amino Acid, Peptide, or Protein",LOCATION_OF
+15898907,title,1,Laparoscopic surgery,Therapeutic or Preventive Procedure,obstruction of the gastric outlet,Disease or Syndrome,TREATS
+15898907,title,1,Laparoscopic surgery,Therapeutic or Preventive Procedure,small bowel,Disease or Syndrome,TREATS
+15898907,title,1,laparotomy,Therapeutic or Preventive Procedure,Laparoscopic surgery,Therapeutic or Preventive Procedure,PRECEDES
+15898907,title,1,laparotomy,Therapeutic or Preventive Procedure,palliation,Finding,TREATS
+15898907,title,1,upper gastrointestinal,Body System,resection,Therapeutic or Preventive Procedure,LOCATION_OF
+15898907,title,1,laparotomy,Therapeutic or Preventive Procedure,resection,Therapeutic or Preventive Procedure,METHOD_OF
+15898907,abstract,1,Surgical,Therapeutic or Preventive Procedure,gastric outlet obstruction,Disease or Syndrome,TREATS
+15898907,abstract,1,Surgical,Therapeutic or Preventive Procedure,small bowel obstruction,Disease or Syndrome,TREATS
+15898907,abstract,1,small bowel obstruction,Disease or Syndrome,patients,Human,PROCESS_OF
+15898907,abstract,1,gastric outlet obstruction,Disease or Syndrome,patients,Human,PROCESS_OF
+15898907,abstract,1,bypass surgery,Therapeutic or Preventive Procedure,malignancy,Neoplastic Process,TREATS
+15898907,abstract,1,resection,Therapeutic or Preventive Procedure,malignancy,Neoplastic Process,TREATS
+15898907,abstract,1,bypass surgery,Therapeutic or Preventive Procedure,patients,Human,ADMINISTERED_TO
+15898907,abstract,1,resection,Therapeutic or Preventive Procedure,patients,Human,ADMINISTERED_TO
+15898907,abstract,2,surgery,Therapeutic or Preventive Procedure,complications,Pathologic Function,TREATS
+15912426,title,1,tumor,Neoplastic Process,rat,Mammal,PROCESS_OF
+15912426,title,1,2-deoxy-2-[F-18]fluoro-D-glucose,Diagnostic Procedure,gamma camera imaging,"Indicator, Reagent, or Diagnostic Aid",USES
+15912426,title,1,follow-up,Health Care Activity,gamma camera imaging,Diagnostic Procedure,USES
+15912426,abstract,2,injection,Therapeutic or Preventive Procedure,FDG,Organic Chemical,USES
+15912426,abstract,2,tumor,Neoplastic Process,animal tumor models,Animal,PROCESS_OF
+15912426,abstract,2,osteosarcoma,Neoplastic Process,tumor,Neoplastic Process,ISA
+15912426,abstract,2,melanoma,Neoplastic Process,tumor,Neoplastic Process,ISA
+15912426,abstract,2,breast cancer,Neoplastic Process,tumor,Neoplastic Process,ISA
+15912426,abstract,2,osteosarcoma,Neoplastic Process,animal tumor models,Animal,PROCESS_OF
+15912426,abstract,2,melanoma,Neoplastic Process,animal tumor models,Animal,PROCESS_OF
+15912426,abstract,2,breast cancer,Neoplastic Process,animal tumor models,Animal,PROCESS_OF
+15913690,abstract,4,Histological evaluation,Laboratory Procedure,dermal hemorrhage,Disease or Syndrome,DIAGNOSES
+15918623,title,1,soft tissue,Tissue,Malignant smooth muscle tumours,Neoplastic Process,LOCATION_OF
+15918623,title,1,tertiary care hospital,Health Care Related Organization,study,Research Activity,LOCATION_OF
+15918623,abstract,23,extremities,"Body Part, Organ, or Organ Component",LMS,Neoplastic Process,LOCATION_OF
+15918623,abstract,23,trunk,"Body Part, Organ, or Organ Component",LMS,Neoplastic Process,LOCATION_OF
+15918623,abstract,23,LMS,Neoplastic Process,females,Human,PROCESS_OF
+15919667,abstract,3,UDP-Glc,Biologically Active Substance,proteoglycans,"Amino Acid, Peptide, or Protein",INTERACTS_WITH
+15919667,abstract,3,UDP-Glc,Biologically Active Substance,glycoproteins,"Amino Acid, Peptide, or Protein",INTERACTS_WITH
+15919667,abstract,3,UDP-Glc,Biologically Active Substance,glycosphingolipids,Lipid,INTERACTS_WITH
+15919667,abstract,3,gly-coconjugates,Carbohydrate,PLC,"Amino Acid, Peptide, or Protein",INTERACTS_WITH
+15919667,abstract,4,PLC,"Amino Acid, Peptide, or Protein",Cp,Bacterium,PART_OF
+15919667,abstract,4,Cp-PLC,"Amino Acid, Peptide, or Protein",cell line,Cell,AFFECTS
+15919667,abstract,4,gangliosides,Biologically Active Substance,cell line,Cell,PART_OF
+15919667,abstract,6,C. perfringens,Bacterium,sialidase,"Amino Acid, Peptide, or Protein",LOCATION_OF
+15919667,abstract,6,sialidase,"Amino Acid, Peptide, or Protein",sialic acids,Carbohydrate,INHIBITS
+15919667,abstract,6,PLC,"Amino Acid, Peptide, or Protein",cultured cells,Cell,AFFECTS
+15919667,abstract,6,sialidase,"Amino Acid, Peptide, or Protein",cultured cells,Cell,AFFECTS
+15919667,abstract,6,C. perfringens,Bacterium,sialidase,"Amino Acid, Peptide, or Protein",LOCATION_OF
+15919667,abstract,6,Cp,Bacterium,PLC,"Amino Acid, Peptide, or Protein",LOCATION_OF
+15919667,abstract,6,Cp,Bacterium,PLC,"Amino Acid, Peptide, or Protein",LOCATION_OF
+15919667,abstract,6,mice,Mammal,PLC,"Amino Acid, Peptide, or Protein",LOCATION_OF
+15919838,abstract,3,serum,Body Substance,VAP-1,"Amino Acid, Peptide, or Protein",LOCATION_OF
+15919838,abstract,3,obese,Disease or Syndrome,subjects,Human,PROCESS_OF
+15919838,abstract,3,VAP-1,"Amino Acid, Peptide, or Protein",subjects,Human,PART_OF
+15925552,title,1,plasma,Body Substance,quercetin,Organic Chemical,LOCATION_OF
+15925552,title,1,urine,Body Substance,quercetin,Organic Chemical,LOCATION_OF
+15925552,title,1,plasma,Body Substance,metabolites,Biologically Active Substance,LOCATION_OF
+15925552,title,1,urine,Body Substance,metabolites,Biologically Active Substance,LOCATION_OF
+15925552,title,1,plasma,Body Substance,human,Human,PART_OF
+15925552,title,1,urine,Body Substance,human,Human,PART_OF
+15927218,abstract,1,Neurocysticercosis,Disease or Syndrome,neurological disease,Disease or Syndrome,CAUSES
+15927218,abstract,2,ELISA,Laboratory Procedure,glycoproteins,"Amino Acid, Peptide, or Protein",USES
+15927218,abstract,2,immunoblotting,Laboratory Procedure,glycoproteins,"Amino Acid, Peptide, or Protein",USES
+15927218,abstract,2,cysticercosis,Disease or Syndrome,human,Human,PROCESS_OF
+15927218,abstract,2,ELISA,Laboratory Procedure,cysticercosis,Disease or Syndrome,DIAGNOSES
+15927218,abstract,2,immunoblotting,Laboratory Procedure,cysticercosis,Disease or Syndrome,DIAGNOSES
+15927218,abstract,2,isoelectric focusing,Laboratory Procedure,immunoblotting,Laboratory Procedure,METHOD_OF
+15927218,abstract,2,isoelectric focusing,Laboratory Procedure,ELISA,Laboratory Procedure,METHOD_OF
+15927218,abstract,3,NCC,Disease or Syndrome,inpatients,Human,PROCESS_OF
+15927218,abstract,3,NCC,Disease or Syndrome,outpatients,Patient or Disabled Group,PROCESS_OF
+15927218,abstract,3,City Hospital,Health Care Related Organization,inpatients,Human,LOCATION_OF
+15927218,abstract,3,City Hospital,Health Care Related Organization,outpatients,Patient or Disabled Group,LOCATION_OF
+15927218,abstract,3,Inner Mongolia,Geographic Area,residents,Population Group,LOCATION_OF
+15927218,abstract,8,cysticercosis,Disease or Syndrome,patients,Human,PROCESS_OF
+15927218,abstract,8,ELISA,Laboratory Procedure,cysticercosis,Disease or Syndrome,DIAGNOSES
+15927218,abstract,8,immunoblotting,Laboratory Procedure,cysticercosis,Disease or Syndrome,DIAGNOSES
+15935823,abstract,3,benzene exposure,Finding,workers,Human,PROCESS_OF
+15943571,abstract,1,HIV-1,Virus,viremia,Disease or Syndrome,CAUSES
+15943571,abstract,1,T cell immunity,Organism Function,viremia,Disease or Syndrome,AFFECTS
+15943571,abstract,1,poxvirus,Virus,T cell immunity,Organism Function,AUGMENTS
+15943571,abstract,1,T cell immunity,Organism Function,primates,Mammal,PROCESS_OF
+15943571,abstract,1,genes,Gene or Genome,HIV-1,Virus,PART_OF
+15943571,abstract,1,genes,Gene or Genome,DNA,Biologically Active Substance,PART_OF
+15943707,abstract,2,donors,Pharmacologic Substance,dexamethasone,Human,ADMINISTERED_TO
+15943707,abstract,2,rHuG-CSF,Pharmacologic Substance,donors,Human,ADMINISTERED_TO
+15946936,title,1,tetraspanins,"Amino Acid, Peptide, or Protein",cell surface,Cell Component,PART_OF
+15946936,title,1,BAP31,Gene or Genome,tetraspanins,"Amino Acid, Peptide, or Protein",INTERACTS_WITH
+15946936,title,1,integrin,"Amino Acid, Peptide, or Protein",cell survival,Cell Function,AFFECTS
+15946936,title,1,BAP31,Gene or Genome,cell survival,Cell Function,AFFECTS
+15946936,title,1,caspase cleavage product,"Amino Acid, Peptide, or Protein",cell survival,Cell Function,AFFECTS
+15946936,title,1,caspase cleavage product,"Amino Acid, Peptide, or Protein",tetraspanins,"Amino Acid, Peptide, or Protein",INTERACTS_WITH
+15946936,abstract,2,tetraspanins,"Amino Acid, Peptide, or Protein",cell surface,Cell Component,PART_OF
+15946936,abstract,2,tetraspanins,"Amino Acid, Peptide, or Protein",CD9,"Amino Acid, Peptide, or Protein",ISA
+15946936,abstract,2,tetraspanins,"Amino Acid, Peptide, or Protein",CD81,"Amino Acid, Peptide, or Protein",ISA
+15946936,abstract,2,cells,Cell,mouse,Mammal,PART_OF
+15946936,abstract,2,cells,Cell,Bap31 gene,Gene or Genome,LOCATION_OF
+15946936,abstract,2,cell surface,Gene or Genome,CD9,Cell Component,PART_OF
+15946936,abstract,2,cell surface,Gene or Genome,CD9,Cell Component,PART_OF
+15948171,abstract,2,predictive genetic testing,Diagnostic Procedure,hereditary nonpolyposis colorectal carcinoma (HNPCC),Neoplastic Process,DIAGNOSES
+15948171,abstract,2,hereditary nonpolyposis colorectal carcinoma (HNPCC),Neoplastic Process,cohort,Human,PROCESS_OF
+15948171,abstract,2,predictive genetic testing,Diagnostic Procedure,screening,Health Care Activity,PRECEDES
+15953327,abstract,13,Infective endocarditis,Disease or Syndrome,illness,Finding,ISA
+15953327,abstract,13,illness,Finding,children,Human,PROCESS_OF
+15953327,abstract,13,Infective endocarditis,Disease or Syndrome,children,Human,PROCESS_OF
+15953529,title,1,mouse vestibular epithelia,Body Substance,vestibular,"Body Part, Organ, or Organ Component",PART_OF
+15953529,title,1,cell-cell junctions,Body Space or Junction,mouse vestibular epithelia,Body Substance,PART_OF
+15953529,title,1,treatment,Therapeutic or Preventive Procedure,aminoglycoside,Pharmacologic Substance,USES
+15953529,abstract,7,epithelia,Tissue,vestibular,"Body Part, Organ, or Organ Component",PART_OF
+15953529,abstract,7,vestibular,"Body Part, Organ, or Organ Component",mammalian,Mammal,PART_OF
+15953529,abstract,7,epithelia,Tissue,cell proliferations,Cell Function,LOCATION_OF
+15956296,abstract,12,brine,Inorganic Chemical,salt,Inorganic Chemical,INTERACTS_WITH
+15958124,abstract,1,Guillain-Barre syndrome,Disease or Syndrome,immune-mediated disorders,Disease or Syndrome,ISA
+15958124,abstract,1,CIDP,Disease or Syndrome,immune-mediated disorders,Disease or Syndrome,ISA
+15958124,abstract,2,Infections,Disease or Syndrome,GBS,Disease or Syndrome,CAUSES
+15958124,abstract,2,Infections,Disease or Syndrome,CIDP,Disease or Syndrome,AUGMENTS
+15958928,abstract,1,headaches,Sign or Symptom,employees,Human,PROCESS_OF
+15958928,abstract,1,vomiting,Sign or Symptom,employees,Human,PROCESS_OF
+15958928,abstract,1,nausea,Sign or Symptom,employees,Human,PROCESS_OF
+15958928,abstract,1,chemical poisoning,Injury or Poisoning,headaches,Sign or Symptom,CAUSES
+15958928,abstract,1,chemical poisoning,Injury or Poisoning,vomiting,Sign or Symptom,CAUSES
+15958928,abstract,1,chemical poisoning,Injury or Poisoning,nausea,Sign or Symptom,CAUSES
+15969273,abstract,4,disabilities,Pathologic Function,children,Human,PROCESS_OF
+15969273,abstract,4,performance,Individual Behavior,mothers,Human,PROCESS_OF
+15972039,abstract,1,surgical treatment,Therapeutic or Preventive Procedure,Graves' disease,Disease or Syndrome,TREATS
+15972039,abstract,1,Total thyroidectomy,Therapeutic or Preventive Procedure,patients,Human,TREATS
+15972621,abstract,1,working memory,Mental Process,cognitive functions,Mental Process,ISA
+15974085,abstract,3,hexylamine,Organic Chemical,amines,Organic Chemical,ISA
+15974085,abstract,3,octylamine,Organic Chemical,amines,Organic Chemical,ISA
+15975940,abstract,6,Chordin,"Amino Acid, Peptide, or Protein",signaling molecules,Biologically Active Substance,ISA
+15975940,abstract,6,Noggin,Gene or Genome,signaling molecules,Biologically Active Substance,ISA
+15975940,abstract,6,Xnr6,"Amino Acid, Peptide, or Protein",signaling molecules,Biologically Active Substance,ISA
+15975940,abstract,6,Cerberus,"Amino Acid, Peptide, or Protein",signaling molecules,Biologically Active Substance,ISA
+15980893,title,1,DNA,"Nucleic Acid, Nucleoside, or Nucleotide",Selenomonas ruminantium,Bacterium,PART_OF
+15982867,title,1,hepatoblastoma,Neoplastic Process,tumours,Neoplastic Process,ISA
+15982867,abstract,4,growth,Organism Function,hepatic tumours,Neoplastic Process,AFFECTS
+15988072,abstract,5,antibiotic prophylaxis,Therapeutic or Preventive Procedure,infection,Disease or Syndrome,PREVENTS
+15989002,abstract,6,CAPS,Disease or Syndrome,patients,Human,PROCESS_OF
+15989002,abstract,6,CAPS,Disease or Syndrome,patients,Human,PROCESS_OF
+15990320,abstract,1,Polyamines,Organic Chemical,nucleotides,"Nucleic Acid, Nucleoside, or Nucleotide",INTERACTS_WITH
+15990320,abstract,1,Polyamines,Organic Chemical,proteins,"Amino Acid, Peptide, or Protein",INTERACTS_WITH
+15990320,abstract,1,Polyamines,Biologically Active Substance,nucleotides,"Nucleic Acid, Nucleoside, or Nucleotide",INTERACTS_WITH
+15990320,abstract,1,Polyamines,Biologically Active Substance,proteins,"Amino Acid, Peptide, or Protein",INTERACTS_WITH
+15993885,abstract,7,CRP,"Amino Acid, Peptide, or Protein",acute-phase proteins,"Amino Acid, Peptide, or Protein",ISA
+15993885,abstract,7,SAA,"Amino Acid, Peptide, or Protein",acute-phase proteins,"Amino Acid, Peptide, or Protein",ISA
+15993885,abstract,7,FIB,"Amino Acid, Peptide, or Protein",acute-phase proteins,"Amino Acid, Peptide, or Protein",ISA
+15993962,abstract,1,implantation,Therapeutic or Preventive Procedure,restenosis,Acquired Abnormality,PRECEDES
+15993962,abstract,1,SES,Therapeutic or Preventive Procedure,implantation,Pharmacologic Substance,USES
+15993962,abstract,1,implantation,Therapeutic or Preventive Procedure,restenosis,Acquired Abnormality,TREATS
+15993962,abstract,1,SES,Pharmacologic Substance,restenosis,Acquired Abnormality,TREATS
+15993962,abstract,6,cardiac event,Disease or Syndrome,patients,Human,PROCESS_OF
+15993962,abstract,6,dialysis status,Finding,cardiac event,Disease or Syndrome,AFFECTS
+15993962,abstract,6,ejection fraction,Finding,cardiac event,Disease or Syndrome,AFFECTS
+15993962,abstract,6,revascularization,Therapeutic or Preventive Procedure,cardiac event,Disease or Syndrome,AFFECTS
+15993962,abstract,6,revascularization,Therapeutic or Preventive Procedure,SES,Pharmacologic Substance,USES
+15993989,abstract,14,mice,Mammal,Sera,Body Substance,LOCATION_OF
+15996060,title,1,rheumatoid arthritis,Disease or Syndrome,patients,Human,PROCESS_OF
+15996060,title,1,Sex hormone,Hormone,patients,Human,PART_OF
+15996060,abstract,2,women,Disease or Syndrome,RA,Human,PROCESS_OF
+15996060,abstract,2,estrogens,Hormone,women,Human,PART_OF
+15996060,abstract,7,patients,Human,DHEAS,Steroid,LOCATION_OF
+15996060,abstract,7,patients,Human,free testosterone,Steroid,LOCATION_OF
+15996060,abstract,7,patients,Human,DHEAS,Steroid,LOCATION_OF
+15996060,abstract,7,patients,Human,free testosterone,Steroid,LOCATION_OF
+15996060,abstract,10,RA,Disease or Syndrome,patients,Human,PROCESS_OF
+15996060,abstract,10,anti-TNF,"Amino Acid, Peptide, or Protein",sex hormones,Hormone,INTERACTS_WITH
+15996060,abstract,10,sex hormones,Human,patients,Hormone,LOCATION_OF
+15996060,abstract,11,RA,Disease or Syndrome,patients,Human,PROCESS_OF
+15998787,abstract,3,allergen,Immunologic Factor,inflammation,Pathologic Function,CAUSES
+15998787,abstract,3,airway,"Body Part, Organ, or Organ Component",inflammation,Pathologic Function,LOCATION_OF
+15998787,abstract,3,inflammation,Pathologic Function,mice,Mammal,PROCESS_OF
+15998787,abstract,3,Nrf2,Gene or Genome,inflammation,Pathologic Function,AFFECTS
+15998787,abstract,4,response,Clinical Attribute,mucus cell hyperplasia,Sign or Symptom,ASSOCIATED_WITH
+15998787,abstract,4,asthmatic,Disease or Syndrome,mice,Mammal,PROCESS_OF
+15998787,abstract,4,response,Clinical Attribute,mice,Mammal,PROCESS_OF
+15998787,abstract,4,lungs,"Body Part, Organ, or Organ Component",infiltration of eosinophils,Pathologic Function,LOCATION_OF
+15998787,abstract,4,response,Clinical Attribute,infiltration of eosinophils,Pathologic Function,ASSOCIATED_WITH
+15998787,abstract,5,splenocytes,Cell,IL-13,"Amino Acid, Peptide, or Protein",LOCATION_OF
+15998787,abstract,5,splenocytes,Cell,interleukin (IL)-4,"Amino Acid, Peptide, or Protein",LOCATION_OF
+15998787,abstract,5,bronchoalveolar lavage fluid,Body Substance,IL-13,"Amino Acid, Peptide, or Protein",LOCATION_OF
+15998787,abstract,5,bronchoalveolar lavage fluid,Body Substance,interleukin (IL)-4,"Amino Acid, Peptide, or Protein",LOCATION_OF
+15998787,abstract,5,interleukin (IL)-4,"Amino Acid, Peptide, or Protein",cytokine,"Amino Acid, Peptide, or Protein",ISA
+15998787,abstract,5,IL-13,"Amino Acid, Peptide, or Protein",cytokine,"Amino Acid, Peptide, or Protein",ISA
+16000282,abstract,10,18F-FDG PET,Diagnostic Procedure,metastases,Neoplastic Process,DIAGNOSES
+16000282,abstract,10,CT/MRI,Diagnostic Procedure,metastases,Neoplastic Process,DIAGNOSES
+16012316,abstract,8,NSIP,Disease or Syndrome,patients,Human,PROCESS_OF
+16012316,abstract,8,UIP,Disease or Syndrome,patients,Human,PROCESS_OF
+16015001,abstract,5,serum,Body Substance,phosphorus,Pharmacologic Substance,LOCATION_OF
+16015001,abstract,5,Patients,Human,phosphorus,Pharmacologic Substance,LOCATION_OF
+16015001,abstract,5,Patients,Human,P,Pharmacologic Substance,LOCATION_OF
+16020163,abstract,2,suicide,Injury or Poisoning,Black,Human,PROCESS_OF
+16020163,abstract,2,men,Human,adult,Human,ISA
+16020163,abstract,2,women,Human,adult,Human,ISA
+16020163,abstract,2,acculturation,Social Behavior,suicide,Injury or Poisoning,AFFECTS
+16024249,abstract,1,Fasciolosis,Disease or Syndrome,disease,Disease or Syndrome,ISA
+16024249,abstract,1,breast,"Body Part, Organ, or Organ Component",parasitic infections,Disease or Syndrome,LOCATION_OF
+16025281,abstract,6,BAFF-R,Gene or Genome,B-cell lymphoma,Neoplastic Process,PART_OF
+16025281,abstract,6,B-lymphoblastic lymphoma,Neoplastic Process,B-cell lymphoma,Neoplastic Process,ISA
+16025281,abstract,6,B-chronic lymphocytic leukemia/small lymphocytic lymphoma,Neoplastic Process,B-cell lymphoma,Neoplastic Process,ISA
+16025281,abstract,6,mantle cell lymphoma,Neoplastic Process,B-cell lymphoma,Neoplastic Process,ISA
+16025281,abstract,6,follicular lymphoma,Neoplastic Process,B-cell lymphoma,Neoplastic Process,ISA
+16025281,abstract,6,diffuse large B-cell lymphoma,Neoplastic Process,B-cell lymphoma,Neoplastic Process,ISA
+16025281,abstract,6,marginal zone B-cell lymphoma,Neoplastic Process,B-cell lymphoma,Neoplastic Process,ISA
+16025281,abstract,6,lymphoplasmacytic lymphoma,Neoplastic Process,B-cell lymphoma,Neoplastic Process,ISA
+16025281,abstract,6,plasma cell myeloma,Neoplastic Process,B-cell lymphoma,Neoplastic Process,ISA
+16025281,abstract,6,Burkitt lymphoma,Neoplastic Process,B-cell lymphoma,Neoplastic Process,ISA
+16025281,abstract,6,Hodgkin lymphoma,Neoplastic Process,B-cell lymphoma,Neoplastic Process,ISA
+16025281,abstract,6,BAFF-R,Gene or Genome,B-lymphoblastic lymphoma,Neoplastic Process,PART_OF
+16025281,abstract,6,BAFF-R,Gene or Genome,B-chronic lymphocytic leukemia/small lymphocytic lymphoma,Neoplastic Process,PART_OF
+16025281,abstract,6,BAFF-R,Gene or Genome,mantle cell lymphoma,Neoplastic Process,PART_OF
+16025281,abstract,6,BAFF-R,Gene or Genome,follicular lymphoma,Neoplastic Process,PART_OF
+16025281,abstract,6,BAFF-R,Gene or Genome,diffuse large B-cell lymphoma,Neoplastic Process,PART_OF
+16025281,abstract,6,BAFF-R,Gene or Genome,marginal zone B-cell lymphoma,Neoplastic Process,PART_OF
+16025281,abstract,6,BAFF-R,Gene or Genome,lymphoplasmacytic lymphoma,Neoplastic Process,PART_OF
+16025281,abstract,6,BAFF-R,Gene or Genome,plasma cell myeloma,Neoplastic Process,PART_OF
+16025281,abstract,6,BAFF-R,Gene or Genome,Burkitt lymphoma,Neoplastic Process,PART_OF
+16025281,abstract,6,BAFF-R,Gene or Genome,Hodgkin lymphoma,Neoplastic Process,PART_OF
+16025281,abstract,7,BAFF-R,Gene or Genome,B-cell neoplasms,Neoplastic Process,PART_OF
+16025281,abstract,7,BAFF-R,Gene or Genome,DLBCL,Neoplastic Process,PART_OF
+16025281,abstract,7,BAFF-R,Gene or Genome,proliferation,Cell Function,AFFECTS
+16025281,abstract,7,proliferation,Cell Function,lymphoid cells,Cell,AFFECTS
+16025281,abstract,7,lymphoid cells,Cell,neoplastic,Neoplastic Process,LOCATION_OF
+16030174,abstract,5,PCOS,Disease or Syndrome,women,Human,PROCESS_OF
+16030174,abstract,11,follicular fluid,Body Substance,women,Human,PART_OF
+16030174,abstract,11,PCOS,Disease or Syndrome,women,Human,PROCESS_OF
+16030174,abstract,11,follicular fluid,Body Substance,inhibin B,"Amino Acid, Peptide, or Protein",LOCATION_OF
+16030174,abstract,11,follicular fluid,Body Substance,inhibin A,"Amino Acid, Peptide, or Protein",LOCATION_OF
+16038840,abstract,7,diverticular disease,Disease or Syndrome,patients,Human,PROCESS_OF
+16038840,abstract,7,NSAID,Pharmacologic Substance,diverticular infection,Disease or Syndrome,PREDISPOSES
+16038840,abstract,7,diverticular,Anatomical Abnormality,infection,Disease or Syndrome,LOCATION_OF
+16038840,abstract,7,NSAID,Pharmacologic Substance,diverticular infection and perforation,Disease or Syndrome,PREDISPOSES
+16044089,abstract,2,peritoneal lavage,Therapeutic or Preventive Procedure,oxygenated PFC,Pharmacologic Substance,USES
+16044089,abstract,2,peritoneal lavage,Therapeutic or Preventive Procedure,hemorrhagic shock,Pathologic Function,TREATS
+16044089,abstract,2,oxygenated PFC (O2-PFC),Pharmacologic Substance,hemorrhagic shock,Pathologic Function,TREATS
+16044089,abstract,12,lavage,Therapeutic or Preventive Procedure,metabolic acidosis,Pathologic Function,TREATS
+16044089,abstract,12,lavage,Therapeutic or Preventive Procedure,O2-PFC,Pharmacologic Substance,USES
+16044089,abstract,12,O2-PFC,Pharmacologic Substance,metabolic acidosis,Pathologic Function,TREATS
+16044089,abstract,12,O2-PFC,Pharmacologic Substance,damage,Injury or Poisoning,TREATS
+16044089,abstract,12,intestinal,"Body Part, Organ, or Organ Component",damage,Injury or Poisoning,LOCATION_OF
+16044089,abstract,12,HS/R,Pathologic Function,metabolic acidosis,Pathologic Function,CAUSES
+16046858,abstract,4,injection,Therapeutic or Preventive Procedure,AMPA,Pharmacologic Substance,USES
+16046858,abstract,4,injection,Therapeutic or Preventive Procedure,rats,Mammal,TREATS
+16046858,abstract,4,AMPA,Pharmacologic Substance,rats,Mammal,ADMINISTERED_TO
+16046858,abstract,4,white matter,Tissue,injury,Injury or Poisoning,LOCATION_OF
+16046858,abstract,4,gray and white matter,Tissue,injury,Injury or Poisoning,LOCATION_OF
+16046858,abstract,4,injection,Therapeutic or Preventive Procedure,injury,Injury or Poisoning,CAUSES
+16046858,abstract,4,AMPA,Pharmacologic Substance,injury,Injury or Poisoning,CAUSES
+16078061,abstract,2,surgery,Therapeutic or Preventive Procedure,epilepsy,Disease or Syndrome,TREATS
+16078061,abstract,2,PET scan,Diagnostic Procedure,FDG,"Indicator, Reagent, or Diagnostic Aid",USES
+16078061,abstract,7,FDG PET,Diagnostic Procedure,clinical management,Health Care Activity,AFFECTS
+16078061,abstract,7,clinical management,Health Care Activity,patients,Human,TREATS
+16079122,abstract,1,chronic lymphocytic leukemia,Neoplastic Process,patients,Human,AFFECTS
+16079122,abstract,1,febrile,Finding,patients,Human,PROCESS_OF
+16079122,abstract,2,febrile,Finding,patients,Human,PROCESS_OF
+16079931,abstract,3,Doppler echocardiography,Diagnostic Procedure,left ventricular diastolic dysfunction,Disease or Syndrome,DIAGNOSES
+16080004,abstract,8,safrole,Hazardous or Poisonous Substance,cell proliferation,Cell Function,AFFECTS
+16080004,abstract,8,safrole,Organic Chemical,cell proliferation,Cell Function,AUGMENTS
+16083305,title,1,Escherichia coli,Bacterium,BAFF,"Amino Acid, Peptide, or Protein",LOCATION_OF
+16083305,title,1,mice,Mammal,NK cells,Cell,LOCATION_OF
+16083305,title,1,mice,Mammal,CD8+ T lymphocytes,Cell,LOCATION_OF
+16083305,title,1,mice,Mammal,CD4+,Cell,LOCATION_OF
+16083305,title,1,BAFF,"Amino Acid, Peptide, or Protein",CD8+ T lymphocytes,Cell,AFFECTS
+16083305,title,1,BAFF,"Amino Acid, Peptide, or Protein",CD4+,Cell,AFFECTS
+16083305,title,1,BAFF,"Amino Acid, Peptide, or Protein",NK cells,Cell,AFFECTS
+16083305,abstract,3,mice,Mammal,natural killer (NK) cells,Cell,LOCATION_OF
+16083305,abstract,3,mice,Mammal,CD8(+) T lymphocytes,Cell,LOCATION_OF
+16083305,abstract,3,mice,Mammal,CD4(+),Cell,LOCATION_OF
+16083305,abstract,3,mice,Mammal,B lymphocytes,Cell,LOCATION_OF
+16083305,abstract,3,B lymphocytes,Cell,splenic,"Body Part, Organ, or Organ Component",PART_OF
+16083305,abstract,3,hsBAFF,"Amino Acid, Peptide, or Protein",B lymphocytes,Cell,AFFECTS
+16083305,abstract,3,hsBAFF,"Amino Acid, Peptide, or Protein",CD4(+),Cell,AFFECTS
+16083305,abstract,3,hsBAFF,"Amino Acid, Peptide, or Protein",CD8(+) T lymphocytes,Cell,AFFECTS
+16083305,abstract,3,hsBAFF,"Amino Acid, Peptide, or Protein",natural killer (NK) cells,Cell,AFFECTS
+16084063,title,1,beta-catenin,"Amino Acid, Peptide, or Protein",apoptosis,Cell Function,DISRUPTS
+16084063,title,1,beta-catenin,"Amino Acid, Peptide, or Protein",invasive growth,Pathologic Function,AUGMENTS
+16084063,title,1,invasive growth,Pathologic Function,HNSCC,Neoplastic Process,COEXISTS_WITH
+16084063,abstract,1,Wnt/beta-catenin signaling pathway,"Amino Acid, Peptide, or Protein",cell proliferation,Cell Function,AFFECTS
+16084063,abstract,1,Wnt/beta-catenin signaling pathway,"Amino Acid, Peptide, or Protein",oncogenesis,Neoplastic Process,AFFECTS
+16091875,abstract,14,therapy,Therapeutic or Preventive Procedure,valganciclovir,Pharmacologic Substance,USES
+16091875,abstract,14,therapy,Therapeutic or Preventive Procedure,CMV infections,Disease or Syndrome,TREATS
+16091875,abstract,14,valganciclovir,Pharmacologic Substance,CMV infections,Disease or Syndrome,TREATS
+16091875,abstract,14,PCR,Laboratory Procedure,CMV infections,Disease or Syndrome,DIAGNOSES
+16091875,abstract,14,lung transplantation,Therapeutic or Preventive Procedure,bronchoalveolar lavage,Therapeutic or Preventive Procedure,PRECEDES
+16100526,abstract,2,Veratridine,Biologically Active Substance,secretion,Biologic Function,CAUSES
+16100526,abstract,2,Veratridine,Biologically Active Substance,neurons,Cell,AFFECTS
+16100526,abstract,2,colon mucosa,"Body Part, Organ, or Organ Component",secretion,Biologic Function,LOCATION_OF
+16100526,abstract,2,colon mucosa,"Body Part, Organ, or Organ Component",mouse,Mammal,PART_OF
+16100526,abstract,12,NPY,"Amino Acid, Peptide, or Protein",neurotransmission,Cell Function,DISRUPTS
+16100526,abstract,12,NPY,"Amino Acid, Peptide, or Protein",Y(2) receptors,"Amino Acid, Peptide, or Protein",STIMULATES
+16100526,abstract,12,neurons,Cell,Y(2) receptors,"Amino Acid, Peptide, or Protein",LOCATION_OF
+16100526,abstract,12,neurons,Cell,submucosal,Tissue,PART_OF
+16100526,abstract,12,veratridine,Pharmacologic Substance,tissue,Tissue,AFFECTS
+16101536,abstract,7,anti-cytokine biologics therapy,Therapeutic or Preventive Procedure,rheumatoid arthritis,Disease or Syndrome,TREATS
+16101536,abstract,8,T cells,Cell,adhesion molecules,"Amino Acid, Peptide, or Protein",LOCATION_OF
+16102747,abstract,6,MPEP,Pharmacologic Substance,mGlu5 receptor antagonist,Pharmacologic Substance,ISA
+16102747,abstract,6,mGlu5 receptor antagonist,Pharmacologic Substance,sphincter relaxation,Organ or Tissue Function,DISRUPTS
+16102747,abstract,6,esophageal,"Body Part, Organ, or Organ Component",sphincter relaxation,Organ or Tissue Function,LOCATION_OF
+16102747,abstract,6,MPEP,Pharmacologic Substance,sphincter relaxation,Organ or Tissue Function,DISRUPTS
+16102747,abstract,6,mGlu5 receptor,"Amino Acid, Peptide, or Protein",gastroesophageal reflux disease,Disease or Syndrome,TREATS
+16105135,title,1,non-alcoholic fatty liver,Disease or Syndrome,disease,Disease or Syndrome,ISA
+16105135,title,1,steatohepatitis,Disease or Syndrome,patients,Human,PROCESS_OF
+16105135,title,1,disease,Disease or Syndrome,patients,Human,PROCESS_OF
+16105135,title,1,non-alcoholic fatty liver,Disease or Syndrome,patients,Human,PROCESS_OF
+16105135,title,1,homocysteine,"Amino Acid, Peptide, or Protein",steatohepatitis,Disease or Syndrome,PREDISPOSES
+16105135,abstract,1,non-alcoholic fatty liver,Disease or Syndrome,disease,Disease or Syndrome,ISA
+16105135,abstract,1,disease,Disease or Syndrome,patients,Human,PROCESS_OF
+16105135,abstract,1,non-alcoholic fatty liver,Disease or Syndrome,patients,Human,PROCESS_OF
+16105135,abstract,1,steatosis,Pathologic Function,patients,Human,PROCESS_OF
+16105135,abstract,1,hyperhomocysteinemia,Disease or Syndrome,patients,Human,PROCESS_OF
+16105135,abstract,1,cystathionine beta-synthase,"Amino Acid, Peptide, or Protein",hyperhomocysteinemia,Disease or Syndrome,CAUSES
+16105135,abstract,1,homocysteine,"Amino Acid, Peptide, or Protein",patients,Human,PART_OF
+16105135,abstract,11,non-alcoholic fatty liver,Disease or Syndrome,disease,Disease or Syndrome,ISA
+16105135,abstract,11,patients,Human,homocysteine,"Amino Acid, Peptide, or Protein",LOCATION_OF
+16105135,abstract,11,disease,Disease or Syndrome,patients,Human,PROCESS_OF
+16105135,abstract,11,non-alcoholic fatty liver,Disease or Syndrome,patients,Human,PROCESS_OF
+16109976,abstract,2,interleukin 1,"Amino Acid, Peptide, or Protein",lung inflammation,Disease or Syndrome,CAUSES
+16109976,abstract,2,endotoxin,Carbohydrate,lung inflammation,Disease or Syndrome,CAUSES
+16109976,abstract,2,lung inflammation,Disease or Syndrome,lambs,Mammal,PROCESS_OF
+16109976,abstract,2,maturation,Physiologic Function,lambs,Mammal,PROCESS_OF
+16109976,abstract,2,maturation,Physiologic Function,lung,"Body Part, Organ, or Organ Component",AFFECTS
+16109976,abstract,2,lung inflammation,Disease or Syndrome,maturation,Physiologic Function,PRECEDES
+16109976,abstract,4,injection,Therapeutic or Preventive Procedure,Lung inflammation,Disease or Syndrome,CAUSES
+16109976,abstract,4,injection,Therapeutic or Preventive Procedure,endotoxin,Carbohydrate,USES
+16109976,abstract,4,injection,Therapeutic or Preventive Procedure,IL-1,"Amino Acid, Peptide, or Protein",USES
+16119618,abstract,2,Down syndrome,Congenital Abnormality,patients,Human,PROCESS_OF
+16119618,abstract,2,EEG,Diagnostic Procedure,patients,Human,ADMINISTERED_TO
+16119618,abstract,2,EEG,Diagnostic Procedure,children,Human,ADMINISTERED_TO
+16126188,abstract,2,detection,Therapeutic or Preventive Procedure,detection,Therapeutic or Preventive Procedure,METHOD_OF
+16126188,abstract,4,plasma,Body Substance,maternal,Human,PART_OF
+16126188,abstract,4,plasma,Body Substance,DNA,Biologically Active Substance,LOCATION_OF
+16126188,abstract,4,detection,Therapeutic or Preventive Procedure,fetal diseases,Disease or Syndrome,DIAGNOSES
+16126188,abstract,4,detection,Therapeutic or Preventive Procedure,pregnancy-associated complications,Disease or Syndrome,DIAGNOSES
+16126188,abstract,4,DNA,Biologically Active Substance,fetal,Embryonic Structure,PART_OF
+16138263,abstract,5,L-thyroxin,"Amino Acid, Peptide, or Protein",Wistar rats,Mammal,TREATS
+16141404,abstract,6,SFLLRN,"Amino Acid, Peptide, or Protein",EPC,Cell,AUGMENTS
+16141404,abstract,6,SFLLRN,"Amino Acid, Peptide, or Protein",receptor CXCR-4,Receptor,STIMULATES
+16141404,abstract,6,SFLLRN,"Amino Acid, Peptide, or Protein",SDF-1,"Amino Acid, Peptide, or Protein",STIMULATES
+16141404,abstract,8,SFLLRN,"Amino Acid, Peptide, or Protein",PAR-1,Gene or Genome,STIMULATES
+16141404,abstract,9,EPCs,Cell,PAR-1,"Amino Acid, Peptide, or Protein",PRODUCES
+16141404,abstract,9,EPCs,Cell,Human,Human,PART_OF
+16144778,abstract,8,anandamide,Biologically Active Substance,respiratory depression,Pathologic Function,CAUSES
+16146326,abstract,1,hemiplegia,Sign or Symptom,subjects,Human,PROCESS_OF
+16149149,title,1,collagen-induced arthritis,Experimental Model of Disease,mice,Mammal,PROCESS_OF
+16149149,title,1,enteric mucosal immune,Organ or Tissue Function,mice,Mammal,PROCESS_OF
+16149149,title,1,Gui Zhi decoction,Biologically Active Substance,enteric mucosal immune,Organ or Tissue Function,AFFECTS
+16154523,title,1,hair specimens,"Body Part, Organ, or Organ Component",amphetamine,Organic Chemical,LOCATION_OF
+16154523,title,1,hair specimens,"Body Part, Organ, or Organ Component",congeners,Chemical Viewed Structurally,LOCATION_OF
+16154523,abstract,7,hair,"Body Part, Organ, or Organ Component",MDEA,Organic Chemical,LOCATION_OF
+16154523,abstract,7,hair,"Body Part, Organ, or Organ Component",MDMA,Organic Chemical,LOCATION_OF
+16154523,abstract,7,hair,"Body Part, Organ, or Organ Component",AM,Organic Chemical,LOCATION_OF
+16154523,abstract,7,hair,"Body Part, Organ, or Organ Component",MA,Organic Chemical,LOCATION_OF
+16154523,abstract,7,hair,"Body Part, Organ, or Organ Component",MDA,Organic Chemical,LOCATION_OF
+16154523,abstract,7,hair,"Body Part, Organ, or Organ Component",abusers,Human,PART_OF
+16160007,title,1,missense mutation,Genetic Function,ADAMTS13,Gene or Genome,AFFECTS
+16160007,title,1,polymorphisms,Genetic Function,ADAMTS13,Gene or Genome,AFFECTS
+16160007,title,1,polymorphisms,Genetic Function,amino acid,"Amino Acid, Peptide, or Protein",AFFECTS
+16160007,abstract,1,thrombotic thrombocytopenic purpura,Disease or Syndrome,patients,Human,PROCESS_OF
+16160007,abstract,1,ADAMTS13,Gene or Genome,patients,Human,PART_OF
+16160007,abstract,1,Sequence analysis,Laboratory Procedure,rare missense mutation (R1336W),Cell or Molecular Dysfunction,DIAGNOSES
+16160855,abstract,2,cutting,Therapeutic or Preventive Procedure,Denervation,Therapeutic or Preventive Procedure,METHOD_OF
+16167756,abstract,8,SS,Disease or Syndrome,disease,Disease or Syndrome,ISA
+16167981,abstract,2,chromosome 25 (ECA25),Cell Component,horse,Mammal,PART_OF
+16167981,abstract,2,locus,Gene or Genome,horse chromosome 25 (ECA25),Cell Component,PART_OF
+16172203,abstract,1,antipsychotic drugs,Pharmacologic Substance,agents,Chemical Viewed Functionally,COMPARED_WITH
+16172797,title,1,High grade primary breast lymphoma,Neoplastic Process,breast,"Body Part, Organ, or Organ Component",PART_OF
+16172797,abstract,1,lymphoma,Neoplastic Process,neoplasm,Neoplastic Process,ISA
+16172797,abstract,1,lymphoma,Neoplastic Process,breast,"Body Part, Organ, or Organ Component",PART_OF
+16176149,abstract,9,Ca deficiency,Disease or Syndrome,bone loss,Pathologic Function,CAUSES
+16176149,abstract,9,OVX,Therapeutic or Preventive Procedure,bone loss,Pathologic Function,CAUSES
+16176149,abstract,9,Ca deficiency,Disease or Syndrome,rats,Mammal,PROCESS_OF
+16176149,abstract,9,OVX,Therapeutic or Preventive Procedure,rats,Mammal,ADMINISTERED_TO
+16176149,abstract,9,extract,Substance,bone loss,Pathologic Function,PREVENTS
+16177843,title,1,schizophrenia,Mental or Behavioral Dysfunction,cohort,Human,OCCURS_IN
+16177843,abstract,7,schizophrenia,Mental or Behavioral Dysfunction,psychotic disorders,Mental or Behavioral Dysfunction,ISA
+16177843,abstract,7,psychotic disorders,Mental or Behavioral Dysfunction,cohort,Human,OCCURS_IN
+16181881,abstract,1,lone atrial fibrillation,Disease or Syndrome,patients,Human,PROCESS_OF
+16181881,abstract,1,surgery,Therapeutic or Preventive Procedure,patients,Human,TREATS
+16181881,abstract,1,surgery,Therapeutic or Preventive Procedure,lone atrial fibrillation,Disease or Syndrome,TREATS
+16182253,abstract,1,cytoplasmic protein,"Amino Acid, Peptide, or Protein",metazoans,Invertebrate,PART_OF
+16182253,abstract,1,nuclear,"Amino Acid, Peptide, or Protein",metazoans,Invertebrate,PART_OF
+16182253,abstract,1,acetylglucosamine,Biologically Active Substance,cytoplasmic proteins,"Amino Acid, Peptide, or Protein",INTERACTS_WITH
+16182253,abstract,1,acetylglucosamine,Biologically Active Substance,nuclear and cytoplasmic proteins,"Amino Acid, Peptide, or Protein",INTERACTS_WITH
+16182253,abstract,6,Mutations,Genetic Function,progressive cerebellar ataxias,Disease or Syndrome,CAUSES
+16182253,abstract,6,Mutations,Genetic Function,seizures,Sign or Symptom,CAUSES
+16182253,abstract,6,SCA10 gene,Gene or Genome,Mutations,Genetic Function,LOCATION_OF
+16182253,abstract,6,SCA10 gene,Gene or Genome,progressive cerebellar ataxias,Disease or Syndrome,CAUSES
+16182253,abstract,6,SCA10 gene,Gene or Genome,seizures,Sign or Symptom,CAUSES
+16182253,abstract,7,cells,Cell,O-linked glycosylation,Molecular Function,LOCATION_OF
+16182253,abstract,7,O-linked glycosylation,Molecular Function,SCA10,Gene or Genome,AFFECTS
+16182253,abstract,7,pancreatic beta cells,Cell,Ataxin-10 protein,"Amino Acid, Peptide, or Protein",LOCATION_OF
+16182253,abstract,7,SCA10,Gene or Genome,OGT,"Amino Acid, Peptide, or Protein",INTERACTS_WITH
+16185180,abstract,8,combination therapy,Therapeutic or Preventive Procedure,Patients,Human,TREATS
+16185180,abstract,8,MDRPA,Disease or Syndrome,Patients,Human,PROCESS_OF
+16185180,abstract,8,combination therapy,Therapeutic or Preventive Procedure,MDRPA,Disease or Syndrome,TREATS
+16185180,abstract,8,combination therapy,Therapeutic or Preventive Procedure,beta-lactam,Antibiotic,USES
+16185180,abstract,8,combination therapy,Therapeutic or Preventive Procedure,aminoglycoside,Pharmacologic Substance,USES
+16185180,abstract,8,combination therapy,Therapeutic or Preventive Procedure,fluoroquinolone,Pharmacologic Substance,USES
+16185321,abstract,1,Killer cell immunoglobulin-like receptors,"Amino Acid, Peptide, or Protein",human leukocyte antigen,"Amino Acid, Peptide, or Protein",INTERACTS_WITH
+16194167,title,1,transthoracic echocardiography,Diagnostic Procedure,abdominal aortic atherosclerosis,Disease or Syndrome,DIAGNOSES
+16194167,abstract,10,TTE,Diagnostic Procedure,patients,Human,ADMINISTERED_TO
+16194167,abstract,10,TTE,Diagnostic Procedure,patients,Human,ADMINISTERED_TO
+16194167,abstract,10,TTE,Diagnostic Procedure,images,Diagnostic Procedure,ISA
+16197815,abstract,4,ALS,Disease or Syndrome,patients,Human,PROCESS_OF
+16197815,abstract,4,IGF-1,"Amino Acid, Peptide, or Protein",patients,Human,ADMINISTERED_TO
+16197815,abstract,6,ALS,Disease or Syndrome,patients,Human,PROCESS_OF
+16197815,abstract,6,treatment,Therapeutic or Preventive Procedure,motor functions,Functional Concept,AFFECTS
+16204062,abstract,3,PKCiota,"Amino Acid, Peptide, or Protein",isozyme,"Amino Acid, Peptide, or Protein",ISA
+16204062,abstract,3,PKCiota,"Amino Acid, Peptide, or Protein",tumorigenicity,Pathologic Function,AFFECTS
+16204062,abstract,3,PKCiota,"Amino Acid, Peptide, or Protein",human lung adenocarcinoma A549 cell line,Cell,AFFECTS
+16204062,abstract,3,human lung adenocarcinoma A549 cell line,Cell,lung adenocarcinoma,Neoplastic Process,LOCATION_OF
+16204062,abstract,3,cells,Cell,non-small cell lung cancer (NSCLC),Neoplastic Process,LOCATION_OF
+16204062,abstract,3,cells,Cell,human,Human,PART_OF
+16204062,abstract,3,non-small cell lung cancer (NSCLC),Neoplastic Process,human,Human,PROCESS_OF
+16204062,abstract,3,atypical PKC (aPKC),"Amino Acid, Peptide, or Protein",isozyme,"Amino Acid, Peptide, or Protein",ISA
+16204062,abstract,4,PKCiota,"Amino Acid, Peptide, or Protein",oncogene,Gene or Genome,ISA
+16204062,abstract,4,oncogene,Gene or Genome,NSCLC,Neoplastic Process,ASSOCIATED_WITH
+16204062,abstract,4,PKCiota,"Amino Acid, Peptide, or Protein",NSCLC,Neoplastic Process,ASSOCIATED_WITH
+16204062,abstract,4,tumors,Neoplastic Process,aPKCiota,"Amino Acid, Peptide, or Protein",PRODUCES
+16204062,abstract,4,NSCLC,Neoplastic Process,aPKCiota,"Amino Acid, Peptide, or Protein",PRODUCES
+16204062,abstract,4,NSCLC,Neoplastic Process,tumors,Neoplastic Process,ISA
+16204062,abstract,4,tumor,Neoplastic Process,PKCiota,"Amino Acid, Peptide, or Protein",PRODUCES
+16204062,abstract,4,NSCLC,Neoplastic Process,patients,Human,PROCESS_OF
+16204062,abstract,4,PKCiota,"Amino Acid, Peptide, or Protein",cell line,Cell,PART_OF
+16204062,abstract,4,NSCLC,Neoplastic Process,cell lines,Cell,PART_OF
+16204062,abstract,4,NSCLC,Neoplastic Process,tumors,Neoplastic Process,ISA
+16204062,abstract,4,cell lines,Cell,NSCLC,Neoplastic Process,LOCATION_OF
+16204062,abstract,4,PKCiota,"Amino Acid, Peptide, or Protein",tumor,Neoplastic Process,PART_OF
+16204062,abstract,4,PKCiota,"Amino Acid, Peptide, or Protein",NSCLC,Neoplastic Process,PART_OF
+16204062,abstract,4,PKCiota,"Amino Acid, Peptide, or Protein",cell line,Cell,PART_OF
+16204062,abstract,4,PKCiota,"Amino Acid, Peptide, or Protein",tumor,Neoplastic Process,PART_OF
+16204062,abstract,4,NSCLC,Neoplastic Process,tumors,Neoplastic Process,ISA
+16204062,abstract,4,PKCiota,"Amino Acid, Peptide, or Protein",NSCLC,Neoplastic Process,PART_OF
+16204062,abstract,4,gene amplification,Genetic Function,PKCiota,"Amino Acid, Peptide, or Protein",STIMULATES
+16204062,abstract,4,allele,Gene or Genome,PKCiota,"Amino Acid, Peptide, or Protein",INHIBITS
+16204062,abstract,4,cells,Cell,NSCLC,Neoplastic Process,LOCATION_OF
+16204062,abstract,4,cells,Cell,gene amplification,Genetic Function,LOCATION_OF
+16205318,title,1,Ipsapirone,Pharmacologic Substance,circulatory shock,Pathologic Function,PREVENTS
+16205318,title,1,ketanserin,Pharmacologic Substance,circulatory shock,Pathologic Function,PREVENTS
+16205318,title,1,Ipsapirone,Pharmacologic Substance,intracranial hypertension,Disease or Syndrome,PREVENTS
+16205318,title,1,ketanserin,Pharmacologic Substance,intracranial hypertension,Disease or Syndrome,PREVENTS
+16205318,title,1,Ipsapirone,Pharmacologic Substance,cerebral ischemia,Disease or Syndrome,PREVENTS
+16205318,title,1,ketanserin,Pharmacologic Substance,cerebral ischemia,Disease or Syndrome,PREVENTS
+16207633,abstract,5,cells,Cell,CHO,"Body Part, Organ, or Organ Component",PART_OF
+16207633,abstract,5,cells,Cell,bone marrow,"Body Part, Organ, or Organ Component",PART_OF
+16207633,abstract,6,cells,Cell,MDR1,Gene or Genome,LOCATION_OF
+16207633,abstract,6,cells,Cell,MRP2,Gene or Genome,LOCATION_OF
+16207633,abstract,6,MRP2 gene,Gene or Genome,Hepa c cells,Cell,PART_OF
+16207633,abstract,6,MDR1,Gene or Genome,Hepa c cells,Cell,PART_OF
+16216070,abstract,1,Cytochrome b5 reductase,"Amino Acid, Peptide, or Protein",cytochrome b5,"Amino Acid, Peptide, or Protein",INTERACTS_WITH
+16216070,abstract,1,NADH,Biologically Active Substance,cytochrome b5,"Amino Acid, Peptide, or Protein",INHIBITS
+16228202,abstract,2,yeast,Fungus,glucosylceramide,Biologically Active Substance,LOCATION_OF
+16228202,abstract,2,glucosylceramide,Biologically Active Substance,yeast,Fungus,AFFECTS
+16228202,abstract,3,yeast,Fungus,glucosylceramide,Biologically Active Substance,LOCATION_OF
+16230392,abstract,2,EP2,Gene or Genome,tumorigenesis,Neoplastic Process,ASSOCIATED_WITH
+16230392,abstract,2,mammary gland,"Body Part, Organ, or Organ Component",tumorigenesis,Neoplastic Process,LOCATION_OF
+16230392,abstract,2,colon,"Body Part, Organ, or Organ Component",tumorigenesis,Neoplastic Process,LOCATION_OF
+16230392,abstract,2,mammary gland,"Body Part, Organ, or Organ Component",mouse,Mammal,PART_OF
+16230392,abstract,2,colon,"Body Part, Organ, or Organ Component",mouse,Mammal,PART_OF
+16232237,abstract,13,cancer,Neoplastic Process,patients,Human,PROCESS_OF
+16243512,abstract,4,beta-amyloid,"Amino Acid, Peptide, or Protein",Alzheimer's disease,Disease or Syndrome,CAUSES
+16246439,abstract,6,placebo,Medical Device,candesartan,Pharmacologic Substance,COMPARED_WITH
+16246439,abstract,6,candesartan,Pharmacologic Substance,CD40 ligand,"Amino Acid, Peptide, or Protein",INHIBITS
+16246439,abstract,11,Candesartan,Pharmacologic Substance,inflammation,Pathologic Function,TREATS
+16246439,abstract,11,Candesartan,Pharmacologic Substance,adiponectin,"Amino Acid, Peptide, or Protein",STIMULATES
+16246439,abstract,11,Candesartan,Pharmacologic Substance,insulin sensitivity,Pathologic Function,TREATS
+16246439,abstract,11,hypertensive,Finding,patients,Human,PROCESS_OF
+16246439,abstract,11,insulin sensitivity,Pathologic Function,patients,Human,PROCESS_OF
+16246439,abstract,11,inflammation,Pathologic Function,patients,Human,PROCESS_OF
+16251535,abstract,7,microRNAs,"Nucleic Acid, Nucleoside, or Nucleotide",somatic mutations,Cell or Molecular Dysfunction,LOCATION_OF
+16251535,abstract,7,microRNAs,"Nucleic Acid, Nucleoside, or Nucleotide",Germ-line,Genetic Function,LOCATION_OF
+16251535,abstract,7,CLL,Neoplastic Process,patients,Human,PROCESS_OF
+16251535,abstract,7,somatic mutation,Cell or Molecular Dysfunction,patients,Human,PROCESS_OF
+16251535,abstract,7,Germ-line,Genetic Function,patients,Human,PROCESS_OF
+16251535,abstract,7,mutations,Genetic Function,subjects,Human,PROCESS_OF
+16251535,abstract,7,cancer,Neoplastic Process,subjects,Human,PROCESS_OF
+16256984,abstract,1,Adherens junctions,Cell Component,vascular morphogenesis,Organ or Tissue Function,AFFECTS
+16256984,abstract,1,cadherins,"Amino Acid, Peptide, or Protein",vascular morphogenesis,Organ or Tissue Function,AFFECTS
+16256984,abstract,1,Adherens junctions,Cell Component,endothelial cell,Cell,AFFECTS
+16256984,abstract,1,cadherins,"Amino Acid, Peptide, or Protein",endothelial cell,Cell,AFFECTS
+16256984,abstract,1,cadherins,"Amino Acid, Peptide, or Protein",endothelial cell integrity and growth,Cell Function,AFFECTS
+16256984,abstract,1,Adherens junctions,Cell Component,endothelial cell integrity and growth,Cell Function,AFFECTS
+16256984,abstract,7,endothelium,Tissue,N-cadherin,"Amino Acid, Peptide, or Protein",LOCATION_OF
+16256984,abstract,7,N-cadherin,"Amino Acid, Peptide, or Protein",VE-cadherin,"Amino Acid, Peptide, or Protein",INTERACTS_WITH
+16260902,abstract,3,hepatitis A antigen,Immunologic Factor,Subjects,Human,ADMINISTERED_TO
+16260962,abstract,3,CFS,Disease or Syndrome,patients,Human,PROCESS_OF
+16260962,abstract,3,exercise stress test,Diagnostic Procedure,patients,Human,ADMINISTERED_TO
+16260962,abstract,3,exercise stress test,Diagnostic Procedure,bicycle ergometer,Medical Device,USES
+16260962,abstract,6,CFS,Disease or Syndrome,patients,Human,PROCESS_OF
+16260962,abstract,6,performance,Individual Behavior,patients,Human,PROCESS_OF
+16261927,abstract,2,opioid,Hazardous or Poisonous Substance,sedation,Sign or Symptom,CAUSES
+16261927,abstract,2,sedation,Sign or Symptom,change in behaviour,Individual Behavior,AFFECTS
+16266740,title,1,lead,Plant,rice grains,Hazardous or Poisonous Substance,LOCATION_OF
+16266740,title,1,Cadmium,Plant,rice grains,Hazardous or Poisonous Substance,LOCATION_OF
+16266740,title,1,rice,Plant,grains,Plant,ISA
+16266740,abstract,1,Cadmium (Cd),Plant,rice,Hazardous or Poisonous Substance,LOCATION_OF
+16266740,abstract,1,lead (Pb),Plant,rice,Hazardous or Poisonous Substance,LOCATION_OF
+16266740,abstract,1,sampling site,Spatial Concept,survey,Research Activity,LOCATION_OF
+16266740,abstract,1,rice,Plant,grains,Plant,ISA
+16272203,abstract,8,contractility,Organ or Tissue Function,rats,Mammal,PROCESS_OF
+16272824,abstract,7,supernatants,Body Substance,cells,Cell,PART_OF
+16272824,abstract,7,supernatants,Body Substance,tumor necrosis factor-alpha,"Amino Acid, Peptide, or Protein",LOCATION_OF
+16272824,abstract,7,supernatants,Body Substance,interleukin-8,"Amino Acid, Peptide, or Protein",LOCATION_OF
+16272824,abstract,7,supernatants,Body Substance,IL-6,"Amino Acid, Peptide, or Protein",LOCATION_OF
+16272824,abstract,12,human mast cell line,Cell,IL-6,"Amino Acid, Peptide, or Protein",LOCATION_OF
+16272824,abstract,12,human mast cell line,Cell,TNF-alpha,"Amino Acid, Peptide, or Protein",LOCATION_OF
+16272824,abstract,12,human mast cell line,Cell,IL-8,"Amino Acid, Peptide, or Protein",LOCATION_OF
+16272824,abstract,14,SPS,Organic Chemical,allergic reaction,Pathologic Function,DISRUPTS
+16272824,abstract,14,AD,Disease or Syndrome,disease,Disease or Syndrome,ISA
+16272824,abstract,14,SPS,Organic Chemical,disease,Disease or Syndrome,TREATS
+16272824,abstract,14,SPS,Organic Chemical,AD,Disease or Syndrome,TREATS
+16280382,abstract,1,liver,"Body Part, Organ, or Organ Component",Wistar rats,Mammal,PART_OF
+16280382,abstract,1,lung,"Body Part, Organ, or Organ Component",Wistar rats,Mammal,PART_OF
+16280382,abstract,1,kidney,"Body Part, Organ, or Organ Component",Wistar rats,Mammal,PART_OF
+16280382,abstract,9,AEST,Substance,inflammation,Pathologic Function,CAUSES
+16280382,abstract,9,liver,"Body Part, Organ, or Organ Component",inflammation,Pathologic Function,LOCATION_OF
+16280382,abstract,9,lung,"Body Part, Organ, or Organ Component",inflammation,Pathologic Function,LOCATION_OF
+16284436,abstract,4,iodine deficiency,Disease or Syndrome,goiter,Disease or Syndrome,CAUSES
+16284436,abstract,12,mutations,Genetic Function,signal transduction pathway,Cell Function,COEXISTS_WITH
+16284436,abstract,12,SSCP,Laboratory or Test Result,screening,Health Care Activity,METHOD_OF
+16284436,abstract,12,exon,"Nucleic Acid, Nucleoside, or Nucleotide",TSHR,"Amino Acid, Peptide, or Protein",PART_OF
+16284524,abstract,9,TDR,Biologic Function,individuals,Human,PROCESS_OF
+16284524,abstract,11,TDR,Biologic Function,individuals,Human,PROCESS_OF
+16285448,abstract,3,study,Research Activity,phantom,Medical Device,USES
+16285448,abstract,3,study,Research Activity,stent,Medical Device,USES
+16288225,abstract,7,genes,Gene or Genome,T-cell activation,Cell Function,AFFECTS
+16288225,abstract,7,genes,Gene or Genome,apoptosis,Cell Function,AFFECTS
+16288225,abstract,7,NFKB1,Gene or Genome,genes,Gene or Genome,ISA
+16288225,abstract,7,BCL-2,Gene or Genome,genes,Gene or Genome,ISA
+16288225,abstract,7,NFKB1,Gene or Genome,T-cell activation,Cell Function,AFFECTS
+16288225,abstract,7,BCL-2,Gene or Genome,T-cell activation,Cell Function,AFFECTS
+16288225,abstract,7,NFKB1,Gene or Genome,apoptosis,Cell Function,AFFECTS
+16288225,abstract,7,BCL-2,Gene or Genome,apoptosis,Cell Function,AFFECTS
+16290001,abstract,2,cervical adenocarcinoma,Neoplastic Process,patients,Human,PROCESS_OF
+16290001,abstract,2,radical hysterectomy,Therapeutic or Preventive Procedure,cervical adenocarcinoma,Neoplastic Process,TREATS
+16290001,abstract,2,pelvic lymphadenectomy,Therapeutic or Preventive Procedure,cervical adenocarcinoma,Neoplastic Process,TREATS
+16290001,abstract,3,pelvic,Body Location or Region,lymph node metastasis,Neoplastic Process,LOCATION_OF
+16290001,abstract,3,lymph node metastasis,Neoplastic Process,patients,Human,PROCESS_OF
+16291723,abstract,9,Rho-GEF,"Amino Acid, Peptide, or Protein",fission yeast,Fungus,PART_OF
+16291815,abstract,1,Leydig cells,Cell,mice,Mammal,PART_OF
+16291815,abstract,1,Leydig cells,Cell,ATP,Biologically Active Substance,LOCATION_OF
+16296031,abstract,17,serum proteins,"Amino Acid, Peptide, or Protein",bovine,Mammal,PART_OF
+16303761,abstract,2,c-met,"Amino Acid, Peptide, or Protein",HGF,Gene or Genome,INTERACTS_WITH
+16303761,abstract,2,cells,Cell,receptor tyrosine kinase,"Amino Acid, Peptide, or Protein",PRODUCES
+16303761,abstract,2,c-met,"Amino Acid, Peptide, or Protein",receptor tyrosine kinase,"Amino Acid, Peptide, or Protein",ISA
+16303761,abstract,2,cells,Cell,c-met,"Amino Acid, Peptide, or Protein",PRODUCES
+16303761,abstract,6,chymases,"Amino Acid, Peptide, or Protein",peptidases,"Amino Acid, Peptide, or Protein",ISA
+16303761,abstract,6,mast cell,Cell,chymases,"Amino Acid, Peptide, or Protein",PRODUCES
+16303761,abstract,6,chymases,"Amino Acid, Peptide, or Protein",HGF,Gene or Genome,INTERACTS_WITH
+16303761,abstract,6,chymases,"Amino Acid, Peptide, or Protein",scatter factor,"Amino Acid, Peptide, or Protein",INHIBITS
+16303761,abstract,6,chymases,"Amino Acid, Peptide, or Protein",antagonist,Chemical Viewed Functionally,PRODUCES
+16303761,abstract,6,NK4,Gene or Genome,scatter factor activity,Molecular Function,DISRUPTS
+16303761,abstract,10,cathepsin G,"Amino Acid, Peptide, or Protein",neutrophil,Cell,PART_OF
+16303761,abstract,10,cathepsin G,"Amino Acid, Peptide, or Protein",Mast cell,Cell,PART_OF
+16303761,abstract,10,neutrophil elastase,Gene or Genome,HGF,"Amino Acid, Peptide, or Protein",PRODUCES
+16303761,abstract,10,neutrophil elastase,"Amino Acid, Peptide, or Protein",HGF,"Amino Acid, Peptide, or Protein",PRODUCES
+16303761,abstract,10,elastase,"Amino Acid, Peptide, or Protein",neutrophil,Cell,PART_OF
+16304222,title,1,anticoagulation,Therapeutic or Preventive Procedure,patients,Patient or Disabled Group,TREATS
+16304222,title,1,patients,Human,mechanical heart valves,Medical Device,USES
+16310382,abstract,1,Cystitis,Disease or Syndrome,cattle,Mammal,PROCESS_OF
+16310382,abstract,1,urethritis,Disease or Syndrome,cattle,Mammal,PROCESS_OF
+16310382,abstract,1,pyelonephritis,Disease or Syndrome,cattle,Mammal,PROCESS_OF
+16310382,abstract,1,urinary tract infection,Disease or Syndrome,Cystitis,Disease or Syndrome,CAUSES
+16310382,abstract,1,urinary tract infection,Disease or Syndrome,urethritis,Disease or Syndrome,CAUSES
+16310382,abstract,1,urinary tract infection,Disease or Syndrome,pyelonephritis,Disease or Syndrome,CAUSES
+16310382,abstract,1,Corynebacterium renale,Bacterium,urinary tract infection,Disease or Syndrome,CAUSES
+16310382,abstract,1,Corynebacterium pilosum,Bacterium,urinary tract infection,Disease or Syndrome,CAUSES
+16310382,abstract,1,Escherichia coli,Bacterium,urinary tract infection,Disease or Syndrome,CAUSES
+16310382,abstract,1,urinary tract infection,Disease or Syndrome,pyelonephritis,Disease or Syndrome,CAUSES
+16310382,abstract,2,urinary tract infection,Disease or Syndrome,dairy cattle,Mammal,PROCESS_OF
+16310382,abstract,2,findings,Sign or Symptom,dairy cattle,Mammal,PROCESS_OF
+16311763,abstract,4,PGC-1alpha,Gene or Genome,biogenesis,Natural Phenomenon or Process,AFFECTS
+16311763,abstract,4,Tfam,Gene or Genome,biogenesis,Natural Phenomenon or Process,AFFECTS
+16311763,abstract,4,mitochondrial,Cell Component,biogenesis,Natural Phenomenon or Process,LOCATION_OF
+16311763,abstract,4,COX-1,"Amino Acid, Peptide, or Protein",mitochondrial,Cell Component,AFFECTS
+16311763,abstract,4,COX-4,Gene or Genome,mitochondrial,Cell Component,AFFECTS
+16311763,abstract,4,IGF-I,"Amino Acid, Peptide, or Protein",mechanical stress,Natural Phenomenon or Process,AFFECTS
+16316352,abstract,1,CAD,Disease or Syndrome,patients,Human,PROCESS_OF
+16316352,abstract,1,glomerular filtration rate,Organ or Tissue Function,patients,Human,PROCESS_OF
+16316352,abstract,1,coronary artery disease,Disease or Syndrome,chronic renal failure,Disease or Syndrome,COEXISTS_WITH
+16316352,abstract,1,renal hemodynamic dysfunction,Pathologic Function,chronic renal failure,Disease or Syndrome,COEXISTS_WITH
+16316352,abstract,1,renal hemodynamic dysfunction,Pathologic Function,coronary artery disease (CAD),Disease or Syndrome,COEXISTS_WITH
+16316352,abstract,13,CAD,Disease or Syndrome,patients,Human,PROCESS_OF
+16316352,abstract,13,GFR,Organ or Tissue Function,patients,Human,PROCESS_OF
+16317035,abstract,1,thylakoid lumen,Cell Component,cyanobacteria,Bacterium,PART_OF
+16317035,abstract,1,thylakoid lumen,Cell Component,algae,Alga,PART_OF
+16317035,abstract,1,algae,Alga,eukaryotic,Organism,ISA
+16317035,abstract,1,Cytochrome c6,"Amino Acid, Peptide, or Protein",thylakoid lumen,Cell Component,PART_OF
+16328214,abstract,7,biopsy,Diagnostic Procedure,Findings,Finding,DIAGNOSES
+16328359,title,1,odontoclasts,Cell,Chinook salmon,Fish,PART_OF
+16328359,abstract,1,odontoclasts,Cell,teeth,"Body Part, Organ, or Organ Component",PART_OF
+16328359,abstract,1,teeth,"Body Part, Organ, or Organ Component",teleost fish,Fish,PART_OF
+16328359,abstract,1,Chinook salmon,Fish,teleost fish,Fish,ISA
+16328359,abstract,1,study,Laboratory Procedure,light microscope,Medical Device,USES
+16328359,abstract,1,light microscope,Medical Device,transmission electron microscopy,Laboratory Procedure,PRECEDES
+16330236,title,1,agonist,Pharmacologic Substance,Ovarian hyperstimulation,Pathologic Function,CAUSES
+16332537,abstract,2,neurons,Cell,visual cortical,"Body Part, Organ, or Organ Component",PART_OF
+16332961,abstract,2,mitochondria,Cell Component,respiratory chain,Cell Component,LOCATION_OF
+16332961,abstract,2,respiratory chain,Cell Component,ROS,Biologically Active Substance,LOCATION_OF
+16332961,abstract,2,respiratory chain,Molecular Function,degenerative diseases,Disease or Syndrome,AFFECTS
+16332961,abstract,2,respiratory chain,Molecular Function,aging,Organism Function,AFFECTS
+16332961,abstract,2,mitochondria,Cell Component,respiratory chain,Molecular Function,LOCATION_OF
+16332961,abstract,2,respiratory chain,Molecular Function,ROS,Biologically Active Substance,PRODUCES
+16338777,abstract,1,pelvic inflammatory disease,Disease or Syndrome,patients,Human,PROCESS_OF
+16338777,abstract,1,PID,Disease or Syndrome,women,Human,PROCESS_OF
+16338878,abstract,3,corpus callosum,"Body Part, Organ, or Organ Component",hypoplasia,Pathologic Function,LOCATION_OF
+16338878,abstract,3,short umbilical cord,Anatomical Abnormality,single umbilical artery,Congenital Abnormality,COEXISTS_WITH
+16339800,abstract,7,missense mutation,Genetic Function,PP2C activity,Molecular Function,DISRUPTS
+16339800,abstract,7,ahg3-1,"Amino Acid, Peptide, or Protein",missense mutation,Genetic Function,LOCATION_OF
+16339800,abstract,7,PP2C,"Amino Acid, Peptide, or Protein",signaling,Cell Function,DISRUPTS
+16339800,abstract,7,signaling,Cell Function,ABA,Biologically Active Substance,AFFECTS
+16340726,abstract,2,SPECT,Diagnostic Procedure,patients,Human,ADMINISTERED_TO
+16340726,abstract,2,SPECT,Diagnostic Procedure,patients,Human,ADMINISTERED_TO
+16340726,abstract,2,emphysema,Pathologic Function,patients,Human,PROCESS_OF
+16340726,abstract,2,COPD,Disease or Syndrome,patients,Human,PROCESS_OF
+16352184,abstract,9,procedure,Health Care Activity,patients,Human,TREATS
+16352184,abstract,9,surgery,Therapeutic or Preventive Procedure,patients,Human,TREATS
+16352184,abstract,9,surgery,Therapeutic or Preventive Procedure,procedure,Health Care Activity,COEXISTS_WITH
+16361909,abstract,9,pelvic,Body Location or Region,radiographs,Diagnostic Procedure,LOCATION_OF
+16361909,abstract,9,radiographs,Diagnostic Procedure,application,Health Care Activity,PRECEDES
+16361909,abstract,9,application,Health Care Activity,radiographs,Diagnostic Procedure,PRECEDES
+16361909,abstract,9,stabilization,Therapeutic or Preventive Procedure,radiographs,Diagnostic Procedure,PRECEDES
+16362132,abstract,11,post-menopausal,Organism Function,women,Human,PROCESS_OF
+16362132,abstract,11,pre-menopausal,Physiologic Function,women,Human,PROCESS_OF
+16362132,abstract,11,post-menopausal,Organism Function,women,Human,PROCESS_OF
+16362541,abstract,7,tetraplegia,Disease or Syndrome,participants,Human,PROCESS_OF
+16371595,abstract,3,eggs,Cell,calcium spiking,Cell Function,LOCATION_OF
+16371595,abstract,3,eggs,Cell,mammalian,Mammal,PART_OF
+16371595,abstract,11,phosphoinositide signaling,Lipid,ventralizing signal,Cell Function,AFFECTS
+16371595,abstract,11,strong ventralizing signal,Cell Function,Xenopus,Amphibian,PROCESS_OF
+16372122,abstract,9,penile,"Body Part, Organ, or Organ Component",deformities,Congenital Abnormality,LOCATION_OF
+16372122,abstract,9,deformities,Congenital Abnormality,patients,Human,PROCESS_OF
+16372122,abstract,9,deformities,Congenital Abnormality,group,Human,PROCESS_OF
+16372122,abstract,9,diabetic,Disease or Syndrome,group,Human,PROCESS_OF
+16372122,abstract,10,PD,Disease or Syndrome,patients,Human,PROCESS_OF
+16372122,abstract,10,DM,Disease or Syndrome,patients,Human,PROCESS_OF
+16372122,abstract,13,DM,Disease or Syndrome,PD,Disease or Syndrome,CAUSES
+16372122,abstract,13,diabetic,Finding,men,Human,PROCESS_OF
+16372122,abstract,13,DM,Disease or Syndrome,men,Human,PROCESS_OF
+16372914,abstract,2,choriocarcinoma,Neoplastic Process,malignancies,Neoplastic Process,ISA
+16372914,abstract,2,seminoma,Neoplastic Process,malignancies,Neoplastic Process,ISA
+16372914,abstract,2,ovarian carcinoma,Neoplastic Process,malignancies,Neoplastic Process,ISA
+16372914,abstract,2,placental isozyme,"Amino Acid, Peptide, or Protein",oncofetal antigen,"Amino Acid, Peptide, or Protein",ISA
+16372914,abstract,2,oncofetal antigen,"Amino Acid, Peptide, or Protein",malignancies,Neoplastic Process,PART_OF
+16372914,abstract,2,placental isozyme,"Amino Acid, Peptide, or Protein",malignancies,Neoplastic Process,PART_OF
+16372914,abstract,2,oncofetal antigen,"Amino Acid, Peptide, or Protein",choriocarcinoma,Neoplastic Process,PART_OF
+16372914,abstract,2,oncofetal antigen,"Amino Acid, Peptide, or Protein",seminoma,Neoplastic Process,PART_OF
+16372914,abstract,2,oncofetal antigen,"Amino Acid, Peptide, or Protein",ovarian carcinoma,Neoplastic Process,PART_OF
+16372914,abstract,2,placental isozyme,"Amino Acid, Peptide, or Protein",choriocarcinoma,Neoplastic Process,PART_OF
+16372914,abstract,2,placental isozyme,"Amino Acid, Peptide, or Protein",seminoma,Neoplastic Process,PART_OF
+16372914,abstract,2,placental isozyme,"Amino Acid, Peptide, or Protein",ovarian carcinoma,Neoplastic Process,PART_OF
+16373645,abstract,3,mRNA expression,Biologically Active Substance,Ccm2,"Amino Acid, Peptide, or Protein",PART_OF
+16373645,abstract,3,mRNA expression,Biologically Active Substance,Ccm1,"Amino Acid, Peptide, or Protein",PART_OF
+16373645,abstract,3,brain,"Body Part, Organ, or Organ Component",Ccm2,"Amino Acid, Peptide, or Protein",LOCATION_OF
+16373645,abstract,3,brain,"Body Part, Organ, or Organ Component",Ccm1,"Amino Acid, Peptide, or Protein",LOCATION_OF
+16373645,abstract,3,brain,"Body Part, Organ, or Organ Component",mouse,Mammal,PART_OF
+16373645,abstract,4,cell lines,Cell,transfection,Genetic Function,LOCATION_OF
+16373645,abstract,5,cerebral,"Body Part, Organ, or Organ Component",CCM2,"Amino Acid, Peptide, or Protein",LOCATION_OF
+16373645,abstract,5,cerebral,"Body Part, Organ, or Organ Component",CCM1,"Amino Acid, Peptide, or Protein",LOCATION_OF
+16373645,abstract,5,CCM2,"Amino Acid, Peptide, or Protein",CCM1,Gene or Genome,COMPARED_WITH
+16373645,abstract,5,tissues,Tissue,CCM2 ,"Amino Acid, Peptide, or Protein",LOCATION_OF
+16373645,abstract,5,tissues,Tissue,CCM1,"Amino Acid, Peptide, or Protein",LOCATION_OF
+16376188,abstract,5,MRI,Diagnostic Procedure,patient,Human,ADMINISTERED_TO
+16376188,abstract,5,patient,Human,implants,Medical Device,USES
+16376670,title,1,Anterior uveitis,Disease or Syndrome,Langerhans cell histiocytosis,Disease or Syndrome,COEXISTS_WITH
+16376670,title,1,Anterior uveitis,Finding,Langerhans cell histiocytosis,Disease or Syndrome,COEXISTS_WITH
+16376670,abstract,5,inflammation,Pathologic Function,patient,Human,PROCESS_OF
+16376670,abstract,5,iris nodules,Finding,patient,Human,PROCESS_OF
+16376670,abstract,5,topical corticosteroids,Pharmacologic Substance,patient,Human,TREATS
+16376670,abstract,5,topical corticosteroids,Pharmacologic Substance,inflammation,Pathologic Function,TREATS
+16376670,abstract,5,topical corticosteroids,Pharmacologic Substance,iris nodules,Finding,TREATS
+16380233,abstract,8,phospholipid,Biologically Active Substance,fatty acid,Biologically Active Substance,ISA
+16380233,abstract,8,fatty acid,Lipid,carbon,"Element, Ion, or Isotope",INTERACTS_WITH
+16380233,abstract,8,phospholipid,Biologically Active Substance,fatty acid,"Element, Ion, or Isotope",INTERACTS_WITH
+16387100,abstract,12,ESRD,Disease or Syndrome,glomerulopathy,Disease or Syndrome,MANIFESTATION_OF
+16387100,abstract,12,glomerulopathy,Disease or Syndrome,IgAN,Disease or Syndrome,COEXISTS_WITH
+16387100,abstract,12,glomerulopathy,Disease or Syndrome,FSG,Disease or Syndrome,COEXISTS_WITH
+16387100,abstract,12,glomerulopathy,Disease or Syndrome,MCGN,Disease or Syndrome,COEXISTS_WITH
+16387100,abstract,12,glomerulopathy,Disease or Syndrome,membranous GN,Disease or Syndrome,COEXISTS_WITH
+16394795,abstract,10,Manometry,Laboratory Procedure,anal sphincter resting pressure,Finding,DIAGNOSES
+16394795,abstract,10,food intolerance,Sign or Symptom,patients,Human,PROCESS_OF
+16394795,abstract,10,constipation,Sign or Symptom,patients,Human,PROCESS_OF
+16394795,abstract,10,constipation,Sign or Symptom,food intolerance,Sign or Symptom,COEXISTS_WITH
+16394795,abstract,12,Food intolerance,Sign or Symptom,constipation,Sign or Symptom,AFFECTS
+16394795,abstract,12,proctitis,Disease or Syndrome,constipation,Sign or Symptom,MANIFESTATION_OF
+16395331,abstract,1,Cell cycle progression,Cell Function,Caulobacter,Bacterium,PROCESS_OF
+16395331,abstract,1,CtrA,"Amino Acid, Peptide, or Protein",transcriptional regulators,"Amino Acid, Peptide, or Protein",ISA
+16395331,abstract,1,transcriptional regulators,"Amino Acid, Peptide, or Protein",Cell cycle progression,Cell Function,AFFECTS
+16395331,abstract,1,CtrA,"Amino Acid, Peptide, or Protein",Cell cycle progression,Cell Function,AFFECTS
+16402182,abstract,5,lymphocytes,Cell,Splenic,"Body Part, Organ, or Organ Component",PART_OF
+16402182,abstract,5,B-cells,Cell,BALB/c mice,Mammal,PART_OF
+16407061,abstract,5,extracellular,Cell Component,virion,Cell Component,LOCATION_OF
+16407061,abstract,5,virion,Cell Component,core,"Amino Acid, Peptide, or Protein",LOCATION_OF
+16407061,abstract,5,viral membrane,Cell Component,growth,Organism Function,DISRUPTS
+16411510,abstract,3,leprosy,Disease or Syndrome,people,Human,AFFECTS
+16411522,title,1,removal and reinsertion of peritoneal dialysis catheter,Therapeutic or Preventive Procedure,pseudomonas aeruginosa exit-site infection,Disease or Syndrome,TREATS
+16411522,title,1,reinsertion of peritoneal dialysis catheter,Therapeutic or Preventive Procedure,pseudomonas aeruginosa exit-site infection,Disease or Syndrome,TREATS
+16411522,abstract,8,CAPD,Therapeutic or Preventive Procedure,patients,Human,ADMINISTERED_TO
+16411522,abstract,8,operation,Therapeutic or Preventive Procedure,patients,Patient or Disabled Group,ADMINISTERED_TO
+16412044,title,1,active immunization,Therapeutic or Preventive Procedure,cardiomyopathic,Disease or Syndrome,CAUSES
+16412044,title,1,synthetic peptide,"Amino Acid, Peptide, or Protein",rats,Mammal,ADMINISTERED_TO
+16412044,title,1,synthetic peptide,"Amino Acid, Peptide, or Protein",beta-adrenergic receptor,"Amino Acid, Peptide, or Protein",PART_OF
+16412044,title,1,beta-adrenergic receptor,"Amino Acid, Peptide, or Protein",human,Human,PART_OF
+16412044,abstract,1,heart,"Body Part, Organ, or Organ Component",human,Human,PART_OF
+16415554,abstract,2,steroid therapy,Therapeutic or Preventive Procedure,patient,Human,TREATS
+16415554,abstract,3,Systemic lupus erythematosus,Disease or Syndrome,gastrointestinal symptoms,Sign or Symptom,COEXISTS_WITH
+16415554,abstract,3,colonic,"Body Part, Organ, or Organ Component",lesions,Finding,LOCATION_OF
+16418362,title,1,subthalamic nucleus,"Body Part, Organ, or Organ Component",human,Human,PART_OF
+16418362,abstract,6,deep-brain stimulation,Therapeutic or Preventive Procedure,PD,Disease or Syndrome,TREATS
+16418362,abstract,6,deep-brain stimulation,Therapeutic or Preventive Procedure,patients,Human,ADMINISTERED_TO
+16418362,abstract,6,STN,"Body Part, Organ, or Organ Component",patients,Human,PART_OF
+16418362,abstract,12,STN,"Body Part, Organ, or Organ Component",human,Human,PART_OF
+16424791,abstract,8,atherosclerosis,Disease or Syndrome,mice,Mammal,PROCESS_OF
+16424791,abstract,8,Treatment,Therapeutic or Preventive Procedure,atherosclerosis,Disease or Syndrome,PREVENTS
+16424791,abstract,8,Treatment,Therapeutic or Preventive Procedure,amlodipine,Pharmacologic Substance,USES
+16424791,abstract,8,amlodipine,Pharmacologic Substance,atherosclerosis,Disease or Syndrome,PREVENTS
+16424791,abstract,8,CRP,Immunologic Factor,mice,Mammal,ADMINISTERED_TO
+16424791,abstract,8,CRP,"Amino Acid, Peptide, or Protein",mice,Mammal,ADMINISTERED_TO
+16425104,abstract,4,Lymnaea stagnalis,Invertebrate,snail,Invertebrate,ISA
+16430036,abstract,8,prostate cancer,Neoplastic Process,patients,Human,PROCESS_OF
+16430036,abstract,8,prostate cancer,Neoplastic Process,patients,Human,PROCESS_OF
+16430036,abstract,17,mucosa,Tissue,injury,Injury or Poisoning,LOCATION_OF
+16430036,abstract,17,prostatic urethra,"Body Part, Organ, or Organ Component",injury,Injury or Poisoning,LOCATION_OF
+16430036,abstract,17,injury,Injury or Poisoning,patient,Human,PROCESS_OF
+16430036,abstract,17,bladder catheter,Medical Device,injury,Injury or Poisoning,TREATS
+16430036,abstract,17,injury,Injury or Poisoning,rectal fistula,Anatomical Abnormality,CAUSES
+16430741,abstract,4,temporomandibular joint,"Body Part, Organ, or Organ Component",human,Human,PART_OF
+16430741,abstract,4,synovial cells,Cell,temporomandibular joint,"Body Part, Organ, or Organ Component",PART_OF
+16431130,abstract,5,prosimian,Mammal,primates,Mammal,ISA
+16431130,abstract,5,Lemur catta,Mammal,primates,Mammal,ISA
+16436670,abstract,4,IFN-alpha,"Amino Acid, Peptide, or Protein",cytoskeletal organization,Cell Function,AFFECTS
+16436670,abstract,4,hairy cells,Cell,cytoskeletal organization,Cell Function,LOCATION_OF
+16436670,abstract,5,IFN-alpha,"Amino Acid, Peptide, or Protein",GTPase,"Amino Acid, Peptide, or Protein",INTERACTS_WITH
+16436670,abstract,5,hairy cells,Cell,GTPase,"Amino Acid, Peptide, or Protein",LOCATION_OF
+16436670,abstract,7,hairy cells,Cell,RhoA,Gene or Genome,LOCATION_OF
+16436670,abstract,7,IFN-alpha,"Amino Acid, Peptide, or Protein",RhoA,Gene or Genome,STIMULATES
+16440178,abstract,1,epithelium,Tissue,uterine,"Body Part, Organ, or Organ Component",PART_OF
+16440178,abstract,1,uterine,"Body Part, Organ, or Organ Component",fluid,Body Substance,LOCATION_OF
+16441715,title,1,sino-atrial disease,Disease or Syndrome,patients,Human,PROCESS_OF
+16441715,title,1,pacemaker,Medical Device,patients,Patient or Disabled Group,TREATS
+16441715,title,1,pacemaker,Medical Device,sino-atrial disease,Disease or Syndrome,TREATS
+16445747,title,1,Ustilago maydis,Fungus,Promoters,Biologically Active Substance,LOCATION_OF
+16445747,title,1,fungi,Fungus,Promoters,Biologically Active Substance,LOCATION_OF
+16445747,abstract,3,Prf1,"Amino Acid, Peptide, or Protein",response element,Biologically Active Substance,INTERACTS_WITH
+16445747,abstract,3,Prf1,"Amino Acid, Peptide, or Protein",high mobility group box protein,"Amino Acid, Peptide, or Protein",ISA
+16445747,abstract,3,Matalpha2,"Amino Acid, Peptide, or Protein",Mata1,"Amino Acid, Peptide, or Protein",INTERACTS_WITH
+16445747,abstract,3,DNA binding,Genetic Function,yeast,Fungus,PROCESS_OF
+16445747,abstract,3,Matalpha2,"Amino Acid, Peptide, or Protein",yeast,Fungus,PART_OF
+16455026,title,1,endocrine therapy,Therapeutic or Preventive Procedure,breast cancer,Neoplastic Process,TREATS
+16455026,abstract,2,breast cancer tissue,Tissue,estrogen receptor,"Amino Acid, Peptide, or Protein",LOCATION_OF
+16455026,abstract,2,tissue,Tissue,breast cancer,Neoplastic Process,PART_OF
+16455026,abstract,3,Tamoxifen,Pharmacologic Substance,hormonal receptors,"Amino Acid, Peptide, or Protein",INHIBITS
+16455026,abstract,3,breast cancer cells,Cell,hormonal receptors,"Amino Acid, Peptide, or Protein",LOCATION_OF
+16455026,abstract,3,breast cancer,Neoplastic Process,woman,Human,PROCESS_OF
+16455026,abstract,3,adjuvant therapy,Therapeutic or Preventive Procedure,Tamoxifen,Pharmacologic Substance,USES
+16455026,abstract,3,adjuvant therapy,Therapeutic or Preventive Procedure,woman,Human,TREATS
+16455026,abstract,3,adjuvant therapy,Therapeutic or Preventive Procedure,breast cancer,Neoplastic Process,TREATS
+16455026,abstract,3,Tamoxifen,Pharmacologic Substance,woman,Human,TREATS
+16455026,abstract,3,Tamoxifen,Pharmacologic Substance,breast cancer,Neoplastic Process,TREATS
+16460640,abstract,15,trauma,Injury or Poisoning,patients,Human,PROCESS_OF
+16460640,abstract,15,non-trauma,Injury or Poisoning,patients,Human,PROCESS_OF
+16460640,abstract,20,HIV-positive,Finding,surgical patients,Human,PROCESS_OF
+16461476,abstract,1,enema,Therapeutic or Preventive Procedure,ulcerative colitis,Disease or Syndrome,TREATS
+16461476,abstract,1,enema,Therapeutic or Preventive Procedure,Butyrate,Lipid,USES
+16461476,abstract,1,Butyrate,Lipid,ulcerative colitis,Disease or Syndrome,TREATS
+16462770,abstract,4,MKP1/CL100,Gene or Genome,JNK,"Amino Acid, Peptide, or Protein",INTERACTS_WITH
+16462770,abstract,4,bronchial epithelia,"Body Part, Organ, or Organ Component",MKP1,Gene or Genome,LOCATION_OF
+16462770,abstract,4,tissue samples,Tissue,NSCLC,Neoplastic Process,PART_OF
+16462770,abstract,4,cytoplasm,Cell Component,MKP1,Gene or Genome,LOCATION_OF
+16462770,abstract,4,nuclei,Cell Component,MKP1,Gene or Genome,LOCATION_OF
+16462770,abstract,6,cisplatin,Inorganic Chemical,JNK,"Amino Acid, Peptide, or Protein",STIMULATES
+16462770,abstract,6,cisplatin,Inorganic Chemical,p38,Gene or Genome,STIMULATES
+16462770,abstract,6,cells,Cell,MKP1,Gene or Genome,LOCATION_OF
+16462770,abstract,6,small-interfering RNA,Biologically Active Substance,MKP1,Gene or Genome,INTERACTS_WITH
+16462770,abstract,11,cisplatin,Inorganic Chemical,cell death,Cell Function,CAUSES
+16462770,abstract,11,cell death,Cell Function,NSCLC,Neoplastic Process,COEXISTS_WITH
+16462770,abstract,11,MKP1,Gene or Genome,cell growth,Cell Function,AFFECTS
+16462770,abstract,11,cell growth,Cell Function,mice,Mammal,PROCESS_OF
+16470169,abstract,5,Rho,"Amino Acid, Peptide, or Protein",PI3K,"Amino Acid, Peptide, or Protein",STIMULATES
+16470169,abstract,5,Rho,"Amino Acid, Peptide, or Protein",Akt,"Amino Acid, Peptide, or Protein",STIMULATES
+16470169,abstract,5,Rho,"Amino Acid, Peptide, or Protein",PI3K,"Amino Acid, Peptide, or Protein",INHIBITS
+16470169,abstract,5,Rho,"Amino Acid, Peptide, or Protein",Akt,"Amino Acid, Peptide, or Protein",INHIBITS
+16470989,abstract,7,disability,Pathologic Function,depressive symptoms,Sign or Symptom,PREDISPOSES
+16479855,abstract,9,Balloon dilatation,Therapeutic or Preventive Procedure,stricture,Anatomical Abnormality,TREATS
+16479855,abstract,9,Balloon dilatation,Therapeutic or Preventive Procedure,stricture,Anatomical Abnormality,TREATS
+16479855,abstract,9,Balloon dilatation,Therapeutic or Preventive Procedure,stricture,Anatomical Abnormality,TREATS
+16480563,abstract,2,Down's syndrome,Disease or Syndrome,Participants,Human,PROCESS_OF
+16480563,abstract,2,non-Down syndrome,Disease or Syndrome,participants,Human,PROCESS_OF
+16480563,abstract,2,learning disabled,Mental or Behavioral Dysfunction,participants,Human,PROCESS_OF
+16483645,title,1,vaginal,"Body Part, Organ, or Organ Component",estrogen receptor-alpha,"Amino Acid, Peptide, or Protein",LOCATION_OF
+16483645,title,1,tissues,Tissue,estrogen receptor-alpha,"Amino Acid, Peptide, or Protein",LOCATION_OF
+16483645,title,1,tissues,Tissue,tumor,Neoplastic Process,PART_OF
+16483645,title,1,TVT,Neoplastic Process,bitches,Mammal,PROCESS_OF
+16483645,title,1,tissues,Tissue,bitches,Mammal,PART_OF
+16483645,abstract,1,neoplasms,Neoplastic Process,canine,Mammal,PROCESS_OF
+16483645,abstract,1,transmissible venereal tumor,Neoplastic Process,neoplasms,Neoplastic Process,ISA
+16483645,abstract,1,transmissible venereal tumor,Neoplastic Process,canine,Mammal,PROCESS_OF
+16483645,abstract,1,transmissible venereal tumor,Neoplastic Process,female genital tract,"Body Part, Organ, or Organ Component",AFFECTS
+16483645,abstract,8,endothelium,Tissue,blood vessels,"Body Part, Organ, or Organ Component",PART_OF
+16483645,abstract,8,tissues,Tissue,ER-alpha,"Amino Acid, Peptide, or Protein",LOCATION_OF
+16483645,abstract,8,neoplastic,Neoplastic Process,tissues,Tissue,LOCATION_OF
+16496259,abstract,13,antiglaucomatous medications,Pharmacologic Substance,IOP,Disease or Syndrome,TREATS
+16496259,abstract,13,medications,Pharmacologic Substance,antiglaucomatous,Disease or Syndrome,TREATS
+16496259,abstract,13,eyes,"Body Part, Organ, or Organ Component",IOP,Disease or Syndrome,LOCATION_OF
+16496495,abstract,9,Organophosphates,Organic Chemical,fatalities,Organism Function,AFFECTS
+16496495,abstract,9,rat,Mammal,poison,Hazardous or Poisonous Substance,LOCATION_OF
+16496495,abstract,10,Organophosphates,Organic Chemical,APP,Injury or Poisoning,CAUSES
+16496495,abstract,10,poison,Hazardous or Poisonous Substance,APP,Injury or Poisoning,CAUSES
+16496495,abstract,10,rat,Mammal,poison,Hazardous or Poisonous Substance,LOCATION_OF
+16498946,abstract,3,promoter,Biologically Active Substance,gene,Gene or Genome,PART_OF
+16498946,abstract,3,promoter,Biologically Active Substance,genetic alterations,Genetic Function,LOCATION_OF
+16503396,abstract,11,Combined treatment,Therapeutic or Preventive Procedure,patients,Human,TREATS
+16503396,abstract,11,tongue cancer,Neoplastic Process,patients,Human,PROCESS_OF
+16503396,abstract,11,Combined treatment,Therapeutic or Preventive Procedure,tongue cancer,Neoplastic Process,TREATS
+16503761,abstract,1,Thiazolidinediones (TZDs),Organic Chemical,peroxisomal proliferator-activated receptor (PPAR)-gamma agonists,Pharmacologic Substance,ISA
+16503761,abstract,1,Thiazolidinediones,Organic Chemical,peroxisomal proliferator-activated receptor (PPAR)-gamma,Gene or Genome,STIMULATES
+16503761,abstract,7,TZDs,Pharmacologic Substance,disease,Disease or Syndrome,TREATS
+16503761,abstract,7,non-alcoholic fatty liver,Disease or Syndrome,disease,Disease or Syndrome,ISA
+16503761,abstract,7,TZDs,Pharmacologic Substance,non-alcoholic fatty liver,Disease or Syndrome,TREATS
+16503761,abstract,7,TZDs,Pharmacologic Substance,hepatic fat accumulation,Finding,DISRUPTS
+16503761,abstract,7,TZDs,Pharmacologic Substance,polycystic ovary syndrome,Disease or Syndrome,TREATS
+16503761,abstract,7,TZDs,Pharmacologic Substance,ovulation,Organ or Tissue Function,AUGMENTS
+16503761,abstract,7,TZDs,Pharmacologic Substance,hirsutism,Finding,TREATS
+16503761,abstract,7,TZDs,Pharmacologic Substance,endothelial dysfunction,Disease or Syndrome,TREATS
+16503761,abstract,7,TZDs,Pharmacologic Substance,lipodystrophies,Disease or Syndrome,TREATS
+16503761,abstract,7,TZDs,Pharmacologic Substance,liver size,Finding,AFFECTS
+16504132,abstract,10,Cu2+,Biologically Active Substance,cells,Cell,AUGMENTS
+16504132,abstract,10,cells,Cell,cyanobacterial,Bacterium,PART_OF
+16504132,abstract,10,lysogenic,Biologic Function,cyanobacterial,Bacterium,PROCESS_OF
+16507901,abstract,6,tissue,Tissue,colorectal tumor,Neoplastic Process,PART_OF
+16507901,abstract,6,cell line,Cell,colon cancer,Neoplastic Process,PART_OF
+16507901,abstract,6,COL4A5,Gene or Genome,colon cancer,Neoplastic Process,ASSOCIATED_WITH
+16507901,abstract,6,COL4A6,Gene or Genome,colon cancer,Neoplastic Process,ASSOCIATED_WITH
+16507901,abstract,6,COL4A5,Gene or Genome,colorectal tumor,Neoplastic Process,ASSOCIATED_WITH
+16507901,abstract,6,COL4A6,Gene or Genome,colorectal tumor,Neoplastic Process,ASSOCIATED_WITH
+16507901,abstract,6,promoter region,Biologically Active Substance,COL4A6,Gene or Genome,PART_OF
+16507901,abstract,6,promoter region,Biologically Active Substance,COL4A5,Gene or Genome,PART_OF
+16510729,abstract,1,nucleus accumbens,"Body Part, Organ, or Organ Component",dopamine D3 receptor,"Amino Acid, Peptide, or Protein",LOCATION_OF
+16510729,abstract,1,dopamine D3 receptor,"Amino Acid, Peptide, or Protein",reward,Mental Process,AFFECTS
+16510729,abstract,1,dopamine D3 receptor,"Amino Acid, Peptide, or Protein",reinforcement,Mental Process,AFFECTS
+16513142,abstract,2,disorders,Disease or Syndrome,human,Human,PROCESS_OF
+16513142,abstract,2,sequences,Nucleotide Sequence,disorders,Disease or Syndrome,ASSOCIATED_WITH
+16513142,abstract,2,sequences,"Nucleic Acid, Nucleoside, or Nucleotide",meiotic recombination,Cell Function,AFFECTS
+16513142,abstract,2,sequences,"Nucleic Acid, Nucleoside, or Nucleotide",chromosomal breaks,Cell or Molecular Dysfunction,AFFECTS
+16513142,abstract,2,sequences,"Nucleic Acid, Nucleoside, or Nucleotide",transcriptional regulation,Cell Function,AFFECTS
+16513142,abstract,3,DNA secondary structures,"Nucleic Acid, Nucleoside, or Nucleotide",DNA synthesis,Genetic Function,AFFECTS
+16513142,abstract,3,repetitive sequences,Nucleotide Sequence,minisatellites,"Nucleic Acid, Nucleoside, or Nucleotide",PART_OF
+16513142,abstract,3,repetitive sequences,Nucleotide Sequence,triplet repeats,"Nucleic Acid, Nucleoside, or Nucleotide",PART_OF
+16513142,abstract,3,repetitive sequences,Nucleotide Sequence,telomeres,Cell Component,PART_OF
+16519885,abstract,4,Rho target,"Amino Acid, Peptide, or Protein",myosin II,"Amino Acid, Peptide, or Protein",INTERACTS_WITH
+16519885,abstract,4,Rho target,"Amino Acid, Peptide, or Protein",myosin II ATPase,"Amino Acid, Peptide, or Protein",INTERACTS_WITH
+16531862,title,1,acetabulum,"Body Part, Organ, or Organ Component",fractures,Injury or Poisoning,LOCATION_OF
+16531862,title,1,spine,"Body Part, Organ, or Organ Component",fractures,Injury or Poisoning,LOCATION_OF
+16531862,abstract,7,spine fracture,Injury or Poisoning,patients,Human,PROCESS_OF
+16531862,abstract,9,acetabulum,"Body Part, Organ, or Organ Component",fractures,Injury or Poisoning,LOCATION_OF
+16531862,abstract,9,fractures,Injury or Poisoning,patients,Human,PROCESS_OF
+16531862,abstract,9,thoracolumbar,Spatial Concept,injury,Injury or Poisoning,LOCATION_OF
+16531862,abstract,9,injury,Injury or Poisoning,patients,Human,PROCESS_OF
+16531862,abstract,9,spine injury,Injury or Poisoning,patients,Human,PROCESS_OF
+16531862,abstract,9,spine injury,Injury or Poisoning,injury,Injury or Poisoning,ISA
+16531984,abstract,1,interleukin 1-beta,"Amino Acid, Peptide, or Protein",cytokines,"Amino Acid, Peptide, or Protein",ISA
+16531984,abstract,1,tumor necrosis factor-alpha,"Amino Acid, Peptide, or Protein",cytokines,"Amino Acid, Peptide, or Protein",ISA
+16531984,abstract,1,5-lipoxygenase,"Amino Acid, Peptide, or Protein",enzyme,Enzyme,ISA
+16531984,abstract,1,5-lipoxygenase,"Amino Acid, Peptide, or Protein",arachidonic acid,Eicosanoid,STIMULATES
+16531984,abstract,11,ESRD,Disease or Syndrome,patients,Human,PROCESS_OF
+16531984,abstract,11,PBMCs,Cell,ESRD,Human,PART_OF
+16531984,abstract,11,Omega-3,Pharmacologic Substance,oxidative stress,Cell or Molecular Dysfunction,PREVENTS
+16540467,abstract,4,APL,Neoplastic Process,patients,Human,PROCESS_OF
+16540467,abstract,6,PML,Gene or Genome,PML-RARalpha,"Amino Acid, Peptide, or Protein",INTERACTS_WITH
+16540467,abstract,6,PML,Gene or Genome,transcription,Genetic Function,AUGMENTS
+16540467,abstract,6,RA,Organic Chemical,transcription,Genetic Function,AFFECTS
+16540467,abstract,6,PML-RARalpha,"Amino Acid, Peptide, or Protein",transcription,Genetic Function,DISRUPTS
+16543714,title,1,regimens,Therapeutic or Preventive Procedure,paricalcitol,Pharmacologic Substance,USES
+16543714,title,1,regimens,Therapeutic or Preventive Procedure,secondary hyperparathyroidism,Disease or Syndrome,TREATS
+16543714,title,1,paricalcitol,Pharmacologic Substance,secondary hyperparathyroidism,Disease or Syndrome,TREATS
+16543714,title,1,secondary hyperparathyroidism,Disease or Syndrome,CKD,Disease or Syndrome,COEXISTS_WITH
+16543714,abstract,1,calcitriol,Pharmacologic Substance,secondary hyperparathyroidism,Disease or Syndrome,TREATS
+16543714,abstract,1,calcitriol,Pharmacologic Substance,parathyroid hormone,Hormone,INHIBITS
+16543714,abstract,9,CKD,Disease or Syndrome,patients,Human,PROCESS_OF
+16543714,abstract,9,SHPT,Disease or Syndrome,patients,Human,PROCESS_OF
+16543714,abstract,9,paricalcitol,Pharmacologic Substance,patients,Human,TREATS
+16543714,abstract,9,paricalcitol,Pharmacologic Substance,CKD,Pathologic Function,TREATS
+16543714,abstract,9,paricalcitol,Pharmacologic Substance,SHPT,Disease or Syndrome,TREATS
+16543714,abstract,10,regimen,Research Activity,placebo,Medical Device,COMPARED_WITH
+16543714,abstract,10,regimen,Research Activity,hyperphosphatemia,Disease or Syndrome,AFFECTS
+16543714,abstract,10,regimen,Research Activity,hypercalcemia,Disease or Syndrome,AFFECTS
+16549534,abstract,8,mutations,Genetic Function,patients,Human,PROCESS_OF
+16549534,abstract,8,DJS,Disease or Syndrome,patients,Human,PROCESS_OF
+16549534,abstract,8,mutations,Genetic Function,MRP2,Gene or Genome,LOCATION_OF
+16549534,abstract,8,ATP-binding cassettes (ABC),Biologically Active Substance,MRP2,Biologically Active Substance,PART_OF
+16549534,abstract,9,DJS,Disease or Syndrome,neonatal,Human,PROCESS_OF
+16549534,abstract,9,follow-up,Health Care Activity,DJS,Disease or Syndrome,TREATS
+16549534,abstract,9,MRP2,Gene or Genome,disease,Disease or Syndrome,ASSOCIATED_WITH
+16551631,abstract,5,CDC2,Gene or Genome,cells,Cell,PART_OF
+16554223,title,1,pulmonary angiography,Diagnostic Procedure,imaging test,Diagnostic Procedure,ISA
+16554223,title,1,imaging,Diagnostic Procedure,acute pulmonary embolism,Pathologic Function,DIAGNOSES
+16554223,abstract,1,imaging,Diagnostic Procedure,acute pulmonary embolism,Disease or Syndrome,DIAGNOSES
+16555656,abstract,2,incisors,"Body Part, Organ, or Organ Component",bovine,Mammal,PART_OF
+16556753,abstract,1,anterior cruciate ligament,"Body Part, Organ, or Organ Component",reconstruction,Therapeutic or Preventive Procedure,LOCATION_OF
+16569841,title,1,beta-lactamase,"Amino Acid, Peptide, or Protein",Kluyvera ascorbata,Bacterium,PART_OF
+16584203,title,1,Hansenula polymorpha,Fungus,copper amine oxidase,"Amino Acid, Peptide, or Protein",LOCATION_OF
+16594738,abstract,8,performance,Individual Behavior,participant,Human,PROCESS_OF
+16594738,abstract,9,performance,Individual Behavior,participant,Human,PROCESS_OF
+16594738,abstract,13,performance,Individual Behavior,Participant,Human,PROCESS_OF
+16597919,title,1,Calcitonin gene-related peptide,"Amino Acid, Peptide, or Protein",monocyte chemoattractant protein-1,"Amino Acid, Peptide, or Protein",INHIBITS
+16597919,title,1,type II alveolar epithelial cells,Cell,monocyte chemoattractant protein-1,"Amino Acid, Peptide, or Protein",LOCATION_OF
+16597919,title,1,interleukin-1beta,"Amino Acid, Peptide, or Protein",monocyte chemoattractant protein-1,"Amino Acid, Peptide, or Protein",STIMULATES
+16597919,abstract,8,CGRP,"Amino Acid, Peptide, or Protein",reactive oxygen species,Biologically Active Substance,INHIBITS
+16597919,abstract,8,IL-1beta,"Amino Acid, Peptide, or Protein",reactive oxygen species,Biologically Active Substance,STIMULATES
+16597919,abstract,9,IL-1beta,"Amino Acid, Peptide, or Protein",ROS,Biologically Active Substance,STIMULATES
+16597919,abstract,9,intracellular,Cell Component,cAMP,"Nucleic Acid, Nucleoside, or Nucleotide",LOCATION_OF
+16597919,abstract,9,cAMP,"Nucleic Acid, Nucleoside, or Nucleotide",CGRP,"Amino Acid, Peptide, or Protein",INTERACTS_WITH
+16597919,abstract,9,CGRP,"Amino Acid, Peptide, or Protein",MCP-1,"Amino Acid, Peptide, or Protein",INHIBITS
+16597919,abstract,9,CGRP,"Amino Acid, Peptide, or Protein",NF-kappaB,"Amino Acid, Peptide, or Protein",INHIBITS
+16597919,abstract,9,CGRP,"Amino Acid, Peptide, or Protein",ROS ,Biologically Active Substance,INHIBITS
+16606611,abstract,5,EKLF,"Amino Acid, Peptide, or Protein",promoters,Biologically Active Substance,INTERACTS_WITH
+16606611,abstract,5,promoters,Biologically Active Substance,globin,"Amino Acid, Peptide, or Protein",PART_OF
+16606611,abstract,5,globin,"Amino Acid, Peptide, or Protein",adult,Human,PART_OF
+16608828,abstract,1,radon,"Element, Ion, or Isotope",lung cancer,Neoplastic Process,PREDISPOSES
+16608828,abstract,1,radon,"Element, Ion, or Isotope",deaths,Finding,CAUSES
+16608828,abstract,1,lung cancer,Neoplastic Process,deaths,Finding,CAUSES
+16608828,abstract,4,lung,"Body Part, Organ, or Organ Component",carcinogen,Hazardous or Poisonous Substance,LOCATION_OF
+16617173,abstract,5,meditation,Therapeutic or Preventive Procedure,intervention,Health Care Activity,ISA
+16625528,title,1,Replacement arthroplasty,Therapeutic or Preventive Procedure,internal fixation,Therapeutic or Preventive Procedure,COMPARED_WITH
+16625528,title,1,internal fixation,Therapeutic or Preventive Procedure,hip fractures,Injury or Poisoning,TREATS
+16625528,title,1,hip fractures,Injury or Poisoning,adults,Age Group,PROCESS_OF
+16625528,title,1,Replacement arthroplasty,Therapeutic or Preventive Procedure,hip fractures,Injury or Poisoning,TREATS
+16625528,abstract,1,Internal fixation,Therapeutic or Preventive Procedure,hip fractures,Injury or Poisoning,TREATS
+16625528,abstract,1,Internal fixation,Therapeutic or Preventive Procedure,unstable fractures,Injury or Poisoning,TREATS
+16625528,abstract,5,hip fracture,Injury or Poisoning,adults,Human,PROCESS_OF
+16625528,abstract,5,replacement arthroplasty,Therapeutic or Preventive Procedure,implant,Medical Device,COMPARED_WITH
+16625528,abstract,5,internal fixation,Therapeutic or Preventive Procedure,implant,Medical Device,USES
+16625528,abstract,5,replacement arthroplasty,Therapeutic or Preventive Procedure,adults,Human,TREATS
+16625528,abstract,5,implant,Medical Device,adults,Human,TREATS
+16625528,abstract,5,implant,Medical Device,hip fracture,Injury or Poisoning,TREATS
+16625528,abstract,5,replacement arthroplasty,Therapeutic or Preventive Procedure,hip fracture,Injury or Poisoning,TREATS
+16628891,abstract,5,sugar water consumption,Organic Chemical,pollination,Organism Function,AFFECTS
+16628891,abstract,5,dead,Finding,adults,Human,PROCESS_OF
+16628891,abstract,5,dead,Finding,larvae,Invertebrate,PROCESS_OF
+16630952,abstract,2,Extrapulmonary tuberculosis,Disease or Syndrome,immunodeficiency,Disease or Syndrome,PREDISPOSES
+16630952,abstract,3,immune defects,Pathologic Function,persons,Human,PROCESS_OF
+16630952,abstract,3,extrapulmonary tuberculosis,Disease or Syndrome,persons,Human,PROCESS_OF
+16641628,abstract,4,Treacher Collins,Congenital Abnormality,patients,Human,PROCESS_OF
+16641628,abstract,4,standard reconstructive surgeries,Therapeutic or Preventive Procedure,customized parascapular free flaps,"Body Part, Organ, or Organ Component",PRECEDES
+16641628,abstract,4,reconstructive surgeries,Therapeutic or Preventive Procedure,patients,Patient or Disabled Group,TREATS
+16641628,abstract,4,reconstructive surgeries,Therapeutic or Preventive Procedure,Treacher Collins,Congenital Abnormality,TREATS
+16641628,abstract,6,Treacher Collins syndrome,Congenital Abnormality,patients,Human,PROCESS_OF
+16641628,abstract,6,microsurgical,Therapeutic or Preventive Procedure,patients,Human,ADMINISTERED_TO
+16641628,abstract,6,microsurgical,Therapeutic or Preventive Procedure,free flaps,Tissue,USES
+16643848,abstract,1,KCl,Pharmacologic Substance,differentiation,Cell Function,AUGMENTS
+16643848,abstract,1,hST8Sia III,Gene or Genome,gene transcription,Genetic Function,LOCATION_OF
+16643848,abstract,1,U-87MG cells,Cell,phosphoinositide 3 kinase (PI-3K),"Amino Acid, Peptide, or Protein",LOCATION_OF
+16643848,abstract,1,neuronal cells,Cell,differentiation,Cell Function,LOCATION_OF
+16643848,abstract,1,U-87MG cells,Cell,glioblastoma,Neoplastic Process,LOCATION_OF
+16643848,abstract,1,KCl,Pharmacologic Substance,gene transcription,Genetic Function,AUGMENTS
+16643848,abstract,1,KCl,Pharmacologic Substance,phosphoinositide 3 kinase (PI-3K),"Amino Acid, Peptide, or Protein",INTERACTS_WITH
+16644456,abstract,6,small bowel,"Body Part, Organ, or Organ Component",lesions,Finding,LOCATION_OF
+16644456,abstract,6,lesions,Finding,patients,Human,PROCESS_OF
+16644456,abstract,6,arthritis,Disease or Syndrome,patients,Human,PROCESS_OF
+16644456,abstract,6,nonsteroidal anti-inflammatory drugs,Pharmacologic Substance,patients,Human,ADMINISTERED_TO
+16644456,abstract,6,lesions,Finding,subjects,Human,PROCESS_OF
+16673312,abstract,8,intestinal tuberculosis,Disease or Syndrome,patients,Human,PROCESS_OF
+16673312,abstract,8,Crohn's disease,Disease or Syndrome,patients,Human,PROCESS_OF
+16687138,abstract,1,norepinephrine,Neuroreactive Substance or Biogenic Amine,neurotransmitter,Neuroreactive Substance or Biogenic Amine,ISA
+16687138,abstract,1,cecum,"Body Part, Organ, or Organ Component",murine,Mammal,PART_OF
+16687138,abstract,1,colon,"Body Part, Organ, or Organ Component",porcine,Mammal,PART_OF
+16688036,abstract,2,kyphosis,Anatomical Abnormality,lordosis,Anatomical Abnormality,COEXISTS_WITH
+16688036,abstract,2,kyphosis,Anatomical Abnormality,Scheuermann kyphosis,Disease or Syndrome,COEXISTS_WITH
+16688036,abstract,2,lordosis,Anatomical Abnormality,Scheuermann kyphosis,Disease or Syndrome,COEXISTS_WITH
+16689926,title,2,nicotinic acetylcholine receptor,Gene or Genome,Torpedo californica,Fish,PART_OF
+16696376,abstract,3,azoospermia,Disease or Syndrome,patients,Human,PROCESS_OF
+16696376,abstract,3,chromosomal alterations,Cell or Molecular Dysfunction,patients,Human,PROCESS_OF
+16702302,abstract,5,weight loss,Finding,bone loss,Pathologic Function,COEXISTS_WITH
+16702302,abstract,5,bone loss,Pathologic Function,Older populations,Human,OCCURS_IN
+16702302,abstract,5,weight loss,Finding,Older populations,Human,OCCURS_IN
+16702302,abstract,6,bone loss,Pathologic Function,weight loss,Finding,COEXISTS_WITH
+16702302,abstract,6,hormonal,Hormone,bone loss,Pathologic Function,AFFECTS
+16709260,abstract,9,proteins,"Amino Acid, Peptide, or Protein",fertilization,Organism Function,AFFECTS
+16710995,abstract,4,rat,Neoplastic Process,glioma cells,Mammal,PROCESS_OF
+16710995,abstract,4,cells,Cell,glioma,Neoplastic Process,LOCATION_OF
+16710995,abstract,4,cells,Biologically Active Substance,plasmid,Cell,ADMINISTERED_TO
+16719197,abstract,7,symptoms,Sign or Symptom,patients,Human,PROCESS_OF
+16719197,abstract,7,symptoms,Sign or Symptom,hypercalcemia,Disease or Syndrome,MANIFESTATION_OF
+16719197,abstract,8,signs,Sign or Symptom,patients,Human,PROCESS_OF
+16719197,abstract,8,papillary carcinoma,Neoplastic Process,patients,Human,PROCESS_OF
+16719197,abstract,8,thyroid,"Body Part, Organ, or Organ Component",papillary carcinoma,Neoplastic Process,LOCATION_OF
+16719197,abstract,10,tumors,Neoplastic Process,patients,Human,PROCESS_OF
+16719197,abstract,10,palpable masses,Finding,patients,Human,PROCESS_OF
+16724072,abstract,2,systemic lupus erythematosus,Disease or Syndrome,patients,Human,PROCESS_OF
+16732098,title,1,Parturition,Organism Function,rat,Mammal,PROCESS_OF
+16732098,abstract,7,oxytocin,"Amino Acid, Peptide, or Protein",rats,Mammal,TREATS
+16732098,abstract,7,morphine,Organic Chemical,rats,Mammal,TREATS
+16732098,abstract,7,morphine,Organic Chemical,labor duration,Clinical Attribute,AFFECTS
+16732098,abstract,7,lumbosacral spinal,"Body Part, Organ, or Organ Component",neurons,Cell,LOCATION_OF
+16732098,abstract,7,neurons,Cell,c-Fos,Gene or Genome,LOCATION_OF
+16732098,abstract,7,morphine,Organic Chemical,neurons,Cell,DISRUPTS
+16732879,abstract,4,infections,Disease or Syndrome,puppies,Mammal,PROCESS_OF
+16732879,abstract,4,moxidectin,Antibiotic,infections,Disease or Syndrome,PREVENTS
+16733164,abstract,9,glass bead test,Laboratory Procedure,heparinase,"Amino Acid, Peptide, or Protein",USES
+16733164,abstract,9,glass bead test,Laboratory Procedure,heparinase,"Amino Acid, Peptide, or Protein",USES
+16733164,abstract,13,glass bead test,Laboratory Procedure,heparinase,"Amino Acid, Peptide, or Protein",USES
+16733895,abstract,1,hydrogen sulfide,Inorganic Chemical,pulmonary vascular structure,"Body Part, Organ, or Organ Component",AFFECTS
+16733895,abstract,1,hydrogen sulfide,Inorganic Chemical,peptides,"Amino Acid, Peptide, or Protein",INTERACTS_WITH
+16733895,abstract,1,pulmonary vascular structure,"Body Part, Organ, or Organ Component",rats,Mammal,PART_OF
+16733895,abstract,1,peptides,"Amino Acid, Peptide, or Protein",rats,Mammal,PART_OF
+16733895,abstract,1,pulmonary hypertension,Disease or Syndrome,rats,Mammal,PROCESS_OF
+16733895,abstract,1,blood flow,Organism Function,pulmonary hypertension,Disease or Syndrome,CAUSES
+16733895,abstract,9,pulmonary arteries,"Body Part, Organ, or Organ Component",rats,Mammal,PART_OF
+16736257,abstract,5,microtubules,Cell Component,blepharoplast,Cell Component,PART_OF
+16736257,abstract,5,antibodies,"Amino Acid, Peptide, or Protein",acetylated tubulin,"Amino Acid, Peptide, or Protein",INTERACTS_WITH
+16736257,abstract,6,core,Cell Component,blepharoplast,Cell Component,PART_OF
+16736257,abstract,6,centrosome,Cell Component,antibodies,"Amino Acid, Peptide, or Protein",LOCATION_OF
+16750542,abstract,1,adrenoleukodystrophy,Disease or Syndrome,peroxisomal disorder,Disease or Syndrome,ISA
+16750542,abstract,1,tissue,Tissue,tetracosanoic acid,Lipid,LOCATION_OF
+16750542,abstract,1,tissue,Tissue,hexacosanoic acid,Lipid,LOCATION_OF
+16750542,abstract,1,hexacosanoic acid,Lipid,very long chain fatty acids (VLCFA),Lipid,ISA
+16750542,abstract,1,tetracosanoic acid,Lipid,very long chain fatty acids (VLCFA),Lipid,ISA
+16750542,abstract,2,disorder,Disease or Syndrome,patients,Human,AFFECTS
+16750542,abstract,2,brain damage,Injury or Poisoning,X-ALD,Disease or Syndrome,COEXISTS_WITH
+16750542,abstract,2,peripheral demyelination,Pathologic Function,patients,Human,PROCESS_OF
+16750542,abstract,2,adrenal insufficiency,Disease or Syndrome,patients,Human,PROCESS_OF
+16750542,abstract,8,X-ALD,Disease or Syndrome,patients,Human,PROCESS_OF
+16750542,abstract,8,erythrocyte,Cell,patients,Human,PART_OF
+16750542,abstract,8,erythrocyte,Cell,antioxidant enzyme activities,Molecular Function,LOCATION_OF
+16751040,abstract,1,ophthalmic findings,Sign or Symptom,patients,Human,PROCESS_OF
+16751040,abstract,1,Danon disease,Disease or Syndrome,patients,Human,PROCESS_OF
+16751040,abstract,1,Danon disease,Disease or Syndrome,cardiomyopathy,Disease or Syndrome,CAUSES
+16751040,abstract,1,cardiomyopathy,Disease or Syndrome,males,Human,PROCESS_OF
+16751040,abstract,1,cardiomyopathy,Disease or Syndrome,females,Human,PROCESS_OF
+16752564,abstract,11,Experiment,Research Activity,phantom,Medical Device,USES
+16754935,abstract,1,diffuse large B-cell lymphoma,Neoplastic Process,patients,Human,PROCESS_OF
+16754935,abstract,1,CHOP,Therapeutic or Preventive Procedure,R-CHOP,Therapeutic or Preventive Procedure,COMPARED_WITH
+16754935,abstract,1,rituximab (MR),Pharmacologic Substance,patients,Human,TREATS
+16757590,title,1,DNA,"Nucleic Acid, Nucleoside, or Nucleotide",human papillomavirus,Virus,PART_OF
+16757590,abstract,4,DNA,"Nucleic Acid, Nucleoside, or Nucleotide",HPV,Virus,PART_OF
+16763070,abstract,3,testis function,Organ or Tissue Function,rats,Mammal,PROCESS_OF
+16763070,abstract,3,dibutyl phthalate,Organic Chemical,pregnancy maintenance,Organism Function,DISRUPTS
+16763070,abstract,3,dibutyl phthalate,Organic Chemical,Long Evans (LE) hooded rats,Mammal,ADMINISTERED_TO
+16763070,abstract,3,dibutyl phthalate,Organic Chemical,testis function,Organ or Tissue Function,AFFECTS
+16763070,abstract,4,DBP,Pharmacologic Substance,LE rats,Mammal,ADMINISTERED_TO
+16763070,abstract,4,DBP,Pharmacologic Substance,abortions,Finding,CAUSES
+16763070,abstract,4,DBP,Pharmacologic Substance,abortions,Finding,CAUSES
+16765853,title,1,Autogenic training,Therapeutic or Preventive Procedure,tension type headaches,Disease or Syndrome,TREATS
+16765853,abstract,10,autogenic training,Therapeutic or Preventive Procedure,patients,Human,TREATS
+16765853,abstract,10,headache,Sign or Symptom,patients,Human,PROCESS_OF
+16765853,abstract,10,autogenic training,Therapeutic or Preventive Procedure,headache,Sign or Symptom,TREATS
+16774846,abstract,12,seizures,Sign or Symptom,persons,Human,PROCESS_OF
+16774846,abstract,12,calorie-restricted diets,Therapeutic or Preventive Procedure,persons,Human,TREATS
+16774846,abstract,12,calorie-restricted diets,Therapeutic or Preventive Procedure,seizures,Sign or Symptom,TREATS
+16781345,abstract,4,ACC,Neoplastic Process,patients,Human,PROCESS_OF
+16781345,abstract,23,resection,Therapeutic or Preventive Procedure,radiotherapy,Therapeutic or Preventive Procedure,COEXISTS_WITH
+16781345,abstract,23,resection,Therapeutic or Preventive Procedure,treatment,Therapeutic or Preventive Procedure,ISA
+16781345,abstract,23,treatment,Therapeutic or Preventive Procedure,ACC,Neoplastic Process,TREATS
+16781345,abstract,23,resection,Therapeutic or Preventive Procedure,ACC,Neoplastic Process,TREATS
+16787352,abstract,2,1-butanol,Lipid,Straight chain alkanols,Organic Chemical,ISA
+16787352,abstract,2,1-hexanol,Organic Chemical,Straight chain alkanols,Organic Chemical,ISA
+16787352,abstract,2,1-pentanol,Organic Chemical,Straight chain alkanols,Organic Chemical,ISA
+16798222,abstract,2,NF-kappaB,"Amino Acid, Peptide, or Protein",nonsmall-cell lung cancer,Neoplastic Process,ASSOCIATED_WITH
+16798222,abstract,2,NSCLC,Neoplastic Process,patients,Human,PROCESS_OF
+16798222,abstract,12,NF-kappaB,"Amino Acid, Peptide, or Protein",apoptosis,Cell Function,DISRUPTS
+16798222,abstract,12,NSCLC,Neoplastic Process,patients,Human,PROCESS_OF
+16801230,abstract,1,laboratory,Organization,experiment,Research Activity,LOCATION_OF
+16809978,abstract,7,AN,Mental or Behavioral Dysfunction,patients,Human,PROCESS_OF
+16809978,abstract,7,renal function deterioration,Finding,patients,Human,PROCESS_OF
+16809978,abstract,7,renal function deterioration,Finding,AN,Mental or Behavioral Dysfunction,COEXISTS_WITH
+16823322,abstract,1,choroid plexus,"Body Part, Organ, or Organ Component",vascular malformation,Congenital Abnormality,LOCATION_OF
+16823322,abstract,1,cerebral aqueduct,Body Space or Junction,vascular malformation,Congenital Abnormality,LOCATION_OF
+16823322,abstract,1,fourth ventricles,Body Space or Junction,vascular malformation,Congenital Abnormality,LOCATION_OF
+16823322,abstract,1,"third, and fourth ventricles",Body Space or Junction,vascular malformation,Congenital Abnormality,LOCATION_OF
+16823322,abstract,1,cerebral aqueduct,Body Space or Junction,adolescent female,Human,PART_OF
+16823322,abstract,1,fourth ventricles,Body Space or Junction,adolescent female,Human,PART_OF
+16823322,abstract,1,"third, and fourth ventricles",Body Space or Junction,adolescent female,Human,PART_OF
+16823322,abstract,4,third ventricle,Body Space or Junction,mass,Finding,LOCATION_OF
+16823322,abstract,4,cerebral aqueduct,Body Space or Junction,mass,Finding,LOCATION_OF
+16823322,abstract,4,fourth ventricle,Body Space or Junction,mass,Finding,LOCATION_OF
+16823322,abstract,4,magnetic resonance imaging scans,Diagnostic Procedure,mass,Finding,DIAGNOSES
+16823322,abstract,4,magnetic resonance imaging scans,Diagnostic Procedure,contrast,"Indicator, Reagent, or Diagnostic Aid",USES
+16823322,abstract,4,magnetic resonance imaging scans,Diagnostic Procedure,contrast,"Indicator, Reagent, or Diagnostic Aid",USES
+16823322,abstract,8,Choroid plexus,"Body Part, Organ, or Organ Component",vascular malformations,Congenital Abnormality,LOCATION_OF
+16823322,abstract,8,intraventricularly,Body Location or Region,vascular malformations,Congenital Abnormality,LOCATION_OF
+16842506,abstract,7,intraepithelial,Spatial Concept,neutrophils,Cell,LOCATION_OF
+16842506,abstract,7,neutrophils,Cell,inflammatory cells,Cell,ISA
+16850791,abstract,1,disorders,Disease or Syndrome,patients,Human,PROCESS_OF
+16856002,title,1,contraception,Therapeutic or Preventive Procedure,oral contraceptives,Pharmacologic Substance,USES
+16856002,abstract,2,oral contraceptive pills,Pharmacologic Substance,breakthrough bleeding,Finding,AUGMENTS
+16856002,abstract,20,norethindrone,Hormone,progestin,Hormone,ISA
+16856443,abstract,3,fetal echocardiography,Diagnostic Procedure,pregnant women,Human,ADMINISTERED_TO
+16856443,abstract,3,Siriraj Hospital,Health Care Related Organization,fetal echocardiography,Diagnostic Procedure,LOCATION_OF
+16875036,abstract,1,Turner syndrome,Disease or Syndrome,women,Human,PROCESS_OF
+16875036,abstract,1,ovulation,Organ or Tissue Function,Pregnancies,Organism Function,CAUSES
+16875036,abstract,1,ovulation,Organism Function,Pregnancies,Organism Function,CAUSES
+16875036,abstract,1,Pregnancies,Organism Function,women,Human,PROCESS_OF
+16877310,title,1,cells,Cell,diminazene,Organic Chemical,LOCATION_OF
+16877310,title,1,organs,"Body Part, Organ, or Organ Component",diminazene,Organic Chemical,LOCATION_OF
+16877721,title,1,endostatin,"Amino Acid, Peptide, or Protein",human,Human,PART_OF
+16877721,title,1,endostatin,"Amino Acid, Peptide, or Protein",patients,Human,TREATS
+16877721,title,1,neuroendocrine tumors,Neoplastic Process,patients,Human,PROCESS_OF
+16877721,title,1,endostatin,"Amino Acid, Peptide, or Protein",neuroendocrine tumors,Neoplastic Process,TREATS
+16877721,abstract,4,pancreatic endocrine tumors,Neoplastic Process,patients,Human,PROCESS_OF
+16877721,abstract,4,carcinoid tumors,Neoplastic Process,patients,Human,PROCESS_OF
+16877721,abstract,4,rhEndostatin,Pharmacologic Substance,patients,Human,TREATS
+16877721,abstract,4,rhEndostatin,Pharmacologic Substance,pancreatic endocrine tumors,Neoplastic Process,TREATS
+16877721,abstract,4,rhEndostatin,Pharmacologic Substance,carcinoid tumors,Neoplastic Process,TREATS
+16879324,abstract,1,melatonin,Hormone,blood-brain barrier,"Body Part, Organ, or Organ Component",AFFECTS
+16879324,abstract,1,tissue plasminogen activator,"Amino Acid, Peptide, or Protein",hemorrhagic transformation,Disease or Syndrome,CAUSES
+16879324,abstract,1,ischemic stroke,Disease or Syndrome,hemorrhagic transformation,Disease or Syndrome,PRECEDES
+16879324,abstract,1,ischemic stroke,Disease or Syndrome,mice,Mammal,PROCESS_OF
+16879324,abstract,1,melatonin,Hormone,blood-brain barrier,Organ or Tissue Function,AFFECTS
+16879324,abstract,2,melatonin,Hormone,oxidative/nitrosative damage,Cell or Molecular Dysfunction,PREVENTS
+16879324,abstract,2,melatonin,Hormone,permeability,Natural Phenomenon or Process,AUGMENTS
+16879324,abstract,2,transient focal cerebral ischemia,Disease or Syndrome,mice,Mammal,PROCESS_OF
+16887433,abstract,1,ghrelin,"Amino Acid, Peptide, or Protein",obesity,Disease or Syndrome,PREDISPOSES
+16887433,abstract,1,obesity,Disease or Syndrome,Prader-Willi syndrome,Congenital Abnormality,COEXISTS_WITH
+16887433,abstract,1,PWS,Congenital Abnormality,older persons,Human,PROCESS_OF
+16887433,abstract,4,control groups,Human,ghrelin,"Amino Acid, Peptide, or Protein",LOCATION_OF
+16887433,abstract,4,control groups,Human,ghrelin,"Amino Acid, Peptide, or Protein",LOCATION_OF
+16887433,abstract,4,control groups,Human,insulin,"Amino Acid, Peptide, or Protein",LOCATION_OF
+16887433,abstract,4,control groups,Human,glucose,Biologically Active Substance,LOCATION_OF
+16887433,abstract,4,groups,Human,ghrelin,"Amino Acid, Peptide, or Protein",LOCATION_OF
+16887433,abstract,4,groups,Human,ghrelin,"Amino Acid, Peptide, or Protein",LOCATION_OF
+16887433,abstract,4,groups,Human,insulin,"Amino Acid, Peptide, or Protein",LOCATION_OF
+16887433,abstract,4,groups,Human,glucose,Biologically Active Substance,LOCATION_OF
+16887433,abstract,6,PWS,Congenital Abnormality,Children,Human,PART_OF
+16887433,abstract,6,hyperphagia,Mental or Behavioral Dysfunction,Children,Human,PROCESS_OF
+16887433,abstract,6,obesity,Disease or Syndrome,Children,Human,PROCESS_OF
+16887433,abstract,6,ghrelin,"Amino Acid, Peptide, or Protein",Children,Human,PART_OF
+16887433,abstract,6,PWS,Congenital Abnormality,people,Human,PART_OF
+16887433,abstract,6,hyperphagic,Mental or Behavioral Dysfunction,people,Human,PROCESS_OF
+16890392,abstract,2,cerebral hydatid cyst,Disease or Syndrome,children,Human,PROCESS_OF
+16895685,abstract,1,renal arteries,"Body Part, Organ, or Organ Component",plaques,Finding,LOCATION_OF
+16895685,abstract,1,Diffuse atherosclerosis,Disease or Syndrome,plaques,Finding,PREDISPOSES
+16899102,abstract,2,beagle,Mammal,dogs,Mammal,ISA
+16899102,abstract,2,ligature,Medical Device,Peri-implantitis,Disease or Syndrome,CAUSES
+16899102,abstract,2,ligature placement,Medical Device,beagle dogs,Mammal,TREATS
+16899102,abstract,2,ligature placement,Medical Device,beagle,Mammal,TREATS
+16901783,title,1,Beta 4 integrin,Gene or Genome,ErbB2,Gene or Genome,STIMULATES
+16901783,title,1,Beta 4 integrin,Gene or Genome,mammary tumorigenesis,Neoplastic Process,PREDISPOSES
+16902165,abstract,3,chronic ischemic heart disease,Disease or Syndrome,patients,Human,PROCESS_OF
+16902165,abstract,3,G-CSF,"Amino Acid, Peptide, or Protein",EPC,Cell,AFFECTS
+16902165,abstract,3,EPC,Cell,patients,Human,PART_OF
+16902165,abstract,4,CIHD,Disease or Syndrome,patients,Human,PROCESS_OF
+16902165,abstract,4,injection,Therapeutic or Preventive Procedure,patients,Human,ADMINISTERED_TO
+16902165,abstract,4,injection,Therapeutic or Preventive Procedure,G-CSF,"Amino Acid, Peptide, or Protein",USES
+16902165,abstract,4,G-CSF,"Amino Acid, Peptide, or Protein",patients,Human,ADMINISTERED_TO
+16903766,abstract,10,injection,Therapeutic or Preventive Procedure,BTX-A,Pharmacologic Substance,USES
+16903766,abstract,10,injection,Therapeutic or Preventive Procedure,urinary,Disease or Syndrome,TREATS
+16903766,abstract,10,injection,Therapeutic or Preventive Procedure,urinary incontinence,Disease or Syndrome,TREATS
+16903766,abstract,10,overactive bladder,Disease or Syndrome,urinary incontinence,Disease or Syndrome,CAUSES
+16903766,abstract,10,detrusor,"Body Part, Organ, or Organ Component",overactivity,Finding,LOCATION_OF
+16903766,abstract,10,overactivity,Finding,urinary incontinence,Disease or Syndrome,CAUSES
+16913431,abstract,11,pain behaviors,Individual Behavior,ethnic group,Human,PROCESS_OF
+16913431,abstract,11,coping,Individual Behavior,ethnic group,Human,PROCESS_OF
+16914119,title,1,"WIN 55,212",Organic Chemical,cannabinoid,Organic Chemical,ISA
+16914119,title,1,"WIN 55,212",Organic Chemical,COX-2,"Amino Acid, Peptide, or Protein",STIMULATES
+16914119,title,1,"WIN 55,212",Organic Chemical,PGE2,Hormone,STIMULATES
+16914119,title,1,brain,"Body Part, Organ, or Organ Component",murine,Mammal,PART_OF
+16914119,title,1,endothelial cells,Cell,COX-2,"Amino Acid, Peptide, or Protein",LOCATION_OF
+16914119,title,1,endothelial cells,Cell,PGE2,Hormone,LOCATION_OF
+16914119,abstract,2,MS,Disease or Syndrome,CNS inflammatory diseases,Disease or Syndrome,ISA
+16914119,abstract,2,cyclooxygenase-2,"Amino Acid, Peptide, or Protein",endothelium,Tissue,PART_OF
+16914119,abstract,2,endothelium,Tissue,brain,"Body Part, Organ, or Organ Component",PART_OF
+16914119,abstract,2,TMEV,Virus,IDD,Disease or Syndrome,CAUSES
+16914119,abstract,2,TMEV,Virus,infection,Disease or Syndrome,CAUSES
+16914119,abstract,2,TMEV,Pathologic Function,IDD,Disease or Syndrome,CAUSES
+16914119,abstract,2,cannabinoids,Organic Chemical,IDD,Disease or Syndrome,TREATS
+16914119,abstract,2,cannabinoids,Organic Chemical,IDD,Disease or Syndrome,TREATS
+16914119,abstract,2,cannabinoids,Organic Chemical,COX-2,"Amino Acid, Peptide, or Protein",INTERACTS_WITH
+16914119,abstract,2,brain,"Body Part, Organ, or Organ Component",murine,Mammal,PART_OF
+16914119,abstract,2,endothelial cell,Cell,brain,"Body Part, Organ, or Organ Component",PART_OF
+16914119,abstract,2,cell cultures,Cell,endothelial,Tissue,PART_OF
+16914119,abstract,6,infection,Disease or Syndrome,COX-2,"Amino Acid, Peptide, or Protein",PRODUCES
+16914119,abstract,6,brain,"Body Part, Organ, or Organ Component",murine,Mammal,PART_OF
+16914119,abstract,6,endothelial cell,Cell,brain,"Body Part, Organ, or Organ Component",PART_OF
+16929605,abstract,8,laparotomic,Therapeutic or Preventive Procedure,incision,Therapeutic or Preventive Procedure,ISA
+16950193,abstract,3,rheumatic mitral stenosis,Disease or Syndrome,patients,Human,PROCESS_OF
+16950193,abstract,3,echocardiographically,Diagnostic Procedure,rheumatic mitral stenosis,Disease or Syndrome,DIAGNOSES
+16950193,abstract,3,plasma,Body Substance,osteopontin,"Amino Acid, Peptide, or Protein",LOCATION_OF
+16950193,abstract,3,patients,Human,osteopontin,"Amino Acid, Peptide, or Protein",LOCATION_OF
+16950193,abstract,10,inflammation,Pathologic Function,patients,Human,PROCESS_OF
+16979443,title,1,Selective Internal Radiation Therapy,Therapeutic or Preventive Procedure,liver metastases,Neoplastic Process,TREATS
+16979443,title,1,colorectal adenocarcinoma,Neoplastic Process,liver metastases,Neoplastic Process,CAUSES
+16979443,abstract,2,hepatocellular carcinoma,Neoplastic Process,malignancies,Neoplastic Process,ISA
+16979443,abstract,2,liver metastases,Neoplastic Process,colorectal carcinoma,Neoplastic Process,COEXISTS_WITH
+16979443,abstract,2,malignancies,Neoplastic Process,liver,"Body Part, Organ, or Organ Component",PART_OF
+16979443,abstract,2,hepatocellular carcinoma,Neoplastic Process,liver,"Body Part, Organ, or Organ Component",PART_OF
+16979443,abstract,2,malignancies,Neoplastic Process,neuroendocrine,Body System,PART_OF
+16979443,abstract,6,nodules,Acquired Abnormality,tumor,Neoplastic Process,PART_OF
+16986607,abstract,5,oviducal,"Body Part, Organ, or Organ Component",obstruction,Pathologic Function,LOCATION_OF
+16986607,abstract,5,obstruction,Pathologic Function,mares,Mammal,PROCESS_OF
+16986607,abstract,5,salpingitis,Disease or Syndrome,fibrous adhesions,Acquired Abnormality,CAUSES
+16986607,abstract,5,oviducts,"Body Part, Organ, or Organ Component",mare,Mammal,PART_OF
+16986607,abstract,5,mare's oviducts,"Body Part, Organ, or Organ Component",blockage,Finding,LOCATION_OF
+17056862,abstract,14,head injuries,Injury or Poisoning,children,Age Group,PROCESS_OF
+17131231,abstract,9,dystonia,Sign or Symptom,patients,Human,PROCESS_OF
+17131231,abstract,9,Parkinson's disease,Disease or Syndrome,patients,Human,PROCESS_OF
+17131231,abstract,9,dystonia,Sign or Symptom,Parkinson's disease,Disease or Syndrome,COEXISTS_WITH
+17131231,abstract,9,surgical treatment,Therapeutic or Preventive Procedure,dystonia,Sign or Symptom,AFFECTS
+17131231,abstract,9,oculomotor cranial nerves,"Body Part, Organ, or Organ Component",cranial,"Body Part, Organ, or Organ Component",PART_OF
+17131231,abstract,9,oculomotor cranial nerves,"Body Part, Organ, or Organ Component",Dystonic reactions,Finding,LOCATION_OF
+17131231,abstract,9,limbs,"Body Part, Organ, or Organ Component",Dystonic reactions,Finding,LOCATION_OF
+17131231,abstract,9,Dystonic reactions,Finding,patients,Human,PROCESS_OF
+17131231,abstract,9,operated,Therapeutic or Preventive Procedure,patients,Human,TREATS
+17135279,abstract,9,DYRK1A,Gene or Genome,AD,Disease or Syndrome,ASSOCIATED_WITH
+17135279,abstract,9,DYRK1A,Gene or Genome,tau,"Amino Acid, Peptide, or Protein",INTERACTS_WITH
+17135279,abstract,9,DYRK1A,Gene or Genome,beta-amyloid,"Amino Acid, Peptide, or Protein",INTERACTS_WITH
+17182661,abstract,1,Lobular neoplasia,Neoplastic Process,lesion,Finding,ISA
+17182661,abstract,1,biopsy specimens,Tissue,Lobular neoplasia,Neoplastic Process,LOCATION_OF
+17191304,title,1,toluene diisocyanate,Hazardous or Poisonous Substance,asthma,Disease or Syndrome,CAUSES
+17191304,title,1,autoantibodies,"Amino Acid, Peptide, or Protein",asthma,Disease or Syndrome,PREDISPOSES
+17293230,abstract,2,non-small-cell lung cancer,Neoplastic Process,patients,Human,PROCESS_OF
+17293230,abstract,2,CT,Diagnostic Procedure,patients,Human,ADMINISTERED_TO
+17293230,abstract,2,positron emission tomography,Diagnostic Procedure,patients,Human,ADMINISTERED_TO
+17663001,title,1,invasive breast carcinoma,Neoplastic Process,patients,Human,PROCESS_OF
+17663001,abstract,3,MMP-1,"Amino Acid, Peptide, or Protein",tissue specimens,Tissue,PART_OF
+17663001,abstract,3,tissue specimens,Tissue,tumor,Neoplastic Process,PART_OF
+17663001,abstract,3,tissue specimens,Tissue,patients,Human,PART_OF
+17663001,abstract,3,breast carcinoma,Neoplastic Process,patients,Human,PROCESS_OF
+17663001,abstract,3,tissue specimens,Tissue,mRNA expression,Genetic Function,LOCATION_OF
+17663001,abstract,3,MMP-1,Genetic Function,mRNA expression,Enzyme,PRODUCES
