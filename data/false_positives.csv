@@ -1,0 +1,297 @@
+docid,section,sentenceid_gold,subject_text_gold,subject_type_gold,object_text_gold,object_type_gold,relation_gold,trigger_text_gold,sub_norm,obj_norm,sentenceid_model,subject_text_model,subject_type_model,object_text_model,object_type_model,relation_model,trigger_text_model,_merge
+16733164,abstract,,,,,,,,heparin,platelet,9,heparin,Biologically Active Substance,platelet,Cell,DISRUPTS,,right_only
+16531862,abstract,,,,,,,,diagnosis,patients,7,diagnosis,Health Care Activity,patients,Human,TREATS,,right_only
+16510729,abstract,,,,,,,,dopamine d3 receptor,nucleus accumbens,1,dopamine D3 receptor,"Amino Acid, Peptide, or Protein",nucleus accumbens,"Body Part, Organ, or Organ Component",AUGMENTS,,right_only
+16436670,abstract,,,,,,,,treatment,ifn,7,treatment,Therapeutic or Preventive Procedure,IFN-alpha,"Amino Acid, Peptide, or Protein",USES,,right_only
+16436670,abstract,,,,,,,,ifn,treatment,7,IFN-alpha,"Amino Acid, Peptide, or Protein",treatment,Therapeutic or Preventive Procedure,ISA,,right_only
+16643848,abstract,,,,,,,,u-87mg cells,phosphoinositide 3 kinase,1,U-87MG cells,Cell,phosphoinositide 3 kinase,"Amino Acid, Peptide, or Protein",LOCATION_OF,,right_only
+16823322,abstract,,,,,,,,cerebral aqueduct,third ventricle,4,cerebral       aqueduct,Body Space or Junction,third ventricle,Body Space or Junction,LOCATION_OF,,right_only
+16823322,abstract,,,,,,,,third ventricle,magnetic resonance imaging scans,4,third ventricle,Body Space or Junction,magnetic resonance imaging scans,Diagnostic Procedure,LOCATION_OF,,right_only
+16272824,abstract,,,,,,,,enzyme-linked immunosorbent assay,supernatants,7,enzyme-linked       immunosorbent assay,Laboratory Procedure,supernatants,Body Substance,MEASURES,,right_only
+16272824,abstract,,,,,,,,ad,diseases,14,AD,Disease or Syndrome,diseases,Disease or Syndrome,ISA,,right_only
+16272824,abstract,,,,,,,,diseases,atopic allergic reaction,14,diseases,Disease or Syndrome,atopic allergic reaction,Pathologic Function,AFFECTS,,right_only
+16332961,abstract,,,,,,,,mtdna,degenerative diseases,2,mtDNA,Biologically Active Substance,degenerative diseases,Disease or Syndrome,ASSOCIATED_WITH,,right_only
+16332961,abstract,,,,,,,,aging,ros,2,aging,Organism Function,ROS,Biologically Active Substance,PRODUCES,,right_only
+16625528,title,,,,,,,,internal fixation,adults,1,internal fixation,Therapeutic or Preventive Procedure,adults,Age Group,TREATS,,right_only
+16625528,title,,,,,,,,replacement arthroplasty,adults,1,Replacement arthroplasty,Therapeutic or Preventive Procedure,adults,Age Group,TREATS,,right_only
+16338777,abstract,,,,,,,,pelvic inflammatory disease,women,1,pelvic       inflammatory disease,Disease or Syndrome,women,Human,PROCESS_OF,,right_only
+16440178,abstract,,,,,,,,secretion,pregnancy,1,secretion,Cell Function,pregnancy,Organism Function,COEXISTS_WITH,,right_only
+16311763,abstract,,,,,,,,transcript,biogenesis,4,Transcript,"Nucleic Acid, Nucleoside, or Nucleotide",biogenesis,Natural Phenomenon or Process,AFFECTS,,right_only
+15948171,abstract,,,,,,,,colorectal carcinoma,cohort,2,colorectal carcinoma,Neoplastic Process,cohort,Human,PROCESS_OF,,right_only
+16372122,abstract,,,,,,,,injection,patients,10,injection,Therapeutic or Preventive Procedure,patients,Patient or Disabled Group,TREATS,,right_only
+16597919,abstract,,,,,,,,camp,intracellular,9,cAMP,Gene or Genome,intracellular,Cell Component,PART_OF,,right_only
+16597919,abstract,,,,,,,,analogs,camp,9,analogs,Chemical Viewed Structurally,cAMP,"Amino Acid, Peptide, or Protein",INTERACTS_WITH,,right_only
+16531984,abstract,,,,,,,,pbmcs,patients,11,PBMCs,Cell,patients,Human,PART_OF,,right_only
+16606611,abstract,,,,,,,,cells,globin,5,cells,Cell,globin,"Amino Acid, Peptide, or Protein",LOCATION_OF,,right_only
+15818416,title,,,,,,,,cardiolipin,tbid,1,cardiolipin,lipd,tBid,Gene or Genome,INTERACTS_WITH,,right_only
+15818416,abstract,,,,,,,,mitochondria,bid,1,mitochondria,Cell Component,Bid,"Amino Acid, Peptide, or Protein",LOCATION_OF,,right_only
+15818416,abstract,,,,,,,,atp,respiration,7,ATP,"Amino Acid, Peptide, or Protein",respiration,Physiologic Function,AFFECTS,,right_only
+15872117,abstract,,,,,,,,diterpenoids,app,10,diterpenoids,Organic Chemical,app,Gene or Genome,INHIBITS,,right_only
+15872117,abstract,,,,,,,,sequences,transcription factor,11,sequences,"Nucleic Acid, Nucleoside, or Nucleotide",transcription factor,"Amino Acid, Peptide, or Protein",INTERACTS_WITH,,right_only
+15872117,abstract,,,,,,,,p65,dna binding,11,p65,Gene or Genome,DNA       binding,Genetic Function,LOCATION_OF,,right_only
+15872117,abstract,,,,,,,,p50,dna binding,11,p50,"Amino Acid, Peptide, or Protein",DNA       binding,Genetic Function,LOCATION_OF,,right_only
+16172797,title,,,,,,,,breast,high grade primary breast lymphoma,1,breast,"Body Part, Organ, or Organ Component",High grade primary breast lymphoma,Neoplastic Process,LOCATION_OF,,right_only
+16172797,abstract,,,,,,,,lymphomas,neoplasm,1,lymphomas,Neoplastic Process,neoplasm,Neoplastic Process,ISA,,right_only
+16266740,title,,,,,,,,grains,cadmium,1,grains,Plant,Cadmium,"Element, Ion, or Isotope",LOCATION_OF,,right_only
+16266740,abstract,,,,,,,,grains,cadmium,1,grains,Plant,Cadmium,"Element, Ion, or Isotope",LOCATION_OF,,right_only
+16483645,title,,,,,,,,tumor tissues,estrogen receptor,1,tumor tissues,"Body Part, Organ, or Organ Component",estrogen receptor-alpha,"Amino Acid, Peptide, or Protein",LOCATION_OF,,right_only
+16483645,abstract,,,,,,,,tissues,neoplastic,8,tissues,Tissue,neoplastic,Neoplastic Process,PART_OF,,right_only
+16024249,abstract,,,,,,,,parasitic infections,disease,1,parasitic       infections,Disease or Syndrome,disease,Disease or Syndrome,ISA,,right_only
+16030174,abstract,,,,,,,,inhibin b,inhibin,11,inhibin B,"Amino Acid, Peptide, or Protein",inhibin,"Amino Acid, Peptide, or Protein",COMPARED_WITH,,right_only
+16030174,abstract,,,,,,,,follicular fluid,follicles,11,follicular fluid,Body Substance,follicles,"Body Part, Organ, or Organ Component",PART_OF,,right_only
+16030174,abstract,,,,,,,,follicular fluid,inhibin,11,follicular fluid,Body Substance,inhibin,"Amino Acid, Peptide, or Protein",LOCATION_OF,,right_only
+15927218,abstract,,,,,,,,isoelectric focusing,cysticercosis,2,isoelectric focusing,Laboratory Procedure,cysticercosis,Disease or Syndrome,DIAGNOSES,,right_only
+15927218,abstract,,,,,,,,elisa,asymptomatic,8,ELISA,Laboratory Procedure,asymptomatic,Finding,DIAGNOSES,,right_only
+15927218,abstract,,,,,,,,immunoblotting assays,asymptomatic,8,immunoblotting assays,Laboratory Procedure,asymptomatic,Finding,DIAGNOSES,,right_only
+16025281,abstract,,,,,,,,b-cell lymphoma,t/nk cell lymphomas,6,B-cell lymphoma,Neoplastic Process,T/NK cell lymphomas,Neoplastic Process,COEXISTS_WITH,,right_only
+16025281,abstract,,,,,,,,b-cell,neoplasms,7,B-cell,Cell,neoplasms,Neoplastic Process,LOCATION_OF,,right_only
+16025281,abstract,,,,,,,,baff-r,neoplasms,7,BAFF-R,Gene or Genome,neoplasms,Neoplastic Process,ASSOCIATED_WITH,,right_only
+16641628,abstract,,,,,,,,free flaps,soft-tissue,20,free flaps,Tissue,soft-tissue,Tissue,PART_OF,,right_only
+16100526,abstract,,,,,,,,colon mucosa,anion,2,colon       mucosa,"Body Part, Organ, or Organ Component",anion,"Element, Ion, or Isotope",LOCATION_OF,,right_only
+16100526,abstract,,,,,,,,receptors,neurons,12,receptors,"Amino Acid, Peptide, or Protein",neurons,Cell,PART_OF,,right_only
+16787352,abstract,,,,,,,,1-hexanol,water,2,1-hexanol,Organic Chemical,water,Inorganic Chemical,COEXISTS_WITH,,right_only
+16787352,abstract,,,,,,,,1-pentanol,water,2,1-pentanol,Organic Chemical,water,Inorganic Chemical,COEXISTS_WITH,,right_only
+16787352,abstract,,,,,,,,1-butanol,water,2,1-butanol,lipd,water,Inorganic Chemical,COEXISTS_WITH,,right_only
+15853477,abstract,,,,,,,,depression,geriatric,4,depression,Mental or Behavioral Dysfunction,geriatric,Human,PROCESS_OF,,right_only
+16411522,title,,,,,,,,reinsertion,pseudomonas aeruginosa exit-site infection,1,reinsertion,Therapeutic or Preventive Procedure,pseudomonas aeruginosa exit-site infection,Disease or Syndrome,TREATS,,right_only
+16411522,title,,,,,,,,removal,pseudomonas aeruginosa exit-site infection,1,removal,Therapeutic or Preventive Procedure,pseudomonas aeruginosa exit-site infection,Disease or Syndrome,TREATS,,right_only
+16376670,title,,,,,,,,langerhans cell histiocytosis,anterior uveitis,1,Langerhans cell       histiocytosis,Disease or Syndrome,Anterior uveitis,Disease or Syndrome,COEXISTS_WITH,,right_only
+16376670,title,,,,,,,,langerhans cell histiocytosis,iris nodules,1,Langerhans cell       histiocytosis,Disease or Syndrome,iris nodules,Finding,COEXISTS_WITH,,right_only
+16751040,abstract,,,,,,,,cardiomyopathy,ophthalmic findings,1,cardiomyopathy,Disease or Syndrome,ophthalmic findings,Sign or Symptom,CAUSES,,right_only
+16207633,abstract,,,,,,,,cho,cho,5,CHO,"Body Part, Organ, or Organ Component",CHO,Mammal,PART_OF,,right_only
+16207633,abstract,,,,,,,,mrp2,cells,6,MRP2,Gene or Genome,cells,Cell,INTERACTS_WITH,,right_only
+16207633,abstract,,,,,,,,mdr1,cells,6,MDR1,Gene or Genome,cells,Cell,INTERACTS_WITH,,right_only
+16551631,abstract,,,,,,,,cells,cdc2,5,cells,Cell,CDC2,"Amino Acid, Peptide, or Protein",LOCATION_OF,,right_only
+17663001,title,,,,,,,,patients,mmp-1,1,patients,Human,MMP-1,"Amino Acid, Peptide, or Protein",LOCATION_OF,,right_only
+16225901,abstract,,,,,,,,oxygen,iron,2,oxygen,"Element, Ion, or Isotope",iron,Biologically Active Substance,INTERACTS_WITH,,right_only
+16519885,abstract,,,,,,,,inhibitors,myosin ii atpase,4,Inhibitors,Chemical Viewed Functionally,myosin II ATPase,"Amino Acid, Peptide, or Protein",INTERACTS_WITH,,right_only
+16519885,abstract,,,,,,,,inhibitors,myosin ii,4,Inhibitors,Chemical Viewed Functionally,myosin II,Enzyme,INTERACTS_WITH,,right_only
+16519885,abstract,,,,,,,,myosin ii,rho,4,myosin II,"Amino Acid, Peptide, or Protein",Rho,Gene or Genome,INTERACTS_WITH,,right_only
+15953529,abstract,,,,,,,,epithelia,e-cadherin,7,epithelia,Tissue,E-cadherin,"Amino Acid, Peptide, or Protein",LOCATION_OF,,right_only
+15943571,abstract,,,,,,,,immunity,viremia,1,immunity,Physiologic Function,viremia,Disease or Syndrome,AFFECTS,,right_only
+15943571,abstract,,,,,,,,genes,immunity,1,genes,Gene or Genome,immunity,Physiologic Function,CAUSES,,right_only
+15943571,abstract,,,,,,,,immunity,primates,1,immunity,Physiologic Function,primates,Mammal,PROCESS_OF,,right_only
+16015001,abstract,,,,,,,,bap,ipth,14,bAP,"Amino Acid, Peptide, or Protein",iPTH,Gene or Genome,COEXISTS_WITH,,right_only
+16102747,abstract,,,,,,,,relaxations,gastroesophageal reflux disease,6,relaxations,Daily or Recreational Activity,gastroesophageal reflux disease,Disease or Syndrome,TREATS,,right_only
+16387100,abstract,,,,,,,,igan,membranous gn,12,IgAN,Disease or Syndrome,membranous GN,Disease or Syndrome,COEXISTS_WITH,,right_only
+16387100,abstract,,,,,,,,mcgn,membranous gn,12,MCGN,Disease or Syndrome,membranous GN,Disease or Syndrome,COEXISTS_WITH,,right_only
+16387100,abstract,,,,,,,,fsg,membranous gn,12,FSG,Disease or Syndrome,membranous GN,Disease or Syndrome,COEXISTS_WITH,,right_only
+15676161,abstract,,,,,,,,exertional paroxysmal stabbing chest pain,patients,3,exertional paroxysmal stabbing       chest pain,Sign or Symptom,patients,Human,PROCESS_OF,,right_only
+15958124,abstract,,,,,,,,cidp,neuropathy,1,CIDP,Disease or Syndrome,neuropathy,Disease or Syndrome,ISA,,right_only
+15998787,abstract,,,,,,,,sensitization,mice,4,sensitization,Mental Process,mice,Mammal,PROCESS_OF,,right_only
+16513142,abstract,,,,,,,,triplet repeats,dna synthesis,3,triplet repeats,Biologically Active Substance,DNA synthesis,Genetic Function,AFFECTS,,right_only
+16887433,abstract,,,,,,,,pws,persons,1,PWS,Congenital Abnormality,persons,Human,PART_OF,,right_only
+16887433,abstract,,,,,,,,fasting,control groups,4,fasting,Finding,control groups,Human,PROCESS_OF,,right_only
+16402182,abstract,,,,,,,,anti-cd40 antibody,il-4,5,anti-CD40 antibody,"Amino Acid, Peptide, or Protein",IL-4,Gene or Genome,COEXISTS_WITH,,right_only
+16402182,abstract,,,,,,,,elisa,supernatants,6,ELISA,Laboratory Procedure,supernatants,Body Substance,MEASURES,,right_only
+16673312,abstract,,,,,,,,diagnosis,patients,8,diagnosis,Health Care Activity,patients,Human,TREATS,,right_only
+16503396,abstract,,,,,,,,tongue,oral tongue cancer,11,tongue,"Body Part, Organ, or Organ Component",oral tongue cancer,Neoplastic Process,LOCATION_OF,,right_only
+16012316,abstract,,,,,,,,opacity,patients,8,opacity,Pathologic Function,patients,Human,PROCESS_OF,,right_only
+16012316,abstract,,,,,,,,opacity,patients,8,opacity,Pathologic Function,patients,Human,PROCESS_OF,,right_only
+16182253,abstract,,,,,,,,mutations,sca10 gene,6,Mutations,Genetic Function,SCA10 gene,Gene or Genome,PROCESS_OF,,right_only
+16182253,abstract,,,,,,,,pancreatic cells,protein,7,pancreatic beta cells,Cell,protein,"Amino Acid, Peptide, or Protein",LOCATION_OF,,right_only
+14627806,abstract,,,,,,,,cell lines,mitomycin c,9,cell lines,Cell,mitomycin C,Organic Chemical,LOCATION_OF,,right_only
+16986607,abstract,,,,,,,,oviducts,mares,5,oviducts,"Body Part, Organ, or Organ Component",mare's,Mammal,PART_OF,,right_only
+16044089,abstract,,,,,,,,peritoneal lavage,pfc,2,peritoneal       lavage,Diagnostic Procedure,PFC,Pharmacologic Substance,USES,,right_only
+16194167,abstract,,,,,,,,images,abdominal abd aortic ao ath,2,images,Diagnostic Procedure,abdominal (ABD) aortic (AO) ATH,Disease or Syndrome,CAUSES,,right_only
+16194167,abstract,,,,,,,,transthoracic echocardiography,probes,2,transthoracic echocardiography,Diagnostic Procedure,probes,Medical Device,USES,,right_only
+15653714,abstract,,,,,,,,laser doppler technique,haemodilution,10,laser       Doppler technique,Therapeutic or Preventive Procedure,Haemodilution,Therapeutic or Preventive Procedure,METHOD_OF,,right_only
+16430036,abstract,,,,,,,,bladder catheter,rectal fistula,17,bladder catheter,Medical Device,rectal fistula,Anatomical Abnormality,TREATS,,right_only
+15972621,abstract,,,,,,,,compromise,alzheimers disease,1,compromise,Finding,Alzheimer's disease,Disease or Syndrome,COEXISTS_WITH,,right_only
+16496259,abstract,,,,,,,,medications,iop,13,medications,Pharmacologic Substance,IOP,Disease or Syndrome,TREATS,,right_only
+15958928,abstract,,,,,,,,chemical poisoning,ill,1,chemical poisoning,Injury or Poisoning,ill,Sign or Symptom,CAUSES,,right_only
+15958928,abstract,,,,,,,,ill,employees,1,ill,Sign or Symptom,employees,Human,PROCESS_OF,,right_only
+15969273,abstract,,,,,,,,performance,desire,4,performance,Individual Behavior,desire,Individual Behavior,AFFECTS,,right_only
+17135279,abstract,,,,,,,,phosphorylation,ad,9,phosphorylation,Molecular Function,AD,Disease or Syndrome,COEXISTS_WITH,,right_only
+16549534,abstract,,,,,,,,recurrence,djs,9,recurrence,Phenomenon or Process,DJS,Disease or Syndrome,CAUSES,,right_only
+16549534,abstract,,,,,,,,jaundice,mrp2,9,jaundice,Pathologic Function,MRP2,Gene or Genome,ASSOCIATED_WITH,,right_only
+16455026,title,,,,,,,,adjuvant endocrine therapy,breast cancer,1,adjuvant endocrine therapy,Therapeutic or Preventive Procedure,breast       cancer,Neoplastic Process,TREATS,,right_only
+16455026,abstract,,,,,,,,breast cancer tissue,cancer,2,breast cancer tissue,Tissue,cancer,Neoplastic Process,PART_OF,,right_only
+16455026,abstract,,,,,,,,estrogen receptor,breast cancer tissue,2,estrogen receptor,"Amino Acid, Peptide, or Protein",breast cancer tissue,Tissue,AFFECTS,,right_only
+16462770,abstract,,,,,,,,nuclei,cl100,4,nuclei,Cell Component,CL100,"Amino Acid, Peptide, or Protein",LOCATION_OF,,right_only
+16462770,abstract,,,,,,,,bronchial epithelia,jnk,4,bronchial epithelia,"Body Part, Organ, or Organ Component",JNK,"Amino Acid, Peptide, or Protein",LOCATION_OF,,right_only
+16462770,abstract,,,,,,,,mkp1,cisplatin,6,MKP1,Gene or Genome,cisplatin,Inorganic Chemical,INTERACTS_WITH,,right_only
+16284436,abstract,,,,,,,,iodine,goiter,4,iodine,Biologically Active Substance,goiter,Disease or Syndrome,CAUSES,,right_only
+16284436,abstract,,,,,,,,goiter,signal transduction pathway,4,goiter,Disease or Syndrome,signal transduction       pathway,Molecular Function,ASSOCIATED_WITH,,right_only
+16284436,abstract,,,,,,,,mutations,turkish population,12,mutations,Genetic Function,Turkish population,Human,PROCESS_OF,,right_only
+16256984,abstract,,,,,,,,growth,vascular morphogenesis,1,growth,Organism Function,vascular       morphogenesis,Organ or Tissue Function,COEXISTS_WITH,,right_only
+16460640,abstract,,,,,,,,group,cd4 counts,20,group,Health Care Related Organization,CD4 counts,Laboratory Procedure,LOCATION_OF,,right_only
+16372914,abstract,,,,,,,,phe-gly-gly,clones,9,Phe-Gly-Gly,"Amino Acid, Peptide, or Protein",clones,Cell,ADMINISTERED_TO,,right_only
+15943707,abstract,,,,,,,,dexamethasone,donors,2,dexamethasone,Pharmacologic Substance,donors,Human,ADMINISTERED_TO,,right_only
+15898907,title,,,,,,,,laparoscopic surgery,obstruction,1,Laparoscopic surgery,Therapeutic or Preventive Procedure,obstruction,Pathologic Function,TREATS,,right_only
+15898907,abstract,,,,,,,,palliative bypass surgery,malignancy,1,palliative bypass surgery,Therapeutic or Preventive Procedure,malignancy,Neoplastic Process,TREATS,,right_only
+16461476,abstract,,,,,,,,enemas,butyrate,1,enemas,Therapeutic or Preventive Procedure,Butyrate,lipd,USES,,right_only
+16461476,abstract,,,,,,,,enemas,ulcerative colitis,1,enemas,Therapeutic or Preventive Procedure,ulcerative colitis,Disease or Syndrome,TREATS,,right_only
+16251535,abstract,,,,,,,,microrna,deletion,7,microRNA,Biologically Active Substance,deletion,Cell or Molecular Dysfunction,ASSOCIATED_WITH,,right_only
+15802000,abstract,,,,,,,,glargine,patients,15,glargine,"Amino Acid, Peptide, or Protein",patients,Human,PART_OF,,right_only
+15925552,title,,,,,,,,assay,liquid chromatography-tandem mass spectroscopy,1,assay,Laboratory Procedure,Liquid chromatography-tandem mass spectroscopy,Laboratory Procedure,USES,,right_only
+15925552,title,,,,,,,,quercetin,human plasma,1,quercetin,Organic Chemical,human plasma,Pharmacologic Substance,COEXISTS_WITH,,right_only
+15925552,title,,,,,,,,quercetin,human plasma,1,quercetin,Organic Chemical,human plasma,Pharmacologic Substance,COEXISTS_WITH,,right_only
+15925552,abstract,,,,,,,,column,separation,3,column,"Body Part, Organ, or Organ Component",separation,Pathologic Function,LOCATION_OF,,right_only
+16424791,abstract,,,,,,,,amlodipine,atherosclerosis,8,amlodipine,Pharmacologic Substance,atherosclerosis,Disease or Syndrome,TREATS,,right_only
+16798222,abstract,,,,,,,,tumor cell,apoptosis,12,tumor cell,Cell,apoptosis,Cell Function,LOCATION_OF,,right_only
+16798222,abstract,,,,,,,,apoptosis,patients,12,apoptosis,Cell Function,patients,Human,PROCESS_OF,,right_only
+16540467,abstract,,,,,,,,pml,rar-mediated inhibition,6,PML,Gene or Genome,RARalpha-mediated       inhibition,Cell Function,AUGMENTS,,right_only
+15946936,title,,,,,,,,caspase,integrin,1,caspase,Gene or Genome,integrin,"Amino Acid, Peptide, or Protein",INTERACTS_WITH,,right_only
+15946936,title,,,,,,,,bap31,integrin,1,BAP31,Gene or Genome,integrin,"Amino Acid, Peptide, or Protein",INTERACTS_WITH,,right_only
+15946936,title,,,,,,,,caspase,tetraspanins,1,caspase,Gene or Genome,tetraspanins,"Amino Acid, Peptide, or Protein",INTERACTS_WITH,,right_only
+15946936,abstract,,,,,,,,cells,cd81,2,cells,Cell,CD81,"Amino Acid, Peptide, or Protein",LOCATION_OF,,right_only
+15946936,abstract,,,,,,,,cells,cd9,2,cells,Cell,CD9,Gene or Genome,LOCATION_OF,,right_only
+16303761,abstract,,,,,,,,scatter factor,nk4,6,scatter factor,Gene or Genome,NK4,"Amino Acid, Peptide, or Protein",PRODUCES,,right_only
+16303761,abstract,,,,,,,,mast cells,peptidases,6,mast cells,Cell,peptidases,"Amino Acid, Peptide, or Protein",PRODUCES,,right_only
+16303761,abstract,,,,,,,,cathepsin g,fragments,10,cathepsin G,"Amino Acid, Peptide, or Protein",fragments,Body Substance,PRODUCES,,right_only
+16303761,abstract,,,,,,,,neutrophil elastase,fragments,10,neutrophil elastase,Gene or Genome,fragments,Body Substance,PRODUCES,,right_only
+16303761,abstract,,,,,,,,fragments,chymase,10,fragments,Body Substance,chymase,"Amino Acid, Peptide, or Protein",LOCATION_OF,,right_only
+16395331,abstract,,,,,,,,cell cycle progression,transcriptional,1,Cell cycle progression,Cell Function,transcriptional,Genetic Function,AFFECTS,,right_only
+16091875,abstract,,,,,,,,valganciclovir,cmv infections,14,valganciclovir,Pharmacologic Substance,CMV       infections,Disease or Syndrome,TREATS,,right_only
+16371595,abstract,,,,,,,,calcium signaling,xenopus,11,calcium signaling,Cell Function,Xenopus,Amphibian,PROCESS_OF,,right_only
+16177843,abstract,,,,,,,,birth,cohort,5,birth,Organism Function,cohort,Human,PROCESS_OF,,right_only
+16177843,abstract,,,,,,,,scid,patients,6,SCID,Disease or Syndrome,patients,Human,PROCESS_OF,,right_only
+15750284,abstract,,,,,,,,gh,bone marrow stem cells,5,GH,"Amino Acid, Peptide, or Protein",bone marrow stem cells,Cell,AFFECTS,,right_only
+15750284,abstract,,,,,,,,bone marrow,mrnas,6,bone marrow,"Body Part, Organ, or Organ Component",mRNAs,Biologically Active Substance,LOCATION_OF,,right_only
+15750284,abstract,,,,,,,,paracrine,bone marrows,6,paracrine,Physiologic Function,bone marrows,"Body Part, Organ, or Organ Component",PROCESS_OF,,right_only
+16105135,title,,,,,,,,patients,homocysteine,1,patients,Human,homocysteine,"Amino Acid, Peptide, or Protein",LOCATION_OF,,right_only
+16105135,abstract,,,,,,,,high-performance liquid chromatography,homocysteine levels,4,high-performance liquid       chromatography,Laboratory Procedure,Homocysteine levels,Laboratory Procedure,MEASURES,,right_only
+16079931,abstract,,,,,,,,chest,radiography,3,chest,Body Location or Region,radiography,Diagnostic Procedure,LOCATION_OF,,right_only
+15862965,abstract,,,,,,,,pdgf receptors,cell,4,PDGF receptors,"Amino Acid, Peptide, or Protein",cell,Cell,INTERACTS_WITH,,right_only
+15862965,abstract,,,,,,,,pdgf-bb,cell,4,PDGF-BB,Gene or Genome,cell,Cell,INTERACTS_WITH,,right_only
+16185180,abstract,,,,,,,,fluoroquinolone,aminoglycoside,8,fluoroquinolone,Pharmacologic Substance,aminoglycoside,Pharmacologic Substance,COEXISTS_WITH,,right_only
+16185180,abstract,,,,,,,,aminoglycoside,fluoroquinolone,8,aminoglycoside,carb,fluoroquinolone,Organic Chemical,COEXISTS_WITH,,right_only
+16185180,abstract,,,,,,,,lactam,aminoglycoside,8,beta-lactam,Antibiotic,aminoglycoside,Pharmacologic Substance,COEXISTS_WITH,,right_only
+16185180,abstract,,,,,,,,lactam,fluoroquinolone,8,beta-lactam,Antibiotic,fluoroquinolone,Organic Chemical,COEXISTS_WITH,,right_only
+16185180,abstract,,,,,,,,mdrpa infections,patients,8,MDRPA infections,Disease or Syndrome,Patients,Human,PROCESS_OF,,right_only
+16950193,abstract,,,,,,,,study,rheumatic mitral stenosis,3,study,Research Activity,rheumatic mitral stenosis,Disease or Syndrome,MEASURES,,right_only
+16083305,title,,,,,,,,baff,escherichia coli,1,BAFF,"Amino Acid, Peptide, or Protein",Escherichia coli,Bacterium,INTERACTS_WITH,,right_only
+16083305,abstract,,,,,,,,cd4,hsbaff,3,CD4,Gene or Genome,hsBAFF,Gene or Genome,INTERACTS_WITH,,right_only
+16083305,abstract,,,,,,,,injection,mice,3,injection,Therapeutic or Preventive Procedure,mice,Mammal,TREATS,,right_only
+16750542,abstract,,,,,,,,x-linked adrenoleukodystrophy,peroxisomal disorder,1,X-linked adrenoleukodystrophy,Disease or Syndrome,peroxisomal disorder,Disease or Syndrome,ISA,,right_only
+16750542,abstract,,,,,,,,tissues,tetracosanoic acid,1,tissues,Tissue,tetracosanoic       acid,lipd,LOCATION_OF,,right_only
+16750542,abstract,,,,,,,,gpx,erythrocyte,8,GPx,Gene or Genome,erythrocyte,Cell,INTERACTS_WITH,,right_only
+16750542,abstract,,,,,,,,sod,erythrocyte,8,SOD,"Amino Acid, Peptide, or Protein",erythrocyte,Cell,INTERACTS_WITH,,right_only
+16507901,abstract,,,,,,,,tissues,colorectal tumor,6,tissues,Tissue,colorectal tumor,Neoplastic Process,PART_OF,,right_only
+16507901,abstract,,,,,,,,cell lines,col4a6,6,cell lines,Cell,COL4A6,"Amino Acid, Peptide, or Protein",LOCATION_OF,,right_only
+16507901,abstract,,,,,,,,tissues,col4a6,6,tissues,Tissue,COL4A6,"Amino Acid, Peptide, or Protein",LOCATION_OF,,right_only
+15808413,abstract,,,,,,,,vasculature,no,6,vasculature,"Body Part, Organ, or Organ Component",NO,Biologically Active Substance,PRODUCES,,right_only
+16554223,title,,,,,,,,pulmonary,ct pulmonary angiography,1,pulmonary,"Body Part, Organ, or Organ Component",CT pulmonary angiography,Diagnostic Procedure,LOCATION_OF,,right_only
+16554223,title,,,,,,,,line imaging test,pulmonary embolism,1,line imaging test,Medical Device,pulmonary embolism,Disease or Syndrome,TREATS,,right_only
+16554223,abstract,,,,,,,,pulmonary embolism,physicians,1,pulmonary embolism,Disease or Syndrome,physicians,Human,PROCESS_OF,,right_only
+15975940,abstract,,,,,,,,embryos,noggin,6,embryos,Embryonic Structure,Noggin,"Amino Acid, Peptide, or Protein",LOCATION_OF,,right_only
+16339800,abstract,,,,,,,,pp2c,aba,7,PP2C,"Amino Acid, Peptide, or Protein",ABA,Biologically Active Substance,COEXISTS_WITH,,right_only
+16407061,abstract,,,,,,,,virion,extracellular,5,virion,Cell Component,extracellular,Cell Component,PART_OF,,right_only
+16979443,title,,,,,,,,internal radiation,therapy,1,Internal Radiation,Therapeutic or Preventive Procedure,Therapy,Therapeutic or Preventive Procedure,ISA,,right_only
+16979443,title,,,,,,,,internal radiation,liver metastases,1,Internal Radiation,Therapeutic or Preventive Procedure,liver metastases,Neoplastic Process,TREATS,,right_only
+16979443,abstract,,,,,,,,colorectal carcinoma,malignancies,2,colorectal carcinoma,Neoplastic Process,malignancies,Neoplastic Process,ISA,,right_only
+16979443,abstract,,,,,,,,liver,malignancies,2,liver,"Body Part, Organ, or Organ Component",malignancies,Neoplastic Process,LOCATION_OF,,right_only
+16979443,abstract,,,,,,,,colorectal carcinoma,liver metastases,2,colorectal carcinoma,Neoplastic Process,liver metastases,Neoplastic Process,CAUSES,,right_only
+16628891,abstract,,,,,,,,water consumption,pollination,5,water       consumption,Organism Function,pollination,Organism Function,COEXISTS_WITH,,right_only
+15996060,abstract,,,,,,,,ra,women,2,RA,Disease or Syndrome,women,Human,PROCESS_OF,,right_only
+15996060,abstract,,,,,,,,dheas,patients,7,DHEAS,strd,patients,Patient or Disabled Group,TREATS,,right_only
+15996060,abstract,,,,,,,,free testosterone,patients,7,free testosterone,Hormone,patients,Patient or Disabled Group,TREATS,,right_only
+15996060,abstract,,,,,,,,therapy,tnf,10,therapy,Therapeutic or Preventive Procedure,TNF,"Amino Acid, Peptide, or Protein",USES,,right_only
+17293230,abstract,,,,,,,,ct,ct,2,CT,Diagnostic Procedure,CT,Laboratory Procedure,USES,,right_only
+15993962,abstract,,,,,,,,dialysis,patients,6,dialysis,Therapeutic or Preventive Procedure,patients,Patient or Disabled Group,AFFECTS,,right_only
+15956296,abstract,,,,,,,,salt,brine,13,salt,Inorganic Chemical,brine,Inorganic Chemical,COEXISTS_WITH,,right_only
+16445747,title,,,,,,,,ustilago maydis,fungi,1,Ustilago maydis,Fungus,fungi,Fungus,ISA,,right_only
+16141404,abstract,,,,,,,,sdf-1,mrna expression,6,SDF-1,Gene or Genome,mRNA       expression,Genetic Function,LOCATION_OF,,right_only
+16141404,abstract,,,,,,,,cxcr-4,mrna expression,6,CXCR-4,"Amino Acid, Peptide, or Protein",mRNA       expression,Genetic Function,LOCATION_OF,,right_only
+16141404,abstract,,,,,,,,epc,matrigel,8,EPC,opco,Matrigel,"Amino Acid, Peptide, or Protein",COEXISTS_WITH,,right_only
+16141404,abstract,,,,,,,,epc,mek,8,EPC,opco,MEK,Molecular Function,DISRUPTS,,right_only
+16141404,abstract,,,,,,,,epc,cxcr-4,8,EPC,opco,CXCR-4,Gene or Genome,INHIBITS,,right_only
+16736257,abstract,,,,,,,,blepharoplast,cavities,5,blepharoplast,Cell Component,cavities,Body Space or Junction,LOCATION_OF,,right_only
+16736257,abstract,,,,,,,,cavities,microtubules,5,cavities,Body Space or Junction,microtubules,Cell Component,LOCATION_OF,,right_only
+15953327,abstract,,,,,,,,infective endocarditis,children,13,Infective endocarditis,Disease or Syndrome,children,Human,PROCESS_OF,,right_only
+16084063,title,,,,,,,,catenin,death,1,beta-catenin,"Amino Acid, Peptide, or Protein",death,Organism Function,DISRUPTS,,right_only
+16733895,abstract,,,,,,,,rats,hydrogen sulfide,1,rats,Mammal,hydrogen sulfide,Hazardous or Poisonous Substance,LOCATION_OF,,right_only
+16733895,abstract,,,,,,,,pulmonary vascular structure,sodium hydrosulfide,1,pulmonary vascular structure,"Body Part, Organ, or Organ Component",sodium       hydrosulfide,Inorganic Chemical,LOCATION_OF,,right_only
+16912584,abstract,,,,,,,,diabetes,cardiovascular disease,6,diabetes,Disease or Syndrome,cardiovascular disease,Disease or Syndrome,COEXISTS_WITH,,right_only
+16912584,abstract,,,,,,,,hypercholesterolemia,cardiovascular disease,6,hypercholesterolemia,Disease or Syndrome,cardiovascular disease,Disease or Syndrome,COEXISTS_WITH,,right_only
+16912584,abstract,,,,,,,,hypertension,cardiovascular disease,6,hypertension,Disease or Syndrome,cardiovascular disease,Disease or Syndrome,COEXISTS_WITH,,right_only
+16912584,abstract,,,,,,,,obesity,cardiovascular disease,6,obesity,Disease or Syndrome,cardiovascular disease,Disease or Syndrome,COEXISTS_WITH,,right_only
+16912584,abstract,,,,,,,,diabetes,coronary heart disease,7,diabetes,Disease or Syndrome,coronary heart disease,Disease or Syndrome,PREDISPOSES,,right_only
+16912584,abstract,,,,,,,,hypercholesterolemia,coronary heart disease,7,hypercholesterolemia,Disease or Syndrome,coronary heart disease,Disease or Syndrome,PREDISPOSES,,right_only
+16912584,abstract,,,,,,,,hypertension,coronary heart disease,7,hypertension,Disease or Syndrome,coronary heart disease,Disease or Syndrome,PREDISPOSES,,right_only
+16912584,abstract,,,,,,,,obesity,coronary heart disease,7,obesity,Disease or Syndrome,coronary heart disease,Disease or Syndrome,PREDISPOSES,,right_only
+16732098,abstract,,,,,,,,segments,neurons,7,segments,Spatial Concept,neurons,Cell,LOCATION_OF,,right_only
+15919667,abstract,,,,,,,,glycoproteins,plc,3,glycoproteins,"Amino Acid, Peptide, or Protein",PLC,Gene or Genome,COEXISTS_WITH,,right_only
+15919667,abstract,,,,,,,,glycosphingolipids,plc,3,glycosphingolipids,lipd,PLC,Gene or Genome,COEXISTS_WITH,,right_only
+15919667,abstract,,,,,,,,proteoglycans,plc,3,proteoglycans,"Amino Acid, Peptide, or Protein",PLC,Gene or Genome,COEXISTS_WITH,,right_only
+15919667,abstract,,,,,,,,glycosphingolipid,gangliosides,4,glycosphingolipid,lipd,gangliosides,Biologically Active Substance,COEXISTS_WITH,,right_only
+15919667,abstract,,,,,,,,plc,hypersensitive,4,PLC,"Amino Acid, Peptide, or Protein",hypersensitive,Pathologic Function,AFFECTS,,right_only
+15919667,abstract,,,,,,,,sialidase,c. perfringens,6,sialidase,"Amino Acid, Peptide, or Protein",C. perfringens,Bacterium,PART_OF,,right_only
+15919667,abstract,,,,,,,,sialidase,c. perfringens,6,sialidase,"Amino Acid, Peptide, or Protein",C. perfringens,Bacterium,PART_OF,,right_only
+15919667,abstract,,,,,,,,cultured cells,plc,6,cultured cells,Cell,PLC,Gene or Genome,INTERACTS_WITH,,right_only
+15919667,abstract,,,,,,,,removal,mice,6,Removal,Therapeutic or Preventive Procedure,mice,Mammal,TREATS,,right_only
+15323262,title,,,,,,,,metabolism,patients,1,metabolism,Organism Function,patients,Human,PROCESS_OF,,right_only
+15592935,title,,,,,,,,nasal mucosa,oxygenase,1,nasal mucosa,Tissue,oxygenase,"Amino Acid, Peptide, or Protein",LOCATION_OF,,right_only
+15592935,abstract,,,,,,,,nasal respiratory epithelium,ho-1,10,nasal respiratory epithelium,Tissue,HO-1,"Amino Acid, Peptide, or Protein",LOCATION_OF,,right_only
+16702302,abstract,,,,,,,,estrogen,cortisol,5,estrogen,Hormone,cortisol,Hormone,STIMULATES,,right_only
+16702302,abstract,,,,,,,,insulin-like growth factor-1,cortisol,5,insulin-like growth factor-1,"Amino Acid, Peptide, or Protein",cortisol,Hormone,STIMULATES,,right_only
+16702302,abstract,,,,,,,,growth hormone,cortisol,5,growth hormone,"Amino Acid, Peptide, or Protein",cortisol,Hormone,STIMULATES,,right_only
+16702302,abstract,,,,,,,,leptin,cortisol,5,leptin,"Amino Acid, Peptide, or Protein",cortisol,Hormone,STIMULATES,,right_only
+16702302,abstract,,,,,,,,glucagon-like peptide-2,cortisol,5,glucagon-like peptide-2,"Amino Acid, Peptide, or Protein",cortisol,Hormone,STIMULATES,,right_only
+16781345,abstract,,,,,,,,resection,acc,23,resection,Therapeutic or Preventive Procedure,ACC,Neoplastic Process,TREATS,,right_only
+16078061,abstract,,,,,,,,pet scan,diagnosis,2,PET scan,Diagnostic Procedure,diagnosis,Health Care Activity,AFFECTS,,right_only
+16496495,abstract,,,,,,,,rp,rp,10,RP,Mammal,RP,Hazardous or Poisonous Substance,LOCATION_OF,,right_only
+16291723,abstract,,,,,,,,cells,daughter,2,cells,Cell,daughter,Human,PART_OF,,right_only
+16291723,abstract,,,,,,,,constriction,actomyosin ring,2,constriction,Cell Component,actomyosin       ring,Cell Component,PART_OF,,right_only
+15790407,abstract,,,,,,,,drug delivery systems,cystic fibrosis,1,drug delivery systems,Medical Device,cystic       fibrosis,Disease or Syndrome,TREATS,,right_only
+15790407,abstract,,,,,,,,therapies,cystic fibrosis,1,therapies,Therapeutic or Preventive Procedure,cystic       fibrosis,Disease or Syndrome,TREATS,,right_only
+16543714,abstract,,,,,,,,hyperphosphatemia,hypercalcemia,10,hyperphosphatemia,Disease or Syndrome,hypercalcemia,Disease or Syndrome,AFFECTS,,right_only
+16441715,title,,,,,,,,atrial,disease,1,atrial,"Body Part, Organ, or Organ Component",disease,Disease or Syndrome,LOCATION_OF,,right_only
+16441715,title,,,,,,,,disease,patients,1,disease,Disease or Syndrome,patients,Human,PROCESS_OF,,right_only
+16903766,abstract,,,,,,,,muscle,detrusor,10,muscle,Tissue,detrusor,"Body Part, Organ, or Organ Component",PART_OF,,right_only
+16914119,abstract,,,,,,,,tmev-idd,tmev-idd,2,TMEV-IDD,Pathologic Function,TMEV-IDD,Disease or Syndrome,ISA,,right_only
+16914119,abstract,,,,,,,,endothelium,cyclooxygenase-2,2,endothelium,Tissue,cyclooxygenase-2,"Amino Acid, Peptide, or Protein",LOCATION_OF,,right_only
+16204062,abstract,,,,,,,,human lung adenocarcinoma a549 cell line,growth,3,human lung adenocarcinoma A549 cell line,Cell,growth,Organism Function,AFFECTS,,right_only
+16204062,abstract,,,,,,,,dominant negative pkciota allele,pkciota,4,dominant negative PKCiota allele,Gene or Genome,PKCiota,Gene or Genome,INHIBITS,,right_only
+16204062,abstract,,,,,,,,patients,pkciota,4,patients,Human,PKCiota,"Amino Acid, Peptide, or Protein",LOCATION_OF,,right_only
+16154523,title,,,,,,,,chemical ionization gas chromatography-mass spectrometry,gas chromatography,1,chemical ionization gas chromatography-mass       spectrometry,Laboratory Procedure,gas chromatography,Laboratory Procedure,USES,,right_only
+16280382,abstract,,,,,,,,kidney,histopathological,1,kidney,"Body Part, Organ, or Organ Component",histopathological,Pathologic Function,LOCATION_OF,,right_only
+16280382,abstract,,,,,,,,liver,histopathological,1,liver,"Body Part, Organ, or Organ Component",histopathological,Pathologic Function,LOCATION_OF,,right_only
+16280382,abstract,,,,,,,,lung,histopathological,1,lung,"Body Part, Organ, or Organ Component",histopathological,Pathologic Function,LOCATION_OF,,right_only
+16280382,abstract,,,,,,,,lungs,inflammation,9,lungs,"Body Part, Organ, or Organ Component",inflammation,Pathologic Function,LOCATION_OF,,right_only
+16801230,abstract,,,,,,,,pad,placebo,2,pad,Medical Device,placebo,Medical Device,USES,,right_only
+16856443,abstract,,,,,,,,hospital,fetal echocardiography,3,Hospital,Health Care Related Organization,fetal       echocardiography,Diagnostic Procedure,LOCATION_OF,,right_only
+15781005,abstract,,,,,,,,bmd,hip,2,BMD,Gene or Genome,hip,"Body Part, Organ, or Organ Component",PART_OF,,right_only
+15781005,abstract,,,,,,,,hip,bmd,2,hip,"Body Part, Organ, or Organ Component",BMD,"Amino Acid, Peptide, or Protein",LOCATION_OF,,right_only
+15781005,abstract,,,,,,,,hip,bmd,7,hip,"Body Part, Organ, or Organ Component",BMD,"Amino Acid, Peptide, or Protein",LOCATION_OF,,right_only
+15781005,abstract,,,,,,,,spine,bmd,2,spine,"Body Part, Organ, or Organ Component",BMD,"Amino Acid, Peptide, or Protein",LOCATION_OF,,right_only
+15781005,abstract,,,,,,,,spine,bmd,7,spine,"Body Part, Organ, or Organ Component",BMD,"Amino Acid, Peptide, or Protein",LOCATION_OF,,right_only
+15781005,abstract,,,,,,,,women,bmd,2,women,Human,BMD,"Amino Acid, Peptide, or Protein",LOCATION_OF,,right_only
+15781005,abstract,,,,,,,,women,bmd,7,women,Human,BMD,"Amino Acid, Peptide, or Protein",LOCATION_OF,,right_only
+15781005,abstract,,,,,,,,trochanter,bmd,7,trochanter,"Body Part, Organ, or Organ Component",BMD,"Amino Acid, Peptide, or Protein",LOCATION_OF,,right_only
+15781005,abstract,,,,,,,,neck,spine,10,neck,Body Location or Region,spine,"Body Part, Organ, or Organ Component",LOCATION_OF,,right_only
+15601558,abstract,,,,,,,,single brain lesion,patients,6,single brain lesion,Finding,Patients,Human,PROCESS_OF,,right_only
+16144778,abstract,,,,,,,,cardio,respiratory depression,8,cardio,"Body Part, Organ, or Organ Component",respiratory depression,Pathologic Function,LOCATION_OF,,right_only
+15750263,abstract,,,,,,,,arteries,enalapril,1,arteries,"Body Part, Organ, or Organ Component",enalapril,"Amino Acid, Peptide, or Protein",LOCATION_OF,,right_only
+15750263,abstract,,,,,,,,smooth muscle sm cell,enalapril,1,smooth muscle (SM) cell,Cell,enalapril,"Amino Acid, Peptide, or Protein",LOCATION_OF,,right_only
+16774846,abstract,,,,,,,,ketogenic,persons,12,ketogenic,Molecular Function,persons,Human,PROCESS_OF,,right_only
+16754935,abstract,,,,,,,,chop,rituximab,1,CHOP,Gene or Genome,rituximab,"Amino Acid, Peptide, or Protein",COMPARED_WITH,,right_only
+16373645,abstract,,,,,,,,embryonic,ccm2,3,embryonic,Embryonic Structure,Ccm2,"Amino Acid, Peptide, or Protein",LOCATION_OF,,right_only
+16373645,abstract,,,,,,,,embryonic,ccm1,3,embryonic,Embryonic Structure,Ccm1,Gene or Genome,LOCATION_OF,,right_only
+16373645,abstract,,,,,,,,ccm2,mrna expression,3,Ccm2,Gene or Genome,mRNA       expression,Genetic Function,LOCATION_OF,,right_only
+16373645,abstract,,,,,,,,ccm1,mrna expression,3,Ccm1,Gene or Genome,mRNA       expression,Genetic Function,LOCATION_OF,,right_only
+16373645,abstract,,,,,,,,experiments,transfection,4,experiments,Research Activity,transfection,Molecular Biology Research Technique,USES,,right_only
+16373645,abstract,,,,,,,,cell lines,specific polyclonal antibodies,4,cell lines,Cell,specific polyclonal       antibodies,"Amino Acid, Peptide, or Protein",LOCATION_OF,,right_only
+16415554,abstract,,,,,,,,gastrointestinal symptoms,systemic lupus erythematosus,3,gastrointestinal symptoms,Sign or Symptom,Systemic lupus erythematosus,Disease or Syndrome,COEXISTS_WITH,,right_only
+15840414,abstract,,,,,,,,catatonic,patients,7,Catatonic,Sign or Symptom,patients,Human,PROCESS_OF,,right_only
+16101536,abstract,,,,,,,,anti-cytokine biologics therapy,biologics,7,anti-cytokine biologics therapy,Therapeutic or Preventive Procedure,biologics,Pharmacologic Substance,USES,,right_only
+16101536,abstract,,,,,,,,sle,disease,8,SLE,Disease or Syndrome,disease,Disease or Syndrome,COEXISTS_WITH,,right_only
+12641497,abstract,,,,,,,,rabeprazole,proton pump inhibitors,1,rabeprazole,Organic Chemical,proton pump       inhibitors,Pharmacologic Substance,ISA,,right_only
+12641497,abstract,,,,,,,,proton pump inhibitors,antibiotics,1,proton pump       inhibitors,Pharmacologic Substance,antibiotics,Antibiotic,COMPARED_WITH,,right_only
+15990320,abstract,,,,,,,,toxins,nucleotides,1,toxins,Biologically Active Substance,nucleotides,"Nucleic Acid, Nucleoside, or Nucleotide",INTERACTS_WITH,,right_only
+15990320,abstract,,,,,,,,toxins,proteins,1,toxins,Biologically Active Substance,proteins,"Amino Acid, Peptide, or Protein",INTERACTS_WITH,,right_only
+16160007,title,,,,,,,,adamts13,amino acid,1,ADAMTS13,Gene or Genome,amino acid,"Amino Acid, Peptide, or Protein",COEXISTS_WITH,,right_only
+16739239,abstract,,,,,,,,affinity chromatography,ion,2,affinity chromatography,Laboratory Procedure,ion,"Element, Ion, or Isotope",USES,,right_only
+16243512,abstract,,,,,,,,nicotine,hiv infectivity,4,nicotine,Hazardous or Poisonous Substance,HIV infectivity,Disease or Syndrome,DISRUPTS,,right_only
+16046858,abstract,,,,,,,,glutamate,rats,4,glutamate,Biologically Active Substance,rats,Mammal,ADMINISTERED_TO,,right_only
+15623373,abstract,,,,,,,,hcc,patients,2,HCC,Neoplastic Process,patients,Human,PROCESS_OF,,right_only
+15623373,abstract,,,,,,,,tissues,patients,10,tissues,Tissue,patients,Human,PART_OF,,right_only
+16205318,title,,,,,,,,circulatory shock,heatstroke,1,circulatory shock,Pathologic Function,heatstroke,Injury or Poisoning,COEXISTS_WITH,,right_only
+16205318,title,,,,,,,,intracranial hypertension,heatstroke,1,intracranial       hypertension,Disease or Syndrome,heatstroke,Injury or Poisoning,COEXISTS_WITH,,right_only
+16205318,title,,,,,,,,cerebral ischemia,heatstroke,1,cerebral ischemia,Disease or Syndrome,heatstroke,Injury or Poisoning,COEXISTS_WITH,,right_only
+15866565,abstract,,,,,,,,agonists,gnrh,14,agonists,Pharmacologic Substance,GnRH,Gene or Genome,INHIBITS,,right_only
+15993885,abstract,,,,,,,,men,acute-phase proteins,7,men,Human,acute-phase proteins,"Amino Acid, Peptide, or Protein",LOCATION_OF,,right_only
+16763070,abstract,,,,,,,,pregnancy maintenance,testis function,3,pregnancy maintenance,Organism Function,testis function,Organ or Tissue Function,AFFECTS,,right_only
+16246439,abstract,,,,,,,,placebo,cd40 ligand,6,placebo,Medical Device,CD40 ligand,"Amino Acid, Peptide, or Protein",COMPARED_WITH,,right_only
+16246439,abstract,,,,,,,,adiponectin,insulin,10,adiponectin,"Amino Acid, Peptide, or Protein",insulin,Gene or Genome,COEXISTS_WITH,,right_only
