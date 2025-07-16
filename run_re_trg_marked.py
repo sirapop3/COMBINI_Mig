@@ -73,52 +73,32 @@ MODEL_CLASSES = {
     'albertsub': (AlbertConfig, AlbertForACEBothOneDropoutSub, AlbertTokenizer),
 }
 
-task_ner_labels = {
-    'ace04': ['FAC', 'WEA', 'LOC', 'VEH', 'GPE', 'ORG', 'PER'],
-    'ace05': ['FAC', 'WEA', 'LOC', 'VEH', 'GPE', 'ORG', 'PER'],
-    'scierc': ['Method', 'OtherScientificTerm', 'Task', 'Generic', 'Material', 'Metric'],
-    'DiMB-RE': ['Food', 'Nutrient', 'DietPattern', 'Microorganism', 'DiversityMetric', 'Metabolite', 'Physiology', 'Disease', 'Enzyme', 'Gene', 'Measurement', 'Chemical'],
-    'data': [
-        'Acquired Abnormality', 'Activity', 'Age Group', 'Amino Acid Sequence', 'Amino Acid, Peptide, or Protein', 
-        'Amphibian', 'Anatomical Abnormality', 'Anatomical Structure', 'Animal', 'Antibiotic', 'Bacterium', 
-        'Biologic Function', 'Biologically Active Substance', 'Biomedical Occupation or Discipline', 
-        'Biomedical or Dental Material', 'Bird', 'Body Location or Region', 'Body Part, Organ, or Organ Component', 
-        'Body Space or Junction', 'Body Substance', 'Body System', 'Cell', 'Cell Component', 'Cell Function', 
-        'Cell or Molecular Dysfunction', 'Chemical', 'Chemical Viewed Functionally', 'Chemical Viewed Structurally', 
-        'Classification', 'Clinical Attribute', 'Clinical Drug', 'Conceptual Entity', 'Congenital Abnormality', 
-        'Daily or Recreational Activity', 'Diagnostic Procedure', 'Disease or Syndrome', 'Educational Activity', 
-        'Element, Ion, or Isotope', 'Embryonic Structure', 'Environmental Effect of Humans', 'Enzyme', 'Event', 
-        'Experimental Model of Disease', 'Family Group', 'Finding', 'Fish', 'Food', 'Functional Concept', 'Fungus', 
-        'Gene or Genome', 'Genetic Function', 'Geographic Area', 'Governmental or Regulatory Activity', 'Group', 
-        'Group Attribute', 'Hazardous or Poisonous Substance', 'Health Care Activity', 'Health Care Related Organization', 
-        'Hormone', 'Human', 'Human-caused Phenomenon or Process', 'Idea or Concept', 'Immunologic Factor', 
-        'Indicator, Reagent, or Diagnostic Aid', 'Individual Behavior', 'Injury or Poisoning', 'Inorganic Chemical', 
-        'Intellectual Product', 'Laboratory Procedure', 'Laboratory or Test Result', 'Language', 'Machine Activity', 
-        'Mammal', 'Manufactured Object', 'Medical Device', 'Mental Process', 'Mental or Behavioral Dysfunction', 
-        'Molecular Biology Research Technique', 'Molecular Function', 'Molecular Sequence', 'Natural Phenomenon or Process', 
-        'Neoplastic Process', 'Nucleic Acid, Nucleoside, or Nucleotide', 'Nucleotide Sequence', 'Occupation or Discipline', 
-        'Occupational Activity', 'Organ or Tissue Function', 'Organic Chemical', 'Organism', 'Organism Attribute', 
-        'Organism Function', 'Organization', 'Pathologic Function', 'Patient or Disabled Group', 'Pharmacologic Substance', 
-        'Phenomenon or Process', 'Physical Object', 'Physiologic Function', 'Plant', 'Population Group', 
-        'Professional Society', 'Professional or Occupational Group', 'Qualitative Concept', 'Quantitative Concept', 
-        'Receptor', 'Regulation or Law', 'Reptile', 'Research Activity', 'Research Device', 'Sign or Symptom', 
-        'Social Behavior', 'Spatial Concept', 'Substance', 'Temporal Concept', 'Therapeutic or Preventive Procedure', 
-        'Tissue', 'Vertebrate', 'Virus', 'alga', 'carb', 'eico', 'invt', 'lipd', 'nsba', 'opco', 'strd'
-    ]
-}
+# task_ner_labels = {
+#     'ace04': ['FAC', 'WEA', 'LOC', 'VEH', 'GPE', 'ORG', 'PER'],
+#     'ace05': ['FAC', 'WEA', 'LOC', 'VEH', 'GPE', 'ORG', 'PER'],
+#     'scierc': ['Method', 'OtherScientificTerm', 'Task', 'Generic', 'Material', 'Metric'],
+#     'DiMB-RE': ['Food', 'Nutrient', 'DietPattern', 'Microorganism', 'DiversityMetric', 'Metabolite', 'Physiology', 'Disease', 'Enzyme', 'Gene', 'Measurement', 'Chemical'],
+#     'data': [
+#         'Organism Function', 'Mammal', 'Pharmacologic Substance', 
+#         'Therapeutic or Preventive Procedure', 'Organic Chemical', 'Gene or Genome', 
+#         'Amino Acid, Peptide, or Protein', 'Disease or Syndrome', 
+#         'Body Part, Organ, or Organ Component', 'Finding', 'Sign or Symptom', 
+#         'Neoplastic Process', 'Antibiotic', 'Pathologic Function', 'Human', 
+#         'Invertebrate', 'Cell'
+#     ]
+# }
 
-task_rel_labels = {
-    'ace04': ['PER-SOC', 'OTHER-AFF', 'ART', 'GPE-AFF', 'EMP-ORG', 'PHYS'],
-    'ace05': ['PER-SOC', 'ART', 'ORG-AFF', 'GEN-AFF', 'PHYS', 'PART-WHOLE'],
-    'scierc': ['PART-OF', 'USED-FOR', 'FEATURE-OF', 'CONJUNCTION', 'EVALUATE-FOR', 'HYPONYM-OF', 'COMPARE'],
-    'DiMB-RE': ['INCREASES', 'DECREASES', 'HAS_COMPONENT', 'POS_ASSOCIATED_WITH', 'AFFECTS', 'PREVENTS', 'IMPROVES', 'ASSOCIATED_WITH', 'NEG_ASSOCIATED_WITH', 'CAUSES', 'WORSENS', 'INTERACTS_WITH', 'PREDISPOSES'],
-    'data': [
-        'ADMINISTERED_TO', 'AFFECTS', 'ASSOCIATED_WITH', 'AUGMENTS', 'CAUSES', 'COEXISTS_WITH', 'COMPARED_WITH', 
-        'COMPLICATES', 'CONVERTS_TO', 'DIAGNOSES', 'DISRUPTS', 'HIGHER_THAN', 'INHIBITS', 'INTERACTS_WITH', 'ISA', 
-        'LOCATION_OF', 'MANIFESTATION_OF', 'MEASURES', 'METHOD_OF', 'OCCURS_IN', 'PART_OF', 'PRECEDES', 'PREDISPOSES', 
-        'PREVENTS', 'PROCESS_OF', 'PRODUCES', 'SAME_AS', 'STIMULATES', 'TREATS', 'USES'
-    ]
-}
+# task_rel_labels = {
+#     'ace04': ['PER-SOC', 'OTHER-AFF', 'ART', 'GPE-AFF', 'EMP-ORG', 'PHYS'],
+#     'ace05': ['PER-SOC', 'ART', 'ORG-AFF', 'GEN-AFF', 'PHYS', 'PART-WHOLE'],
+#     'scierc': ['PART-OF', 'USED-FOR', 'FEATURE-OF', 'CONJUNCTION', 'EVALUATE-FOR', 'HYPONYM-OF', 'COMPARE'],
+#     'DiMB-RE': ['INCREASES', 'DECREASES', 'HAS_COMPONENT', 'POS_ASSOCIATED_WITH', 'AFFECTS', 'PREVENTS', 'IMPROVES', 'ASSOCIATED_WITH', 'NEG_ASSOCIATED_WITH', 'CAUSES', 'WORSENS', 'INTERACTS_WITH', 'PREDISPOSES'],
+#     'data': [
+#         'PROCESS_OF', 'COMPARED_WITH', 'USES', 'ISA', 'COEXISTS_WITH', 
+#         'PART_OF', 'AFFECTS', 'LOCATION_OF', 'INHIBITS', 'INTERACTS_WITH', 
+#         'PREVENTS', 'ADMINISTERED_TO', 'TREATS', 'PRECEDES', 'CAUSES', 'PRODUCES'
+#     ]
+# }
 
 
 
@@ -140,14 +120,14 @@ class ACEDataset(Dataset):
         else:
             if do_test:
                 if use_gold:
-                    file_path = os.path.join(args.data_dir, "converted_data.json")
+                    file_path = os.path.join(args.data_dir, "converted_data_added_672_tremoved.json")
                 elif args.test_file.find('models') == -1:
                     file_path = os.path.join(args.data_dir, args.test_file)
                 else:
                     file_path = args.test_file
             else:
                 if use_gold:
-                    file_path = os.path.join(args.data_dir, "converted_data.json")
+                    file_path = os.path.join(args.data_dir, "converted_data_added_672_tremoved.json")
                 elif args.dev_file.find('models') == -1 and not use_gold:
                     file_path = os.path.join(args.data_dir, args.dev_file)
                 else:
@@ -238,8 +218,38 @@ class ACEDataset(Dataset):
 
         if 'data' in args.data_dir: # Check for your new data first
             task = 'data'
-            self.ner_label_list = ['NIL'] + task_ner_labels['data']
-            all_rel_labels = task_rel_labels['data']
+            self.ner_label_list = ['NIL'] + [
+                    'Acquired Abnormality', 'Activity', 'Age Group', 'Amino Acid Sequence', 'Amino Acid, Peptide, or Protein', 'Amphibian',
+                    'Anatomical Abnormality', 'Anatomical Structure', 'Animal', 'Antibiotic', 'Bacterium', 'Biologic Function',
+                    'Biologically Active Substance', 'Biomedical Occupation or Discipline', 'Biomedical or Dental Material', 'Bird', 'Body Location or Region', 'Body Part, Organ, or Organ Component',
+                    'Body Space or Junction', 'Body Substance', 'Body System', 'Carbohydrate', 'Cell', 'Cell Component',
+                    'Cell Function', 'Cell or Molecular Dysfunction', 'Chemical', 'Chemical Viewed Functionally', 'Chemical Viewed Structurally', 'Classification',
+                    'Clinical Attribute', 'Clinical Drug', 'Conceptual Entity', 'Congenital Abnormality', 'Daily or Recreational Activity', 'Diagnostic Procedure',
+                    'Disease or Syndrome', 'Educational Activity', 'Eicosanoid', 'Element, Ion, or Isotope', 'Embryonic Structure', 'Environmental Effect of Humans',
+                    'Enzyme', 'Event', 'Experimental Model of Disease', 'Family Group', 'Finding', 'Fish',
+                    'Food', 'Functional Concept', 'Fungus', 'Gene or Genome', 'Genetic Function', 'Geographic Area',
+                    'Governmental or Regulatory Activity', 'Group', 'Group Attribute', 'Hazardous or Poisonous Substance', 'Health Care Activity', 'Health Care Related Organization',
+                    'Hormone', 'Human', 'Human-caused Phenomenon or Process', 'Idea or Concept', 'Immunologic Factor', 'Indicator, Reagent, or Diagnostic Aid',
+                    'Individual Behavior', 'Injury or Poisoning', 'Inorganic Chemical', 'Intellectual Product', 'Invertebrate', 'Laboratory Procedure',
+                    'Laboratory or Test Result', 'Language', 'Lipid', 'Machine Activity', 'Mammal', 'Manufactured Object',
+                    'Medical Device', 'Mental Process', 'Mental or Behavioral Dysfunction', 'Molecular Biology Research Technique', 'Molecular Function', 'Molecular Sequence',
+                    'Natural Phenomenon or Process', 'Neoplastic Process', 'Nucleic Acid, Nucleoside, or Nucleotide', 'Nucleotide Sequence', 'Occupation or Discipline', 'Occupational Activity',
+                    'Organ or Tissue Function', 'Organic Chemical', 'Organism', 'Organism Attribute', 'Organism Function', 'Organization',
+                    'Pathologic Function', 'Patient or Disabled Group', 'Pharmacologic Substance', 'Phenomenon or Process', 'Physical Object', 'Physiologic Function',
+                    'Plant', 'Population Group', 'Professional Society', 'Professional or Occupational Group', 'Qualitative Concept', 'Quantitative Concept',
+                    'Receptor', 'Regulation or Law', 'Reptile', 'Research Activity', 'Research Device', 'Sign or Symptom',
+                    'Social Behavior', 'Spatial Concept', 'Steroid', 'Substance', 'Temporal Concept', 'Therapeutic or Preventive Procedure',
+                    'Tissue', 'Vertebrate', 'Virus', 'alga', 'carb', 'eico',
+                    'invt', 'lipd', 'nsba', 'opco', 'strd'
+                ]
+
+            all_rel_labels = [
+                    'ADMINISTERED_TO', 'AFFECTS', 'ASSOCIATED_WITH', 'AUGMENTS', 'CAUSES', 'COEXISTS_WITH', 
+                    'COMPARED_WITH', 'COMPLICATES', 'CONVERTS_TO', 'DIAGNOSES', 'DISRUPTS', 'HIGHER_THAN', 
+                    'INHIBITS', 'INTERACTS_WITH', 'ISA', 'LOCATION_OF', 'MANIFESTATION_OF', 'MEASURES', 
+                    'METHOD_OF', 'NIL', 'OCCURS_IN', 'PART_OF', 'PRECEDES', 'PREDISPOSES', 'PREVENTS', 
+                    'PROCESS_OF', 'PRODUCES', 'SAME_AS', 'STIMULATES', 'TREATS', 'USES'
+                ]
             symmetric_relations = {'INTERACTS_WITH', 'COMPARED_WITH', 'COEXISTS_WITH', 'ASSOCIATED_WITH', 'SAME_AS'}
 
             if args.no_sym:
@@ -500,33 +510,27 @@ class ACEDataset(Dataset):
                         self.golden_labels.add(
                             ((l_idx, n), (x[0], x[1]), (x[2], x[3]), x[4])
                         )
-                        try:
-                            self.golden_labels_withner.add(
-                                (
-                                    (l_idx, n),
-                                    (x[0], x[1], std_entity_labels[(x[0], x[1])]),
-                                    (x[2], x[3], std_entity_labels[(x[2], x[3])]),
-                                    x[4]
-                                )
+                        self.golden_labels_withner.add(
+                            (
+                                (l_idx, n), 
+                                (x[0], x[1], std_entity_labels[(x[0], x[1])]), 
+                                (x[2], x[3], std_entity_labels[(x[2], x[3])]), 
+                                x[4]
                             )
-                        except KeyError as e:
-                            logger.warning(f"Skipping golden relation in doc '{data.get('doc_key', 'N/A')}' (sent {n}) due to missing entity in 'ner' list. Relation: {x}, Missing Entity Coords: {e}")
+                        )
                         
                         if x[4] in self.sym_labels[1:]:
                             self.golden_labels.add(
                                 ((l_idx, n),  (x[2], x[3]), (x[0], x[1]), x[4])
                             )
-                            try:
-                                self.golden_labels_withner.add(
-                                    (
-                                        (l_idx, n),
-                                        (x[2], x[3], std_entity_labels[(x[2], x[3])]),
-                                        (x[0], x[1], std_entity_labels[(x[0], x[1])]),
-                                        x[4]
-                                    )
+                            self.golden_labels_withner.add(
+                                (
+                                    (l_idx, n), 
+                                    (x[2], x[3], std_entity_labels[(x[2], x[3])]), 
+                                    (x[0], x[1], std_entity_labels[(x[0], x[1])]), 
+                                    x[4]
                                 )
-                            except KeyError as e:
-                                logger.warning(f"Skipping symmetric golden relation in doc '{data.get('doc_key', 'N/A')}' (sent {n}) due to missing entity in 'ner' list. Relation: {x}, Missing Entity Coords: {e}")
+                            )
 
                 entities = list(sentence_ners)
 
@@ -618,9 +622,7 @@ class ACEDataset(Dataset):
                             + target_tokens[sub_s:sub_e+1] \
                             + [r_m] \
                             + target_tokens[sub_e+1:]
-                        sub_e += 2
-                        if len(sub_tokens) > self.max_seq_length:
-                            sub_tokens = sub_tokens[:self.max_seq_length]                      
+                        sub_e += 2                      
                         
                     else:
                         sub_s = len(target_tokens)
@@ -641,9 +643,6 @@ class ACEDataset(Dataset):
                         doc_entity_end = token2subword[end + 1]
                         left = doc_entity_start - doc_offset + 1
                         right = doc_entity_end - doc_offset
-
-                        if left < 1 or right >= len(target_tokens) - 1:
-                            continue
 
                         obj = (start, end)
                         # Adjust indices considering both trigger and subject markers
@@ -719,8 +718,7 @@ class ACEDataset(Dataset):
         entry = self.data[idx]
         sub, sub_position, sub_label = entry['sub']
         input_ids = self.tokenizer.convert_tokens_to_ids(entry['sentence'])
-        if len(input_ids) > self.max_seq_length:
-            input_ids = input_ids[:self.max_seq_length]
+
         L = len(input_ids)
         input_ids += [self.tokenizer.pad_token_id] * (self.max_seq_length - len(input_ids))
 
@@ -901,8 +899,7 @@ def train(args, model, tokenizer):
     train_dataloader = DataLoader(
         train_dataset, 
         sampler=train_sampler, 
-        batch_size=args.train_batch_size,
-        collate_fn=ACEDataset.collate_fn, 
+        batch_size=args.train_batch_size, 
         num_workers=min(2, os.cpu_count())
     )
 
@@ -994,8 +991,7 @@ def train(args, model, tokenizer):
         for step, batch in enumerate(epoch_iterator):
 
             model.train()
-            batch = tuple(t.to(args.device) if hasattr(t, 'to') else t for t in batch)
-            #batch = tuple(t.to(args.device) for t in batch)
+            batch = tuple(t.to(args.device) for t in batch)
 
             inputs = {'input_ids':      batch[0],
                       'attention_mask': batch[1],
@@ -1574,9 +1570,9 @@ def main():
     parser.add_argument('--save_total_limit', type=int, default=1,
                         help='Limit the total amount of checkpoints, delete the older checkpoints in the output_dir, does not delete by default')
 
-    parser.add_argument("--train_file",  default="converted_data.json", type=str)
-    parser.add_argument("--dev_file",  default="converted_data.json", type=str)
-    parser.add_argument("--test_file",  default="converted_data.json", type=str)
+    parser.add_argument("--train_file",  default="converted_data_added_672_tremoved.json", type=str)
+    parser.add_argument("--dev_file",  default="converted_data_added_672_tremoved.json", type=str)
+    parser.add_argument("--test_file",  default="converted_data_added_672_tremoved.json", type=str)
     parser.add_argument('--max_pair_length', type=int, default=64,  help="")
     parser.add_argument("--alpha", default=1.0, type=float)
     parser.add_argument('--save_results', action='store_true')
@@ -1677,17 +1673,12 @@ def main():
         # assert False
     
     if 'data' in args.data_dir: # Check for your new data first
-        num_ner_labels = len(task_ner_labels['data']) + 1  # 17 NER types + NIL
-        all_rel_labels = task_rel_labels['data']
-        symmetric_relations = {'INTERACTS_WITH', 'COMPARED_WITH', 'COEXISTS_WITH', 'ASSOCIATED_WITH', 'SAME_AS'}
-
-        num_forward_rels = len(all_rel_labels) + 1 # +1 for NIL
+        num_ner_labels = 131 + 1  # 17 NER types + NIL
+        num_forward_rels = 31 + 1 # 16 relation types + NIL
+        num_sym_rels = 5 + 1 # 4 symmetric types + NIL
         
         if args.no_sym:
             num_sym_rels = 1 # Only NIL is symmetric
-        else:
-            # +1 for NIL
-            num_sym_rels = len([r for r in all_rel_labels if r in symmetric_relations]) + 1
         
         num_asym_rels = num_forward_rels - num_sym_rels
         num_labels = num_forward_rels + num_asym_rels
