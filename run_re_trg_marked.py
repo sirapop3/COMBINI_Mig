@@ -120,14 +120,14 @@ class ACEDataset(Dataset):
         else:
             if do_test:
                 if use_gold:
-                    file_path = os.path.join(args.data_dir, "converted_data_added_672_tremoved.json")
+                    file_path = os.path.join(args.data_dir, "test_main.json")
                 elif args.test_file.find('models') == -1:
                     file_path = os.path.join(args.data_dir, args.test_file)
                 else:
                     file_path = args.test_file
             else:
                 if use_gold:
-                    file_path = os.path.join(args.data_dir, "converted_data_added_672_tremoved.json")
+                    file_path = os.path.join(args.data_dir, "dev_main.json")
                 elif args.dev_file.find('models') == -1 and not use_gold:
                     file_path = os.path.join(args.data_dir, args.dev_file)
                 else:
@@ -1092,9 +1092,9 @@ def train(args, model, tokenizer):
             if args.max_steps > 0 and global_step > args.max_steps:
                 epoch_iterator.close()
                 break
-            
-        if patience_counter >= max_patience:  # Check again after the epoch
-            break  # Exit the training loop if patience exceeded  
+        # mig change: remove early stopping for now   
+        # if patience_counter >= max_patience:  # Check again after the epoch
+        #     break  # Exit the training loop if patience exceeded  
                     
         if args.max_steps > 0 and global_step > args.max_steps:
             train_iterator.close()
@@ -1465,7 +1465,7 @@ def evaluate(args, model, tokenizer, prefix="", do_test=False, use_gold=False):
         output_w.write(json.dumps(data)+'\n')
 
     ner_p = ner_cor / ner_tot_pred if ner_tot_pred > 0 else 0 
-    ner_r = ner_cor / len(ner_golden_labels) 
+    ner_r = ner_cor / self.ner_tot_recall
     ner_f1 = 2 * (ner_p * ner_r) / (ner_p + ner_r) if ner_cor > 0 else 0.0
 
     p = cor / tot_pred if tot_pred > 0 else 0 
@@ -1567,12 +1567,12 @@ def main():
                         help="For distributed training: local_rank")
     parser.add_argument('--server_ip', type=str, default='', help="For distant debugging.")
     parser.add_argument('--server_port', type=str, default='', help="For distant debugging.")
-    parser.add_argument('--save_total_limit', type=int, default=1,
+    parser.add_argument('--save_total_limit', type=int, default=10,
                         help='Limit the total amount of checkpoints, delete the older checkpoints in the output_dir, does not delete by default')
 
-    parser.add_argument("--train_file",  default="converted_data_added_672_tremoved.json", type=str)
-    parser.add_argument("--dev_file",  default="converted_data_added_672_tremoved.json", type=str)
-    parser.add_argument("--test_file",  default="converted_data_added_672_tremoved.json", type=str)
+    parser.add_argument("--train_file",  default="train_main.json", type=str)
+    parser.add_argument("--dev_file",  default="dev_main.json", type=str)
+    parser.add_argument("--test_file",  default="test_main.json", type=str)
     parser.add_argument('--max_pair_length', type=int, default=64,  help="")
     parser.add_argument("--alpha", default=1.0, type=float)
     parser.add_argument('--save_results', action='store_true')
